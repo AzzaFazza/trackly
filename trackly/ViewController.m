@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 #import "REMenu.h"
-#import "ENPopUp/UIViewController+ENPopUp.h"
+#import "CustomIOS7AlertView.h"
 
 
 @interface ViewController ()
@@ -75,6 +75,7 @@
                                                highlightedImage:nil
                                                          action:^(REMenuItem *item) {
                                                              NSLog(@"Item: %@", item);
+                                                             
                                                          }];
     
     REMenuItem *activityItem = [[REMenuItem alloc] initWithTitle:@"Garbage Pile"
@@ -153,8 +154,9 @@
     fingerX = location.x; fingerY = location.y;
 }
 -(IBAction)addTask:(id)sender {
-    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Test" message:@"Test" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
-    [alert show];
+    CustomIOS7AlertView * createTask = [[CustomIOS7AlertView alloc]init];
+    [createTask show];
+    
 }
 
 @end
