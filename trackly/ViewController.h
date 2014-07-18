@@ -15,6 +15,9 @@
 @property (weak, nonatomic) IBOutlet UIButton *settings;
 @property (weak, nonatomic) IBOutlet UIButton *about;
 @property (weak, nonatomic) IBOutlet UIButton *addTask;
+@property (weak, nonatomic) IBOutlet UIView *mainView;
+@property (weak, nonatomic) IBOutlet UIView *popUpViewController;
 
 -(IBAction)showTray:(id)sender;
+- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;
 @end
