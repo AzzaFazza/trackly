@@ -21,6 +21,13 @@
 		3683AB0F19790D9E005E04E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAF119790D9E005E04E7 /* UIKit.framework */; };
 		3683AB1719790D9E005E04E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB1519790D9E005E04E7 /* InfoPlist.strings */; };
 		3683AB1919790D9E005E04E7 /* tracklyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683AB1819790D9E005E04E7 /* tracklyTests.m */; };
+		3683AB231979126A005E04E7 /* floppy13.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB221979126A005E04E7 /* floppy13.png */; };
+		3683AB271979133A005E04E7 /* settings39.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB251979133A005E04E7 /* settings39.png */; };
+		3683AB2B19791417005E04E7 /* information38(1).png in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB2A19791417005E04E7 /* information38(1).png */; };
+		3683AB2D1979148E005E04E7 /* help1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB2C1979148E005E04E7 /* help1.png */; };
+		3683AB2F197914ED005E04E7 /* black14.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB2E197914ED005E04E7 /* black14.png */; };
+		3683AB31197915A2005E04E7 /* add56.png in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB30197915A2005E04E7 /* add56.png */; };
+		3683AB351979215D005E04E7 /* trace.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB3219792108005E04E7 /* trace.TTF */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +60,13 @@
 		3683AB1419790D9E005E04E7 /* tracklyTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tracklyTests-Info.plist"; sourceTree = "<group>"; };
 		3683AB1619790D9E005E04E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3683AB1819790D9E005E04E7 /* tracklyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tracklyTests.m; sourceTree = "<group>"; };
+		3683AB221979126A005E04E7 /* floppy13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floppy13.png; sourceTree = "<group>"; };
+		3683AB251979133A005E04E7 /* settings39.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings39.png; sourceTree = "<group>"; };
+		3683AB2A19791417005E04E7 /* information38(1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "information38(1).png"; sourceTree = "<group>"; };
+		3683AB2C1979148E005E04E7 /* help1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help1.png; sourceTree = "<group>"; };
+		3683AB2E197914ED005E04E7 /* black14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black14.png; sourceTree = "<group>"; };
+		3683AB30197915A2005E04E7 /* add56.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add56.png; sourceTree = "<group>"; };
+		3683AB3219792108005E04E7 /* trace.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = trace.TTF; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +140,8 @@
 		3683AAF419790D9E005E04E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3683AB341979211D005E04E7 /* Icons */,
+				3683AB3319792114005E04E7 /* Fonts */,
 				3683AAF519790D9E005E04E7 /* trackly-Info.plist */,
 				3683AAF619790D9E005E04E7 /* InfoPlist.strings */,
 				3683AAF919790D9E005E04E7 /* main.m */,
@@ -150,6 +166,27 @@
 				3683AB1519790D9E005E04E7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3683AB3319792114005E04E7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3683AB3219792108005E04E7 /* trace.TTF */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		3683AB341979211D005E04E7 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				3683AB30197915A2005E04E7 /* add56.png */,
+				3683AB2E197914ED005E04E7 /* black14.png */,
+				3683AB2C1979148E005E04E7 /* help1.png */,
+				3683AB2A19791417005E04E7 /* information38(1).png */,
+				3683AB251979133A005E04E7 /* settings39.png */,
+				3683AB221979126A005E04E7 /* floppy13.png */,
+			);
+			name = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +265,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3683AB351979215D005E04E7 /* trace.TTF in Resources */,
+				3683AB2F197914ED005E04E7 /* black14.png in Resources */,
+				3683AB2B19791417005E04E7 /* information38(1).png in Resources */,
+				3683AB31197915A2005E04E7 /* add56.png in Resources */,
+				3683AB271979133A005E04E7 /* settings39.png in Resources */,
 				3683AB0619790D9E005E04E7 /* Images.xcassets in Resources */,
+				3683AB231979126A005E04E7 /* floppy13.png in Resources */,
 				3683AAF819790D9E005E04E7 /* InfoPlist.strings in Resources */,
 				3683AB0119790D9E005E04E7 /* Main.storyboard in Resources */,
+				3683AB2D1979148E005E04E7 /* help1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

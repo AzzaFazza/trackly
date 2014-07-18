@@ -9,5 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIView *tray;
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
+@property (weak, nonatomic) IBOutlet UIButton *sync;
+@property (weak, nonatomic) IBOutlet UIButton *settings;
+@property (weak, nonatomic) IBOutlet UIButton *about;
+@property (weak, nonatomic) IBOutlet UIButton *addTask;
 
+-(IBAction)showTray:(id)sender;
 @end
