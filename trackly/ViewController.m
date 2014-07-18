@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "REMenu.h"
 #import "CustomIOS7AlertView.h"
+#import "CRProductTour.h"
 #import <RNGridMenu/RNGridMenu.h>
 
 
@@ -19,6 +20,8 @@
     float fingerX;
     float fingerY;
     REMenu* menu;
+    CRProductTour * productTourView;
+    UIView * button1;
 }
 @end
 
@@ -32,6 +35,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+ //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
+    self.navigationController.navigationBar.alpha = 0.9;
     trayShown = false;
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(mySelector:)];
     tapRecognizer.numberOfTapsRequired = 2;
@@ -41,27 +46,29 @@
     fingerX = 0.0;
     fingerY = 0.0;
     
+//    [self firstTimeTour];
+    
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"DIN Alternate" size:10.0]];
+//    [self.navigationController.navigationBar setBarTintColor:[UIColor greenColor]];
     
 //    //Navbar Font
 //    [self.navigationController.navigationBar setTitleTextAttributes:
 //     [NSDictionary dictionaryWithObjectsAndKeys:
-//      [UIFont fontWithName:@"DIN Alternate" size:32],
+//      [UIFont fontWithName:@"BrandonGrotesque-Light" size:32],
 //      NSFontAttributeName, nil]];
-//    
-//    //Show font
-//    for (NSString* family in [UIFont familyNames])
-//    {
-//        NSLog(@"%@", family);
-//        
-//        for (NSString* name in [UIFont fontNamesForFamilyName: family])
-//        {
-//            NSLog(@" %@", name);
-//        }
-//    }
     
-    //REMenu
+/*    //Show font
+    for (NSString* family in [UIFont familyNames])
+    {
+        NSLog(@"%@", family);
+    
+        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+        {
+            NSLog(@" %@", name);
+        }
+    }
+ */
     //REMenu
     REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Main Page"
                                                     subtitle:@"Return to Task View"
@@ -114,6 +121,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)test:(RNGridMenuItem*)objectName {
+    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Test" message:@"Test" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
+    [alert show];
+    NSLog(@"Lovely Bums");
+    
+}
+
 -(IBAction)showTray:(id)sender {
     [self hideTray];
 }
@@ -156,25 +170,82 @@
     fingerX = location.x; fingerY = location.y;
 }
 - (void)showList {
-    NSInteger numberOfOptions = 6;
+    RNGridMenuItem * item1 = [[RNGridMenuItem alloc]initWithImage:nil
+                                                            title:@"Work"
+                                                           action:^{
+                                                            //Do Nothing
+                                                               CustomIOS7AlertView * workTask = [[CustomIOS7AlertView alloc]init];
+                                                               workTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
+                                                               [workTask show];
+                                                           }];
+    RNGridMenuItem * item2 = [[RNGridMenuItem alloc]initWithImage:nil
+                                                            title:@"Home"
+                                                           action:^{
+                                                               //Do Nothing
+                                                               CustomIOS7AlertView * homeTask = [[CustomIOS7AlertView alloc]init];
+                                                               [homeTask show];
+                                                           }];
+    RNGridMenuItem * item3 = [[RNGridMenuItem alloc]initWithImage:nil
+                                                            title:@"Play"
+                                                           action:^{
+                                                               //Do Nothing
+                                                               CustomIOS7AlertView * playTask = [[CustomIOS7AlertView alloc]init];
+                                                               [playTask show];
+                                                           }];
+    RNGridMenuItem * item4 = [[RNGridMenuItem alloc]initWithImage:nil
+                                                            title:@"Events"
+                                                           action:^{
+                                                               //Do Nothing
+                                                               CustomIOS7AlertView * eventsTask = [[CustomIOS7AlertView alloc]init];
+                                                               [eventsTask show];
+                                                           }];
+    RNGridMenuItem * item5 = [[RNGridMenuItem alloc]initWithImage:nil
+                                                            title:@"Sporting"
+                                                           action:^{
+                                                               //Do Nothing
+                                                               CustomIOS7AlertView * sportingTask = [[CustomIOS7AlertView alloc]init];
+                                                               [sportingTask show];
+                                                           }];
+    RNGridMenuItem * item6 = [[RNGridMenuItem alloc]initWithImage:nil
+                                                            title:@"Other"
+                                                           action:^{
+                                                               //Do Nothing
+                                                               CustomIOS7AlertView * otherTask = [[CustomIOS7AlertView alloc]init];
+                                                               [otherTask show];
+                                                           }];
+    
     NSArray *options = @[
-                         @"Work",
-                         @"Home",
-                         @"Play",
-                         @"Events",
-                         @"Sporting",
-                         @"Other"
+                         item1,
+                         item2,
+                         item3,
+                         item4,
+                         item5,
+                         item6
                          ];
-    RNGridMenu *av = [[RNGridMenu alloc] initWithTitles:[options subarrayWithRange:NSMakeRange(0, numberOfOptions)]];
+    for (int i = 0; i < options.count; i++) {
+        
+    }
+    
+    
+    RNGridMenu *av = [[RNGridMenu alloc] initWithItems:options];
     av.delegate = self;
     //    av.itemTextAlignment = NSTextAlignmentLeft;
     av.itemFont = [UIFont boldSystemFontOfSize:18];
     av.itemSize = CGSizeMake(150, 55);
+    av.blurLevel = 0.1;
+    av.animationDuration = 0.05;
     [av showInViewController:self center:CGPointMake(self.view.bounds.size.width/2.f, self.view.bounds.size.height/2.f)];
+    
+
 }
 -(IBAction)addTask:(id)sender {
     [self showList];
     
 }
+
+-(void) firstTimeTour {
+    
+}
+
 
 @end

@@ -36,6 +36,8 @@
 	<string>UIStatusBarStyleDefault</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>Brandon_blk.otf</string>
+		<string>Brandon_light.otf</string>
 		<string>marker.ttf</string>
 		<string>trace.ttf</string>
 	</array>
