@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CXCardView/CXCardView.h>
 
 @interface ViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UIView *tray;
@@ -16,7 +17,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *about;
 @property (weak, nonatomic) IBOutlet UIButton *addTask;
 @property (weak, nonatomic) IBOutlet UIView *mainView;
-@property (weak, nonatomic) IBOutlet UIView *popUpViewController;
+
 
 -(IBAction)showTray:(id)sender;
 - (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;

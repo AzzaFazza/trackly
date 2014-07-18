@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-CXCardView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-RNGridMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -17,12 +22,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5912D50E216340D7BD92DEEA</key>
+		<key>94A91D54748640D29B6E4CC9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A0BF7497782245659A3A61D3</key>
+		<key>97E2D75BB24F46AB94B978B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C9A0E94D0E5A468A9B5D2976</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -62,8 +62,6 @@
 		36B304E119797529001951E2 /* notebook_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304E019797529001951E2 /* notebook_@2X.png */; };
 		36B304E319797577001951E2 /* geometry_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304E219797577001951E2 /* geometry_@2X.png */; };
 		36B304E5197975BE001951E2 /* triangular_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304E4197975BD001951E2 /* triangular_@2X.png */; };
-		36B304EA1979A787001951E2 /* CRBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B304E71979A787001951E2 /* CRBubble.m */; };
-		36B304EB1979A787001951E2 /* CRProductTour.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B304E91979A787001951E2 /* CRProductTour.m */; };
 		651405B0435D475E95784B0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D7548C7B084D5E895B458C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -145,10 +143,6 @@
 		36B304E019797529001951E2 /* notebook_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notebook_@2X.png"; sourceTree = "<group>"; };
 		36B304E219797577001951E2 /* geometry_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "geometry_@2X.png"; sourceTree = "<group>"; };
 		36B304E4197975BD001951E2 /* triangular_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "triangular_@2X.png"; sourceTree = "<group>"; };
-		36B304E61979A787001951E2 /* CRBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRBubble.h; sourceTree = "<group>"; };
-		36B304E71979A787001951E2 /* CRBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRBubble.m; sourceTree = "<group>"; };
-		36B304E81979A787001951E2 /* CRProductTour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRProductTour.h; sourceTree = "<group>"; };
-		36B304E91979A787001951E2 /* CRProductTour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRProductTour.m; sourceTree = "<group>"; };
 		E89885221E0B4AECAEE88167 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -216,10 +210,6 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
-				36B304E61979A787001951E2 /* CRBubble.h */,
-				36B304E71979A787001951E2 /* CRBubble.m */,
-				36B304E81979A787001951E2 /* CRProductTour.h */,
-				36B304E91979A787001951E2 /* CRProductTour.m */,
 				36B3047719794EF6001951E2 /* REMenu */,
 				3683AAFC19790D9E005E04E7 /* AppDelegate.h */,
 				3683AAFD19790D9E005E04E7 /* AppDelegate.m */,
@@ -494,8 +484,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36B304EB1979A787001951E2 /* CRProductTour.m in Sources */,
-				36B304EA1979A787001951E2 /* CRBubble.m in Sources */,
 				36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */,
 				3683AB0419790D9E005E04E7 /* ViewController.m in Sources */,
 				36B3048619794F0A001951E2 /* REMenuItemView.m in Sources */,

@@ -1,10 +1,13 @@
 PODS:
+  - CXCardView (1.0.0)
   - RNGridMenu (0.1.3)
 
 DEPENDENCIES:
+  - CXCardView
   - RNGridMenu (~> 0.1.2)
 
 SPEC CHECKSUMS:
+  CXCardView: 113ff84aceb858d5faf3e610ac3ff524f95b9c21
   RNGridMenu: 7a5c2c0ad78d254d047c43efe502eee2b16fbcbc
 
 COCOAPODS: 0.33.1

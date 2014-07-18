@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "REMenu.h"
 #import "CustomIOS7AlertView.h"
-#import "CRProductTour.h"
+#import <CXCardView/CXCardView.h>
 #import <RNGridMenu/RNGridMenu.h>
 
 
@@ -20,7 +20,6 @@
     float fingerX;
     float fingerY;
     REMenu* menu;
-    CRProductTour * productTourView;
     UIView * button1;
 }
 @end
@@ -42,6 +41,7 @@
     tapRecognizer.numberOfTapsRequired = 2;
     tapRecognizer.numberOfTouchesRequired = 1;
     [mainView addGestureRecognizer:tapRecognizer];
+    
     
     fingerX = 0.0;
     fingerY = 0.0;
@@ -174,9 +174,10 @@
                                                             title:@"Work"
                                                            action:^{
                                                             //Do Nothing
-                                                               CustomIOS7AlertView * workTask = [[CustomIOS7AlertView alloc]init];
-                                                               workTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
-                                                               [workTask show];
+//                                                               CustomIOS7AlertView * workTask = [[CustomIOS7AlertView alloc]init];
+//                                                               workTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
+//                                                               [workTask show];
+                                                               [self firstTimeTour:@"Work"];
                                                            }];
     RNGridMenuItem * item2 = [[RNGridMenuItem alloc]initWithImage:nil
                                                             title:@"Home"
@@ -243,8 +244,7 @@
     
 }
 
--(void) firstTimeTour {
-    
+-(void) firstTimeTour : (NSString*)selector{
 }
 
 

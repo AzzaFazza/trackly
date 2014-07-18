@@ -6,6 +6,12 @@
 // project.
 
 
+// CXCardView
+#define COCOAPODS_POD_AVAILABLE_CXCardView
+#define COCOAPODS_VERSION_MAJOR_CXCardView 1
+#define COCOAPODS_VERSION_MINOR_CXCardView 0
+#define COCOAPODS_VERSION_PATCH_CXCardView 0
+
 // RNGridMenu
 #define COCOAPODS_POD_AVAILABLE_RNGridMenu
 #define COCOAPODS_VERSION_MAJOR_RNGridMenu 0
