@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "REMenu.h"
 #import "CustomIOS7AlertView.h"
+#import <RNGridMenu/RNGridMenu.h>
+
 
 
 @interface ViewController ()
@@ -153,9 +155,25 @@
     NSLog(@"x=%.2f y=%.2f", location.x, location.y);
     fingerX = location.x; fingerY = location.y;
 }
+- (void)showList {
+    NSInteger numberOfOptions = 6;
+    NSArray *options = @[
+                         @"Work",
+                         @"Home",
+                         @"Play",
+                         @"Events",
+                         @"Sporting",
+                         @"Other"
+                         ];
+    RNGridMenu *av = [[RNGridMenu alloc] initWithTitles:[options subarrayWithRange:NSMakeRange(0, numberOfOptions)]];
+    av.delegate = self;
+    //    av.itemTextAlignment = NSTextAlignmentLeft;
+    av.itemFont = [UIFont boldSystemFontOfSize:18];
+    av.itemSize = CGSizeMake(150, 55);
+    [av showInViewController:self center:CGPointMake(self.view.bounds.size.width/2.f, self.view.bounds.size.height/2.f)];
+}
 -(IBAction)addTask:(id)sender {
-    CustomIOS7AlertView * createTask = [[CustomIOS7AlertView alloc]init];
-    [createTask show];
+    [self showList];
     
 }
 
