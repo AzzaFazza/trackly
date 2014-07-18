@@ -35,11 +35,18 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    if (![@"1" isEqualToString:[[NSUserDefaults standardUserDefaults]
+                                objectForKey:@"aValue"]]) {
+        [[NSUserDefaults standardUserDefaults] setValue:@"1" forKey:@"aValue"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        //Action here
+        
     [self.navigationController setNavigationBarHidden:YES animated:NO];
     [super viewWillAppear:YES];
     // Do any additional setup after loading the view from its nib.
     NSBundle *bundle = [NSBundle mainBundle];
-    NSString *moviePath = [bundle pathForResource:@"IMG_0434" ofType:@"MOV"];
+    NSString *moviePath = [bundle pathForResource:@"intro" ofType:@"mp4"];
     NSURL *movieURL = [NSURL fileURLWithPath:moviePath];
     
     AVAsset *avAsset = [AVAsset assetWithURL:movieURL];
@@ -66,6 +73,10 @@
     gradient.frame = self.gradientView.bounds;
     gradient.colors = [NSArray arrayWithObjects:(id)[UIColorFromRGB(0x030303) CGColor], (id)[[UIColor clearColor] CGColor], (id)[UIColorFromRGB(0x030303) CGColor],nil];
     [self.gradientView.layer insertSublayer:gradient atIndex:0];
+    
+    } else {
+        [self skipView];
+    }
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -93,6 +104,15 @@
 - (IBAction)buttonPressed:(id)sender {
     ViewController *viewController = [[ViewController alloc]initWithNibName:@"mainView" bundle:nil];
     [self.navigationController pushViewController:viewController animated:YES];
+}
+-(void)skipView {
+    ViewController *vc = [self.storyboard instantiateViewControllerWithIdentifier:@"mainView"];
+    // OR myViewController *vc = [[myViewController alloc] init];
+    
+    // any setup code for *vc
+    
+    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 - (void)didReceiveMemoryWarning
