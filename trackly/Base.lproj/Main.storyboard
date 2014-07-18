@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="YEo-F4-AOY">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="gzh-nq-dbz">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
@@ -27,21 +27,21 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6l-aw-dhk" userLabel="Sync">
                                                 <rect key="frame" x="27" y="8" width="29" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title=" " image="B05F07BE-3F71-4756-9869-BC2F9CDC4F87">
+                                                <state key="normal" title=" " image="FF29E24A-68A1-4CEA-977F-693B7FBF5D43">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9v3-h4-9iq" userLabel="Settings">
                                                 <rect key="frame" x="150" y="11" width="21" height="23"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" image="8D85DD65-B38B-45C1-B00F-7B99CC556032">
+                                                <state key="normal" image="FB365254-1C50-4831-960B-76CCF7697C55">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBd-By-msA" userLabel="About">
                                                 <rect key="frame" x="263" y="7" width="32" height="32"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <state key="normal" title=" " image="2A23B1CC-3ED8-4728-9FAB-7B8D4C059A4B">
+                                                <state key="normal" title=" " image="7384C15E-1191-4AEC-BE23-44962C29C313">
                                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
@@ -126,29 +126,6 @@
             </objects>
             <point key="canvasLocation" x="619" y="42"/>
         </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="Him-rV-XBt">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5wu-zD-yTc" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="iAx-uf-AB7">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.24705883860588074" green="0.31764706969261169" blue="0.70980393886566162" alpha="1" colorSpace="deviceRGB"/>
-                        <textAttributes key="titleTextAttributes">
-                            <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="20"/>
-                            <color key="textColor" red="0.97541350979999997" green="1" blue="0.98032214490000003" alpha="1" colorSpace="calibratedRGB"/>
-                        </textAttributes>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="SYH-bC-XKJ"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9ce-mM-MOA" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="198" y="42"/>
-        </scene>
         <!--Video View Controller-->
         <scene sceneID="iuY-eQ-1t4">
             <objects>
@@ -177,7 +154,7 @@
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <action selector="buttonPressed:" destination="YEo-F4-AOY" eventType="touchUpInside" id="Fz4-OT-YTr"/>
+                                            <segue destination="vXZ-lx-hvc" kind="push" id="3yF-TU-c9o"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Taskly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YeV-Vz-07F">
@@ -213,6 +190,7 @@
                             <constraint firstItem="FIe-UJ-4Te" firstAttribute="top" secondItem="QuZ-kg-Bnr" secondAttribute="top" id="r9o-Gy-NWu"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="w8E-Fe-CZt"/>
                     <connections>
                         <outlet property="contentView" destination="FIe-UJ-4Te" id="WbB-da-Zve"/>
                         <outlet property="movieView" destination="QuZ-kg-Bnr" id="Uj3-wF-k5t"/>
@@ -220,11 +198,34 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hcd-UY-bIl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="834" y="650"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="EZG-Wb-9oy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="gzh-nq-dbz" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wjw-6S-QUa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.2470588386" green="0.31764706970000001" blue="0.70980393890000004" alpha="1" colorSpace="deviceRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="GeezaPro" family="Geeza Pro" pointSize="22"/>
+                            <color key="textColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="YEo-F4-AOY" kind="relationship" relationship="rootViewController" id="gao-p4-O5h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sJA-Zm-2v2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
             <point key="canvasLocation" x="308" y="650"/>
         </scene>
     </scenes>
     <resources>
-        <image name="2A23B1CC-3ED8-4728-9FAB-7B8D4C059A4B" width="32" height="32">
+        <image name="7384C15E-1191-4AEC-BE23-44962C29C313" width="32" height="32">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -343,7 +344,7 @@ XxloGXsZfxmSGZ0ZphmrGbMZthm7GcoZzhnVGd0Z6hnvGfEZ8xn4GgAaAxoIGhAaExolGigaLQAAAAAA
 AAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAABovA
 </mutableData>
         </image>
-        <image name="8D85DD65-B38B-45C1-B00F-7B99CC556032" width="32" height="32">
+        <image name="FB365254-1C50-4831-960B-76CCF7697C55" width="32" height="32">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -462,7 +463,7 @@ XxloGXsZfxmSGZ0ZphmrGbMZthm7GcoZzhnVGd0Z6hnvGfEZ8xn4GgAaAxoIGhAaExolGigaLQAAAAAA
 AAIBAAAAAAAAAEIAAAAAAAAAAAAAAAAAABovA
 </mutableData>
         </image>
-        <image name="B05F07BE-3F71-4756-9869-BC2F9CDC4F87" width="32" height="32">
+        <image name="FF29E24A-68A1-4CEA-977F-693B7FBF5D43" width="32" height="32">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw

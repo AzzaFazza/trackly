@@ -35,6 +35,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
+    [super viewWillAppear:YES];
     // Do any additional setup after loading the view from its nib.
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *moviePath = [bundle pathForResource:@"IMG_0434" ofType:@"MOV"];
@@ -89,7 +91,7 @@
 }
 
 - (IBAction)buttonPressed:(id)sender {
-    ViewController *viewController = [[ViewController alloc]initWithNibName:@"ViewController" bundle:nil];
+    ViewController *viewController = [[ViewController alloc]initWithNibName:@"mainView" bundle:nil];
     [self.navigationController pushViewController:viewController animated:YES];
 }
 

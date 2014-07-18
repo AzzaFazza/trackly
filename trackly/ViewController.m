@@ -33,6 +33,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:NO animated:NO];
+    [super viewWillAppear:YES];
 	// Do any additional setup after loading the view, typically from a nib.
  //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
     self.navigationController.navigationBar.alpha = 0.9;
@@ -173,9 +175,9 @@
                                                             title:@"Work"
                                                            action:^{
                                                             //Do Nothing
-//                                                               CustomIOS7AlertView * workTask = [[CustomIOS7AlertView alloc]init];
-//                                                               workTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
-//                                                               [workTask show];
+                                                               CustomIOS7AlertView * workTask = [[CustomIOS7AlertView alloc]init];
+                                                               workTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
+                                                               [workTask show];
                                                                [self firstTimeTour:@"Work"];
                                                            }];
     RNGridMenuItem * item2 = [[RNGridMenuItem alloc]initWithImage:nil
@@ -183,6 +185,7 @@
                                                            action:^{
                                                                //Do Nothing
                                                                CustomIOS7AlertView * homeTask = [[CustomIOS7AlertView alloc]init];
+                                                               homeTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
                                                                [homeTask show];
                                                            }];
     RNGridMenuItem * item3 = [[RNGridMenuItem alloc]initWithImage:nil
@@ -190,6 +193,7 @@
                                                            action:^{
                                                                //Do Nothing
                                                                CustomIOS7AlertView * playTask = [[CustomIOS7AlertView alloc]init];
+                                                               playTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
                                                                [playTask show];
                                                            }];
     RNGridMenuItem * item4 = [[RNGridMenuItem alloc]initWithImage:nil
@@ -197,6 +201,7 @@
                                                            action:^{
                                                                //Do Nothing
                                                                CustomIOS7AlertView * eventsTask = [[CustomIOS7AlertView alloc]init];
+                                                               eventsTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
                                                                [eventsTask show];
                                                            }];
     RNGridMenuItem * item5 = [[RNGridMenuItem alloc]initWithImage:nil
@@ -204,6 +209,7 @@
                                                            action:^{
                                                                //Do Nothing
                                                                CustomIOS7AlertView * sportingTask = [[CustomIOS7AlertView alloc]init];
+                                                               sportingTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
                                                                [sportingTask show];
                                                            }];
     RNGridMenuItem * item6 = [[RNGridMenuItem alloc]initWithImage:nil
@@ -211,6 +217,7 @@
                                                            action:^{
                                                                //Do Nothing
                                                                CustomIOS7AlertView * otherTask = [[CustomIOS7AlertView alloc]init];
+                                                               otherTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
                                                                [otherTask show];
                                                            }];
     
