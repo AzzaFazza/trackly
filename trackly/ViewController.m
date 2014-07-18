@@ -42,7 +42,6 @@
     tapRecognizer.numberOfTouchesRequired = 1;
     [mainView addGestureRecognizer:tapRecognizer];
     
-    
     fingerX = 0.0;
     fingerY = 0.0;
     
