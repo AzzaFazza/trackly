@@ -22,6 +22,11 @@
     float fingerY;
     REMenu* menu;
     UIView * button1;
+    UILabel * nameLabel;
+    UILabel * notesLabel;
+    UITextField *taskName;
+    UITextField *taskNotes;
+    UILabel * createTaskLabel;
 }
 @end
 
@@ -45,7 +50,58 @@
     tapRecognizer.numberOfTouchesRequired = 1;
     [mainView addGestureRecognizer:tapRecognizer];
     
+    nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
+    nameLabel.text = @"Task Name";
+    
+    notesLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 120, 100, 25)];
+    notesLabel.text = @"Notes";
+    
+    CGRect  headerFrame = CGRectMake(0, 0, 300, 50);
+    UIView * header = [[UIView alloc]initWithFrame:headerFrame];
+    header.layer.cornerRadius = 5.0;
+    header.backgroundColor = [self colorWithHexString:@"3F51B5"];
+    createTaskLabel = [[UILabel alloc]initWithFrame:CGRectMake(140, 15, 70, 25)];
+    createTaskLabel.text = nil;
+    createTaskLabel.textColor = [UIColor whiteColor];
+    [header addSubview:createTaskLabel];
+    
+    CGRect applicationFrame = CGRectMake(0, 0, 300, 200);
+    UIView *contentView = [[UIView alloc] initWithFrame:applicationFrame];
+    contentView.backgroundColor = [UIColor whiteColor];
+    contentView.layer.cornerRadius = 5.0;
+    taskName = [[UITextField alloc] initWithFrame:CGRectMake(10, 70, 280, 50)];
+    taskName.borderStyle = UITextBorderStyleRoundedRect;
+    taskName.font = [UIFont systemFontOfSize:15];
+    taskName.placeholder = @"Enter task Name";
+    taskName.autocorrectionType = UITextAutocorrectionTypeNo;
+    taskName.keyboardType = UIKeyboardTypeDefault;
+    taskName.keyboardAppearance = UIKeyboardAppearanceDark;
+    taskName.returnKeyType = UIReturnKeyDone;
+    taskName.clearButtonMode = UITextFieldViewModeWhileEditing;
+    taskName.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    taskName.delegate = self;
+    
+    taskNotes = [[UITextField alloc] initWithFrame:CGRectMake(10, 140, 280, 50)];
+    taskNotes.borderStyle = UITextBorderStyleRoundedRect;
+    taskNotes.font = [UIFont systemFontOfSize:15];
+    taskNotes.placeholder = @"Enter Notes (Optional)";
+    taskNotes.autocorrectionType = UITextAutocorrectionTypeNo;
+    taskNotes.keyboardType = UIKeyboardTypeDefault;
+    taskNotes.keyboardAppearance = UIKeyboardAppearanceDark;
+    taskNotes.returnKeyType = UIReturnKeyDone;
+    taskNotes.clearButtonMode = UITextFieldViewModeWhileEditing;
+    taskNotes.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    taskNotes.delegate = self;
+
+    [contentView addSubview:taskName];
+    [contentView addSubview:taskNotes];
+    [contentView addSubview:nameLabel];
+    [contentView addSubview:notesLabel];
+    [contentView addSubview:header];
+    
     newTask = [[CustomIOS7AlertView alloc]init];
+    [newTask setContainerView:contentView];
+    [newTask setUseMotionEffects:TRUE];
     newTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
     
     fingerX = 0.0;
@@ -54,7 +110,7 @@
 //    [self firstTimeTour];
     
     //Labels font
-    [[UILabel appearance] setFont:[UIFont fontWithName:@"DIN Alternate" size:10.0]];
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"Roboto-Regular" size:12.0]];
 //    [self.navigationController.navigationBar setBarTintColor:[UIColor greenColor]];
     
 //    //Navbar Font
@@ -63,7 +119,7 @@
 //      [UIFont fontWithName:@"BrandonGrotesque-Light" size:32],
 //      NSFontAttributeName, nil]];
     
-/*    //Show font
+    //Show font
     for (NSString* family in [UIFont familyNames])
     {
         NSLog(@"%@", family);
@@ -73,7 +129,7 @@
             NSLog(@" %@", name);
         }
     }
- */
+
     //REMenu
     REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Main Page"
                                                     subtitle:@"Return to Task View"
@@ -246,7 +302,49 @@
 }
 
 -(void) createTask : (NSString*)selector{
-    NSLog(selector);
+    NSLog(@"%@", selector);
+    createTaskLabel.text = selector;
+}
+
+-(UIColor*)colorWithHexString:(NSString*)hex
+{
+    NSString *cString = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+    
+    // String should be 6 or 8 characters
+    if ([cString length] < 6) return [UIColor grayColor];
+    
+    // strip 0X if it appears
+    if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
+    
+    if ([cString length] != 6) return  [UIColor grayColor];
+    
+    // Separate into r, g, b substrings
+    NSRange range;
+    range.location = 0;
+    range.length = 2;
+    NSString *rString = [cString substringWithRange:range];
+    
+    range.location = 2;
+    NSString *gString = [cString substringWithRange:range];
+    
+    range.location = 4;
+    NSString *bString = [cString substringWithRange:range];
+    
+    // Scan values
+    unsigned int r, g, b;
+    [[NSScanner scannerWithString:rString] scanHexInt:&r];
+    [[NSScanner scannerWithString:gString] scanHexInt:&g];
+    [[NSScanner scannerWithString:bString] scanHexInt:&b];
+    
+    return [UIColor colorWithRed:((float) r / 255.0f)
+                           green:((float) g / 255.0f)
+                            blue:((float) b / 255.0f)
+                           alpha:1.0f];
+}
+
+- (void)customIOS7dialogButtonTouchUpInside: (CustomIOS7AlertView *)alertView clickedButtonAtIndex: (NSInteger)buttonIndex : (NSString*) tagString
+{
+    NSLog(@"Button at position %d is clicked on alertView %d.", buttonIndex, [alertView tag]);
 }
 
 
