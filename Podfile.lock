@@ -1,15 +1,18 @@
 PODS:
   - CXCardView (1.0.0)
+  - EAIntroView (2.5.1)
   - JazzHands (0.1.0)
   - RNGridMenu (0.1.3)
 
 DEPENDENCIES:
   - CXCardView
+  - EAIntroView (~> 2.5.0)
   - JazzHands (~> 0.1.0)
   - RNGridMenu (~> 0.1.2)
 
 SPEC CHECKSUMS:
   CXCardView: 113ff84aceb858d5faf3e610ac3ff524f95b9c21
+  EAIntroView: 9586107ac7a6e849fb985c8d62109a9da649136b
   JazzHands: 828e9d0d6609fdc9089d8049d64dd2ab45179d13
   RNGridMenu: 7a5c2c0ad78d254d047c43efe502eee2b16fbcbc
 

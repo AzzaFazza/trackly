@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-EAIntroView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-JazzHands.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +32,27 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3A845A0E399648F9BAFC4527</key>
+		<key>2B89F03D879E483DA0626E12</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>66B4313D86764EDEBF81AFAF</key>
+		<key>486B2144FEF742F5B4C334E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>767EC3A2C913454FAB13561B</key>
+		<key>4B815F05E8314E9DA27B5895</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F9C76793A7364B5CA33FFF88</key>
+		<key>7B9E7FFB92744DC89C615215</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BEA1848734DD4662AD30E99D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

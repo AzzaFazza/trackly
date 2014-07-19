@@ -1,0 +1,210 @@
+TPods-EAIntroView
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.o /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.o /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a normal armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053B12B94000000000000036B
+t1404119956
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12B94000000000000019E
+t1404119956
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B12B980000000000A90C10
+t1404119960
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.o
+t1405812700
+s64688
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.o
+t1405812701
+s181936
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.o
+t1405812700
+s3732
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView.LinkFileList
+c0000000053CAFFDB000000000000019D
+t1405812699
+s413
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.pch
+t1405812700
+s95616
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.pch
+t1405812700
+s96560
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a
+t1405812701
+s253080
+
+N/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.h
+c0000000053CAFFBA000000000000076C
+t1405812666
+s1900
+
+N/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m
+c0000000053CAFFBA000000000000071D
+t1405812666
+s1821
+
+N/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.h
+c0000000053CAFFBA000000000000083A
+t1405812666
+s2106
+
+N/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m
+c0000000053CAFFBA0000000000006123
+t1405812666
+s24867
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m
+c0000000053CAFFBA0000000000000088
+t1405812666
+s136
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-prefix.pch
+c0000000053CAFFBA000000000000004D
+t1405812666
+s77
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+c0000000053CAFFBA00000000000003E7
+t1405812666
+s999
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies8ae9b6f2377bb941^9697b8f2377bb941^---0#1#1#--18"Check dependencies36"ABB6FBB0-85EA-4378-8F08-21D3FAB4667B-
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.o /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427505500.389815
+e427505500.595411
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.o
+x/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m
+d/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m250"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.o EAIntroView/EAIntroView/EAIntroPage.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler0d37645c377bb941^3370985c377bb941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m0000000000000000^3733"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.o EAIntroView/EAIntroView/EAIntroPage.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.dia -c /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroPage.o36"77788A66-F7D1-444B-8A77-633A8133636B-
+bB938BB5F-5FFD-40C7-BD06-2206207EA4EC
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.o /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427505500.632357
+e427505501.043091
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.o
+x/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m
+d/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.h
+d/Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroPage.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m250"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.o EAIntroView/EAIntroView/EAIntroView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler6805a25c377bb941^c7110b5d377bb941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m0000000000000000^3733"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.o EAIntroView/EAIntroView/EAIntroView.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.dia -c /Users/adamf/Desktop/trackly/Pods/EAIntroView/EAIntroView/EAIntroView.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/EAIntroView.o36"6A0E4773-725C-4D71-9F1E-482B7224CF0D-
+bB938BB5F-5FFD-40C7-BD06-2206207EA4EC
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427505500.734762
+e427505500.784512
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.o
+x/Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m248"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.o Pods-EAIntroView-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilere63bbc5c377bb941^b5e1c85c377bb941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m0000000000000000^3717"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.o Pods-EAIntroView-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView-dummy.o36"0FCFE0C8-B748-4335-95FC-00055BF135FF-
+bB938BB5F-5FFD-40C7-BD06-2206207EA4EC
+
+CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a normal armv7s
+s427505501.096734
+e427505501.111664
+r1
+xLibtool
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a
+xnormal
+xarmv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a normal armv7s102"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a normal armv7s6b2c195d377bb941^3aca1d5d377bb941^---0#0#1#--940"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a normal armv7s    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Objects-normal/armv7s/Pods-EAIntroView.LinkFileList -framework Foundation -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a36"229D71D7-A268-40D0-83BC-0B744B07E079-
+bB938BB5F-5FFD-40C7-BD06-2206207EA4EC
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427505500.183058
+e427505500.253021
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.pch
+xPods-EAIntroView-prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Pods-EAIntroView-prefix.pch261"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler46d12f5c377bb941^2eca405c377bb941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-prefix.pch0000000000000000^3602"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gppflroyazhoviacprzorirsllxc/Pods-EAIntroView-prefix.pch.pch36"45C344D7-6F86-4061-B31F-18CCD5C016E2-
+bB938BB5F-5FFD-40C7-BD06-2206207EA4EC
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427505500.177280
+e427505500.235787
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.pch
+xPods-EAIntroView-prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection38"Precompile Pods-EAIntroView-prefix.pch261"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler26c72d5c377bb941^7ea83c5c377bb941^---0#0#1#-19%DVTDocumentLocation2@68"file:///Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-prefix.pch0000000000000000^3636"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/Pods-EAIntroView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-EAIntroView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-EAIntroView-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-EAIntroView-prefix-gwhhzbqqqmuoueatucvzyneamzss/Pods-EAIntroView-prefix.pch.pch36"F49393A2-87C7-4707-ADB0-08FFE6D41A60-
+bB938BB5F-5FFD-40C7-BD06-2206207EA4EC
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-EAIntroView-prefix-ajffiexjqaguszcprdviqcwepabf_ast/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-EAIntroView-prefix-gmkgchuawejmihbszdzqqnjmxryk_ast/Pods-EAIntroView-prefix.pch.pch Pods-EAIntroView-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
