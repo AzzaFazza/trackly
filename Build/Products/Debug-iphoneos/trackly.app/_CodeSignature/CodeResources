@@ -4,9 +4,41 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppIcons/Icon-60.png</key>
+		<data>
+		9BIhi3TS3SRLp1C4o5jG/sTcGo8=
+		</data>
+		<key>AppIcons/Icon-60@2x.png</key>
+		<data>
+		88WFrErOZLn01sTlr5k6w5mBpYE=
+		</data>
+		<key>AppIcons/Icon-76.png</key>
+		<data>
+		r5B0Oaj/sW8mUfrNDne/ZT0eqK4=
+		</data>
+		<key>AppIcons/Icon-76@2x.png</key>
+		<data>
+		zGEnNzEbmfq6PwlkhuatDffmD5w=
+		</data>
+		<key>AppIcons/Icon-Small-40.png</key>
+		<data>
+		NI9LYVsjFLvB7mwL3LqOfS8QeKU=
+		</data>
+		<key>AppIcons/Icon-Small-40@2x.png</key>
+		<data>
+		hO3KePVSOQ34NUwK1/kuFMe06e0=
+		</data>
+		<key>AppIcons/iTunesArtwork.png</key>
+		<data>
+		XXv1/4myu7HLrGV2W9a9tRicZH0=
+		</data>
+		<key>AppIcons/iTunesArtwork@2x.png</key>
+		<data>
+		t1gEIYs/Qwx6XC4io1EoX2po8c4=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		rK9Rr8/9tZeJtiYqyWS6DeF1LTM=
+		8gFu/WKsWVvHGMb8WKPn7aoQL/A=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -199,9 +231,41 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppIcons/Icon-60.png</key>
+		<data>
+		9BIhi3TS3SRLp1C4o5jG/sTcGo8=
+		</data>
+		<key>AppIcons/Icon-60@2x.png</key>
+		<data>
+		88WFrErOZLn01sTlr5k6w5mBpYE=
+		</data>
+		<key>AppIcons/Icon-76.png</key>
+		<data>
+		r5B0Oaj/sW8mUfrNDne/ZT0eqK4=
+		</data>
+		<key>AppIcons/Icon-76@2x.png</key>
+		<data>
+		zGEnNzEbmfq6PwlkhuatDffmD5w=
+		</data>
+		<key>AppIcons/Icon-Small-40.png</key>
+		<data>
+		NI9LYVsjFLvB7mwL3LqOfS8QeKU=
+		</data>
+		<key>AppIcons/Icon-Small-40@2x.png</key>
+		<data>
+		hO3KePVSOQ34NUwK1/kuFMe06e0=
+		</data>
+		<key>AppIcons/iTunesArtwork.png</key>
+		<data>
+		XXv1/4myu7HLrGV2W9a9tRicZH0=
+		</data>
+		<key>AppIcons/iTunesArtwork@2x.png</key>
+		<data>
+		t1gEIYs/Qwx6XC4io1EoX2po8c4=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		rK9Rr8/9tZeJtiYqyWS6DeF1LTM=
+		8gFu/WKsWVvHGMb8WKPn7aoQL/A=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>

@@ -67,6 +67,7 @@
 		36B304F71979B80A001951E2 /* IMG_0434.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 36B304F61979B80A001951E2 /* IMG_0434.MOV */; };
 		36B304F91979C4BF001951E2 /* intro.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 36B304F81979C464001951E2 /* intro.mp4 */; };
 		36B304FD1979D22A001951E2 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304FC1979D22A001951E2 /* title@2x.png */; };
+		36BB2D85197B1DD1000D6854 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 36BB2D84197B1DD1000D6854 /* AppIcons */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
 		36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9B0197B0E21008E2D22 /* coq.ttf */; };
 		651405B0435D475E95784B0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D7548C7B084D5E895B458C /* libPods.a */; };
@@ -156,6 +157,7 @@
 		36B304F61979B80A001951E2 /* IMG_0434.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_0434.MOV; sourceTree = "<group>"; };
 		36B304F81979C464001951E2 /* intro.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = intro.mp4; sourceTree = "<group>"; };
 		36B304FC1979D22A001951E2 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@2x.png"; sourceTree = "<group>"; };
+		36BB2D84197B1DD1000D6854 /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcons; sourceTree = "<group>"; };
 		36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		36EEB9B0197B0E21008E2D22 /* coq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coq.ttf; sourceTree = "<group>"; };
 		E89885221E0B4AECAEE88167 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 		3683AAF419790D9E005E04E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36BB2D84197B1DD1000D6854 /* AppIcons */,
 				36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */,
 				36B304FC1979D22A001951E2 /* title@2x.png */,
 				36B304F81979C464001951E2 /* intro.mp4 */,
@@ -400,6 +403,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Dot.ly;
 				TargetAttributes = {
+					3683AAE919790D9E005E04E7 = {
+						DevelopmentTeam = L7K45M5C78;
+					};
 					3683AB0A19790D9E005E04E7 = {
 						TestTargetID = 3683AAE919790D9E005E04E7;
 					};
@@ -468,6 +474,7 @@
 				36B304DD19797413001951E2 /* skulls@2x.png in Resources */,
 				36B3045C1979272A001951E2 /* information38.png in Resources */,
 				36B304B619795183001951E2 /* Icon_Home@2x.png in Resources */,
+				36BB2D85197B1DD1000D6854 /* AppIcons in Resources */,
 				36B304BC197954B6001951E2 /* reminder4.png in Resources */,
 				36B3045A1979272A001951E2 /* help1.png in Resources */,
 			);
@@ -656,6 +663,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "trackly/trackly-Prefix.pch";
 				INFOPLIST_FILE = "trackly/trackly-Info.plist";
@@ -670,6 +678,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "trackly/trackly-Prefix.pch";
 				INFOPLIST_FILE = "trackly/trackly-Info.plist";
