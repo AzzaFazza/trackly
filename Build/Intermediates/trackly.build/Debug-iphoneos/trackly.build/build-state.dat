@@ -566,15 +566,15 @@ t1405694534
 s47
 
 N/Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_dependencies.txt
-t1405806217
-s323
+t1405806263
+s507
 
 N/Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_generated_info.plist
-t1405806217
-s525
+t1405806263
+s743
 
 N/Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent
-t1405806217
+t1405806264
 s584
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a
@@ -583,11 +583,11 @@ t1405711823
 s467080
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app
-t1405806217
-s1768
+t1405806499
+s1836
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM
-t1405803593
+t1405806263
 s102
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/AppIcons
@@ -599,7 +599,7 @@ t1405694448
 s1869486
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Base.lproj/Main.storyboardc
-t1405803570
+t1405806499
 s238
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Brandon_blk.otf
@@ -659,11 +659,11 @@ t1405694447
 s2215
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Info.plist
-t1405806217
-s1459
+t1405806263
+s1568
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/PkgInfo
-t1405806217
+t1405806263
 s8
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/ResourceRules.plist
@@ -771,7 +771,7 @@ t1405694447
 s23180
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/trackly
-t1405803997
+t1405806266
 s437248
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/triangular_@2X.png
@@ -799,9 +799,9 @@ t1404842670
 s1215153
 
 N/Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard
-c0000000053CADC32000000000000C3E0
-t1405803570
-s50144
+c0000000053CAE7A1000000000000C3DE
+t1405806497
+s50142
 
 N/Users/adamf/Desktop/trackly/trackly/Brandon_blk.otf
 c0000000053BF1A57000000000001630C
@@ -904,8 +904,8 @@ t1404842670
 s2339
 
 N/Users/adamf/Desktop/trackly/trackly/Images.xcassets
-c0000000053CAE6870000000000000088
-t1405806215
+c0000000053CAE6B00000000000000088
+t1405806256
 s136
 
 N/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.h
@@ -1179,32 +1179,34 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf04cb0081e7bb941^c784b0081e7bb941^---0#1#1#--18"Check dependencies36"71AAA09B-3C05-4E95-A630-8337FEEC82F6-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesf52bb9211f7bb941^1a69b9211f7bb941^---0#1#1#--18"Check dependencies36"4002EFF2-49D1-4861-B2C3-F5F8FDF5E20F-
 
 CCodeSign /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app
-s427499017.545933
-e427499020.053415
+s427499299.676166
+e427499302.149206
 r1
 xCodeSign
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app
 o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app: replacing existing signature
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign Build/Products/Debug-iphoneos/trackly.app50"CodeSign Build/Products/Debug-iphoneos/trackly.appb1db8b091e7bb941^32ad0d0c1e7bb941^-101"/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@78"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/0000000000000000^963"CodeSign Build/Products/Debug-iphoneos/trackly.app    cd /Users/adamf/Desktop/trackly    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Adam Fallon (67H4Y2CZRK)" and provisioning profile "iOS Team Provisioning Profile: *" (C0F0CA03-01E8-45D9-9B10-58C8BA2429E1)    /usr/bin/codesign --force --sign D1C514B4567A8A7F821D1B5D93D8E658E7FD1E11 --resource-rules=/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/ResourceRules.plist --entitlements /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app36"4EE3EA64-B6BF-42D4-B09D-17CF58478913-
-b5F6EE05F-366E-45DF-9E5E-E62F1515D299
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"CodeSign Build/Products/Debug-iphoneos/trackly.app50"CodeSign Build/Products/Debug-iphoneos/trackly.app3529ad231f7bb941^6a3326261f7bb941^-101"/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app: replacing existing signature-0#0#1#-19%DVTDocumentLocation2@78"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/0000000000000000^963"CodeSign Build/Products/Debug-iphoneos/trackly.app    cd /Users/adamf/Desktop/trackly    export CODESIGN_ALLOCATE=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    Using code signing identity "iPhone Developer: Adam Fallon (67H4Y2CZRK)" and provisioning profile "iOS Team Provisioning Profile: *" (C0F0CA03-01E8-45D9-9B10-58C8BA2429E1)    /usr/bin/codesign --force --sign D1C514B4567A8A7F821D1B5D93D8E658E7FD1E11 --resource-rules=/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/ResourceRules.plist --entitlements /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app36"B6AB8954-7FDA-4ADF-B2D2-86BAE8E9A6CE-
+bA5951519-373B-42F6-B86B-D037AC5519BD
 
 CCompileAssetCatalog /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app /Users/adamf/Desktop/trackly/trackly/Images.xcassets
-s427499016.718569
-e427499017.063501
+s427499063.310996
+e427499063.788006
 r1
 xCompileAssetCatalog
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app
 x/Users/adamf/Desktop/trackly/trackly/Images.xcassets
 o/* com.apple.actool.compilation-results */
+o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/AppIcon40x40@2x.png
+o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/AppIcon60x60@2x.png
 o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/LaunchImage-700-568h@2x.png
 o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Assets.car
 o/Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_generated_info.plist
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"CompileAssetCatalog Build/Products/Debug-iphoneos/trackly.app trackly/Images.xcassets85"CompileAssetCatalog Build/Products/Debug-iphoneos/trackly.app trackly/Images.xcassetsff07b8081e7bb941^0f4210091e7bb941^-351"/* com.apple.actool.compilation-results *//Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/LaunchImage-700-568h@2x.png/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Assets.car/Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@60"file:///Users/adamf/Desktop/trackly/trackly/Images.xcassets/0000000000000000^1001"CompileAssetCatalog Build/Products/Debug-iphoneos/trackly.app trackly/Images.xcassets    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app /Users/adamf/Desktop/trackly/trackly/Images.xcassets36"7DDDD735-1579-4130-B33F-47AA884C945E-
-b5F6EE05F-366E-45DF-9E5E-E62F1515D299
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"CompileAssetCatalog Build/Products/Debug-iphoneos/trackly.app trackly/Images.xcassets85"CompileAssetCatalog Build/Products/Debug-iphoneos/trackly.app trackly/Images.xcassets11ab4f371e7bb941^06bbc9371e7bb941^-533"/* com.apple.actool.compilation-results *//Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/AppIcon40x40@2x.png/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/AppIcon60x60@2x.png/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/LaunchImage-700-568h@2x.png/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Assets.car/Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@60"file:///Users/adamf/Desktop/trackly/trackly/Images.xcassets/0000000000000000^1001"CompileAssetCatalog Build/Products/Debug-iphoneos/trackly.app trackly/Images.xcassets    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphoneos --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app /Users/adamf/Desktop/trackly/trackly/Images.xcassets36"5BCB9765-C7A7-4F6C-864E-C1E9210E74D5-
+bB42A1596-6B61-4AF1-850B-A62F85092357
 
 CCompileC Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Objects-normal/arm64/AppDelegate.o /Users/adamf/Desktop/trackly/trackly/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427402088.391368
@@ -1827,13 +1829,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile
 bEABDD013-AF95-418A-8372-EBC782864AD9
 
 CCompileStoryboard /Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard
-s427496370.660533
-e427496370.920365
+s427499297.754993
+e427499299.220629
 r1
 xCompileStoryboard
 x/Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CompileStoryboard trackly/Base.lproj/Main.storyboard52"CompileStoryboard trackly/Base.lproj/Main.storyboard492ca9b2137bb941^e59debb2137bb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard0000000000000000^750"CompileStoryboard trackly/Base.lproj/Main.storyboard    cd /Users/adamf/Desktop/trackly    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Base.lproj/Main.storyboardc /Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard36"4DA7AC72-6365-49D9-A9EC-DB3C371F059F-
-b5AE1A46B-3FD0-42C7-B22C-BD1E0ECD80FF
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CompileStoryboard trackly/Base.lproj/Main.storyboard52"CompileStoryboard trackly/Base.lproj/Main.storyboard2060c1211f7bb941^dd7b38231f7bb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard0000000000000000^750"CompileStoryboard trackly/Base.lproj/Main.storyboard    cd /Users/adamf/Desktop/trackly    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Base.lproj/Main.storyboardc /Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard36"A894D8AA-AB41-403D-BB12-CEF84977288B-
+bA5951519-373B-42F6-B86B-D037AC5519BD
 
 CCopyPNGFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Balloon@2x.png trackly/Balloon@2x.png
 s427387247.758351
@@ -2275,14 +2277,14 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Create
 bAB382DED-C6A7-4D08-8CDD-9FD3D4FD5744
 
 CGenerateDSYMFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/trackly
-s427499017.067845
-e427499017.127022
+s427499299.221358
+e427499299.261714
 r1
 xGenerateDSYMFile
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/trackly
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generate /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM113"GenerateDSYMFile Build/Products/Debug-iphoneos/trackly.app.dSYM Build/Products/Debug-iphoneos/trackly.app/trackly486e11091e7bb941^7f8520091e7bb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM/0000000000000000^596"GenerateDSYMFile Build/Products/Debug-iphoneos/trackly.app.dSYM Build/Products/Debug-iphoneos/trackly.app/trackly    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/trackly -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM36"378992DF-E639-4B04-B59C-BDCE6600F3A0-
-b5F6EE05F-366E-45DF-9E5E-E62F1515D299
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Generate /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM113"GenerateDSYMFile Build/Products/Debug-iphoneos/trackly.app.dSYM Build/Products/Debug-iphoneos/trackly.app/trackly3dbb38231f7bb941^370043231f7bb941^---0#0#1#-19%DVTDocumentLocation2@83"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM/0000000000000000^596"GenerateDSYMFile Build/Products/Debug-iphoneos/trackly.app.dSYM Build/Products/Debug-iphoneos/trackly.app/trackly    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/trackly -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app.dSYM36"C748B89E-3C16-4909-8BD0-3075E2B7CC04-
+bA5951519-373B-42F6-B86B-D037AC5519BD
 
 CLd /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Objects-normal/arm64/trackly normal arm64
 s427402088.916098
@@ -2583,18 +2585,18 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Link /U
 bEABDD013-AF95-418A-8372-EBC782864AD9
 
 CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-4EB8FFB13C724432B6D017D0.sh
-s427499016.690147
-e427499016.706620
+s427499297.725122
+e427499297.744105
 r1
 xPhaseScriptExecution
 xCheck Pods Manifest.lock
 x/Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-4EB8FFB13C724432B6D017D0.sh
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'145"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-4EB8FFB13C724432B6D017D0.sh6000b1081e7bb941^7de6b4081e7bb941^---0#0#1#--324"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-4EB8FFB13C724432B6D017D0.sh    cd /Users/adamf/Desktop/trackly    /bin/sh -c /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-4EB8FFB13C724432B6D017D0.sh36"5ECAB4D8-022F-467C-9F70-4F61CC2DDABC-
-b5F6EE05F-366E-45DF-9E5E-E62F1515D299
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'145"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-4EB8FFB13C724432B6D017D0.shb22aba211f7bb941^a67ebe211f7bb941^---0#0#1#--324"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-4EB8FFB13C724432B6D017D0.sh    cd /Users/adamf/Desktop/trackly    /bin/sh -c /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-4EB8FFB13C724432B6D017D0.sh36"A3E3B68D-3DF3-475D-BD9F-FCE6F60F191C-
+bA5951519-373B-42F6-B86B-D037AC5519BD
 
 CPhaseScriptExecution Copy\ Pods\ Resources /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-873D5CF412944300B3C465A9.sh
-s427499017.128064
-e427499017.537382
+s427499299.262126
+e427499299.670087
 r1
 xPhaseScriptExecution
 xCopy Pods Resources
@@ -2606,18 +2608,18 @@ ototal size is 0  speedup is 0.00
 o/* com.apple.actool.compilation-results */
 o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Assets.car
 o
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'140"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-873D5CF412944300B3C465A9.shce1921091e7bb941^969289091e7bb941^-238"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.00/* com.apple.actool.compilation-results *//Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Assets.car5(21%IDEActivityLogMessage2@28"building file list ... done-427499017#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-427499017#29#50#-0#-----2@33"total size is 0  speedup is 0.00-427499017#79#33#-0#-----2@43"/* com.apple.actool.compilation-results */-427499017#112#43#-0#-----2@82"/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Assets.car-427499017#155#82#-0#-----0#0#1#--319"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-873D5CF412944300B3C465A9.sh    cd /Users/adamf/Desktop/trackly    /bin/sh -c /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-873D5CF412944300B3C465A9.sh36"5ACB8232-9057-47B7-A171-4ECA69569E5E-
-b5F6EE05F-366E-45DF-9E5E-E62F1515D299
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'140"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-873D5CF412944300B3C465A9.shc17343231f7bb941^598bab231f7bb941^-238"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.00/* com.apple.actool.compilation-results *//Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Assets.car5(21%IDEActivityLogMessage2@28"building file list ... done-427499299#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-427499299#29#50#-0#-----2@33"total size is 0  speedup is 0.00-427499299#79#33#-0#-----2@43"/* com.apple.actool.compilation-results */-427499299#112#43#-0#-----2@82"/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Assets.car-427499299#155#82#-0#-----0#0#1#--319"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-873D5CF412944300B3C465A9.sh    cd /Users/adamf/Desktop/trackly    /bin/sh -c /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/Script-873D5CF412944300B3C465A9.sh36"50DD6FD2-6DE9-43B0-94D3-7D4C315AFF3E-
+bA5951519-373B-42F6-B86B-D037AC5519BD
 
 CProcessInfoPlistFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Info.plist /Users/adamf/Desktop/trackly/trackly/trackly-Info.plist
-s427499017.064375
-e427499017.067211
+s427499063.788589
+e427499063.790759
 r1
 xProcessInfoPlistFile
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Info.plist
 x/Users/adamf/Desktop/trackly/trackly/trackly-Info.plist
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Process /Users/adamf/Desktop/trackly/trackly/trackly-Info.plist100"ProcessInfoPlistFile Build/Products/Debug-iphoneos/trackly.app/Info.plist trackly/trackly-Info.plist4b9110091e7bb941^f03411091e7bb941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/adamf/Desktop/trackly/trackly/trackly-Info.plist0000000000000000^900"ProcessInfoPlistFile Build/Products/Debug-iphoneos/trackly.app/Info.plist trackly/trackly-Info.plist    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/adamf/Desktop/trackly/trackly/trackly-Info.plist -genpkginfo /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/ResourceRules.plist -additionalcontentfile /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_generated_info.plist -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Info.plist36"5CEAAD8F-4D48-4F9F-B169-AEA511689EB0-
-b5F6EE05F-366E-45DF-9E5E-E62F1515D299
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Process /Users/adamf/Desktop/trackly/trackly/trackly-Info.plist100"ProcessInfoPlistFile Build/Products/Debug-iphoneos/trackly.app/Info.plist trackly/trackly-Info.plist1bf4c9371e7bb941^c66fca371e7bb941^---0#0#1#-19%DVTDocumentLocation2@62"file:///Users/adamf/Desktop/trackly/trackly/trackly-Info.plist0000000000000000^900"ProcessInfoPlistFile Build/Products/Debug-iphoneos/trackly.app/Info.plist trackly/trackly-Info.plist    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/adamf/Desktop/trackly/trackly/trackly-Info.plist -genpkginfo /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/ResourceRules.plist -additionalcontentfile /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/assetcatalog_generated_info.plist -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/Info.plist36"475A5B2E-918E-44C9-BAFB-D6DBDDFF3045-
+bB42A1596-6B61-4AF1-850B-A62F85092357
 
 CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-azswpgbltaozvydowezfybjlovva/trackly-Prefix.pch.pch trackly/trackly-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427404624.059760
@@ -2725,14 +2727,14 @@ CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/trackly-ghyxaamatyc
 r0
 
 CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent
-s427499017.544248
-e427499017.545317
+s427499064.240721
+e427499064.241777
 r1
 xProcessProductPackaging
 x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist
 x/Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent78618b091e7bb941^679b8b091e7bb941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent0000000000000000^738"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent36"D535B411-85E0-4538-A3BD-0257FE7101AB-
-b5F6EE05F-366E-45DF-9E5E-E62F1515D299
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent221"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcentc1ab3d381e7bb941^4be53d381e7bb941^---0#0#1#-19%DVTDocumentLocation2@112"file:///Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent0000000000000000^738"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/adamf/Desktop/trackly/Build/Intermediates/trackly.build/Debug-iphoneos/trackly.build/trackly.xcent36"21E92A45-5861-41C4-BD76-41F1E28C30B8-
+bB42A1596-6B61-4AF1-850B-A62F85092357
 
 CProcessProductPackaging /Users/adamf/Library/MobileDevice/Provisioning\ Profiles/59358A88-527A-432F-B23D-149BA402DD7E.mobileprovision /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app/embedded.mobileprovision
 s427387251.114223
@@ -2755,11 +2757,11 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection200"Proces
 bF9D101CD-994C-4A6A-9377-08BED0762288
 
 CTouch /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app
-s427499017.538731
-e427499017.543827
+s427499299.671471
+e427499299.675500
 r1
 xTouch
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app47"Touch Build/Products/Debug-iphoneos/trackly.app77f689091e7bb941^19398b091e7bb941^---0#0#1#--365"Touch Build/Products/Debug-iphoneos/trackly.app    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app36"3EE3113B-27D5-41CF-BBE4-A960FEFA659C-
-b5F6EE05F-366E-45DF-9E5E-E62F1515D299
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Touch /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app47"Touch Build/Products/Debug-iphoneos/trackly.app77f4ab231f7bb941^f2eeac231f7bb941^---0#0#1#--365"Touch Build/Products/Debug-iphoneos/trackly.app    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/trackly.app36"F02A424C-6B9D-47CC-8585-73C467E3AFBD-
+bA5951519-373B-42F6-B86B-D037AC5519BD
 

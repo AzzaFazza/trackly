@@ -7,6 +7,20 @@
       buildImplicitDependencies = "YES">
       <BuildActionEntries>
          <BuildActionEntry
+            buildForTesting = "NO"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3683AAE919790D9E005E04E7"
+               BuildableName = "trackly.app"
+               BlueprintName = "trackly"
+               ReferencedContainer = "container:trackly.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
             buildForTesting = "YES"
             buildForRunning = "YES"
             buildForProfiling = "YES"
@@ -15,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3683AAE919790D9E005E04E7"
-               BuildableName = "trackly.app"
-               BlueprintName = "trackly"
-               ReferencedContainer = "container:trackly.xcodeproj">
+               BuildableName = "Taskly.app"
+               BlueprintName = "Taskly"
+               ReferencedContainer = "container:Taskly.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,16 +42,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "3683AB0A19790D9E005E04E7"
-               BuildableName = "tracklyTests.xctest"
-               BlueprintName = "tracklyTests"
-               ReferencedContainer = "container:trackly.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
