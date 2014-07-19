@@ -44,7 +44,6 @@
 	// Do any additional setup after loading the view, typically from a nib.
  //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
     self.navigationController.navigationBar.alpha = 0.9;
-    trayShown = false;
     UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(mySelector:)];
     tapRecognizer.numberOfTapsRequired = 2;
     tapRecognizer.numberOfTouchesRequired = 1;
@@ -60,9 +59,11 @@
     UIView * header = [[UIView alloc]initWithFrame:headerFrame];
     header.layer.cornerRadius = 5.0;
     header.backgroundColor = [self colorWithHexString:@"3F51B5"];
-    createTaskLabel = [[UILabel alloc]initWithFrame:CGRectMake(140, 15, 70, 25)];
+    createTaskLabel = [[UILabel alloc]initWithFrame:CGRectMake(130, 15, 70, 25)];
     createTaskLabel.text = nil;
     createTaskLabel.textColor = [UIColor whiteColor];
+    createTaskLabel.textAlignment = UITextAlignmentCenter;
+    [createTaskLabel setCenter:header.center];
     [header addSubview:createTaskLabel];
     
     CGRect applicationFrame = CGRectMake(0, 0, 300, 200);
@@ -111,6 +112,14 @@
     
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"Roboto-Regular" size:12.0]];
+    self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
+    self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
+                                                                   [UIColor colorWithRed:255.0/255.0 green:250.0/250.0 blue:240.0/240.0 alpha:1.0], UITextAttributeTextColor,
+                                                                   [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8],UITextAttributeTextShadowColor,
+                                                                   [NSValue valueWithUIOffset:UIOffsetMake(0, 1)],
+                                                                   UITextAttributeTextShadowOffset,
+                                                                   [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];
+    
 //    [self.navigationController.navigationBar setBarTintColor:[UIColor greenColor]];
     
 //    //Navbar Font
@@ -166,6 +175,10 @@
     
     menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem, profileItem]];
     
+    
+}
+-(void)viewWillAppear:(BOOL)animated {
+        trayShown = false;
 }
 -(void)hideTray {
     if (trayShown == false) {
@@ -304,6 +317,7 @@
 -(void) createTask : (NSString*)selector{
     NSLog(@"%@", selector);
     createTaskLabel.text = selector;
+    createTaskLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:20.0];
 }
 
 -(UIColor*)colorWithHexString:(NSString*)hex

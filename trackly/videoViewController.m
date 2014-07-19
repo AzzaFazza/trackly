@@ -77,6 +77,9 @@
     } else {
         [self skipView];
     }
+    
+    //Labels font
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"CoquetteRegular" size:74.0]];
 }
 
 - (void)viewWillDisappear:(BOOL)animated

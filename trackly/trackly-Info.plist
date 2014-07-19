@@ -36,12 +36,15 @@
 	<string>UIStatusBarStyleDefault</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>coq.ttf</string>
 		<string>Roboto-Regular.ttf</string>
 		<string>Brandon_blk.otf</string>
 		<string>Brandon_light.otf</string>
 		<string>marker.ttf</string>
 		<string>trace.ttf</string>
 	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<true/>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
