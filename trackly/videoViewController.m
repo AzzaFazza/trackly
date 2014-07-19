@@ -9,6 +9,7 @@
 #import "videoViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import "ViewController.h"
+#import "IFTTTJazzHands.h"
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -18,11 +19,12 @@
 @property (strong, nonatomic) IBOutlet UIView *movieView;
 @property (strong, nonatomic) IBOutlet UIView *gradientView;
 @property (strong, nonatomic) IBOutlet UIView *contentView;
+@property (nonatomic, strong) IFTTTAnimator *animator;
 
 @end
 
 @implementation videoViewController
-
+@synthesize subTitle;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -37,7 +39,8 @@
     [super viewDidLoad];
     if (![@"1" isEqualToString:[[NSUserDefaults standardUserDefaults]
                                 objectForKey:@"aValue"]]) {
-        [[NSUserDefaults standardUserDefaults] setValue:@"1" forKey:@"aValue"];
+        //TODO CHANGE THIS IN PRODUCTION!!
+        [[NSUserDefaults standardUserDefaults] setValue:@"0" forKey:@"aValue"];
         [[NSUserDefaults standardUserDefaults] synchronize];
         
         //Action here
@@ -80,7 +83,9 @@
     
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"CoquetteRegular" size:74.0]];
+    subTitle.font = [UIFont fontWithName:@"CoquetteRegular" size:16.0];
 }
+
 
 - (void)viewWillDisappear:(BOOL)animated
 {
@@ -123,5 +128,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 @end

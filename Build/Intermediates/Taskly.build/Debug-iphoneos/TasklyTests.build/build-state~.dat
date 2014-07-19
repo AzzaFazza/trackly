@@ -1,0 +1,103 @@
+TTasklyTests
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/Info.plist /Users/adamf/Desktop/trackly/tracklyTests/TasklyTests-Info.plist
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.pch trackly/trackly-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053B12B94000000000000036B
+t1404119956
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12B94000000000000019E
+t1404119956
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.pch
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/Info.plist
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/trackly/trackly-Prefix.pch
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/tracklyTests/TasklyTests-Info.plist
+c0000000053C8D61E00000000000002B1
+t1405670942
+s689
+
+CBuild AST from /Users/adamf/Desktop/trackly/tracklyTests/tracklyTests.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbebc8420207bb941^24488520207bb941^---0#1#1#--18"Check dependencies36"B364C4EF-4BC7-40B9-98AF-23D0632CA089-
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphoneos/TasklyTests.build/Objects-normal/armv7/tracklyTests.o /Users/adamf/Desktop/trackly/tracklyTests/tracklyTests.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphoneos/TasklyTests.build/Objects-normal/armv7s/tracklyTests.o /Users/adamf/Desktop/trackly/tracklyTests/tracklyTests.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCopyStringsFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/en.lproj/InfoPlist.strings tracklyTests/en.lproj/InfoPlist.strings
+r0
+
+CGenerateDSYMFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest.dSYM /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/TasklyTests
+r0
+
+CLd /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/TasklyTests normal armv7
+r0
+
+CLd /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/TasklyTests normal armv7s
+r0
+
+CProcessInfoPlistFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/Info.plist /Users/adamf/Desktop/trackly/tracklyTests/TasklyTests-Info.plist
+s427499552.521371
+e427499552.523005
+r1
+xProcessInfoPlistFile
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/Info.plist
+x/Users/adamf/Desktop/trackly/tracklyTests/TasklyTests-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Process /Users/adamf/Desktop/trackly/tracklyTests/TasklyTests-Info.plist116"ProcessInfoPlistFile Build/Products/Debug-iphoneos/TasklyTests.xctest/Info.plist tracklyTests/TasklyTests-Info.plistac8d8520207bb941^c9e38520207bb941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/adamf/Desktop/trackly/tracklyTests/TasklyTests-Info.plist0000000000000000^582"ProcessInfoPlistFile Build/Products/Debug-iphoneos/TasklyTests.xctest/Info.plist tracklyTests/TasklyTests-Info.plist    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/adamf/Desktop/trackly/tracklyTests/TasklyTests-Info.plist -expandbuildsettings -format binary -platform iphoneos -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest/Info.plist36"F9813C44-D15C-4A35-8077-0A6CE6E5DDD1-
+bB6D02153-E152-43E0-A8F8-AE2DC8A56034
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-alimvtqfslsanodpkvmkmkorhqyn/trackly-Prefix.pch.pch trackly/trackly-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.pch trackly/trackly-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427499552.523646
+e427499552.532882
+r0
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.pch
+xtrackly/trackly-Prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/adamf/Desktop/trackly/trackly/trackly-Prefix.pch'
+oclang: error: no input files
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile trackly/trackly-Prefix.pch213"ProcessPCH Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.pch trackly/trackly-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler3d2a8620207bb941^5d6e8820207bb941^-253"clang: error: no such file or directory: '/Users/adamf/Desktop/trackly/trackly/trackly-Prefix.pch'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-427499552#18446744073709551615#0#-2#--20"Apple LLVM 5.1 Error--0#0#1#-19%DVTDocumentLocation3@62"file:///Users/adamf/Desktop/trackly/trackly/trackly-Prefix.pch003464e0ddffdf42^3489"ProcessPCH Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.pch trackly/trackly-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/TasklyTests.build/TasklyTests-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/TasklyTests.build/TasklyTests-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/TasklyTests.build/TasklyTests-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/TasklyTests.build/TasklyTests-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/TasklyTests.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/TasklyTests.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -F/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/Developer/Library/Frameworks -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.d -c /Users/adamf/Desktop/trackly/trackly/trackly-Prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/trackly-Prefix-eeyhskqeljfdkcdgyqxzdefqnkib/trackly-Prefix.pch.pch36"6FC6AA4D-BF68-4394-86F8-8D22BE093754-
+bB6D02153-E152-43E0-A8F8-AE2DC8A56034
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/trackly-Prefix-bpnyzcstlyjocualcrxjbnqnvvst_ast/trackly-Prefix.pch.pch trackly/trackly-Prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/trackly-Prefix-eetxrhrpfprybvhcjykmuawepyft_ast/trackly-Prefix.pch.pch trackly/trackly-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/TasklyTests.xctest
+r0
+

@@ -27,6 +27,7 @@
     UITextField *taskName;
     UITextField *taskNotes;
     UILabel * createTaskLabel;
+    UIView *contentView;
 }
 @end
 
@@ -67,7 +68,7 @@
     [header addSubview:createTaskLabel];
     
     CGRect applicationFrame = CGRectMake(0, 0, 300, 200);
-    UIView *contentView = [[UIView alloc] initWithFrame:applicationFrame];
+    contentView = [[UIView alloc] initWithFrame:applicationFrame];
     contentView.backgroundColor = [UIColor whiteColor];
     contentView.layer.cornerRadius = 5.0;
     taskName = [[UITextField alloc] initWithFrame:CGRectMake(10, 70, 280, 50)];
@@ -81,6 +82,7 @@
     taskName.clearButtonMode = UITextFieldViewModeWhileEditing;
     taskName.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     taskName.delegate = self;
+    [taskName setReturnKeyType:UIReturnKeyDone];
     
     taskNotes = [[UITextField alloc] initWithFrame:CGRectMake(10, 140, 280, 50)];
     taskNotes.borderStyle = UITextBorderStyleRoundedRect;
@@ -93,6 +95,7 @@
     taskNotes.clearButtonMode = UITextFieldViewModeWhileEditing;
     taskNotes.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     taskNotes.delegate = self;
+    [taskNotes setReturnKeyType:UIReturnKeyDone];
 
     [contentView addSubview:taskName];
     [contentView addSubview:taskNotes];
@@ -115,7 +118,7 @@
     self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
     self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                                                    [UIColor colorWithRed:255.0/255.0 green:250.0/250.0 blue:240.0/240.0 alpha:1.0], UITextAttributeTextColor,
-                                                                   [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.8],UITextAttributeTextShadowColor,
+                                                                   [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0],UITextAttributeTextShadowColor,
                                                                    [NSValue valueWithUIOffset:UIOffsetMake(0, 1)],
                                                                    UITextAttributeTextShadowOffset,
                                                                    [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];
@@ -361,6 +364,11 @@
 - (void)customIOS7dialogButtonTouchUpInside: (CustomIOS7AlertView *)alertView clickedButtonAtIndex: (NSInteger)buttonIndex : (NSString*) tagString
 {
     NSLog(@"Button at position %d is clicked on alertView %d.", buttonIndex, [alertView tag]);
+}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField {
+    [taskNotes resignFirstResponder];
+    [taskName resignFirstResponder];
+    return YES;
 }
 
 

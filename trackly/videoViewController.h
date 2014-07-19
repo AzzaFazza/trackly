@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "IFTTTJazzHands.h"
 
-@interface videoViewController : UIViewController
+@interface videoViewController : UIViewController <IFTTTAnimatedScrollViewControllerDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *subTitle;
 
 @end

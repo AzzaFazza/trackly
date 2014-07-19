@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-JazzHands.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-RNGridMenu.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -22,17 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>003B254C242D43F18703B1C9</key>
+		<key>3A845A0E399648F9BAFC4527</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>43B202762170494388CF0034</key>
+		<key>66B4313D86764EDEBF81AFAF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D3396F8935534E9C96E7701A</key>
+		<key>767EC3A2C913454FAB13561B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F9C76793A7364B5CA33FFF88</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -24,6 +24,7 @@
 		3683AB351979215D005E04E7 /* trace.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB3219792108005E04E7 /* trace.ttf */; };
 		369A0933197B219500153F18 /* launchIcons in Resources */ = {isa = PBXBuildFile; fileRef = 369A0932197B219500153F18 /* launchIcons */; };
 		369A0935197B22A300153F18 /* introVid.mov in Resources */ = {isa = PBXBuildFile; fileRef = 369A0934197B22A200153F18 /* introVid.mov */; };
+		369A0938197B32F100153F18 /* IFTTTJazzHandsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0937197B32F100153F18 /* IFTTTJazzHandsViewController.m */; };
 		36B304581979272A001951E2 /* add121@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304521979272A001951E2 /* add121@2x.png */; };
 		36B304591979272A001951E2 /* black14.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304531979272A001951E2 /* black14.png */; };
 		36B3045A1979272A001951E2 /* help1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304541979272A001951E2 /* help1.png */; };
@@ -108,6 +109,8 @@
 		3683AB3219792108005E04E7 /* trace.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = trace.ttf; sourceTree = "<group>"; };
 		369A0932197B219500153F18 /* launchIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = launchIcons; sourceTree = "<group>"; };
 		369A0934197B22A200153F18 /* introVid.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = introVid.mov; sourceTree = "<group>"; };
+		369A0936197B32F100153F18 /* IFTTTJazzHandsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFTTTJazzHandsViewController.h; sourceTree = "<group>"; };
+		369A0937197B32F100153F18 /* IFTTTJazzHandsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFTTTJazzHandsViewController.m; sourceTree = "<group>"; };
 		36B304521979272A001951E2 /* add121@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add121@2x.png"; sourceTree = "<group>"; };
 		36B304531979272A001951E2 /* black14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black14.png; sourceTree = "<group>"; };
 		36B304541979272A001951E2 /* help1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help1.png; sourceTree = "<group>"; };
@@ -231,6 +234,8 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
+				369A0936197B32F100153F18 /* IFTTTJazzHandsViewController.h */,
+				369A0937197B32F100153F18 /* IFTTTJazzHandsViewController.m */,
 				36B304F01979B6B0001951E2 /* VideoView Controller */,
 				36B3047719794EF6001951E2 /* REMenu */,
 				3683AAFC19790D9E005E04E7 /* AppDelegate.h */,
@@ -537,6 +542,7 @@
 				36B3048619794F0A001951E2 /* REMenuItemView.m in Sources */,
 				3683AAFE19790D9E005E04E7 /* AppDelegate.m in Sources */,
 				36B3048419794F0A001951E2 /* REMenuContainerView.m in Sources */,
+				369A0938197B32F100153F18 /* IFTTTJazzHandsViewController.m in Sources */,
 				36B3048319794F0A001951E2 /* REMenu.m in Sources */,
 				3683AAFA19790D9E005E04E7 /* main.m in Sources */,
 				36B3048519794F0A001951E2 /* REMenuItem.m in Sources */,
