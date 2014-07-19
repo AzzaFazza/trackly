@@ -16,6 +16,7 @@
 
 @interface ViewController ()
 {
+    CustomIOS7AlertView * newTask;
     BOOL trayShown;
     float fingerX;
     float fingerY;
@@ -43,6 +44,9 @@
     tapRecognizer.numberOfTapsRequired = 2;
     tapRecognizer.numberOfTouchesRequired = 1;
     [mainView addGestureRecognizer:tapRecognizer];
+    
+    newTask = [[CustomIOS7AlertView alloc]init];
+    newTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
     
     fingerX = 0.0;
     fingerY = 0.0;
@@ -124,9 +128,7 @@
 
 -(void)test:(RNGridMenuItem*)objectName {
     UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Test" message:@"Test" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
-    [alert show];
-    NSLog(@"Lovely Bums");
-    
+    [alert show]; 
 }
 
 -(IBAction)showTray:(id)sender {
@@ -175,50 +177,43 @@
                                                             title:@"Work"
                                                            action:^{
                                                             //Do Nothing
-                                                               CustomIOS7AlertView * workTask = [[CustomIOS7AlertView alloc]init];
-                                                               workTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
-                                                               [workTask show];
-                                                               [self firstTimeTour:@"Work"];
+                                                               [newTask show];
+                                                               [self createTask:@"Work"];
                                                            }];
     RNGridMenuItem * item2 = [[RNGridMenuItem alloc]initWithImage:nil
                                                             title:@"Home"
                                                            action:^{
                                                                //Do Nothing
-                                                               CustomIOS7AlertView * homeTask = [[CustomIOS7AlertView alloc]init];
-                                                               homeTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
-                                                               [homeTask show];
+                                                               [newTask show];
+                                                               [self createTask:@"Home"];
                                                            }];
     RNGridMenuItem * item3 = [[RNGridMenuItem alloc]initWithImage:nil
                                                             title:@"Play"
                                                            action:^{
                                                                //Do Nothing
-                                                               CustomIOS7AlertView * playTask = [[CustomIOS7AlertView alloc]init];
-                                                               playTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
-                                                               [playTask show];
+                                                               [newTask show];
+                                                               [self createTask:@"Play"];
                                                            }];
     RNGridMenuItem * item4 = [[RNGridMenuItem alloc]initWithImage:nil
                                                             title:@"Events"
                                                            action:^{
                                                                //Do Nothing
-                                                               CustomIOS7AlertView * eventsTask = [[CustomIOS7AlertView alloc]init];
-                                                               eventsTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
-                                                               [eventsTask show];
+                                                               [newTask show];
+                                                               [self createTask:@"Events"];
                                                            }];
     RNGridMenuItem * item5 = [[RNGridMenuItem alloc]initWithImage:nil
                                                             title:@"Sporting"
                                                            action:^{
                                                                //Do Nothing
-                                                               CustomIOS7AlertView * sportingTask = [[CustomIOS7AlertView alloc]init];
-                                                               sportingTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
-                                                               [sportingTask show];
+                                                               [newTask show];
+                                                               [self createTask:@"Sporting"];
                                                            }];
     RNGridMenuItem * item6 = [[RNGridMenuItem alloc]initWithImage:nil
                                                             title:@"Other"
                                                            action:^{
                                                                //Do Nothing
-                                                               CustomIOS7AlertView * otherTask = [[CustomIOS7AlertView alloc]init];
-                                                               otherTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
-                                                               [otherTask show];
+                                                               [newTask show];
+                                                               [self createTask:@"Other"];
                                                            }];
     
     NSArray *options = @[
@@ -250,7 +245,8 @@
     
 }
 
--(void) firstTimeTour : (NSString*)selector{
+-(void) createTask : (NSString*)selector{
+    NSLog(selector);
 }
 
 
