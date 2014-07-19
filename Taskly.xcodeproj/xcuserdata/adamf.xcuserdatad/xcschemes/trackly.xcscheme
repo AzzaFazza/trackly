@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3683AAE919790D9E005E04E7"
-            BuildableName = "trackly.app"
-            BlueprintName = "trackly"
-            ReferencedContainer = "container:trackly.xcodeproj">
+            BuildableName = "Taskly.app"
+            BlueprintName = "Taskly"
+            ReferencedContainer = "container:Taskly.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>

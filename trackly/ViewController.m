@@ -50,10 +50,10 @@
     [mainView addGestureRecognizer:tapRecognizer];
     
     nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
-    nameLabel.text = @"Task Name";
+    nameLabel.text = @"Task Name:";
     
     notesLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 120, 100, 25)];
-    notesLabel.text = @"Notes";
+    notesLabel.text = @"Notes:";
     
     CGRect  headerFrame = CGRectMake(0, 0, 300, 50);
     UIView * header = [[UIView alloc]initWithFrame:headerFrame];
@@ -111,7 +111,7 @@
 //    [self firstTimeTour];
     
     //Labels font
-    [[UILabel appearance] setFont:[UIFont fontWithName:@"Roboto-Regular" size:12.0]];
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"Helvetica-Neue" size:6.0]];
     self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
     self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                                                    [UIColor colorWithRed:255.0/255.0 green:250.0/250.0 blue:240.0/240.0 alpha:1.0], UITextAttributeTextColor,
@@ -129,15 +129,15 @@
 //      NSFontAttributeName, nil]];
     
     //Show font
-    for (NSString* family in [UIFont familyNames])
-    {
-        NSLog(@"%@", family);
-    
-        for (NSString* name in [UIFont fontNamesForFamilyName: family])
-        {
-            NSLog(@" %@", name);
-        }
-    }
+//    for (NSString* family in [UIFont familyNames])
+//    {
+//        NSLog(@"%@", family);
+//    
+//        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+//        {
+//            NSLog(@" %@", name);
+//        }
+//    }
 
     //REMenu
     REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Main Page"
@@ -318,6 +318,8 @@
     NSLog(@"%@", selector);
     createTaskLabel.text = selector;
     createTaskLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:20.0];
+    nameLabel.font = [UIFont fontWithName:@"Helvetica" size:8.0];
+    notesLabel.font = [UIFont fontWithName:@"Helvetica" size:8.0];
 }
 
 -(UIColor*)colorWithHexString:(NSString*)hex

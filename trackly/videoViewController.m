@@ -46,7 +46,7 @@
     [super viewWillAppear:YES];
     // Do any additional setup after loading the view from its nib.
     NSBundle *bundle = [NSBundle mainBundle];
-    NSString *moviePath = [bundle pathForResource:@"intro" ofType:@"mp4"];
+    NSString *moviePath = [bundle pathForResource:@"introVid" ofType:@"mov"];
     NSURL *movieURL = [NSURL fileURLWithPath:moviePath];
     
     AVAsset *avAsset = [AVAsset assetWithURL:movieURL];
