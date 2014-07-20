@@ -22,7 +22,7 @@
 @end
 
 @implementation videoViewController
-@synthesize subTitle, introView;
+@synthesize subTitle, startButton;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -84,7 +84,6 @@
     subTitle.font = [UIFont fontWithName:@"CoquetteRegular" size:16.0];
 }
 
-
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
@@ -95,6 +94,7 @@
 {
     [super viewDidAppear:animated];
     [self.avplayer play];
+    startButton.layer.cornerRadius = 5.0;
 }
 
 - (void)dealloc

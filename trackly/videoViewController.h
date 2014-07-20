@@ -11,5 +11,6 @@
 
 @interface videoViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *subTitle;
-@property (weak, nonatomic) IBOutlet EAIntroView *introView;
+@property (weak, nonatomic) IBOutlet UIButton *startButton;
+
 @end

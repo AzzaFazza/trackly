@@ -312,7 +312,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies1cebb6f2377bb941^a69bb8f2377bb941^---0#1#1#--18"Check dependencies36"58810AD9-BB68-4953-8B81-E7DE23421730-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies99bc5db9437bb941^78d15fb9437bb941^---0#1#1#--18"Check dependencies36"7E799787-D8BA-4674-BA00-881C97E933C9-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-JazzHands.build/Objects-normal/armv7s/IFTTTAlphaAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427505500.595703
