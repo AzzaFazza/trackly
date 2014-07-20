@@ -1,0 +1,530 @@
+TPods-JazzHands
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-JazzHands.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053B12B9600000000004D7BC0
+t1404119958
+s5077952
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B12B980000000000A90C10
+t1404119960
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053B12B990000000000649DB0
+t1404119961
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053B12B9E0000000002759920
+t1404119966
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053B12BA800000000000003B4
+t1404119976
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12BAE000000000000019E
+t1404119982
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.o
+t1405814958
+s41388
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.o
+t1405814958
+s41624
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.o
+t1405814958
+s54468
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.o
+t1405814958
+s56224
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.o
+t1405814958
+s14796
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.o
+t1405814958
+s31240
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.o
+t1405814958
+s43388
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.o
+t1405814958
+s44252
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.o
+t1405814958
+s44748
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.o
+t1405814958
+s45848
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.o
+t1405814958
+s41648
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.o
+t1405814958
+s63424
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.o
+t1405814958
+s3392
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands.LinkFileList
+c0000000053CB08AD0000000000000769
+t1405814957
+s1897
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.pch
+t1405814958
+s123592
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.pch
+t1405814958
+s124576
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-JazzHands.a
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m
+c0000000053CAF613000000000000041B
+t1405810195
+s1051
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m
+c0000000053CAF6130000000000000403
+t1405810195
+s1027
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m
+c0000000053CAF61300000000000006AD
+t1405810195
+s1709
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m
+c0000000053CAF6130000000000000DF8
+t1405810195
+s3576
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m
+c0000000053CAF61300000000000000DB
+t1405810195
+s219
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m
+c0000000053CAF61300000000000024C5
+t1405810195
+s9413
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m
+c0000000053CAF61300000000000002B3
+t1405810195
+s691
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m
+c0000000053CAF6130000000000000942
+t1405810195
+s2370
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m
+c0000000053CAF61300000000000007A4
+t1405810195
+s1956
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m
+c0000000053CAF6130000000000000801
+t1405810195
+s2049
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m
+c0000000053CAF6130000000000000454
+t1405810195
+s1108
+
+N/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m
+c0000000053CAF6130000000000001764
+t1405810195
+s5988
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m
+c0000000053CAFFBA0000000000000084
+t1405812666
+s132
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-prefix.pch
+c0000000053CAFFBA000000000000004D
+t1405812666
+s77
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd1eaa42d407bb941^b7ebd92d407bb941^---0#1#1#--18"Check dependencies36"126BE8EA-7800-40BB-BD21-4FCC13CEBA46-
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.294852
+e427507758.397284
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m257"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.o JazzHands/src/IFTTTAlphaAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7f4f4c2e407bb941^b7b5652e407bb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m0000000000000000^3893"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.o JazzHands/src/IFTTTAlphaAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAlphaAnimation.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAlphaAnimation.o36"FB7E3D14-966B-4AF7-AE2C-8CAC8A33687D-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.398776
+e427507758.498444
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m257"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.o JazzHands/src/IFTTTAngleAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere739662e407bb941^6b9a7f2e407bb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m0000000000000000^3893"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.o JazzHands/src/IFTTTAngleAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAngleAnimation.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAngleAnimation.o36"B79C15A2-CC6C-4854-988A-F3A68E0DB6BC-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.460110
+e427507758.576981
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m285"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.o JazzHands/src/IFTTTAnimatedScrollViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9fe9752e407bb941^03b6932e407bb941^---0#0#1#-19%DVTDocumentLocation2@90"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m0000000000000000^3977"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.o JazzHands/src/IFTTTAnimatedScrollViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimatedScrollViewController.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimatedScrollViewController.o36"02CBE357-7A43-4C93-B683-988A746795B1-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.516001
+e427507758.635496
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m247"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.o JazzHands/src/IFTTTAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilered7f842e407bb941^babba22e407bb941^---0#0#1#-19%DVTDocumentLocation2@71"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m0000000000000000^3863"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.o JazzHands/src/IFTTTAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimation.o36"88A59454-5C73-4AD5-A985-B26FC1C5982F-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.578404
+e427507758.656233
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m257"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.o JazzHands/src/IFTTTAnimationFrame.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler7f34942e407bb941^acffa72e407bb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m0000000000000000^3893"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.o JazzHands/src/IFTTTAnimationFrame.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationFrame.o36"265ABF83-5143-4AAA-BA1F-63B18AA4FC5C-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.603076
+e427507758.717321
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m263"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.o JazzHands/src/IFTTTAnimationKeyFrame.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler76a89a2e407bb941^66a3b72e407bb941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m0000000000000000^3911"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.o JazzHands/src/IFTTTAnimationKeyFrame.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimationKeyFrame.o36"6446E028-4DCC-4EFC-BD20-381DEC0F72A6-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.622389
+e427507758.749571
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m245"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.o JazzHands/src/IFTTTAnimator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere2779f2e407bb941^67f0bf2e407bb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m0000000000000000^3857"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.o JazzHands/src/IFTTTAnimator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimator.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTAnimator.o36"18DF9017-7FF3-4202-9278-E013F4AF3298-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.635800
+e427507758.767246
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m257"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.o JazzHands/src/IFTTTColorAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler79e5a22e407bb941^5227c42e407bb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m0000000000000000^3893"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.o JazzHands/src/IFTTTColorAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTColorAnimation.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTColorAnimation.o36"ED518D91-97B9-4AC1-8086-7AA7B3F69623-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.680582
+e427507758.802946
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m257"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.o JazzHands/src/IFTTTFrameAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdacbae2e407bb941^6891cd2e407bb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m0000000000000000^3893"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.o JazzHands/src/IFTTTFrameAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTFrameAnimation.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTFrameAnimation.o36"2C27EFEE-E682-4839-A678-1E7038811530-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.719969
+e427507758.865892
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m255"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.o JazzHands/src/IFTTTHideAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc7bab82e407bb941^7555f82e407bb941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m0000000000000000^3887"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.o JazzHands/src/IFTTTHideAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTHideAnimation.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTHideAnimation.o36"93A7361A-E211-46BC-8723-6C3655A94A80-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.750990
+e427507758.876707
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m257"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.o JazzHands/src/IFTTTScaleAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd865c02e407bb941^085bf82e407bb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m0000000000000000^3893"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.o JazzHands/src/IFTTTScaleAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTScaleAnimation.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTScaleAnimation.o36"600AB1AB-EF2A-4E0F-ADE5-ADB29D26824E-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.o /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.769009
+e427507758.904991
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.o
+x/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimation.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationKeyFrame.h
+d/Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTAnimationFrame.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m269"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.o JazzHands/src/IFTTTTransform3DAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler3f00c52e407bb941^105df82e407bb941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m0000000000000000^3929"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.o JazzHands/src/IFTTTTransform3DAnimation.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.dia -c /Users/adamf/Desktop/trackly/Pods/JazzHands/src/IFTTTTransform3DAnimation.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/IFTTTTransform3DAnimation.o36"B24C2F4C-E71B-4B34-9984-FCBE2D44A8AA-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507758.803222
+e427507758.860107
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.o
+x/Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m245"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.o Pods-JazzHands-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler87c0cd2e407bb941^6551f82e407bb941^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m0000000000000000^3837"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.o Pods-JazzHands-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands-dummy.o36"ECD31AF4-264B-45EA-8955-01A028A5D694-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-JazzHands.a normal i386
+s427507758.909452
+e427507758.924910
+r1
+xLibtool
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-JazzHands.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-JazzHands.a normal i386105"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-JazzHands.a normal i38607eae82e407bb941^af5ff82e407bb941^---0#0#1#--1038"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-JazzHands.a normal i386    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Objects-normal/i386/Pods-JazzHands.LinkFileList -framework CoreGraphics -framework Foundation -framework QuartzCore -framework UIKit -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-JazzHands.a36"239B994F-AFFF-4035-B0E8-DA2FEEDC22FF-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507757.968869
+e427507758.036541
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.pch
+xPods-JazzHands-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Pods-JazzHands-prefix.pch253"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler772ef82d407bb941^465b092e407bb941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-prefix.pch0000000000000000^3706"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-egfuissxjopogvegxrardspwmbov/Pods-JazzHands-prefix.pch.pch36"D8ACD3D7-99E9-4DB1-A82B-242F44A5AADD-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427507757.963676
+e427507758.023187
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.pch
+xPods-JazzHands-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Pods-JazzHands-prefix.pch253"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc2dcf62d407bb941^44fa052e407bb941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-prefix.pch0000000000000000^3740"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/Pods-JazzHands-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JazzHands.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-JazzHands-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-JazzHands-prefix-hdogkxlmpsonuscvuqxlrtnukiap/Pods-JazzHands-prefix.pch.pch36"2C8108A7-9D07-4F5C-832C-83C0D83D851E-
+b703D2620-BE54-4F28-979E-E82E0321B5F6
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-JazzHands-prefix-atckxtsjfiszkbgvxpgtdtaylpgb_ast/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-JazzHands-prefix-bhnqwwylbfqhpgboihycihcexphc_ast/Pods-JazzHands-prefix.pch.pch Pods-JazzHands-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

@@ -1,0 +1,1507 @@
+TTaskly
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-4EB8FFB13C724432B6D017D0.sh
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.pch trackly/Taskly-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.o /Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.o /Users/adamf/Desktop/trackly/trackly/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.o /Users/adamf/Desktop/trackly/trackly/REMenuItemView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.o /Users/adamf/Desktop/trackly/trackly/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.o /Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.o /Users/adamf/Desktop/trackly/trackly/REMenu.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.o /Users/adamf/Desktop/trackly/trackly/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.o /Users/adamf/Desktop/trackly/trackly/REMenuItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.o /Users/adamf/Desktop/trackly/trackly/videoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.o /Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly normal i386
+cCpResource trackly/coq.ttf Build/Products/Debug-iphonesimulator/Taskly.app/coq.ttf
+cCpResource trackly/Roboto-Regular.ttf Build/Products/Debug-iphonesimulator/Taskly.app/Roboto-Regular.ttf
+cCpResource trackly/Brandon_blk.otf Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_blk.otf
+cCpResource trackly/introVid.mov Build/Products/Debug-iphonesimulator/Taskly.app/introVid.mov
+cCpResource trackly/title@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/title@2x.png
+cCpResource trackly/Brandon_light.otf Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_light.otf
+cCpResource trackly/food@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/food@2x.png
+cCpResource trackly/marker.ttf Build/Products/Debug-iphonesimulator/Taskly.app/marker.ttf
+cCpResource trackly/Balloon@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Balloon@2x.png
+cCpResource trackly/three115.png Build/Products/Debug-iphonesimulator/Taskly.app/three115.png
+cCpResource trackly/Icon_Profile@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile@2x.png
+cCpResource trackly/trace.ttf Build/Products/Debug-iphonesimulator/Taskly.app/trace.ttf
+cCpResource trackly/IMG_0434.MOV Build/Products/Debug-iphonesimulator/Taskly.app/IMG_0434.MOV
+cCpResource trackly/add121@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/add121@2x.png
+cCpResource trackly/Icon_Explore@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore@2x.png
+cCpResource trackly/launchIcons Build/Products/Debug-iphonesimulator/Taskly.app/launchIcons
+cCpResource trackly/plus19(1)@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/plus19(1)@2x.png
+cCpResource trackly/black14.png Build/Products/Debug-iphonesimulator/Taskly.app/black14.png
+cCpResource trackly/Icon_Activity@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity@2x.png
+cCpResource trackly/settings3(2).png Build/Products/Debug-iphonesimulator/Taskly.app/settings3(2).png
+cCpResource trackly/Default.png Build/Products/Debug-iphonesimulator/Taskly.app/Default.png
+cCpResource trackly/triangular_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/triangular_@2X.png
+cCpResource trackly/info9.png Build/Products/Debug-iphonesimulator/Taskly.app/info9.png
+cCpResource trackly/geometry_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/geometry_@2X.png
+cCpResource trackly/Icon_Activity.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity.png
+cCpResource trackly/plus24.png Build/Products/Debug-iphonesimulator/Taskly.app/plus24.png
+cCpResource trackly/info12.png Build/Products/Debug-iphonesimulator/Taskly.app/info12.png
+cCpResource trackly/Icon_Home.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home.png
+cCpResource trackly/list23@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/list23@2x.png
+cCpResource trackly/Default@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Default@2x.png
+cCopyStringsFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/en.lproj/InfoPlist.strings trackly/en.lproj/InfoPlist.strings
+cCompileStoryboard /Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard
+cCpResource trackly/Icon_Profile.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile.png
+cCpResource trackly/Default-568h@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Default-568h@2x.png
+cCpResource trackly/notebook_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/notebook_@2X.png
+cCpResource trackly/Icon_Explore.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore.png
+cCpResource trackly/skulls@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/skulls@2x.png
+cCpResource trackly/information38.png Build/Products/Debug-iphonesimulator/Taskly.app/information38.png
+cCpResource trackly/Icon_Home@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home@2x.png
+cCpResource trackly/AppIcons Build/Products/Debug-iphonesimulator/Taskly.app/AppIcons
+cCpResource trackly/reminder4.png Build/Products/Debug-iphonesimulator/Taskly.app/reminder4.png
+cCpResource trackly/help1.png Build/Products/Debug-iphonesimulator/Taskly.app/help1.png
+cCompileAssetCatalog /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app /Users/adamf/Desktop/trackly/trackly/Images.xcassets
+cProcessInfoPlistFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Info.plist /Users/adamf/Desktop/trackly/trackly/Taskly-Info.plist
+cGenerateDSYMFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app.dSYM /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly
+cPhaseScriptExecution Copy\ Pods\ Resources /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-873D5CF412944300B3C465A9.sh
+cTouch /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053B12BA800000000000003B4
+t1404119976
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12BAE000000000000019E
+t1404119982
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+c0000000053B12BB00000000000484210
+t1404119984
+s4735504
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c0000000053B12BAF00000000000085D0
+t1404119983
+s34256
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c0000000053B12BB00000000000446820
+t1404119984
+s4483104
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B12BB2000000000088D8C0
+t1404119986
+s8968384
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053B12BB4000000000048F720
+t1404119988
+s4781856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053B12BB60000000001F1DE10
+t1404119990
+s32628240
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.pch
+t1405809417
+s122068
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.o
+t1405809417
+s62344
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.o
+t1405809417
+s111224
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.o
+t1405809417
+s6948
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.o
+t1405809417
+s180676
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.o
+t1405809417
+s45444
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.o
+t1405809417
+s89788
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.o
+t1405809417
+s126716
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/Taskly.LinkFileList
+c0000000053CAF3080000000000000535
+t1405809416
+s1333
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.o
+t1405809417
+s122536
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.o
+t1405809417
+s3504
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.o
+t1405809417
+s69844
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-4EB8FFB13C724432B6D017D0.sh
+c0000000053CAF3080000000000000103
+t1405809416
+s259
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-873D5CF412944300B3C465A9.sh
+c0000000053CAF308000000000000002F
+t1405809416
+s47
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/assetcatalog_dependencies.txt
+t1405809418
+s637
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/assetcatalog_generated_info.plist
+t1405809418
+s1029
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app
+t1405809418
+s1768
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app.dSYM
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/AppIcons
+t1405809417
+s340
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Balloon@2x.png
+t1405809417
+s1215153
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Base.lproj/Main.storyboardc
+t1405809418
+s238
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_blk.otf
+t1405809417
+s90892
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_light.otf
+t1405809417
+s87228
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Default-568h@2x.png
+t1405809417
+s18594
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Default.png
+t1405809417
+s6540
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Default@2x.png
+t1405809417
+s16107
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/IMG_0434.MOV
+t1405809417
+s26227781
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity.png
+t1405809417
+s2888
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity@2x.png
+t1405809417
+s3754
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore.png
+t1405809417
+s3060
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore@2x.png
+t1405809417
+s4493
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home.png
+t1405809417
+s2307
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home@2x.png
+t1405809417
+s1764
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile.png
+t1405809417
+s2141
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile@2x.png
+t1405809417
+s2339
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Info.plist
+t1405809418
+s1347
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/PkgInfo
+t1405809418
+s8
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Roboto-Regular.ttf
+t1405809417
+s126072
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly
+t1405809417
+s461228
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/add121@2x.png
+t1405809417
+s481
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/black14.png
+t1405809417
+s693
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/coq.ttf
+t1405809417
+s184861
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/en.lproj/InfoPlist.strings
+t1405809417
+s42
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/food@2x.png
+t1405809417
+s5247
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/geometry_@2X.png
+t1405809417
+s4195
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/help1.png
+t1405809417
+s461
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/info12.png
+t1405809417
+s365
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/info9.png
+t1405809417
+s322
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/information38.png
+t1405809417
+s622
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/introVid.mov
+t1405809417
+s8639287
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/launchIcons
+t1405809417
+s136
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/list23@2x.png
+t1405809417
+s120
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/marker.ttf
+t1405809417
+s77144
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/notebook_@2X.png
+t1405809417
+s40118
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/plus19(1)@2x.png
+t1405809417
+s1007
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/plus24.png
+t1405809417
+s121
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/reminder4.png
+t1405809417
+s227
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/settings3(2).png
+t1405809417
+s1258
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/skulls@2x.png
+t1405809417
+s66703
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/three115.png
+t1405809417
+s1030
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/title@2x.png
+t1405809417
+s363422
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/trace.ttf
+t1405809417
+s23180
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/triangular_@2X.png
+t1405809417
+s212
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a
+c0000000053CAF3080000000000071400
+t1405809416
+s463872
+
+N/Users/adamf/Desktop/trackly/trackly/AppDelegate.m
+c0000000053C8D61E00000000000007D5
+t1405670942
+s2005
+
+N/Users/adamf/Desktop/trackly/trackly/AppIcons
+c0000000053CAE64A0000000000000176
+t1405806154
+s374
+
+N/Users/adamf/Desktop/trackly/trackly/Balloon@2x.png
+c0000000053BC32AE0000000000128AB1
+t1404842670
+s1215153
+
+N/Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard
+c0000000053CAF2FE000000000000C95E
+t1405809406
+s51550
+
+N/Users/adamf/Desktop/trackly/trackly/Brandon_blk.otf
+c0000000053BF1A57000000000001630C
+t1405033047
+s90892
+
+N/Users/adamf/Desktop/trackly/trackly/Brandon_light.otf
+c0000000053BF1A5200000000000154BC
+t1405033042
+s87228
+
+N/Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m
+c0000000052E7BE7C0000000000003EB8
+t1390919292
+s16056
+
+N/Users/adamf/Desktop/trackly/trackly/Default-568h@2x.png
+c0000000053BC32AE00000000000048A2
+t1404842670
+s18594
+
+N/Users/adamf/Desktop/trackly/trackly/Default.png
+c0000000053BC32AE000000000000198C
+t1404842670
+s6540
+
+N/Users/adamf/Desktop/trackly/trackly/Default@2x.png
+c0000000053BC32AE0000000000003EEB
+t1404842670
+s16107
+
+N/Users/adamf/Desktop/trackly/trackly/IMG_0434.MOV
+c0000000053C97E760000000001903445
+t1405714038
+s26227781
+
+N/Users/adamf/Desktop/trackly/trackly/Icon_Activity.png
+c0000000053BC32AE0000000000000B48
+t1404842670
+s2888
+
+N/Users/adamf/Desktop/trackly/trackly/Icon_Activity@2x.png
+c0000000053BC32AE0000000000000EAA
+t1404842670
+s3754
+
+N/Users/adamf/Desktop/trackly/trackly/Icon_Explore.png
+c0000000053BC32AE0000000000000BF4
+t1404842670
+s3060
+
+N/Users/adamf/Desktop/trackly/trackly/Icon_Explore@2x.png
+c0000000053BC32AE000000000000118D
+t1404842670
+s4493
+
+N/Users/adamf/Desktop/trackly/trackly/Icon_Home.png
+c0000000053BC32AE0000000000000903
+t1404842670
+s2307
+
+N/Users/adamf/Desktop/trackly/trackly/Icon_Home@2x.png
+c0000000053BC32AE00000000000006E4
+t1404842670
+s1764
+
+N/Users/adamf/Desktop/trackly/trackly/Icon_Profile.png
+c0000000053BC32AE000000000000085D
+t1404842670
+s2141
+
+N/Users/adamf/Desktop/trackly/trackly/Icon_Profile@2x.png
+c0000000053BC32AE0000000000000923
+t1404842670
+s2339
+
+N/Users/adamf/Desktop/trackly/trackly/Images.xcassets
+c0000000053CAEA330000000000000088
+t1405807155
+s136
+
+N/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m
+c0000000053BC32AE00000000000007D6
+t1404842670
+s2006
+
+N/Users/adamf/Desktop/trackly/trackly/REMenu.m
+c0000000053BC32AE0000000000003FB5
+t1404842670
+s16309
+
+N/Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m
+c0000000053BC32AE00000000000007FD
+t1404842670
+s2045
+
+N/Users/adamf/Desktop/trackly/trackly/REMenuItem.m
+c0000000053BC32AE0000000000000D83
+t1404842670
+s3459
+
+N/Users/adamf/Desktop/trackly/trackly/REMenuItemView.m
+c0000000053BC32AE0000000000003991
+t1404842670
+s14737
+
+N/Users/adamf/Desktop/trackly/trackly/Roboto-Regular.ttf
+c00000000539B9B7B000000000001EC78
+t1402706811
+s126072
+
+N/Users/adamf/Desktop/trackly/trackly/Taskly-Info.plist
+c0000000053CAD6DD00000000000005F1
+t1405802205
+s1521
+
+N/Users/adamf/Desktop/trackly/trackly/Taskly-Prefix.pch
+c0000000053C8D61E0000000000000158
+t1405670942
+s344
+
+N/Users/adamf/Desktop/trackly/trackly/ViewController.m
+c0000000053CAF1B60000000000003FE3
+t1405809078
+s16355
+
+N/Users/adamf/Desktop/trackly/trackly/add121@2x.png
+c0000000053C8FD6400000000000001E1
+t1405680996
+s481
+
+N/Users/adamf/Desktop/trackly/trackly/black14.png
+c0000000053C8FD6400000000000002B5
+t1405680996
+s693
+
+N/Users/adamf/Desktop/trackly/trackly/coq.ttf
+c0000000053CAD684000000000002D21D
+t1405802116
+s184861
+
+N/Users/adamf/Desktop/trackly/trackly/en.lproj/InfoPlist.strings
+c0000000053C8D61E000000000000002D
+t1405670942
+s45
+
+N/Users/adamf/Desktop/trackly/trackly/food@2x.png
+c0000000052EFEA2E000000000000147F
+t1391454766
+s5247
+
+N/Users/adamf/Desktop/trackly/trackly/geometry_@2X.png
+c0000000052015AE80000000000001063
+t1375820520
+s4195
+
+N/Users/adamf/Desktop/trackly/trackly/help1.png
+c0000000053C8FD6400000000000001CD
+t1405680996
+s461
+
+N/Users/adamf/Desktop/trackly/trackly/info12.png
+c0000000053C8FD64000000000000016D
+t1405680996
+s365
+
+N/Users/adamf/Desktop/trackly/trackly/info9.png
+c0000000053C90D4E0000000000000142
+t1405685070
+s322
+
+N/Users/adamf/Desktop/trackly/trackly/information38.png
+c0000000053C8FD64000000000000026E
+t1405680996
+s622
+
+N/Users/adamf/Desktop/trackly/trackly/introVid.mov
+c0000000053CAEAFD000000000083D337
+t1405807357
+s8639287
+
+N/Users/adamf/Desktop/trackly/trackly/launchIcons
+c0000000053CAEA0A0000000000000088
+t1405807114
+s136
+
+N/Users/adamf/Desktop/trackly/trackly/list23@2x.png
+c0000000053C91CE80000000000000078
+t1405689064
+s120
+
+N/Users/adamf/Desktop/trackly/trackly/main.m
+c0000000053C8D61E000000000000014F
+t1405670942
+s335
+
+N/Users/adamf/Desktop/trackly/trackly/marker.ttf
+c000000004F64A3D20000000000012D58
+t1331995602
+s77144
+
+N/Users/adamf/Desktop/trackly/trackly/notebook_@2X.png
+c00000000521A64080000000000009CB6
+t1377461256
+s40118
+
+N/Users/adamf/Desktop/trackly/trackly/plus19(1)@2x.png
+c0000000053C91E3800000000000003EF
+t1405689400
+s1007
+
+N/Users/adamf/Desktop/trackly/trackly/plus24.png
+c0000000053C90D4E0000000000000079
+t1405685070
+s121
+
+N/Users/adamf/Desktop/trackly/trackly/reminder4.png
+c0000000053C91D2700000000000000E3
+t1405689127
+s227
+
+N/Users/adamf/Desktop/trackly/trackly/settings3(2).png
+c0000000053C9016B00000000000004EA
+t1405682027
+s1258
+
+N/Users/adamf/Desktop/trackly/trackly/skulls@2x.png
+c00000000530BB628000000000001048F
+t1393276456
+s66703
+
+N/Users/adamf/Desktop/trackly/trackly/three115.png
+c0000000053C8FD640000000000000406
+t1405680996
+s1030
+
+N/Users/adamf/Desktop/trackly/trackly/title@2x.png
+c0000000053C9A58E0000000000058B9E
+t1405724046
+s363422
+
+N/Users/adamf/Desktop/trackly/trackly/trace.ttf
+c000000004B9AE2160000000000005A8C
+t1268441622
+s23180
+
+N/Users/adamf/Desktop/trackly/trackly/triangular_@2X.png
+c0000000052015AE700000000000000D4
+t1375820519
+s212
+
+N/Users/adamf/Desktop/trackly/trackly/videoViewController.m
+c0000000053CAEB9C00000000000011BA
+t1405807516
+s4538
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/AppDelegate.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/REMenu.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/REMenuItem.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/REMenuItemView.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/ViewController.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/main.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/trackly/videoViewController.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies679cfe882a7bb941^71e2ff882a7bb941^---0#1#1#--18"Check dependencies36"771180D8-0179-4A8B-A3C9-2760087400B3-
+
+CCompileAssetCatalog /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app /Users/adamf/Desktop/trackly/trackly/Images.xcassets
+s427502217.829482
+e427502218.721570
+r1
+xCompileAssetCatalog
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app
+x/Users/adamf/Desktop/trackly/trackly/Images.xcassets
+o/* com.apple.actool.compilation-results */
+o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/AppIcon40x40@2x.png
+o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/AppIcon60x60@2x.png
+o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/LaunchImage-700@2x.png
+o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/LaunchImage-700-568h@2x.png
+o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Assets.car
+o/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/assetcatalog_generated_info.plist
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Taskly.app trackly/Images.xcassets91"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Taskly.app trackly/Images.xcassetse0bcd4892a7bb941^36e7b88a2a7bb941^-662"/* com.apple.actool.compilation-results *//Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/AppIcon40x40@2x.png/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/AppIcon60x60@2x.png/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/LaunchImage-700@2x.png/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/LaunchImage-700-568h@2x.png/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Assets.car/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/assetcatalog_generated_info.plist-0#0#1#-19%DVTDocumentLocation2@60"file:///Users/adamf/Desktop/trackly/trackly/Images.xcassets/0000000000000000^1082"CompileAssetCatalog Build/Products/Debug-iphonesimulator/Taskly.app trackly/Images.xcassets    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/actool --output-format human-readable-text --notices --warnings --export-dependency-info /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/assetcatalog_dependencies.txt --output-partial-info-plist /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/assetcatalog_generated_info.plist --app-icon AppIcon --launch-image LaunchImage --platform iphonesimulator --minimum-deployment-target 7.1 --target-device iphone --compress-pngs --compile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app /Users/adamf/Desktop/trackly/trackly/Images.xcassets36"24D8F2FC-6DC0-4A6D-85A8-79F9DA5E6AB8-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.o /Users/adamf/Desktop/trackly/trackly/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.073602
+e427502217.195713
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.o
+x/Users/adamf/Desktop/trackly/trackly/AppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/AppDelegate.m
+d/Users/adamf/Desktop/trackly/trackly/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Compile /Users/adamf/Desktop/trackly/trackly/AppDelegate.m200"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.o trackly/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler27f812892a7bb941^23d739892a7bb941^---0#0#1#-19%DVTDocumentLocation2@57"file:///Users/adamf/Desktop/trackly/trackly/AppDelegate.m0000000000000000^3735"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.o trackly/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.dia -c /Users/adamf/Desktop/trackly/trackly/AppDelegate.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.o36"0F5C2F74-47A0-415D-9B74-01C67D5A0221-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.o /Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.071945
+e427502217.304125
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.o
+x/Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m
+d/Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m216"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.o trackly/CustomIOS7AlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere48312892a7bb941^82e44d892a7bb941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m0000000000000000^3783"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.o trackly/CustomIOS7AlertView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.dia -c /Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.o36"748082C1-375E-4983-8A46-8E189802A686-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.o /Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.361255
+e427502217.416632
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.o
+x/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m
+d/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m212"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.o trackly/RECommonFunctions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler239e5c892a7bb941^10b06a892a7bb941^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m0000000000000000^3771"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.o trackly/RECommonFunctions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.dia -c /Users/adamf/Desktop/trackly/trackly/RECommonFunctions.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.o36"C0F716D8-CA4E-4488-9CAA-B81E5A33F9E5-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.o /Users/adamf/Desktop/trackly/trackly/REMenu.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.304779
+e427502217.559208
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.o
+x/Users/adamf/Desktop/trackly/trackly/REMenu.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/REMenu.m
+d/Users/adamf/Desktop/trackly/trackly/REMenu.h
+d/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuItem.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuContainerView.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuItemView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection53"Compile /Users/adamf/Desktop/trackly/trackly/REMenu.m190"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.o trackly/REMenu.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf2274e892a7bb941^cc4194892a7bb941^---0#0#1#-19%DVTDocumentLocation2@52"file:///Users/adamf/Desktop/trackly/trackly/REMenu.m0000000000000000^3705"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.o trackly/REMenu.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.dia -c /Users/adamf/Desktop/trackly/trackly/REMenu.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.o36"9B13572E-D157-4018-8D9B-FD5A227669C2-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.o /Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.197127
+e427502217.306203
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.o
+x/Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m
+d/Users/adamf/Desktop/trackly/trackly/REMenuContainerView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m216"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.o trackly/REMenuContainerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler469832892a7bb941^28654e892a7bb941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m0000000000000000^3783"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.o trackly/REMenuContainerView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.dia -c /Users/adamf/Desktop/trackly/trackly/REMenuContainerView.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.o36"42C000DF-FA4A-460C-B67A-4B2A4184C5D8-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.o /Users/adamf/Desktop/trackly/trackly/REMenuItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.314327
+e427502217.465999
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.o
+x/Users/adamf/Desktop/trackly/trackly/REMenuItem.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/REMenuItem.m
+d/Users/adamf/Desktop/trackly/trackly/REMenuItem.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuItemView.h
+d/Users/adamf/Desktop/trackly/trackly/REMenu.h
+d/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuContainerView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /Users/adamf/Desktop/trackly/trackly/REMenuItem.m198"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.o trackly/REMenuItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler4a9950892a7bb941^2b4c77892a7bb941^---0#0#1#-19%DVTDocumentLocation2@56"file:///Users/adamf/Desktop/trackly/trackly/REMenuItem.m0000000000000000^3729"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.o trackly/REMenuItem.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.dia -c /Users/adamf/Desktop/trackly/trackly/REMenuItem.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.o36"3B039A6D-C416-43FD-86F9-270183CB1E8F-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.o /Users/adamf/Desktop/trackly/trackly/REMenuItemView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.072550
+e427502217.314060
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.o
+x/Users/adamf/Desktop/trackly/trackly/REMenuItemView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/REMenuItemView.m
+d/Users/adamf/Desktop/trackly/trackly/REMenuItemView.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuItem.h
+d/Users/adamf/Desktop/trackly/trackly/REMenu.h
+d/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuContainerView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/adamf/Desktop/trackly/trackly/REMenuItemView.m206"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.o trackly/REMenuItemView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilercfba12892a7bb941^bd6f50892a7bb941^---0#0#1#-19%DVTDocumentLocation2@60"file:///Users/adamf/Desktop/trackly/trackly/REMenuItemView.m0000000000000000^3753"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.o trackly/REMenuItemView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.dia -c /Users/adamf/Desktop/trackly/trackly/REMenuItemView.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.o36"76BA65CA-F231-4110-89C9-C1D13872188F-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.o /Users/adamf/Desktop/trackly/trackly/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.072249
+e427502217.343305
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.o
+x/Users/adamf/Desktop/trackly/trackly/ViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/ViewController.m
+d/Users/adamf/Desktop/trackly/trackly/ViewController.h
+d/Users/adamf/Desktop/trackly/trackly/REMenu.h
+d/Users/adamf/Desktop/trackly/trackly/RECommonFunctions.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuItem.h
+d/Users/adamf/Desktop/trackly/trackly/REMenuContainerView.h
+d/Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.h
+o/Users/adamf/Desktop/trackly/trackly/ViewController.m:66:37: warning: 'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]
+o    createTaskLabel.textAlignment = UITextAlignmentCenter;
+o                                    ^
+oIn module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:42:5: note: 'UITextAlignmentCenter' declared here
+o    UITextAlignmentCenter,
+o    ^
+o/Users/adamf/Desktop/trackly/trackly/ViewController.m:120:149: warning: 'UITextAttributeTextColor' is deprecated: first deprecated in iOS 7.0 - Use NSForegroundColorAttributeName [-Wdeprecated-declarations]
+o                                                                   [UIColor colorWithRed:255.0/255.0 green:250.0/250.0 blue:240.0/240.0 alpha:1.0], UITextAttributeTextColor,
+o                                                                                                                                                    ^
+oIn module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:23:30: note: 'UITextAttributeTextColor' declared here
+oUIKIT_EXTERN NSString *const UITextAttributeTextColor NS_DEPRECATED_IOS(5_0, 7_0, "Use NSForegroundColorAttributeName");
+o                             ^
+o/Users/adamf/Desktop/trackly/trackly/ViewController.m:121:124: warning: 'UITextAttributeTextShadowColor' is deprecated: first deprecated in iOS 7.0 - Use NSShadowAttributeName with an NSShadow instance as the value [-Wdeprecated-declarations]
+o                                                                   [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0],UITextAttributeTextShadowColor,
+o                                                                                                                           ^
+oIn module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:25:30: note: 'UITextAttributeTextShadowColor' declared here
+oUIKIT_EXTERN NSString *const UITextAttributeTextShadowColor NS_DEPRECATED_IOS(5_0, 7_0, "Use NSShadowAttributeName with an NSShadow instance as the value");
+o                             ^
+o/Users/adamf/Desktop/trackly/trackly/ViewController.m:123:68: warning: 'UITextAttributeTextShadowOffset' is deprecated: first deprecated in iOS 7.0 - Use NSShadowAttributeName with an NSShadow instance as the value [-Wdeprecated-declarations]
+o                                                                   UITextAttributeTextShadowOffset,
+o                                                                   ^
+oIn module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:27:30: note: 'UITextAttributeTextShadowOffset' declared here
+oUIKIT_EXTERN NSString *const UITextAttributeTextShadowOffset NS_DEPRECATED_IOS(5_0, 7_0, "Use NSShadowAttributeName with an NSShadow instance as the value");
+o                             ^
+o/Users/adamf/Desktop/trackly/trackly/ViewController.m:124:120: warning: 'UITextAttributeFont' is deprecated: first deprecated in iOS 7.0 - Use NSFontAttributeName [-Wdeprecated-declarations]
+o                                                                   [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];
+o                                                                                                                       ^
+oIn module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:
+o/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:21:30: note: 'UITextAttributeFont' declared here
+oUIKIT_EXTERN NSString *const UITextAttributeFont NS_DEPRECATED_IOS(5_0, 7_0, "Use NSFontAttributeName");
+o                             ^
+o/Users/adamf/Desktop/trackly/trackly/ViewController.m:305:17: warning: assigning to 'id<RNGridMenuDelegate>' from incompatible type 'ViewController *const __strong'
+o    av.delegate = self;
+o                ^ ~~~~
+o6 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/adamf/Desktop/trackly/trackly/ViewController.m206"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.o trackly/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc39e12892a7bb941^070a58892a7bb941^-4757"/Users/adamf/Desktop/trackly/trackly/ViewController.m:66:37: warning: 'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0 [-Wdeprecated-declarations]    createTaskLabel.textAlignment = UITextAlignmentCenter;                                    ^In module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:42:5: note: 'UITextAlignmentCenter' declared here    UITextAlignmentCenter,    ^/Users/adamf/Desktop/trackly/trackly/ViewController.m:120:149: warning: 'UITextAttributeTextColor' is deprecated: first deprecated in iOS 7.0 - Use NSForegroundColorAttributeName [-Wdeprecated-declarations]                                                                   [UIColor colorWithRed:255.0/255.0 green:250.0/250.0 blue:240.0/240.0 alpha:1.0], UITextAttributeTextColor,                                                                                                                                                    ^In module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:23:30: note: 'UITextAttributeTextColor' declared hereUIKIT_EXTERN NSString *const UITextAttributeTextColor NS_DEPRECATED_IOS(5_0, 7_0, "Use NSForegroundColorAttributeName");                             ^/Users/adamf/Desktop/trackly/trackly/ViewController.m:121:124: warning: 'UITextAttributeTextShadowColor' is deprecated: first deprecated in iOS 7.0 - Use NSShadowAttributeName with an NSShadow instance as the value [-Wdeprecated-declarations]                                                                   [UIColor colorWithRed:0.0 green:0.0 blue:0.0 alpha:0.0],UITextAttributeTextShadowColor,                                                                                                                           ^In module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:25:30: note: 'UITextAttributeTextShadowColor' declared hereUIKIT_EXTERN NSString *const UITextAttributeTextShadowColor NS_DEPRECATED_IOS(5_0, 7_0, "Use NSShadowAttributeName with an NSShadow instance as the value");                             ^/Users/adamf/Desktop/trackly/trackly/ViewController.m:123:68: warning: 'UITextAttributeTextShadowOffset' is deprecated: first deprecated in iOS 7.0 - Use NSShadowAttributeName with an NSShadow instance as the value [-Wdeprecated-declarations]                                                                   UITextAttributeTextShadowOffset,                                                                   ^In module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:27:30: note: 'UITextAttributeTextShadowOffset' declared hereUIKIT_EXTERN NSString *const UITextAttributeTextShadowOffset NS_DEPRECATED_IOS(5_0, 7_0, "Use NSShadowAttributeName with an NSShadow instance as the value");                             ^/Users/adamf/Desktop/trackly/trackly/ViewController.m:124:120: warning: 'UITextAttributeFont' is deprecated: first deprecated in iOS 7.0 - Use NSFontAttributeName [-Wdeprecated-declarations]                                                                   [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];                                                                                                                       ^In module 'UIKit' imported from /Users/adamf/Desktop/trackly/trackly/ViewController.h:9:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h:21:30: note: 'UITextAttributeFont' declared hereUIKIT_EXTERN NSString *const UITextAttributeFont NS_DEPRECATED_IOS(5_0, 7_0, "Use NSFontAttributeName");                             ^/Users/adamf/Desktop/trackly/trackly/ViewController.m:305:17: warning: assigning to 'id<RNGridMenuDelegate>' from incompatible type 'ViewController *const __strong'    av.delegate = self;                ^ ~~~~6 warnings generated.6(36%IDEClangDiagnosticActivityLogMessage2@66"'UITextAlignmentCenter' is deprecated: first deprecated in iOS 6.0-427502217#18446744073709551615#0#1(2@37"'UITextAlignmentCenter' declared here-427502217#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^41#4#41#4#2493#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/adamf/Desktop/trackly/trackly/ViewController.m0000000000000000^65#36#65#36#2108#0#12"Deprecations--2@106"'UITextAttributeTextColor' is deprecated: first deprecated in iOS 7.0 - Use NSForegroundColorAttributeName-427502217#18446744073709551615#0#1(2@40"'UITextAttributeTextColor' declared here-427502217#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^22#29#22#29#925#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/adamf/Desktop/trackly/trackly/ViewController.m0000000000000000^119#148#119#148#4772#0#12"Deprecations--2@142"'UITextAttributeTextShadowColor' is deprecated: first deprecated in iOS 7.0 - Use NSShadowAttributeName with an NSShadow instance as the value-427502217#18446744073709551615#0#1(2@46"'UITextAttributeTextShadowColor' declared here-427502217#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^24#29#24#29#1146#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/adamf/Desktop/trackly/trackly/ViewController.m0000000000000000^120#123#120#123#4921#0#12"Deprecations--2@143"'UITextAttributeTextShadowOffset' is deprecated: first deprecated in iOS 7.0 - Use NSShadowAttributeName with an NSShadow instance as the value-427502217#18446744073709551615#0#1(2@47"'UITextAttributeTextShadowOffset' declared here-427502217#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^26#29#26#29#1444#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/adamf/Desktop/trackly/trackly/ViewController.m0000000000000000^122#67#122#67#5135#0#12"Deprecations--2@90"'UITextAttributeFont' is deprecated: first deprecated in iOS 7.0 - Use NSFontAttributeName-427502217#18446744073709551615#0#1(2@35"'UITextAttributeFont' declared here-427502217#18446744073709551615#0#-0#27"com.apple.dt.IDE.diagnostic3@190"file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIStringDrawing.h0000000000000000^20#29#20#29#728#0#14"Semantic Issue--1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/adamf/Desktop/trackly/trackly/ViewController.m0000000000000000^123#119#123#119#5287#0#12"Deprecations--2@93"Assigning to 'id<RNGridMenuDelegate>' from incompatible type 'ViewController *const __strong'-427502217#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@60"file:///Users/adamf/Desktop/trackly/trackly/ViewController.m0000000000000000^304#16#304#16#13984#0#14"Semantic Issue1(3@60"file:///Users/adamf/Desktop/trackly/trackly/ViewController.m0000000000000000^304#18#304#22#13986#0#-0#0#1#-19%DVTDocumentLocation4@60"file:///Users/adamf/Desktop/trackly/trackly/ViewController.m0000000000000000^3753"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.o trackly/ViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.dia -c /Users/adamf/Desktop/trackly/trackly/ViewController.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.o36"8D324903-F20D-40D8-857F-EC9340046EAB-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.o /Users/adamf/Desktop/trackly/trackly/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.307274
+e427502217.360980
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.o
+x/Users/adamf/Desktop/trackly/trackly/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/main.m
+d/Users/adamf/Desktop/trackly/trackly/AppDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection51"Compile /Users/adamf/Desktop/trackly/trackly/main.m186"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.o trackly/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler732c4f892a7bb941^75ae5c892a7bb941^---0#0#1#-19%DVTDocumentLocation2@50"file:///Users/adamf/Desktop/trackly/trackly/main.m0000000000000000^3693"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.o trackly/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.dia -c /Users/adamf/Desktop/trackly/trackly/main.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.o36"F1629220-61FA-436F-B371-F25B3E42BCB8-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.o /Users/adamf/Desktop/trackly/trackly/videoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.344648
+e427502217.539186
+r1
+xCompileC
+xBuild/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.o
+x/Users/adamf/Desktop/trackly/trackly/videoViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/videoViewController.m
+d/Users/adamf/Desktop/trackly/trackly/videoViewController.h
+d/Users/adamf/Desktop/trackly/trackly/ViewController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /Users/adamf/Desktop/trackly/trackly/videoViewController.m216"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.o trackly/videoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera75d58892a7bb941^9e0c8a892a7bb941^---0#0#1#-19%DVTDocumentLocation2@65"file:///Users/adamf/Desktop/trackly/trackly/videoViewController.m0000000000000000^3783"CompileC Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.o trackly/videoViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.dia -c /Users/adamf/Desktop/trackly/trackly/videoViewController.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.o36"314267F8-AD08-4879-8C0B-530C0AB2D34D-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCompileStoryboard /Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard
+s427502217.798344
+e427502218.194388
+r1
+xCompileStoryboard
+x/Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection52"CompileStoryboard trackly/Base.lproj/Main.storyboard52"CompileStoryboard trackly/Base.lproj/Main.storyboard7c7ecc892a7bb941^9cc3318a2a7bb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard0000000000000000^808"CompileStoryboard trackly/Base.lproj/Main.storyboard    cd /Users/adamf/Desktop/trackly    export IBSC_MINIMUM_COMPATIBILITY_VERSION=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    export XCODE_DEVELOPER_USR_PATH=/Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 7.1 --output-format human-readable-text --compile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Base.lproj/Main.storyboardc /Users/adamf/Desktop/trackly/trackly/Base.lproj/Main.storyboard36"CCCE6F47-E35E-4054-9215-33B93B1B304C-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCopyStringsFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/en.lproj/InfoPlist.strings trackly/en.lproj/InfoPlist.strings
+s427502217.796833
+e427502217.818867
+r1
+xCopyStringsFile
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/en.lproj/InfoPlist.strings
+xtrackly/en.lproj/InfoPlist.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection39"Copy trackly/en.lproj/InfoPlist.strings125"CopyStringsFile Build/Products/Debug-iphonesimulator/Taskly.app/en.lproj/InfoPlist.strings trackly/en.lproj/InfoPlist.strings242acc892a7bb941^fda0d6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@70"file:///Users/adamf/Desktop/trackly/trackly/en.lproj/InfoPlist.strings0000000000000000^571"CopyStringsFile Build/Products/Debug-iphonesimulator/Taskly.app/en.lproj/InfoPlist.strings trackly/en.lproj/InfoPlist.strings    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/en.lproj -- trackly/en.lproj/InfoPlist.strings36"D9BB1046-BED6-4743-85B5-F0284A315964-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/AppIcons Build/Products/Debug-iphonesimulator/Taskly.app/AppIcons
+s427502217.821844
+e427502217.824403
+r1
+xCpResource
+xtrackly/AppIcons
+xBuild/Products/Debug-iphonesimulator/Taskly.app/AppIcons
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Copy Build/Products/Debug-iphonesimulator/Taskly.app/AppIcons84"CpResource trackly/AppIcons Build/Products/Debug-iphonesimulator/Taskly.app/AppIconse278d2892a7bb941^3fadd6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@92"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/AppIcons003464e0ddffdf42^551"CpResource trackly/AppIcons Build/Products/Debug-iphonesimulator/Taskly.app/AppIcons    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/AppIcons /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"A34BAB56-CA71-44F9-8F13-756D264CF79F-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Balloon@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Balloon@2x.png
+s427502217.766919
+e427502217.770771
+r1
+xCpResource
+xtrackly/Balloon@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Balloon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Balloon@2x.png96"CpResource trackly/Balloon@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Balloon@2x.png8b6bc4892a7bb941^f65dc5892a7bb941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Balloon@2x.png003464e0ddffdf42^569"CpResource trackly/Balloon@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Balloon@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Balloon@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"D3A1C831-3C65-4C99-A1D8-EEB70F4A9D6D-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Brandon_blk.otf Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_blk.otf
+s427502217.761592
+e427502217.763266
+r1
+xCpResource
+xtrackly/Brandon_blk.otf
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Brandon_blk.otf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_blk.otf98"CpResource trackly/Brandon_blk.otf Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_blk.otf4e0ec3892a7bb941^f087c3892a7bb941^---0#0#1#-19%DVTDocumentLocation2@99"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_blk.otf003464e0ddffdf42^572"CpResource trackly/Brandon_blk.otf Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_blk.otf    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Brandon_blk.otf /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"CBCD9ADC-4F43-4EAF-A095-658D52267549-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Brandon_light.otf Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_light.otf
+s427502217.763926
+e427502217.765990
+r1
+xCpResource
+xtrackly/Brandon_light.otf
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Brandon_light.otf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_light.otf102"CpResource trackly/Brandon_light.otf Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_light.otfdfc1c3892a7bb941^9e29c4892a7bb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_light.otf003464e0ddffdf42^578"CpResource trackly/Brandon_light.otf Build/Products/Debug-iphonesimulator/Taskly.app/Brandon_light.otf    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Brandon_light.otf /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"78B46D8A-ACE8-40C5-8DB7-E7DB859E4AE2-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Default-568h@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Default-568h@2x.png
+s427502217.801343
+e427502217.803663
+r1
+xCpResource
+xtrackly/Default-568h@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Default-568h@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Default-568h@2x.png106"CpResource trackly/Default-568h@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Default-568h@2x.pngb03bcd892a7bb941^847fcd892a7bb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Default-568h@2x.png003464e0ddffdf42^584"CpResource trackly/Default-568h@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Default-568h@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Default-568h@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"EA8537F9-BB76-4D42-B5F4-543A6FC22A9A-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Default.png Build/Products/Debug-iphonesimulator/Taskly.app/Default.png
+s427502217.788150
+e427502217.791790
+r1
+xCpResource
+xtrackly/Default.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Default.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Default.png90"CpResource trackly/Default.png Build/Products/Debug-iphonesimulator/Taskly.app/Default.pngab20ca892a7bb941^b9fdca892a7bb941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Default.png003464e0ddffdf42^560"CpResource trackly/Default.png Build/Products/Debug-iphonesimulator/Taskly.app/Default.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Default.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"071399A6-0E35-4945-B842-1E11BE354DCA-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Default@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Default@2x.png
+s427502217.796044
+e427502217.798533
+r1
+xCpResource
+xtrackly/Default@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Default@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Default@2x.png96"CpResource trackly/Default@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Default@2x.pngbce8cb892a7bb941^3e3ecd892a7bb941^---0#0#1#-19%DVTDocumentLocation2@98"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Default@2x.png003464e0ddffdf42^569"CpResource trackly/Default@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Default@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Default@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"1BE64012-E84F-43EC-B3E7-B817433E71FF-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/IMG_0434.MOV Build/Products/Debug-iphonesimulator/Taskly.app/IMG_0434.MOV
+s427502217.772306
+e427502217.885464
+r1
+xCpResource
+xtrackly/IMG_0434.MOV
+xBuild/Products/Debug-iphonesimulator/Taskly.app/IMG_0434.MOV
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/Taskly.app/IMG_0434.MOV92"CpResource trackly/IMG_0434.MOV Build/Products/Debug-iphonesimulator/Taskly.app/IMG_0434.MOVb0cac5892a7bb941^fed6e2892a7bb941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/IMG_0434.MOV003464e0ddffdf42^563"CpResource trackly/IMG_0434.MOV Build/Products/Debug-iphonesimulator/Taskly.app/IMG_0434.MOV    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/IMG_0434.MOV /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"A1EF71D6-1718-47AB-8AE5-9085D569E3BA-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Icon_Activity.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity.png
+s427502217.792333
+e427502217.793495
+r1
+xCpResource
+xtrackly/Icon_Activity.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity.png102"CpResource trackly/Icon_Activity.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity.png1de7ca892a7bb941^fe2bcb892a7bb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity.png003464e0ddffdf42^578"CpResource trackly/Icon_Activity.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Icon_Activity.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"C5964FD1-8678-4EBE-9E89-D09E044AC499-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Icon_Activity@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity@2x.png
+s427502217.782605
+e427502217.784649
+r1
+xCpResource
+xtrackly/Icon_Activity@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity@2x.png108"CpResource trackly/Icon_Activity@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity@2x.png556cc8892a7bb941^26a7ca892a7bb941^---0#0#1#-19%DVTDocumentLocation2@104"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity@2x.png003464e0ddffdf42^587"CpResource trackly/Icon_Activity@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Activity@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Icon_Activity@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"AF4794AD-3059-4FA4-928F-237D6FDEF636-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Icon_Explore.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore.png
+s427502217.805391
+e427502217.811099
+r1
+xCpResource
+xtrackly/Icon_Explore.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore.png100"CpResource trackly/Icon_Explore.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore.pngd28bce892a7bb941^9599d6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore.png003464e0ddffdf42^575"CpResource trackly/Icon_Explore.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Icon_Explore.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"C80B57B6-DC51-4A3C-8BF8-4597CCB59300-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Icon_Explore@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore@2x.png
+s427502217.775374
+e427502217.777171
+r1
+xCpResource
+xtrackly/Icon_Explore@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore@2x.png106"CpResource trackly/Icon_Explore@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore@2x.png7096c6892a7bb941^2ff7c9892a7bb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore@2x.png003464e0ddffdf42^584"CpResource trackly/Icon_Explore@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Explore@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Icon_Explore@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"3D9B58C0-DAFA-4E3A-B607-643564192B3E-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Icon_Home.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home.png
+s427502217.794810
+e427502217.795924
+r1
+xCpResource
+xtrackly/Icon_Home.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Icon_Home.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home.png94"CpResource trackly/Icon_Home.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home.png378bcb892a7bb941^19c8cb892a7bb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home.png003464e0ddffdf42^566"CpResource trackly/Icon_Home.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Icon_Home.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"76D559E3-80D6-4912-A0C3-75657EB8C4AF-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Icon_Home@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home@2x.png
+s427502217.820083
+e427502217.823036
+r1
+xCpResource
+xtrackly/Icon_Home@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Icon_Home@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home@2x.png100"CpResource trackly/Icon_Home@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home@2x.png8847d2892a7bb941^3fa9d6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home@2x.png003464e0ddffdf42^575"CpResource trackly/Icon_Home@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Home@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Icon_Home@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"1807C165-84A2-4DDC-B924-ABE7595AD205-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Icon_Profile.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile.png
+s427502217.798717
+e427502217.801068
+r1
+xCpResource
+xtrackly/Icon_Profile.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile.png100"CpResource trackly/Icon_Profile.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile.pngd5afcc892a7bb941^5473cd892a7bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile.png003464e0ddffdf42^575"CpResource trackly/Icon_Profile.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Icon_Profile.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"4E1DA3FA-9DFC-4129-85F9-92514760D4F3-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Icon_Profile@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile@2x.png
+s427502217.770007
+e427502217.772855
+r1
+xCpResource
+xtrackly/Icon_Profile@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile@2x.png106"CpResource trackly/Icon_Profile@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile@2x.png3738c5892a7bb941^f0dec5892a7bb941^---0#0#1#-19%DVTDocumentLocation2@103"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile@2x.png003464e0ddffdf42^584"CpResource trackly/Icon_Profile@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/Icon_Profile@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Icon_Profile@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"5EC834C7-6EA4-43BB-A0EE-6D99D801F2FE-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/Roboto-Regular.ttf Build/Products/Debug-iphonesimulator/Taskly.app/Roboto-Regular.ttf
+s427502217.761317
+e427502217.763221
+r1
+xCpResource
+xtrackly/Roboto-Regular.ttf
+xBuild/Products/Debug-iphonesimulator/Taskly.app/Roboto-Regular.ttf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphonesimulator/Taskly.app/Roboto-Regular.ttf104"CpResource trackly/Roboto-Regular.ttf Build/Products/Debug-iphonesimulator/Taskly.app/Roboto-Regular.ttf33f9c2892a7bb941^b472c3892a7bb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Roboto-Regular.ttf003464e0ddffdf42^581"CpResource trackly/Roboto-Regular.ttf Build/Products/Debug-iphonesimulator/Taskly.app/Roboto-Regular.ttf    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/Roboto-Regular.ttf /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"A4D22524-6B49-4856-9798-71EBA4F8F790-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/add121@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/add121@2x.png
+s427502217.773426
+e427502217.775864
+r1
+xCpResource
+xtrackly/add121@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/add121@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/Taskly.app/add121@2x.png94"CpResource trackly/add121@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/add121@2x.pnge014c6892a7bb941^37a7c6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/add121@2x.png003464e0ddffdf42^566"CpResource trackly/add121@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/add121@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/add121@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"06272D4A-EE94-41FD-B919-3CCD280EFCEF-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/black14.png Build/Products/Debug-iphonesimulator/Taskly.app/black14.png
+s427502217.781981
+e427502217.784152
+r1
+xCpResource
+xtrackly/black14.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/black14.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphonesimulator/Taskly.app/black14.png90"CpResource trackly/black14.png Build/Products/Debug-iphonesimulator/Taskly.app/black14.png494cc8892a7bb941^9d9fca892a7bb941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/black14.png003464e0ddffdf42^560"CpResource trackly/black14.png Build/Products/Debug-iphonesimulator/Taskly.app/black14.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/black14.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"26B88535-8A81-437D-BF42-926094F5B86B-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/coq.ttf Build/Products/Debug-iphonesimulator/Taskly.app/coq.ttf
+s427502217.761140
+e427502217.762761
+r1
+xCpResource
+xtrackly/coq.ttf
+xBuild/Products/Debug-iphonesimulator/Taskly.app/coq.ttf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Copy Build/Products/Debug-iphonesimulator/Taskly.app/coq.ttf82"CpResource trackly/coq.ttf Build/Products/Debug-iphonesimulator/Taskly.app/coq.ttff6ebc2892a7bb941^eb52c3892a7bb941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/coq.ttf003464e0ddffdf42^548"CpResource trackly/coq.ttf Build/Products/Debug-iphonesimulator/Taskly.app/coq.ttf    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/coq.ttf /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"6DF78FA7-88AB-4288-A26D-731856A31BCE-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/food@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/food@2x.png
+s427502217.764347
+e427502217.766569
+r1
+xCpResource
+xtrackly/food@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/food@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphonesimulator/Taskly.app/food@2x.png90"CpResource trackly/food@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/food@2x.pngadc1c3892a7bb941^753ec4892a7bb941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/food@2x.png003464e0ddffdf42^560"CpResource trackly/food@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/food@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/food@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"92D3F809-15F6-49A8-9EA8-7CC6ABDFDE35-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/geometry_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/geometry_@2X.png
+s427502217.792254
+e427502217.793942
+r1
+xCpResource
+xtrackly/geometry_@2X.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/geometry_@2X.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/Taskly.app/geometry_@2X.png100"CpResource trackly/geometry_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/geometry_@2X.png5708cb892a7bb941^bb42cb892a7bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/geometry_@2X.png003464e0ddffdf42^575"CpResource trackly/geometry_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/geometry_@2X.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/geometry_@2X.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"C46D89E9-DAF0-4D9E-B34C-5464422B9C17-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/help1.png Build/Products/Debug-iphonesimulator/Taskly.app/help1.png
+s427502217.827744
+e427502217.831602
+r1
+xCpResource
+xtrackly/help1.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/help1.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphonesimulator/Taskly.app/help1.png86"CpResource trackly/help1.png Build/Products/Debug-iphonesimulator/Taskly.app/help1.png7903d4892a7bb941^e5b5d6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/help1.png003464e0ddffdf42^554"CpResource trackly/help1.png Build/Products/Debug-iphonesimulator/Taskly.app/help1.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/help1.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"AFAEB0B3-0827-4FA1-93EB-92A7F7AB9FD1-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/info12.png Build/Products/Debug-iphonesimulator/Taskly.app/info12.png
+s427502217.794241
+e427502217.796148
+r1
+xCpResource
+xtrackly/info12.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/info12.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphonesimulator/Taskly.app/info12.png88"CpResource trackly/info12.png Build/Products/Debug-iphonesimulator/Taskly.app/info12.png897ccb892a7bb941^34d9cb892a7bb941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/info12.png003464e0ddffdf42^557"CpResource trackly/info12.png Build/Products/Debug-iphonesimulator/Taskly.app/info12.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/info12.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"26A6B61A-785A-4CF3-A476-9B3DE2AF03E9-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/info9.png Build/Products/Debug-iphonesimulator/Taskly.app/info9.png
+s427502217.790357
+e427502217.793538
+r1
+xCpResource
+xtrackly/info9.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/info9.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphonesimulator/Taskly.app/info9.png86"CpResource trackly/info9.png Build/Products/Debug-iphonesimulator/Taskly.app/info9.png11acca892a7bb941^543bcb892a7bb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/info9.png003464e0ddffdf42^554"CpResource trackly/info9.png Build/Products/Debug-iphonesimulator/Taskly.app/info9.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/info9.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"C88C4F96-17E9-4B9A-8CA4-2A5353EC6A7F-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/information38.png Build/Products/Debug-iphonesimulator/Taskly.app/information38.png
+s427502217.815673
+e427502217.820662
+r1
+xCpResource
+xtrackly/information38.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/information38.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Copy Build/Products/Debug-iphonesimulator/Taskly.app/information38.png102"CpResource trackly/information38.png Build/Products/Debug-iphonesimulator/Taskly.app/information38.png588dd1892a7bb941^51a5d6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@101"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/information38.png003464e0ddffdf42^578"CpResource trackly/information38.png Build/Products/Debug-iphonesimulator/Taskly.app/information38.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/information38.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"24AE177E-EB13-4DD5-922A-B4646D1EBF79-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/introVid.mov Build/Products/Debug-iphonesimulator/Taskly.app/introVid.mov
+s427502217.762467
+e427502217.778216
+r1
+xCpResource
+xtrackly/introVid.mov
+xBuild/Products/Debug-iphonesimulator/Taskly.app/introVid.mov
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/Taskly.app/introVid.mov92"CpResource trackly/introVid.mov Build/Products/Debug-iphonesimulator/Taskly.app/introVid.mov7842c3892a7bb941^245eca892a7bb941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/introVid.mov003464e0ddffdf42^563"CpResource trackly/introVid.mov Build/Products/Debug-iphonesimulator/Taskly.app/introVid.mov    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/introVid.mov /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"6BF48F91-8D08-43A5-A051-69EB72470181-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/launchIcons Build/Products/Debug-iphonesimulator/Taskly.app/launchIcons
+s427502217.777128
+e427502217.789511
+r1
+xCpResource
+xtrackly/launchIcons
+xBuild/Products/Debug-iphonesimulator/Taskly.app/launchIcons
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Copy Build/Products/Debug-iphonesimulator/Taskly.app/launchIcons90"CpResource trackly/launchIcons Build/Products/Debug-iphonesimulator/Taskly.app/launchIcons739cc7892a7bb941^e8bcca892a7bb941^---0#0#1#-19%DVTDocumentLocation2@95"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/launchIcons003464e0ddffdf42^560"CpResource trackly/launchIcons Build/Products/Debug-iphonesimulator/Taskly.app/launchIcons    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/launchIcons /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"EFC76E49-C58C-4CD8-9A52-25F923F2D174-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/list23@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/list23@2x.png
+s427502217.795872
+e427502217.798118
+r1
+xCpResource
+xtrackly/list23@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/list23@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/Taskly.app/list23@2x.png94"CpResource trackly/list23@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/list23@2x.png38f3cb892a7bb941^46b5cc892a7bb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/list23@2x.png003464e0ddffdf42^566"CpResource trackly/list23@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/list23@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/list23@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"1A4A2A51-8A97-4BAE-840C-6CFD5278DCDB-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/marker.ttf Build/Products/Debug-iphonesimulator/Taskly.app/marker.ttf
+s427502217.765955
+e427502217.769690
+r1
+xCpResource
+xtrackly/marker.ttf
+xBuild/Products/Debug-iphonesimulator/Taskly.app/marker.ttf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphonesimulator/Taskly.app/marker.ttf88"CpResource trackly/marker.ttf Build/Products/Debug-iphonesimulator/Taskly.app/marker.ttf8a73c4892a7bb941^2653c5892a7bb941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/marker.ttf003464e0ddffdf42^557"CpResource trackly/marker.ttf Build/Products/Debug-iphonesimulator/Taskly.app/marker.ttf    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/marker.ttf /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"143E93E2-E2D0-46F6-96F4-F1AF57B9CC61-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/notebook_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/notebook_@2X.png
+s427502217.803929
+e427502217.805203
+r1
+xCpResource
+xtrackly/notebook_@2X.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/notebook_@2X.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/Taskly.app/notebook_@2X.png100"CpResource trackly/notebook_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/notebook_@2X.pngbce6cd892a7bb941^1893d6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/notebook_@2X.png003464e0ddffdf42^575"CpResource trackly/notebook_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/notebook_@2X.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/notebook_@2X.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"FC23C538-2154-4770-9FEB-3F7AFAB964C5-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/plus19(1)@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/plus19(1)@2x.png
+s427502217.777370
+e427502217.778748
+r1
+xCpResource
+xtrackly/plus19(1)@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/plus19(1)@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/Taskly.app/plus19(1)@2x.png100"CpResource trackly/plus19(1)@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/plus19(1)@2x.png5917c7892a7bb941^6476ca892a7bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/plus19(1)@2x.png003464e0ddffdf42^575"CpResource trackly/plus19(1)@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/plus19(1)@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/plus19(1)@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"5774A70C-2C67-486F-B54C-5D2BD5447FA1-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/plus24.png Build/Products/Debug-iphonesimulator/Taskly.app/plus24.png
+s427502217.793663
+e427502217.794695
+r1
+xCpResource
+xtrackly/plus24.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/plus24.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Copy Build/Products/Debug-iphonesimulator/Taskly.app/plus24.png88"CpResource trackly/plus24.png Build/Products/Debug-iphonesimulator/Taskly.app/plus24.png2c44cb892a7bb941^c971cb892a7bb941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/plus24.png003464e0ddffdf42^557"CpResource trackly/plus24.png Build/Products/Debug-iphonesimulator/Taskly.app/plus24.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/plus24.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"92EA618E-CA83-4D69-9408-588D82C01F31-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/reminder4.png Build/Products/Debug-iphonesimulator/Taskly.app/reminder4.png
+s427502217.824414
+e427502217.828289
+r1
+xCpResource
+xtrackly/reminder4.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/reminder4.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/Taskly.app/reminder4.png94"CpResource trackly/reminder4.png Build/Products/Debug-iphonesimulator/Taskly.app/reminder4.png1b67d3892a7bb941^b3b1d6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/reminder4.png003464e0ddffdf42^566"CpResource trackly/reminder4.png Build/Products/Debug-iphonesimulator/Taskly.app/reminder4.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/reminder4.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"96460780-96EB-465E-BA49-F6ED2F98D340-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/settings3(2).png Build/Products/Debug-iphonesimulator/Taskly.app/settings3(2).png
+s427502217.786544
+e427502217.788096
+r1
+xCpResource
+xtrackly/settings3(2).png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/settings3(2).png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy Build/Products/Debug-iphonesimulator/Taskly.app/settings3(2).png100"CpResource trackly/settings3(2).png Build/Products/Debug-iphonesimulator/Taskly.app/settings3(2).pngb071c9892a7bb941^5eb9ca892a7bb941^---0#0#1#-19%DVTDocumentLocation2@100"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/settings3(2).png003464e0ddffdf42^575"CpResource trackly/settings3(2).png Build/Products/Debug-iphonesimulator/Taskly.app/settings3(2).png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/settings3(2).png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"8BFAFA65-ECFA-4778-ACEC-4B91D3E9B588-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/skulls@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/skulls@2x.png
+s427502217.811265
+e427502217.813436
+r1
+xCpResource
+xtrackly/skulls@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/skulls@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Copy Build/Products/Debug-iphonesimulator/Taskly.app/skulls@2x.png94"CpResource trackly/skulls@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/skulls@2x.pngcec1cf892a7bb941^0a9ed6892a7bb941^---0#0#1#-19%DVTDocumentLocation2@97"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/skulls@2x.png003464e0ddffdf42^566"CpResource trackly/skulls@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/skulls@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/skulls@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"1989739F-80AD-4569-98A3-06D256011CC4-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/three115.png Build/Products/Debug-iphonesimulator/Taskly.app/three115.png
+s427502217.766870
+e427502217.770246
+r1
+xCpResource
+xtrackly/three115.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/three115.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/Taskly.app/three115.png92"CpResource trackly/three115.png Build/Products/Debug-iphonesimulator/Taskly.app/three115.png9488c4892a7bb941^f35ac5892a7bb941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/three115.png003464e0ddffdf42^563"CpResource trackly/three115.png Build/Products/Debug-iphonesimulator/Taskly.app/three115.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/three115.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"7B3DCD4F-3B56-4236-9DE7-9188F09A5A8E-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/title@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/title@2x.png
+s427502217.762940
+e427502217.765186
+r1
+xCpResource
+xtrackly/title@2x.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/title@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Copy Build/Products/Debug-iphonesimulator/Taskly.app/title@2x.png92"CpResource trackly/title@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/title@2x.pngfe61c3892a7bb941^dec9c3892a7bb941^---0#0#1#-19%DVTDocumentLocation2@96"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/title@2x.png003464e0ddffdf42^563"CpResource trackly/title@2x.png Build/Products/Debug-iphonesimulator/Taskly.app/title@2x.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/title@2x.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"6841200E-6BB4-427D-8207-4CE04ABFF3F2-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/trace.ttf Build/Products/Debug-iphonesimulator/Taskly.app/trace.ttf
+s427502217.771781
+e427502217.773068
+r1
+xCpResource
+xtrackly/trace.ttf
+xBuild/Products/Debug-iphonesimulator/Taskly.app/trace.ttf
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Copy Build/Products/Debug-iphonesimulator/Taskly.app/trace.ttf86"CpResource trackly/trace.ttf Build/Products/Debug-iphonesimulator/Taskly.app/trace.ttf5cabc5892a7bb941^31ebc5892a7bb941^---0#0#1#-19%DVTDocumentLocation2@93"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/trace.ttf003464e0ddffdf42^554"CpResource trackly/trace.ttf Build/Products/Debug-iphonesimulator/Taskly.app/trace.ttf    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/trace.ttf /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"7F2989F3-F724-494A-BAE8-879009136424-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CCpResource trackly/triangular_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/triangular_@2X.png
+s427502217.789690
+e427502217.791302
+r1
+xCpResource
+xtrackly/triangular_@2X.png
+xBuild/Products/Debug-iphonesimulator/Taskly.app/triangular_@2X.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection71"Copy Build/Products/Debug-iphonesimulator/Taskly.app/triangular_@2X.png104"CpResource trackly/triangular_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/triangular_@2X.png213cca892a7bb941^f4c5ca892a7bb941^---0#0#1#-19%DVTDocumentLocation2@102"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/triangular_@2X.png003464e0ddffdf42^581"CpResource trackly/triangular_@2X.png Build/Products/Debug-iphonesimulator/Taskly.app/triangular_@2X.png    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/adamf/Desktop/trackly/trackly/triangular_@2X.png /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app36"4EBAD9D9-D78A-4D1F-B297-7B3F9333843E-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CGenerateDSYMFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app.dSYM /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly
+s427502218.724633
+e427502218.764142
+r1
+xGenerateDSYMFile
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app.dSYM
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Generate /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app.dSYM124"GenerateDSYMFile Build/Products/Debug-iphonesimulator/Taskly.app.dSYM Build/Products/Debug-iphonesimulator/Taskly.app/Tasklyef8db98a2a7bb941^d7a4c38a2a7bb941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app.dSYM003464e0ddffdf42^625"GenerateDSYMFile Build/Products/Debug-iphonesimulator/Taskly.app.dSYM Build/Products/Debug-iphonesimulator/Taskly.app/Taskly    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app.dSYM36"BEC641B3-5EA4-4E21-AFF8-9B7B75A2E295-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CLd /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly normal i386
+s427502217.561471
+e427502217.760231
+r1
+xLd
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly
+xnormal
+xi386
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/Taskly.LinkFileList
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/crt1.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/CustomIOS7AlertView.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/ViewController.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItemView.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/AppDelegate.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuContainerView.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenu.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/main.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/REMenuItem.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/videoViewController.o
+d/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/RECommonFunctions.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreMIDI.framework/CoreMIDI
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Security.framework/Security
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreImage.framework/CoreImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/CoreText.framework/CoreText
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vImage.framework/vImage
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/vecLib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvDSP.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_override.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcache_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcommonCrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcorecrypto_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcompiler_rt_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libcopyfile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libdyld_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libmacho_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libnotify_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libremovefile_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libunwind_sim.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/libsystem_sim_asl.dylib
+d/usr/lib/libSystem.B.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libLAPACK.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libBLAS.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvMisc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/system/host/libdyld.dylib
+d/usr/lib/system/libcache.dylib
+d/usr/lib/system/libcommonCrypto.dylib
+d/usr/lib/system/libcompiler_rt.dylib
+d/usr/lib/system/libcopyfile.dylib
+d/usr/lib/system/libcorecrypto.dylib
+d/usr/lib/system/libkeymgr.dylib
+d/usr/lib/system/liblaunch.dylib
+d/usr/lib/system/libmacho.dylib
+d/usr/lib/system/libquarantine.dylib
+d/usr/lib/system/libremovefile.dylib
+d/usr/lib/system/libsystem_asl.dylib
+d/usr/lib/system/libsystem_blocks.dylib
+d/usr/lib/system/libsystem_c.dylib
+d/usr/lib/system/libsystem_configuration.dylib
+d/usr/lib/system/libsystem_dnssd.dylib
+d/usr/lib/system/libsystem_info.dylib
+d/usr/lib/system/libsystem_kernel.dylib
+d/usr/lib/system/libsystem_m.dylib
+d/usr/lib/system/libsystem_malloc.dylib
+d/usr/lib/system/libsystem_notify.dylib
+d/usr/lib/system/libsystem_platform.dylib
+d/usr/lib/system/libsystem_pthread.dylib
+d/usr/lib/system/libsystem_sandbox.dylib
+d/usr/lib/system/libunc.dylib
+d/usr/lib/system/libunwind.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Link /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly69"Ld Build/Products/Debug-iphonesimulator/Taskly.app/Taskly normal i38662d68f892a7bb941^389fc2892a7bb941^---0#0#1#--1468"Ld Build/Products/Debug-iphonesimulator/Taskly.app/Taskly normal i386    cd /Users/adamf/Desktop/trackly    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/Taskly.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -ObjC -framework Accelerate -framework CoreGraphics -framework QuartzCore -fobjc-arc -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=7.1 -framework AVFoundation -framework Accelerate -framework QuartzCore -framework CoreGraphics -framework UIKit -framework Foundation -lPods -Xlinker -dependency_info -Xlinker /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Objects-normal/i386/Taskly_dependency_info.dat -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Taskly36"AED62AB1-D51A-437A-A397-DB19B77949AC-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CPhaseScriptExecution Check\ Pods\ Manifest.lock /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-4EB8FFB13C724432B6D017D0.sh
+s427502217.000781
+e427502217.015377
+r1
+xPhaseScriptExecution
+xCheck Pods Manifest.lock
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-4EB8FFB13C724432B6D017D0.sh
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Run custom shell script 'Check Pods Manifest.lock'150"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-4EB8FFB13C724432B6D017D0.sh3dd200892a7bb941^1bf203892a7bb941^---0#0#1#--334"PhaseScriptExecution Check\ Pods\ Manifest.lock Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-4EB8FFB13C724432B6D017D0.sh    cd /Users/adamf/Desktop/trackly    /bin/sh -c /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-4EB8FFB13C724432B6D017D0.sh36"CBE72D11-1146-415B-9422-F9335C9CE934-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CPhaseScriptExecution Copy\ Pods\ Resources /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-873D5CF412944300B3C465A9.sh
+s427502218.765327
+e427502219.705685
+r1
+xPhaseScriptExecution
+xCopy Pods Resources
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-873D5CF412944300B3C465A9.sh
+obuilding file list ... done
+o
+osent 29 bytes  received 20 bytes  98.00 bytes/sec
+ototal size is 0  speedup is 0.00
+o/* com.apple.actool.compilation-results */
+o/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Assets.car
+o
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Run custom shell script 'Copy Pods Resources'145"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-873D5CF412944300B3C465A9.shd36ac48a2a7bb941^9e44b88b2a7bb941^-244"building file list ... donesent 29 bytes  received 20 bytes  98.00 bytes/sectotal size is 0  speedup is 0.00/* com.apple.actool.compilation-results *//Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Assets.car5(21%IDEActivityLogMessage2@28"building file list ... done-427502218#0#28#-0#-----2@50"sent 29 bytes  received 20 bytes  98.00 bytes/sec-427502218#29#50#-0#-----2@33"total size is 0  speedup is 0.00-427502218#79#33#-0#-----2@43"/* com.apple.actool.compilation-results */-427502219#112#43#-0#-----2@88"/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Assets.car-427502219#155#88#-0#-----0#0#1#--329"PhaseScriptExecution Copy\ Pods\ Resources Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-873D5CF412944300B3C465A9.sh    cd /Users/adamf/Desktop/trackly    /bin/sh -c /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Script-873D5CF412944300B3C465A9.sh36"319BFB84-F219-4025-839C-B886362DDD8A-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CProcessInfoPlistFile /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Info.plist /Users/adamf/Desktop/trackly/trackly/Taskly-Info.plist
+s427502218.722238
+e427502218.724118
+r1
+xProcessInfoPlistFile
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Info.plist
+x/Users/adamf/Desktop/trackly/trackly/Taskly-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Process /Users/adamf/Desktop/trackly/trackly/Taskly-Info.plist105"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/Taskly.app/Info.plist trackly/Taskly-Info.plistd0f2b88a2a7bb941^ee5fb98a2a7bb941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/adamf/Desktop/trackly/trackly/Taskly-Info.plist0000000000000000^825"ProcessInfoPlistFile Build/Products/Debug-iphonesimulator/Taskly.app/Info.plist trackly/Taskly-Info.plist    cd /Users/adamf/Desktop/trackly    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility /Users/adamf/Desktop/trackly/trackly/Taskly-Info.plist -genpkginfo /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/assetcatalog_generated_info.plist -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app/Info.plist36"678E4975-49BD-4141-8087-2D16E6E5D548-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.pch trackly/Taskly-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427502217.016161
+e427502217.071238
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.pch
+xtrackly/Taskly-Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/trackly/Taskly-Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile trackly/Taskly-Prefix.pch208"ProcessPCH Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.pch trackly/Taskly-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler933704892a7bb941^d53d12892a7bb941^---0#0#1#-19%DVTDocumentLocation2@61"file:///Users/adamf/Desktop/trackly/trackly/Taskly-Prefix.pch0000000000000000^3618"ProcessPCH Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.pch trackly/Taskly-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fobjc-arc -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Werror=return-type -Wno-implicit-atomic-properties -Werror=deprecated-objc-isa-usage -Werror=objc-root-class -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/Taskly-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphonesimulator/Taskly.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -isystem /Users/adamf/Desktop/trackly/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.d -c /Users/adamf/Desktop/trackly/trackly/Taskly-Prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-gcrvqsdxtmttrfgpbpsexnuwsisl/Taskly-Prefix.pch.pch36"33C29C27-AE3C-4FDD-880E-2AD9821EC1DC-
+b83544EDD-D5BF-4D06-8CEF-EE056144CD79
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Taskly-Prefix-dlokymxcekyfxlccftagjzygmmot_ast/Taskly-Prefix.pch.pch trackly/Taskly-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CTouch /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/Taskly.app
+r0
+
