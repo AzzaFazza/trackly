@@ -11,6 +11,7 @@
 #import "CustomIOS7AlertView.h"
 #import <CXCardView/CXCardView.h>
 #import <RNGridMenu/RNGridMenu.h>
+#import "videoViewController.h"
 
 
 
@@ -34,8 +35,10 @@
 @implementation ViewController
 @synthesize //Buttons
             sync, settings, about, addTask, trayDisplayButton,
+            //Labels
+            sadFace, noTaskLabel,
             //Views
-            tray, mainView;
+            tray, mainView, noTaskView;
 
 - (void)viewDidLoad
 {
@@ -168,16 +171,28 @@
                                                               NSLog(@"Item: %@", item);
                                                           }];
     
-    REMenuItem *profileItem = [[REMenuItem alloc] initWithTitle:@"About"
-                                                       subtitle:@"A Little about us"
+    REMenuItem *profileItem = [[REMenuItem alloc] initWithTitle:@"Logout"
+                                                       subtitle:@"Go Back to the start Menu"
                                                           image:[UIImage imageNamed:@"Icon_Profile"]
                                                highlightedImage:nil
                                                          action:^(REMenuItem *item) {
                                                              NSLog(@"Item: %@", item);
+                                                             //push next view
+                                                             UIStoryboard *storyboard = self.storyboard;
+                                                             videoViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"videoView"];
+                                                             [self.navigationController pushViewController:destVC animated:YES];
                                                          }];
     
     menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem, profileItem]];
     
+    
+    noTaskLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:28.0f];
+    sadFace.font = [UIFont fontWithName:@"CoquetteRegular" size:42.0f];
+    
+    noTaskView.layer.masksToBounds = NO;
+    noTaskView.layer.shadowOffset = CGSizeMake(5, 5);
+    noTaskView.layer.shadowRadius = 2;
+    noTaskView.layer.shadowOpacity = 0.1;
     
 }
 -(void)viewWillAppear:(BOOL)animated {
@@ -186,10 +201,14 @@
 -(void)hideTray {
     if (trayShown == false) {
         [menu showFromNavigationController:self.navigationController];
+        mainView.backgroundColor = [UIColor blackColor];
+        mainView.alpha = 0.40;
         trayShown = true;
     } else {
         [menu close];
         trayShown = false;
+        mainView.backgroundColor = [UIColor whiteColor];
+        mainView.alpha = 1.00;
     }
 }
 - (void)didReceiveMemoryWarning
@@ -314,6 +333,7 @@
 }
 -(IBAction)addTask:(id)sender {
     [self showList];
+    
     
 }
 

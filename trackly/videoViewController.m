@@ -22,7 +22,7 @@
 @end
 
 @implementation videoViewController
-@synthesize subTitle, startButton;
+@synthesize subTitle, startButton, arrow;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -82,6 +82,11 @@
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"CoquetteRegular" size:74.0]];
     subTitle.font = [UIFont fontWithName:@"CoquetteRegular" size:16.0];
+    
+    // image drawing code here
+    
+    UIImage *coloredImage = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
 }
 
 - (void)viewWillDisappear:(BOOL)animated
@@ -95,6 +100,59 @@
     [super viewDidAppear:animated];
     [self.avplayer play];
     startButton.layer.cornerRadius = 5.0;
+    startButton.layer.masksToBounds = NO;
+    UIColor * customColor = [self colorWithHexString:@"4A73A1"];
+    startButton.layer.shadowColor = customColor.CGColor;
+    startButton.layer.shadowOpacity = 1.00;
+    startButton.layer.shadowRadius = 2;
+    startButton.layer.shadowOffset = CGSizeMake(1.0f, 3.0f);
+    startButton.titleLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:24.0];
+    
+    // Set vertical effect
+    UIInterpolatingMotionEffect *verticalMotionEffect =
+    [[UIInterpolatingMotionEffect alloc]
+     initWithKeyPath:@"center.y"
+     type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+    verticalMotionEffect.minimumRelativeValue = @(-20);
+    verticalMotionEffect.maximumRelativeValue = @(20);
+    
+    // Set horizontal effect
+    UIInterpolatingMotionEffect *horizontalMotionEffect =
+    [[UIInterpolatingMotionEffect alloc]
+     initWithKeyPath:@"center.x"
+     type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+    horizontalMotionEffect.minimumRelativeValue = @(-20);
+    horizontalMotionEffect.maximumRelativeValue = @(20);
+    
+    // Create group to combine both
+    UIMotionEffectGroup *group = [UIMotionEffectGroup new];
+    group.motionEffects = @[horizontalMotionEffect, verticalMotionEffect];
+    
+    // Add both effects to your view
+    [self.contentView addMotionEffect:group];
+    
+    [self flashingAnimation:YES forView:arrow];
+    
+}
+-(void)flashingAnimation:(BOOL)boolVal forView:(UIView *) view{
+    [UIView animateWithDuration:0.7
+                          delay:0.0
+                        options:UIViewAnimationOptionRepeat |
+     UIViewAnimationOptionAutoreverse
+                     animations:^{
+                         CGRect frame =  arrow.frame;
+                         frame.origin.x += 5.0f;
+                         // This is just for the width, but you can change the origin and the height as well.
+                         arrow.frame = frame;
+                     }
+                     completion:^(BOOL finished){
+                         // Do nothing
+                         CGRect frame =  arrow.frame;
+                         frame.origin.x -= 5.0f;
+                         // This is just for the width, but you can change the origin and the height as well.
+                         arrow.frame = frame;
+                     }];
+    [UIView commitAnimations];
 }
 
 - (void)dealloc
@@ -125,6 +183,43 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+
+-(UIColor*)colorWithHexString:(NSString*)hex
+{
+    NSString *cString = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+    
+    // String should be 6 or 8 characters
+    if ([cString length] < 6) return [UIColor grayColor];
+    
+    // strip 0X if it appears
+    if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
+    
+    if ([cString length] != 6) return  [UIColor grayColor];
+    
+    // Separate into r, g, b substrings
+    NSRange range;
+    range.location = 0;
+    range.length = 2;
+    NSString *rString = [cString substringWithRange:range];
+    
+    range.location = 2;
+    NSString *gString = [cString substringWithRange:range];
+    
+    range.location = 4;
+    NSString *bString = [cString substringWithRange:range];
+    
+    // Scan values
+    unsigned int r, g, b;
+    [[NSScanner scannerWithString:rString] scanHexInt:&r];
+    [[NSScanner scannerWithString:gString] scanHexInt:&g];
+    [[NSScanner scannerWithString:bString] scanHexInt:&b];
+    
+    return [UIColor colorWithRed:((float) r / 255.0f)
+                           green:((float) g / 255.0f)
+                            blue:((float) b / 255.0f)
+                           alpha:1.0f];
 }
 
 

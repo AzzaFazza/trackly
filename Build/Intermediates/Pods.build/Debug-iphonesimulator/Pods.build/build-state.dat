@@ -55,12 +55,12 @@ t1405814958
 s530216
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RNGridMenu.a
-c0000000053CB08AE0000000000032358
-t1405814958
+c0000000053CB2BBC0000000000032358
+t1405823932
 s205656
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a
-t1405814959
+t1405823932
 s1241080
 
 N/Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
@@ -73,7 +73,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies5299127c407bb941^b8e6127c407bb941^---0#1#1#--18"Check dependencies36"1C098C92-8330-4BC5-B8A3-817D191F4B10-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies77134c9b647bb941^707b4e9b647bb941^---0#1#1#--18"Check dependencies36"1CC1C8A6-AAD7-4272-810B-4AC85EBA5333-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427507758.987573
@@ -91,13 +91,13 @@ lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile
 b9560F669-1161-4169-9BCA-8E1298FAC5C7
 
 CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a normal i386
-s427507759.110288
-e427507759.149843
+s427516732.291666
+e427516732.330066
 r1
 xLibtool
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a
 xnormal
 xi386
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a normal i38695"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a normal i386ad501c2f407bb941^32202b2f407bb941^---0#0#1#--1007"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-CXCardView -lPods-EAIntroView -lPods-JazzHands -lPods-RNGridMenu -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a36"56F02A42-D470-48E8-ADC7-28BA3287BEFC-
-b9560F669-1161-4169-9BCA-8E1298FAC5C7
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a normal i38695"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a normal i386a0c14a3c637bb941^1f80543c637bb941^---0#0#1#--1007"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a normal i386    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods.build/Objects-normal/i386/Pods.LinkFileList -framework Foundation -lPods-CXCardView -lPods-EAIntroView -lPods-JazzHands -lPods-RNGridMenu -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods.a36"AD797E87-F353-445F-A821-B605C4E508C0-
+b73D9F500-928D-4852-B2FD-E8CBA765B9D4
 
