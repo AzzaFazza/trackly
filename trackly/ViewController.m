@@ -46,7 +46,7 @@
             //Labels
             sadFace, noTaskLabel,
             //Views
-            tray, mainView, noTaskView;
+            tray, mainView, noTaskView, taskTableView;
 
 - (void)viewDidLoad
 {
@@ -133,6 +133,8 @@
     
 //    [self firstTimeTour];
     
+    taskTableView.hidden = YES;
+    
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"Helvetica-Neue" size:6.0]];
     self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
@@ -210,6 +212,8 @@
     noTaskView.layer.shadowOffset = CGSizeMake(5, 5);
     noTaskView.layer.shadowRadius = 2;
     noTaskView.layer.shadowOpacity = 0.1;
+    
+    [self parralaxEffect];
     
 }
 -(AKTagsInputView*)createTagsInputView
@@ -422,6 +426,10 @@
     NSLog(@"Button at position %d is clicked on alertView %d.", buttonIndex, [alertView tag]);
     [alertView close];
     NSMutableArray * tags = [[NSMutableArray alloc]initWithArray:_tagsInputView.selectedTags];
+    
+    if (buttonIndex ==  ) {
+        <#statements#>
+    }
     [self createAndSyncTask : taskName.text : tags];
     
     
@@ -447,6 +455,31 @@
     [taskTags resignFirstResponder];
     [taskName resignFirstResponder];
     return YES;
+}
+
+-(void)parralaxEffect {
+    // Set vertical effect
+    UIInterpolatingMotionEffect *verticalMotionEffect =
+    [[UIInterpolatingMotionEffect alloc]
+     initWithKeyPath:@"center.y"
+     type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+    verticalMotionEffect.minimumRelativeValue = @(-20);
+    verticalMotionEffect.maximumRelativeValue = @(20);
+    
+    // Set horizontal effect
+    UIInterpolatingMotionEffect *horizontalMotionEffect =
+    [[UIInterpolatingMotionEffect alloc]
+     initWithKeyPath:@"center.x"
+     type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+    horizontalMotionEffect.minimumRelativeValue = @(-20);
+    horizontalMotionEffect.maximumRelativeValue = @(20);
+    
+    // Create group to combine both
+    UIMotionEffectGroup *group = [UIMotionEffectGroup new];
+    group.motionEffects = @[horizontalMotionEffect, verticalMotionEffect];
+    
+    // Add both effects to your view
+    [noTaskView addMotionEffect:group];
 }
 
 

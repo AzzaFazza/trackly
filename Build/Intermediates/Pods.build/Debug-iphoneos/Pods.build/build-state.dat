@@ -70,8 +70,8 @@ t1405709176
 s211968
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-AKTagsInputView.a
-c0000000053CBDCB50000000000064E00
-t1405869237
+c0000000053CC26890000000000064E00
+t1405888137
 s413184
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CXCardView.a
@@ -95,7 +95,7 @@ t1405866798
 s208408
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a
-t1405869237
+t1405888137
 s1660472
 
 N/Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
@@ -108,7 +108,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciese52933f75c7cb941^c15833f75c7cb941^---0#1#1#--18"Check dependencies36"5F18C435-4B84-49DB-B2B0-619D7D819D88-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies13d29671627cb941^8f8c9971627cb941^---0#1#1#--18"Check dependencies36"C9434599-E374-4D1F-A793-4E609042D3CC-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427401976.246405
@@ -203,13 +203,13 @@ CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a no
 r0
 
 CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s
-s427562037.125069
-e427562037.162245
+s427580937.240679
+e427580937.266205
 r1
 xLibtool
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a
 xnormal
 xarmv7s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s90"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s501c2035147cb941^118a2935147cb941^---0#0#1#--987"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-AKTagsInputView -lPods-CXCardView -lPods-EAIntroView -lPods-JazzHands -lPods-RNGridMenu -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a36"C8B41DD4-26AA-4B50-8F45-84324AA76DE5-
-b51222AB5-804E-4195-B64C-36AFEAD608A4
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s90"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s82aa3d095e7cb941^9a2644095e7cb941^---0#0#1#--987"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-AKTagsInputView -lPods-CXCardView -lPods-EAIntroView -lPods-JazzHands -lPods-RNGridMenu -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a36"BEC86634-2AA7-4A6D-A3AD-C0919E92B1F2-
+b29BCE8FC-BDB0-4CD5-9702-6758258CBE60
 

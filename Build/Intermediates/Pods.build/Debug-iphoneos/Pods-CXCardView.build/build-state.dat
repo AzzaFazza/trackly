@@ -143,7 +143,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies899929f75c7cb941^9c512bf75c7cb941^---0#1#1#--18"Check dependencies36"E6BF2193-68DA-4E5F-8353-DA604923A507-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies01bf8e71627cb941^309f9071627cb941^---0#1#1#--18"Check dependencies36"711816B0-5626-4C4D-9FFA-30D03AAED383-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CXCardView.build/Objects-normal/arm64/CXCardContainerView.o /Users/adamf/Desktop/trackly/Pods/CXCardView/CXCardView/CXCardContainerView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 r0

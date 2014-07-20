@@ -10,7 +10,7 @@
 #import <CXCardView/CXCardView.h>
 
 
-@interface ViewController : UIViewController <UITextFieldDelegate>
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate>
 
 @property (weak, nonatomic) IBOutlet UIView *tray;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
@@ -22,6 +22,8 @@
 @property (weak, nonatomic) IBOutlet UIView *noTaskView;
 @property (weak, nonatomic) IBOutlet UILabel *sadFace;
 @property (weak, nonatomic) IBOutlet UILabel *noTaskLabel;
+@property (weak, nonatomic) IBOutlet UITableView *taskTableView;
+
 
 
 -(IBAction)showTray:(id)sender;
