@@ -29,6 +29,7 @@
 		369A093F197B3DCD00153F18 /* three60.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A093B197B3DCD00153F18 /* three60.png */; };
 		369A0940197B3DCD00153F18 /* two123.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A093C197B3DCD00153F18 /* two123.png */; };
 		369A0942197B4C6000153F18 /* right10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A0941197B4C6000153F18 /* right10@2x.png */; };
+		369A0948197C501500153F18 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0947197C501500153F18 /* Task.m */; };
 		36B304581979272A001951E2 /* add121@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304521979272A001951E2 /* add121@2x.png */; };
 		36B304591979272A001951E2 /* black14.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304531979272A001951E2 /* black14.png */; };
 		36B3045A1979272A001951E2 /* help1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304541979272A001951E2 /* help1.png */; };
@@ -118,6 +119,8 @@
 		369A093B197B3DCD00153F18 /* three60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three60.png; sourceTree = "<group>"; };
 		369A093C197B3DCD00153F18 /* two123.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = two123.png; sourceTree = "<group>"; };
 		369A0941197B4C6000153F18 /* right10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right10@2x.png"; sourceTree = "<group>"; };
+		369A0946197C501500153F18 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Task.h; path = trackly/Task.h; sourceTree = "<group>"; };
+		369A0947197C501500153F18 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Task.m; path = trackly/Task.m; sourceTree = "<group>"; };
 		36B304521979272A001951E2 /* add121@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add121@2x.png"; sourceTree = "<group>"; };
 		36B304531979272A001951E2 /* black14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black14.png; sourceTree = "<group>"; };
 		36B304541979272A001951E2 /* help1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help1.png; sourceTree = "<group>"; };
@@ -206,6 +209,8 @@
 		3683AAE119790D9E005E04E7 = {
 			isa = PBXGroup;
 			children = (
+				369A0946197C501500153F18 /* Task.h */,
+				369A0947197C501500153F18 /* Task.m */,
 				3683AAF319790D9E005E04E7 /* trackly */,
 				3683AB1219790D9E005E04E7 /* tracklyTests */,
 				3683AAEC19790D9E005E04E7 /* Frameworks */,
@@ -555,6 +560,7 @@
 				36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */,
 				3683AB0419790D9E005E04E7 /* ViewController.m in Sources */,
 				36B3048619794F0A001951E2 /* REMenuItemView.m in Sources */,
+				369A0948197C501500153F18 /* Task.m in Sources */,
 				3683AAFE19790D9E005E04E7 /* AppDelegate.m in Sources */,
 				36B3048419794F0A001951E2 /* REMenuContainerView.m in Sources */,
 				36B3048319794F0A001951E2 /* REMenu.m in Sources */,

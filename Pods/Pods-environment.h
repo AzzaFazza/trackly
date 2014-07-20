@@ -6,6 +6,12 @@
 // project.
 
 
+// AKTagsInputView
+#define COCOAPODS_POD_AVAILABLE_AKTagsInputView
+#define COCOAPODS_VERSION_MAJOR_AKTagsInputView 1
+#define COCOAPODS_VERSION_MINOR_AKTagsInputView 0
+#define COCOAPODS_VERSION_PATCH_AKTagsInputView 0
+
 // CXCardView
 #define COCOAPODS_POD_AVAILABLE_CXCardView
 #define COCOAPODS_VERSION_MAJOR_CXCardView 1

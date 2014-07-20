@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <CXCardView/CXCardView.h>
 
+
 @interface ViewController : UIViewController <UITextFieldDelegate>
+
 @property (weak, nonatomic) IBOutlet UIView *tray;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
 @property (weak, nonatomic) IBOutlet UIButton *sync;

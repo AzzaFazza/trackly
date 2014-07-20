@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-AKTagsInputView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CXCardView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>2B89F03D879E483DA0626E12</key>
+		<key>328404041EA5451583755B51</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>486B2144FEF742F5B4C334E9</key>
+		<key>73F44C0081A4416BA081306F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4B815F05E8314E9DA27B5895</key>
+		<key>D6137B8BE88B4B41B1909D29</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7B9E7FFB92744DC89C615215</key>
+		<key>DEA7F9D9F2B848429A52DBF0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BEA1848734DD4662AD30E99D</key>
+		<key>E9809487F6FB4E9A96C58A65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EA95C58B91704C8DB770055D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

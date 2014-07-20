@@ -12,8 +12,14 @@
 #import <CXCardView/CXCardView.h>
 #import <RNGridMenu/RNGridMenu.h>
 #import "videoViewController.h"
+#import <AKTagsInputView/AKTextField.h>
+#import <AKTagsInputView/AKTagsInputView.h>
+#import "Task.h"
 
+#define AVENIR_NEXT(_size) ([UIFont fontWithName:@"AvenirNext-Regular" size:(_size)])
+#define WK_COLOR_GRAY_77 			WK_COLOR(77,77,77,1)
 
+@class Task;
 
 @interface ViewController ()
 {
@@ -26,9 +32,11 @@
     UILabel * nameLabel;
     UILabel * notesLabel;
     UITextField *taskName;
-    UITextField *taskNotes;
+    UITextField *taskTags;
     UILabel * createTaskLabel;
     UIView *contentView;
+    AKTagsInputView *_tagsInputView;
+    NSMutableArray * allTasks;
 }
 @end
 
@@ -54,10 +62,10 @@
     [mainView addGestureRecognizer:tapRecognizer];
     
     nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
-    nameLabel.text = @"Task Name:";
+    nameLabel.text = @"TASK NAME:";
     
     notesLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 120, 100, 25)];
-    notesLabel.text = @"Notes:";
+    notesLabel.text = @"TAGS:";
     
     CGRect  headerFrame = CGRectMake(0, 0, 300, 50);
     UIView * header = [[UIView alloc]initWithFrame:headerFrame];
@@ -77,31 +85,37 @@
     taskName = [[UITextField alloc] initWithFrame:CGRectMake(10, 70, 280, 50)];
     taskName.borderStyle = UITextBorderStyleRoundedRect;
     taskName.font = [UIFont systemFontOfSize:15];
-    taskName.placeholder = @"Enter task Name";
+    taskName.placeholder = @"Enter task name";
     taskName.autocorrectionType = UITextAutocorrectionTypeNo;
     taskName.keyboardType = UIKeyboardTypeDefault;
-    taskName.keyboardAppearance = UIKeyboardAppearanceDark;
-    taskName.returnKeyType = UIReturnKeyDone;
+    taskName.keyboardAppearance = UIKeyboardAppearanceDefault;
+    taskName.returnKeyType = UIReturnKeyDefault;
     taskName.clearButtonMode = UITextFieldViewModeWhileEditing;
     taskName.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     taskName.delegate = self;
+    taskName.layer.cornerRadius = 0.0f;
+//    taskName.borderStyle =  UITextBorderStyleNone;
+//    taskName.backgroundColor = [UIColor whiteColor];
     [taskName setReturnKeyType:UIReturnKeyDone];
     
-    taskNotes = [[UITextField alloc] initWithFrame:CGRectMake(10, 140, 280, 50)];
-    taskNotes.borderStyle = UITextBorderStyleRoundedRect;
-    taskNotes.font = [UIFont systemFontOfSize:15];
-    taskNotes.placeholder = @"Enter Notes (Optional)";
-    taskNotes.autocorrectionType = UITextAutocorrectionTypeNo;
-    taskNotes.keyboardType = UIKeyboardTypeDefault;
-    taskNotes.keyboardAppearance = UIKeyboardAppearanceDark;
-    taskNotes.returnKeyType = UIReturnKeyDone;
-    taskNotes.clearButtonMode = UITextFieldViewModeWhileEditing;
-    taskNotes.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
-    taskNotes.delegate = self;
-    [taskNotes setReturnKeyType:UIReturnKeyDone];
+//    taskTags = [[UITextField alloc] initWithFrame:CGRectMake(10, 140, 280, 50)];
+//    taskTags.borderStyle = UITextBorderStyleRoundedRect;
+//    taskTags.font = [UIFont systemFontOfSize:15];
+//    taskTags.placeholder = @"Enter Tags (Optional)";
+//    taskTags.autocorrectionType = UITextAutocorrectionTypeNo;
+//    taskTags.keyboardType = UIKeyboardTypeDefault;
+//    taskTags.keyboardAppearance = UIKeyboardAppearanceDark;
+//    taskTags.returnKeyType = UIReturnKeyDone;
+//    taskTags.clearButtonMode = UITextFieldViewModeWhileEditing;
+//    taskTags.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+//    taskTags.delegate = self;
+//    [taskTags setReturnKeyType:UIReturnKeyDone];
+    
+    
+    
 
     [contentView addSubview:taskName];
-    [contentView addSubview:taskNotes];
+    [contentView addSubview:taskTags];
     [contentView addSubview:nameLabel];
     [contentView addSubview:notesLabel];
     [contentView addSubview:header];
@@ -109,7 +123,10 @@
     newTask = [[CustomIOS7AlertView alloc]init];
     [newTask setContainerView:contentView];
     [newTask setUseMotionEffects:TRUE];
+    [newTask setDelegate:self];
     newTask.buttonTitles = [NSArray arrayWithObjects:@"Cancel", @"Set Task", nil];
+    
+    [contentView addSubview:[self createTagsInputView]];
     
     fingerX = 0.0;
     fingerY = 0.0;
@@ -195,8 +212,27 @@
     noTaskView.layer.shadowOpacity = 0.1;
     
 }
+-(AKTagsInputView*)createTagsInputView
+{
+    _tagsInputView = [[AKTagsInputView alloc] initWithFrame:CGRectMake(10, 140, 280, 50)];
+    _tagsInputView.autoresizingMask = UIViewAutoresizingFlexibleWidth;
+//    _tagsInputView.lookupTags = @[@""];
+//    _tagsInputView.selectedTags = [NSMutableArray arrayWithArray:@[@""]];
+    _tagsInputView.enableTagsLookup = YES;
+    _tagsInputView.tintColor = [UIColor whiteColor];
+    //_tagsInputView.placeholder = @"+ Add";
+    return _tagsInputView;
+}
+
 -(void)viewWillAppear:(BOOL)animated {
         trayShown = false;
+        allTasks = [Task getAll];
+    
+        if ([allTasks count] > 0) {
+            noTaskView.hidden = YES;
+        }
+    
+        contentView.backgroundColor = [self colorWithHexString:@"eeeeee"];
 }
 -(void)hideTray {
     if (trayShown == false) {
@@ -239,7 +275,6 @@
         }
     }
 
-    
 }
 -(IBAction)mySelector:(id)sender {
     NSLog(@"Finger X = %f", fingerX);
@@ -257,6 +292,7 @@
     self.addTask.frame = rect;
 
 }
+
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
     UITouch *touched = [[event allTouches] anyObject];
     CGPoint location = [touched locationInView:touched.view];
@@ -341,8 +377,8 @@
     NSLog(@"%@", selector);
     createTaskLabel.text = selector;
     createTaskLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:20.0];
-    nameLabel.font = [UIFont fontWithName:@"Helvetica" size:8.0];
-    notesLabel.font = [UIFont fontWithName:@"Helvetica" size:8.0];
+    nameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:8.0f];
+    notesLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:8.0f];
 }
 
 -(UIColor*)colorWithHexString:(NSString*)hex
@@ -381,15 +417,38 @@
                            alpha:1.0f];
 }
 
-- (void)customIOS7dialogButtonTouchUpInside: (CustomIOS7AlertView *)alertView clickedButtonAtIndex: (NSInteger)buttonIndex : (NSString*) tagString
+- (void)customIOS7dialogButtonTouchUpInside: (CustomIOS7AlertView *)alertView clickedButtonAtIndex: (NSInteger)buttonIndex
 {
     NSLog(@"Button at position %d is clicked on alertView %d.", buttonIndex, [alertView tag]);
+    [alertView close];
+    NSMutableArray * tags = [[NSMutableArray alloc]initWithArray:_tagsInputView.selectedTags];
+    [self createAndSyncTask : taskName.text : tags];
+    
+    
+}
+
+-(void)createAndSyncTask : (NSString*)tempName : (NSArray*)tempTasks {
+    Task * tempTask = [[Task alloc]init];
+    tempTask.taskName = tempName;
+    tempTask.taskTags = tempTasks;
+    NSLog(@"%@", tempTask);
+    
+    [Task addTask:tempTask];
+    
+    
+    //TODO IF TAGS CONTAINS TIME ASSIGN CALENDER DELEGATE
+    
+    //TODO SYNC TO PARSE
+    
+    //TODO Display the Task
+    
 }
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
-    [taskNotes resignFirstResponder];
+    [taskTags resignFirstResponder];
     [taskName resignFirstResponder];
     return YES;
 }
+
 
 
 @end
