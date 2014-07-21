@@ -49,7 +49,7 @@
 
 @implementation ViewController
 @synthesize //Buttons
-            addTask, trayDisplayButton,
+            addTask, trayDisplayButton, addTaskButton,
             //Labels
             sadFace, noTaskLabel,
             //Views
@@ -132,7 +132,8 @@
                                                                    UITextAttributeTextShadowOffset,
                                                                    [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];
     
-
+    
+    
     //REMenu
     REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Main Page"
                                                     subtitle:@"Return to Task View"
@@ -234,7 +235,10 @@
             noTaskView.hidden = YES;
         }
     
-        contentView.backgroundColor = [self colorWithHexString:@"eeeeee"];
+    contentView.backgroundColor = [self colorWithHexString:@"eeeeee"];
+    self.addTaskButton.layer.cornerRadius = 6.00;
+    [mainView addSubview:[self addTaskButton]];
+    
     
 }
 -(void)hideTray {
