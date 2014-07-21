@@ -185,7 +185,7 @@
     
     [self parralaxEffect];
     
-    imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"black14.png"]];
+    imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"syncIcon.png"]];
     imageView.autoresizingMask = UIViewAutoresizingNone;
     imageView.contentMode = UIViewContentModeCenter;
     
@@ -238,6 +238,7 @@
     contentView.backgroundColor = [self colorWithHexString:@"eeeeee"];
     self.addTaskButton.layer.cornerRadius = 6.00;
     [mainView addSubview:[self addTaskButton]];
+    self.navigationItem.rightBarButtonItem.tintColor = [UIColor whiteColor];
     
     
 }

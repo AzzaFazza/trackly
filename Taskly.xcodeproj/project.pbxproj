@@ -83,6 +83,7 @@
 		36B304FD1979D22A001951E2 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304FC1979D22A001951E2 /* title@2x.png */; };
 		36BB2D85197B1DD1000D6854 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 36BB2D84197B1DD1000D6854 /* AppIcons */; };
 		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
+		36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE939B197DD18A0032EDCB /* syncIcon@2x.png */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
 		36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9B0197B0E21008E2D22 /* coq.ttf */; };
 		36F0422A197D8AF20035DAA8 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F04229197D8AF20035DAA8 /* Task.m */; };
@@ -196,6 +197,7 @@
 		36BB2D84197B1DD1000D6854 /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcons; sourceTree = "<group>"; };
 		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
+		36CE939B197DD18A0032EDCB /* syncIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncIcon@2x.png"; sourceTree = "<group>"; };
 		36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		36EEB9B0197B0E21008E2D22 /* coq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coq.ttf; sourceTree = "<group>"; };
 		36F04228197D8AF20035DAA8 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 				3683AAFF19790D9E005E04E7 /* Main.storyboard */,
 				3683AB0219790D9E005E04E7 /* ViewController.h */,
 				3683AB0319790D9E005E04E7 /* ViewController.m */,
+				36CE939B197DD18A0032EDCB /* syncIcon@2x.png */,
 				3683AB0519790D9E005E04E7 /* Images.xcassets */,
 				3683AAF419790D9E005E04E7 /* Supporting Files */,
 			);
@@ -557,6 +560,7 @@
 				369A0942197B4C6000153F18 /* right10@2x.png in Resources */,
 				36B304BC197954B6001951E2 /* reminder4.png in Resources */,
 				36B3045A1979272A001951E2 /* help1.png in Resources */,
+				36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

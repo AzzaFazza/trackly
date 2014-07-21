@@ -54,7 +54,7 @@
                                         </connections>
                                     </button>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="69" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="XKo-d2-JZN" userLabel="Tasks">
-                                        <rect key="frame" x="20" y="20" width="280" height="380"/>
+                                        <rect key="frame" x="0.0" y="20" width="320" height="380"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
@@ -62,10 +62,10 @@
                                         </constraints>
                                         <prototypes>
                                             <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" rowHeight="69" id="coF-UU-ce5">
-                                                <rect key="frame" x="0.0" y="22" width="280" height="69"/>
+                                                <rect key="frame" x="0.0" y="22" width="320" height="69"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="coF-UU-ce5" id="318-cy-Xra">
-                                                    <rect key="frame" x="0.0" y="0.0" width="280" height="68"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="320" height="68"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                 </tableViewCellContentView>
                                             </tableViewCell>
@@ -78,7 +78,7 @@
                                     <constraint firstItem="Yb2-cT-omq" firstAttribute="top" secondItem="JdK-Bq-xqu" secondAttribute="bottom" constant="94" id="XE5-7u-ix1"/>
                                     <constraint firstItem="XKo-d2-JZN" firstAttribute="top" secondItem="S9z-gk-Ek6" secondAttribute="top" constant="20" id="XKZ-Vs-SNU"/>
                                     <constraint firstAttribute="trailing" secondItem="Yb2-cT-omq" secondAttribute="trailing" constant="105" id="dDK-fG-WGR"/>
-                                    <constraint firstItem="XKo-d2-JZN" firstAttribute="leading" secondItem="S9z-gk-Ek6" secondAttribute="leading" constant="20" id="ecf-yC-z9T"/>
+                                    <constraint firstItem="XKo-d2-JZN" firstAttribute="leading" secondItem="S9z-gk-Ek6" secondAttribute="leading" id="ecf-yC-z9T"/>
                                     <constraint firstItem="Yb2-cT-omq" firstAttribute="leading" secondItem="S9z-gk-Ek6" secondAttribute="leading" constant="106" id="kwa-gv-Jpd"/>
                                     <constraint firstItem="XKo-d2-JZN" firstAttribute="centerX" secondItem="Yb2-cT-omq" secondAttribute="centerX" id="lid-1k-eGS"/>
                                     <constraint firstItem="JdK-Bq-xqu" firstAttribute="centerX" secondItem="Yb2-cT-omq" secondAttribute="centerX" id="o3c-R7-fnO"/>
