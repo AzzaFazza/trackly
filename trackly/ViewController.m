@@ -40,7 +40,7 @@
     UILabel * createTaskLabel;
     UIView *contentView;
     AKTagsInputView *_tagsInputView;
-    NSArray * _allTasks;
+    NSMutableArray * _allTasks;
     UIImageView * imageView;
     UIBarButtonItem * barItem;
 }
@@ -239,7 +239,6 @@
 
 -(void)viewWillAppear:(BOOL)animated {
         trayShown = false;
-        _allTasks = [Task getAll];
     
         if ([_allTasks count] > 0) {
             noTaskView.hidden = YES;
@@ -499,6 +498,7 @@
 - (IBAction)rotate:(id)sender
 {
     taskTableView.hidden = false;
+    _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
     [taskTableView reloadData];
     [UIView beginAnimations:@"step1" context:NULL]; {
         [UIView setAnimationDuration:1.0];
@@ -568,13 +568,23 @@
 {
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source
-//        [Task deleteObject:[_allTasks objectAtIndex:indexPath.row] inContext:[CoreDataHelper mainManagedObjectContext]];
-//        [taskTableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-//        [Task saveOnMain];
-        [taskTableView reloadData];
         
+        [Task deleteObject:[_allTasks objectAtIndex:indexPath.row] inContext:[CoreDataHelper mainManagedObjectContext]];
+        [taskTableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        [self allTasksComplete];
+        [taskTableView reloadData];
+        [Task saveOnMain];
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+    }
+}
+
+-(void) allTasksComplete {
+    if(_allTasks.count == 0) {
+        UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"All Tasks Complete!" message:@"No More tasks left, Well Done!" delegate:nil cancelButtonTitle:@"Okay!" otherButtonTitles:nil, nil];
+        [alert show];
+        taskTableView.hidden  = true;
+        [taskTableView reloadData];
     }
 }
 

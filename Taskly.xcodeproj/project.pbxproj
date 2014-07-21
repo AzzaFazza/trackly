@@ -29,7 +29,6 @@
 		369A093F197B3DCD00153F18 /* three60.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A093B197B3DCD00153F18 /* three60.png */; };
 		369A0940197B3DCD00153F18 /* two123@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A093C197B3DCD00153F18 /* two123@2x.png */; };
 		369A0942197B4C6000153F18 /* right10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A0941197B4C6000153F18 /* right10@2x.png */; };
-		369A0948197C501500153F18 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0947197C501500153F18 /* Task.m */; };
 		369A094A197D1ED200153F18 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369A0949197D1ED200153F18 /* CoreData.framework */; };
 		369A0950197D36CB00153F18 /* black14.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A094F197D36CB00153F18 /* black14.png */; };
 		369A095D197D456300153F18 /* AppStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0953197D456300153F18 /* AppStorage.m */; };
@@ -85,6 +84,7 @@
 		36BB2D85197B1DD1000D6854 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 36BB2D84197B1DD1000D6854 /* AppIcons */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
 		36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9B0197B0E21008E2D22 /* coq.ttf */; };
+		36F0422A197D8AF20035DAA8 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F04229197D8AF20035DAA8 /* Task.m */; };
 		651405B0435D475E95784B0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D7548C7B084D5E895B458C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -127,8 +127,6 @@
 		369A093B197B3DCD00153F18 /* three60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = three60.png; sourceTree = "<group>"; };
 		369A093C197B3DCD00153F18 /* two123@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "two123@2x.png"; sourceTree = "<group>"; };
 		369A0941197B4C6000153F18 /* right10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right10@2x.png"; sourceTree = "<group>"; };
-		369A0946197C501500153F18 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
-		369A0947197C501500153F18 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		369A0949197D1ED200153F18 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		369A094F197D36CB00153F18 /* black14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black14.png; sourceTree = "<group>"; };
 		369A0952197D456300153F18 /* AppStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStorage.h; sourceTree = "<group>"; };
@@ -197,6 +195,8 @@
 		36BB2D84197B1DD1000D6854 /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcons; sourceTree = "<group>"; };
 		36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		36EEB9B0197B0E21008E2D22 /* coq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coq.ttf; sourceTree = "<group>"; };
+		36F04228197D8AF20035DAA8 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		36F04229197D8AF20035DAA8 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		E89885221E0B4AECAEE88167 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -268,9 +268,9 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
+				36F04228197D8AF20035DAA8 /* Task.h */,
+				36F04229197D8AF20035DAA8 /* Task.m */,
 				369A096D197D564700153F18 /* TaskModel.xcdatamodeld */,
-				369A0946197C501500153F18 /* Task.h */,
-				369A0947197C501500153F18 /* Task.m */,
 				369A0951197D438100153F18 /* Core Data */,
 				36B304F01979B6B0001951E2 /* VideoView Controller */,
 				36B3047719794EF6001951E2 /* REMenu */,
@@ -606,7 +606,6 @@
 				36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */,
 				3683AB0419790D9E005E04E7 /* ViewController.m in Sources */,
 				36B3048619794F0A001951E2 /* REMenuItemView.m in Sources */,
-				369A0948197C501500153F18 /* Task.m in Sources */,
 				3683AAFE19790D9E005E04E7 /* AppDelegate.m in Sources */,
 				369A0960197D456300153F18 /* GeneralUtils.m in Sources */,
 				36B3048419794F0A001951E2 /* REMenuContainerView.m in Sources */,
@@ -619,6 +618,7 @@
 				36B304F31979B712001951E2 /* videoViewController.m in Sources */,
 				36B3048219794F0A001951E2 /* RECommonFunctions.m in Sources */,
 				369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */,
+				36F0422A197D8AF20035DAA8 /* Task.m in Sources */,
 				369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

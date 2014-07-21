@@ -83,7 +83,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies2c64eeb7897db941^1ac1eeb7897db941^---0#1#1#--18"Check dependencies36"8F7A4F12-C6A1-4BAB-90FF-5176436CD2C9-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies282a2f06927db941^26a62f06927db941^---0#1#1#--18"Check dependencies36"28256829-9C09-44DA-9C70-BE9F3B91A0E9-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427656994.480912

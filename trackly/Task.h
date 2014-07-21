@@ -2,21 +2,17 @@
 //  Task.h
 //  Taskly
 //
-//  Created by Adam Fallon on 20/07/2014.
+//  Created by Adam Fallon on 21/07/2014.
 //  Copyright (c) 2014 Dot.ly. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+
 
 @interface Task : NSManagedObject
 
-@property (nonatomic, retain) NSString  * taskName;
-@property (nonatomic, retain) NSMutableArray   * taskTags;
-@property (nonatomic, retain) Task * task;
-
-+(void) addTask: (Task*)tempTask;
-//+(void) addTimeToTask: (NSDate*)date;
-+(NSMutableArray*)getAll;
-+(NSMutableArray*)getTaskByTag : (NSString*)tagToSearch;
+@property (nonatomic, retain) NSString * taskName;
+@property (nonatomic, retain) id taskTags;
 
 @end

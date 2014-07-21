@@ -48,7 +48,6 @@
                                         </state>
                                         <connections>
                                             <action selector="addTask:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="inR-kB-GBB"/>
-                                            <outletCollection property="gestureRecognizers" destination="GEs-sw-u3E" appends="YES" id="LUK-L1-zBT"/>
                                         </connections>
                                     </button>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="69" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="XKo-d2-JZN" userLabel="Tasks">
@@ -74,6 +73,7 @@
                                 <constraints>
                                     <constraint firstItem="JdK-Bq-xqu" firstAttribute="top" secondItem="S9z-gk-Ek6" secondAttribute="top" constant="105" id="O52-ng-zm3"/>
                                     <constraint firstItem="Yb2-cT-omq" firstAttribute="top" secondItem="JdK-Bq-xqu" secondAttribute="bottom" constant="87" id="XE5-7u-ix1"/>
+                                    <constraint firstItem="XKo-d2-JZN" firstAttribute="top" secondItem="S9z-gk-Ek6" secondAttribute="top" constant="20" id="XKZ-Vs-SNU"/>
                                     <constraint firstAttribute="trailing" secondItem="Yb2-cT-omq" secondAttribute="trailing" constant="130" id="dDK-fG-WGR"/>
                                     <constraint firstItem="XKo-d2-JZN" firstAttribute="leading" secondItem="S9z-gk-Ek6" secondAttribute="leading" constant="20" id="ecf-yC-z9T"/>
                                     <constraint firstItem="Yb2-cT-omq" firstAttribute="leading" secondItem="S9z-gk-Ek6" secondAttribute="leading" constant="131" id="kwa-gv-Jpd"/>
