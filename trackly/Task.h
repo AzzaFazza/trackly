@@ -11,10 +11,11 @@
 @interface Task : NSManagedObject
 
 @property (nonatomic, retain) NSString  * taskName;
-@property (nonatomic, retain) NSArray   * taskTags;
+@property (nonatomic, retain) NSMutableArray   * taskTags;
+@property (nonatomic, retain) Task * task;
 
 +(void) addTask: (Task*)tempTask;
-+(void) addTimeToTask: (NSDate*)date;
+//+(void) addTimeToTask: (NSDate*)date;
 +(NSMutableArray*)getAll;
 +(NSMutableArray*)getTaskByTag : (NSString*)tagToSearch;
 

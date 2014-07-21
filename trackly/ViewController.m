@@ -35,12 +35,12 @@
     UIView * button1;
     UILabel * nameLabel;
     UILabel * notesLabel;
-    UITextField *taskName;
+    UITextField *taskNameTextField;
     UITextField *taskTags;
     UILabel * createTaskLabel;
     UIView *contentView;
     AKTagsInputView *_tagsInputView;
-    NSMutableArray * allTasks;
+    NSArray * _allTasks;
     UIImageView * imageView;
     UIBarButtonItem * barItem;
 }
@@ -88,21 +88,21 @@
     contentView = [[UIView alloc] initWithFrame:applicationFrame];
     contentView.backgroundColor = [UIColor whiteColor];
     contentView.layer.cornerRadius = 5.0;
-    taskName = [[UITextField alloc] initWithFrame:CGRectMake(10, 70, 280, 50)];
-    taskName.borderStyle = UITextBorderStyleRoundedRect;
-    taskName.font = [UIFont systemFontOfSize:15];
-    taskName.placeholder = @"Enter task name";
-    taskName.autocorrectionType = UITextAutocorrectionTypeNo;
-    taskName.keyboardType = UIKeyboardTypeDefault;
-    taskName.keyboardAppearance = UIKeyboardAppearanceDefault;
-    taskName.returnKeyType = UIReturnKeyDefault;
-    taskName.clearButtonMode = UITextFieldViewModeWhileEditing;
-    taskName.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
-    taskName.delegate = self;
-    taskName.layer.cornerRadius = 0.0f;
+    taskNameTextField = [[UITextField alloc] initWithFrame:CGRectMake(10, 70, 280, 50)];
+    taskNameTextField.borderStyle = UITextBorderStyleRoundedRect;
+    taskNameTextField.font = [UIFont systemFontOfSize:15];
+    taskNameTextField.placeholder = @"Enter task name";
+    taskNameTextField.autocorrectionType = UITextAutocorrectionTypeNo;
+    taskNameTextField.keyboardType = UIKeyboardTypeDefault;
+    taskNameTextField.keyboardAppearance = UIKeyboardAppearanceDefault;
+    taskNameTextField.returnKeyType = UIReturnKeyDefault;
+    taskNameTextField.clearButtonMode = UITextFieldViewModeWhileEditing;
+    taskNameTextField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
+    taskNameTextField.delegate = self;
+    taskNameTextField.layer.cornerRadius = 0.0f;
 //    taskName.borderStyle =  UITextBorderStyleNone;
 //    taskName.backgroundColor = [UIColor whiteColor];
-    [taskName setReturnKeyType:UIReturnKeyDone];
+    [taskNameTextField setReturnKeyType:UIReturnKeyDone];
     
 //    taskTags = [[UITextField alloc] initWithFrame:CGRectMake(10, 140, 280, 50)];
 //    taskTags.borderStyle = UITextBorderStyleRoundedRect;
@@ -120,7 +120,7 @@
     
     
 
-    [contentView addSubview:taskName];
+    [contentView addSubview:taskNameTextField];
     [contentView addSubview:taskTags];
     [contentView addSubview:nameLabel];
     [contentView addSubview:notesLabel];
@@ -151,24 +151,6 @@
                                                                    UITextAttributeTextShadowOffset,
                                                                    [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];
     
-//    [self.navigationController.navigationBar setBarTintColor:[UIColor greenColor]];
-    
-//    //Navbar Font
-//    [self.navigationController.navigationBar setTitleTextAttributes:
-//     [NSDictionary dictionaryWithObjectsAndKeys:
-//      [UIFont fontWithName:@"BrandonGrotesque-Light" size:32],
-//      NSFontAttributeName, nil]];
-    
-    //Show font
-//    for (NSString* family in [UIFont familyNames])
-//    {
-//        NSLog(@"%@", family);
-//    
-//        for (NSString* name in [UIFont fontNamesForFamilyName: family])
-//        {
-//            NSLog(@" %@", name);
-//        }
-//    }
 
     //REMenu
     REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Main Page"
@@ -233,6 +215,14 @@
     barItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     
     self.navigationItem.rightBarButtonItem = barItem;
+    
+    //Load objects from CoreData
+    _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
+    
+    [taskTableView setDataSource: self];
+    [taskTableView setDelegate:self];
+    
+    [taskTableView reloadData];
 }
 
 -(AKTagsInputView*)createTagsInputView
@@ -249,9 +239,9 @@
 
 -(void)viewWillAppear:(BOOL)animated {
         trayShown = false;
-        allTasks = [Task getAll];
+        _allTasks = [Task getAll];
     
-        if ([allTasks count] > 0) {
+        if ([_allTasks count] > 0) {
             noTaskView.hidden = YES;
         }
     
@@ -447,11 +437,10 @@
     NSMutableArray * tags = [[NSMutableArray alloc]initWithArray:_tagsInputView.selectedTags];
     
     if (buttonIndex ==  1) {
-     [self createAndSyncTask : taskName.text : tags];
+     [self createAndSyncTask : taskNameTextField.text : tags];
         NSLog(@"Created Task");
         [alertView close];
-        taskName.text = @"";
-        taskTags = nil;
+        taskNameTextField.text = @"";
     } else {
         [alertView close];
         NSLog(@"Closed task builder");
@@ -460,14 +449,14 @@
     
 }
 
--(void)createAndSyncTask : (NSString*)tempName : (NSArray*)tempTasks {
+-(void)createAndSyncTask : (NSString*)tempName : (NSMutableArray*)tempTags {
     
     Task * tempTask = [Task createObjectInContext:[CoreDataHelper mainManagedObjectContext]];
-    tempTask.taskName = tempName;
-    tempTask.taskTags = tempTasks;
-    [Task addTask:tempTask];
+    NSString * tn = tempName;
+    NSMutableArray * tnt = tempTags;
+    tempTask.taskName = tn;
+    tempTask.taskTags = tnt;
     [Task saveOnMain];
-    
     
     //TODO IF TAGS CONTAINS TIME ASSIGN CALENDER DELEGATE
     
@@ -478,7 +467,7 @@
 }
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [taskTags resignFirstResponder];
-    [taskName resignFirstResponder];
+    [taskNameTextField resignFirstResponder];
     return YES;
 }
 
@@ -509,6 +498,8 @@
 
 - (IBAction)rotate:(id)sender
 {
+    taskTableView.hidden = false;
+    [taskTableView reloadData];
     [UIView beginAnimations:@"step1" context:NULL]; {
         [UIView setAnimationDuration:1.0];
         [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
@@ -537,6 +528,55 @@
             }
         }
 
+//Table View stuff
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
+{
+    // Return the number of sections.
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
+    // Return the number of rows in the section.
+    
+    // For anything in the UI use main managed object context
+    return [[Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]] count];
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *cellIdentifier = @"Cell";
+    UITableViewCell *cell;
+    [taskTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
+    if(!cell) {
+        cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+    }
+    
+    // Configure the cell...
+    Task *tempTask = [_allTasks objectAtIndex:indexPath.row];
+    
+    // Just presenting some details
+    NSString *taskDetails = [NSString stringWithFormat:@"Task Name: %@", tempTask.taskName];
+    NSLog(@"%@", tempTask.taskName);
+    cell.textLabel.text = taskDetails;
+    
+    return cell;
+}
+
+// Override to support editing the table view.
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        // Delete the row from the data source
+//        [Task deleteObject:[_allTasks objectAtIndex:indexPath.row] inContext:[CoreDataHelper mainManagedObjectContext]];
+//        [taskTableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+//        [Task saveOnMain];
+        [taskTableView reloadData];
+        
+    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
+        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+    }
+}
 
 
 @end

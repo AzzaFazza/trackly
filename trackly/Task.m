@@ -9,6 +9,7 @@
 #import "Task.h"
 
 @implementation Task
+@dynamic taskTags, taskName;
 static NSMutableArray * allTasks;
 
 +(void)addTask:(Task *)tempTask {

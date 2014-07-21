@@ -47,9 +47,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3683AAE919790D9E005E04E7"
-            BuildableName = "trackly.app"
-            BlueprintName = "trackly"
-            ReferencedContainer = "container:trackly.xcodeproj">
+            BuildableName = "Taskly.app"
+            BlueprintName = "Taskly"
+            ReferencedContainer = "container:Taskly.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -71,6 +71,12 @@
             ReferencedContainer = "container:Taskly.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "-com.apple.CoreData.SQLDebug 1"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
