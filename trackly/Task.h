@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Task : NSObject
+@interface Task : NSManagedObject
 
 @property (nonatomic, retain) NSString  * taskName;
 @property (nonatomic, retain) NSArray   * taskTags;

@@ -6,4 +6,8 @@ dependencies: /Users/adamf/Desktop/trackly/trackly/ViewController.m \
   /Users/adamf/Desktop/trackly/trackly/REMenuContainerView.h \
   /Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.h \
   /Users/adamf/Desktop/trackly/trackly/videoViewController.h \
-  /Users/adamf/Desktop/trackly/trackly/Task.h
+  /Users/adamf/Desktop/trackly/trackly/Task.h \
+  /Users/adamf/Desktop/trackly/trackly/CoreDataHelper.h \
+  /Users/adamf/Desktop/trackly/trackly/BackgroundManagedObjectContext.h \
+  /Users/adamf/Desktop/trackly/trackly/NSManagedObject+CRUD.h \
+  /Users/adamf/Desktop/trackly/trackly/NSManagedObjectUpdateWithDictionaryInContext.h

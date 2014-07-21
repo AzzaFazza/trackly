@@ -1,7 +1,2 @@
-402e5aaa669b0057edff0bc8d27f4aad 16445c402b51a546a35bdb39cdda06f5 ffffffffffffffffffffffffffffffff 1660472 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a
-0000000053b12bda0000000000000829 402e5aaa358f8bcdedff0bc8d2db1bff ffffffffffffffffffffffffffffffff 3396 /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
-fb7d0e73bd9f8f3acb07520596b59cc7 65b19127a1b7a22c5ad70c5e80442e0f ffffffffffffffffffffffffffffffff 218952 /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a
-61389d3f98effa732c4c7117037a79d6 215b7d8170fd79403f6be9d20e06e6df ffffffffffffffffffffffffffffffff 211968 /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
-0acb2648751426e6ec58866a9b1299bd 670cffd7459c28f132c597b0148e9faa ffffffffffffffffffffffffffffffff 212080 /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
-00000000007819980000000000000859 fb7d0e73bd4722bccb07520596153da8 ffffffffffffffffffffffffffffffff 3868 /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
-00000000007819980000000000000859 0acb264875cc8b60ec58866a9bb238d2 ffffffffffffffffffffffffffffffff 3396 /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
+11759e43d2066e122fcb531d6a6e35a0 f093a58a101f3d33b42f7cbfcf204b0f ffffffffffffffffffffffffffffffff 5621688 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a
+00000000007c29c80000000000000859 11759e438117e6132fcb531d6af61562 ffffffffffffffffffffffffffffffff 3396 /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o

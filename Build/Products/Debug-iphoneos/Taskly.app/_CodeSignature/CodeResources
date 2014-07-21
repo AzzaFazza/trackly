@@ -50,7 +50,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		bDCPcz/3A/gm0qx5BHEinvOnckU=
+		UqXmnMdJqyKoGHND7j0sd+eR2GQ=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -58,23 +58,23 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		xPTt2LENJE4fb5KwW8pi4jr3dpM=
+		/AydJnE+ILtqDoR8LtZ2p10tjcQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		zTtEIUsWaodUSMozOzPXgqxAZ0Q=
+		FdZQtC689URl9nUu2cbnFTZ+O2E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		B97WQ3YDhUoxKSEBIArdTEpFKw4=
+		64yWLGFfcfUjVuqfOfCJQo3kTu0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		PfGKv2y8u90IsmMkb/9vCWLZp64=
+		KoDR8eQrquSExcftXaqLD1Bl5Tg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		I9bjzmaVVBR/uYK0Yqdpypo199s=
+		pDrmSqVcCO5OU7AOGfTMjXmPxHk=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -148,6 +148,10 @@
 		<data>
 		gktUgMl3qBZuF35TV9ExZMzEX0c=
 		</data>
+		<key>TaskModel.momd/TaskModel.mom</key>
+		<data>
+		wP9UjE8HxKH9dhjr639EfNBJr4c=
+		</data>
 		<key>add121@2x.png</key>
 		<data>
 		tgkiqUg57D9YBbJ6VcHtLdIM8Uc=
@@ -212,14 +216,6 @@
 		<data>
 		nCHDIUDN1tqpQIEXrnEtqjr1vBk=
 		</data>
-		<key>intoVid.mov</key>
-		<data>
-		DqZTLJ9YzjzEfp7icyA03g3d/6U=
-		</data>
-		<key>intro.mp4</key>
-		<data>
-		N5FZgdPSWaJ7VSrHvP6n2eKTuXM=
-		</data>
 		<key>introVid.mov</key>
 		<data>
 		DqZTLJ9YzjzEfp7icyA03g3d/6U=
@@ -235,6 +231,26 @@
 		<key>list23@2x.png</key>
 		<data>
 		me1wQ2d47TST1lIaZLSa3e3naKk=
+		</data>
+		<key>lookup.png</key>
+		<data>
+		EoppCtxZM9DGLNIGHFt7x6OsFAs=
+		</data>
+		<key>lookup_amatorka.png</key>
+		<data>
+		mAcqBuLpWR799fyJqOjknbbplNQ=
+		</data>
+		<key>lookup_miss_etikate.png</key>
+		<data>
+		VfLbYCVn44NmjjjQsceBvhzaPPE=
+		</data>
+		<key>lookup_soft_elegance_1.png</key>
+		<data>
+		zcQOnYyazBz9eD1lyYI88t0YuGY=
+		</data>
+		<key>lookup_soft_elegance_2.png</key>
+		<data>
+		V/TUsjkRY4r4phrGYLPaW+FXFl0=
 		</data>
 		<key>marker.ttf</key>
 		<data>
@@ -255,10 +271,6 @@
 		<key>reminder4.png</key>
 		<data>
 		m3yf80EDsKMdEvKYOgzoGfnT43A=
-		</data>
-		<key>right10.png</key>
-		<data>
-		w4O8siZYiA5/JJLeAPyaZcoXkhI=
 		</data>
 		<key>right10@2x.png</key>
 		<data>
@@ -292,7 +304,7 @@
 		<data>
 		rC0ehD/d1XUhGRcWj0dIwukpczI=
 		</data>
-		<key>two123.png</key>
+		<key>two123@2x.png</key>
 		<data>
 		k6m3cMpuPF2k3EgTNufPojoeDnU=
 		</data>
@@ -345,7 +357,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		bDCPcz/3A/gm0qx5BHEinvOnckU=
+		UqXmnMdJqyKoGHND7j0sd+eR2GQ=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -353,23 +365,23 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		xPTt2LENJE4fb5KwW8pi4jr3dpM=
+		/AydJnE+ILtqDoR8LtZ2p10tjcQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		zTtEIUsWaodUSMozOzPXgqxAZ0Q=
+		FdZQtC689URl9nUu2cbnFTZ+O2E=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		B97WQ3YDhUoxKSEBIArdTEpFKw4=
+		64yWLGFfcfUjVuqfOfCJQo3kTu0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		PfGKv2y8u90IsmMkb/9vCWLZp64=
+		KoDR8eQrquSExcftXaqLD1Bl5Tg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		I9bjzmaVVBR/uYK0Yqdpypo199s=
+		pDrmSqVcCO5OU7AOGfTMjXmPxHk=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -443,6 +455,10 @@
 		<data>
 		gktUgMl3qBZuF35TV9ExZMzEX0c=
 		</data>
+		<key>TaskModel.momd/TaskModel.mom</key>
+		<data>
+		wP9UjE8HxKH9dhjr639EfNBJr4c=
+		</data>
 		<key>add121@2x.png</key>
 		<data>
 		tgkiqUg57D9YBbJ6VcHtLdIM8Uc=
@@ -507,14 +523,6 @@
 		<data>
 		nCHDIUDN1tqpQIEXrnEtqjr1vBk=
 		</data>
-		<key>intoVid.mov</key>
-		<data>
-		DqZTLJ9YzjzEfp7icyA03g3d/6U=
-		</data>
-		<key>intro.mp4</key>
-		<data>
-		N5FZgdPSWaJ7VSrHvP6n2eKTuXM=
-		</data>
 		<key>introVid.mov</key>
 		<data>
 		DqZTLJ9YzjzEfp7icyA03g3d/6U=
@@ -530,6 +538,26 @@
 		<key>list23@2x.png</key>
 		<data>
 		me1wQ2d47TST1lIaZLSa3e3naKk=
+		</data>
+		<key>lookup.png</key>
+		<data>
+		EoppCtxZM9DGLNIGHFt7x6OsFAs=
+		</data>
+		<key>lookup_amatorka.png</key>
+		<data>
+		mAcqBuLpWR799fyJqOjknbbplNQ=
+		</data>
+		<key>lookup_miss_etikate.png</key>
+		<data>
+		VfLbYCVn44NmjjjQsceBvhzaPPE=
+		</data>
+		<key>lookup_soft_elegance_1.png</key>
+		<data>
+		zcQOnYyazBz9eD1lyYI88t0YuGY=
+		</data>
+		<key>lookup_soft_elegance_2.png</key>
+		<data>
+		V/TUsjkRY4r4phrGYLPaW+FXFl0=
 		</data>
 		<key>marker.ttf</key>
 		<data>
@@ -550,10 +578,6 @@
 		<key>reminder4.png</key>
 		<data>
 		m3yf80EDsKMdEvKYOgzoGfnT43A=
-		</data>
-		<key>right10.png</key>
-		<data>
-		w4O8siZYiA5/JJLeAPyaZcoXkhI=
 		</data>
 		<key>right10@2x.png</key>
 		<data>
@@ -587,7 +611,7 @@
 		<data>
 		rC0ehD/d1XUhGRcWj0dIwukpczI=
 		</data>
-		<key>two123.png</key>
+		<key>two123@2x.png</key>
 		<data>
 		k6m3cMpuPF2k3EgTNufPojoeDnU=
 		</data>

@@ -12,11 +12,7 @@
 
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate>
 
-@property (weak, nonatomic) IBOutlet UIView *tray;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
-@property (weak, nonatomic) IBOutlet UIButton *sync;
-@property (weak, nonatomic) IBOutlet UIButton *settings;
-@property (weak, nonatomic) IBOutlet UIButton *about;
 @property (weak, nonatomic) IBOutlet UIButton *addTask;
 @property (weak, nonatomic) IBOutlet UIView *mainView;
 @property (weak, nonatomic) IBOutlet UIView *noTaskView;
@@ -28,4 +24,5 @@
 
 -(IBAction)showTray:(id)sender;
 - (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;
+-(IBAction)syncTasks:(id)sender;
 @end

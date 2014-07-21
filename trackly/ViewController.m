@@ -15,9 +15,13 @@
 #import <AKTagsInputView/AKTextField.h>
 #import <AKTagsInputView/AKTagsInputView.h>
 #import "Task.h"
+#import "QuartzCore/QuartzCore.h"
+#import "CoreDataHelper.h"
+#import "NSManagedObject+CRUD.h"
 
 #define AVENIR_NEXT(_size) ([UIFont fontWithName:@"AvenirNext-Regular" size:(_size)])
 #define WK_COLOR_GRAY_77 			WK_COLOR(77,77,77,1)
+#define DEGREES_TO_RADIANS(angle) ((angle) / 180.0 * M_PI)
 
 @class Task;
 
@@ -37,16 +41,18 @@
     UIView *contentView;
     AKTagsInputView *_tagsInputView;
     NSMutableArray * allTasks;
+    UIImageView * imageView;
+    UIBarButtonItem * barItem;
 }
 @end
 
 @implementation ViewController
 @synthesize //Buttons
-            sync, settings, about, addTask, trayDisplayButton,
+            addTask, trayDisplayButton,
             //Labels
             sadFace, noTaskLabel,
             //Views
-            tray, mainView, noTaskView, taskTableView;
+            mainView, noTaskView, taskTableView;
 
 - (void)viewDidLoad
 {
@@ -215,7 +221,20 @@
     
     [self parralaxEffect];
     
+    imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"black14.png"]];
+    imageView.autoresizingMask = UIViewAutoresizingNone;
+    imageView.contentMode = UIViewContentModeCenter;
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 0, 40, 40);
+    [button addSubview:imageView];
+    [button addTarget:self action:@selector(rotate:) forControlEvents:UIControlEventTouchUpInside];
+    imageView.center = button.center;
+    barItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    
+    self.navigationItem.rightBarButtonItem = barItem;
 }
+
 -(AKTagsInputView*)createTagsInputView
 {
     _tagsInputView = [[AKTagsInputView alloc] initWithFrame:CGRectMake(10, 140, 280, 50)];
@@ -237,6 +256,7 @@
         }
     
         contentView.backgroundColor = [self colorWithHexString:@"eeeeee"];
+    
 }
 -(void)hideTray {
     if (trayShown == false) {
@@ -424,24 +444,29 @@
 - (void)customIOS7dialogButtonTouchUpInside: (CustomIOS7AlertView *)alertView clickedButtonAtIndex: (NSInteger)buttonIndex
 {
     NSLog(@"Button at position %d is clicked on alertView %d.", buttonIndex, [alertView tag]);
-    [alertView close];
     NSMutableArray * tags = [[NSMutableArray alloc]initWithArray:_tagsInputView.selectedTags];
     
-    if (buttonIndex ==  ) {
-        <#statements#>
+    if (buttonIndex ==  1) {
+     [self createAndSyncTask : taskName.text : tags];
+        NSLog(@"Created Task");
+        [alertView close];
+        taskName.text = @"";
+        taskTags = nil;
+    } else {
+        [alertView close];
+        NSLog(@"Closed task builder");
     }
-    [self createAndSyncTask : taskName.text : tags];
     
     
 }
 
 -(void)createAndSyncTask : (NSString*)tempName : (NSArray*)tempTasks {
-    Task * tempTask = [[Task alloc]init];
+    
+    Task * tempTask = [Task createObjectInContext:[CoreDataHelper mainManagedObjectContext]];
     tempTask.taskName = tempName;
     tempTask.taskTags = tempTasks;
-    NSLog(@"%@", tempTask);
-    
     [Task addTask:tempTask];
+    [Task saveOnMain];
     
     
     //TODO IF TAGS CONTAINS TIME ASSIGN CALENDER DELEGATE
@@ -481,6 +506,36 @@
     // Add both effects to your view
     [noTaskView addMotionEffect:group];
 }
+
+- (IBAction)rotate:(id)sender
+{
+    [UIView beginAnimations:@"step1" context:NULL]; {
+        [UIView setAnimationDuration:1.0];
+        [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
+        [UIView setAnimationDelegate:self];
+        imageView.transform = CGAffineTransformMakeRotation(120 * M_PI / 180);
+         } [UIView commitAnimations];
+         }
+         
+         - (void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
+        {
+            if ([animationID isEqualToString:@"step1"]) {
+                [UIView beginAnimations:@"step2" context:NULL]; {
+                    [UIView setAnimationDuration:1.0];
+                    [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
+                    [UIView setAnimationDelegate:self];
+                    imageView.transform = CGAffineTransformMakeRotation(240 * M_PI / 180);
+                } [UIView commitAnimations];
+            }
+            else if ([animationID isEqualToString:@"step2"]) {
+                [UIView beginAnimations:@"step3" context:NULL]; {
+                    [UIView setAnimationDuration:1.0];
+                    [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
+                    [UIView setAnimationDelegate:self];
+                    imageView.transform = CGAffineTransformMakeRotation(0);
+                } [UIView commitAnimations];
+            }
+        }
 
 
 
