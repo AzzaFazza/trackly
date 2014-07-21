@@ -82,6 +82,7 @@
 		36B304F71979B80A001951E2 /* IMG_0434.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 36B304F61979B80A001951E2 /* IMG_0434.MOV */; };
 		36B304FD1979D22A001951E2 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304FC1979D22A001951E2 /* title@2x.png */; };
 		36BB2D85197B1DD1000D6854 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 36BB2D84197B1DD1000D6854 /* AppIcons */; };
+		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
 		36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9B0197B0E21008E2D22 /* coq.ttf */; };
 		36F0422A197D8AF20035DAA8 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F04229197D8AF20035DAA8 /* Task.m */; };
@@ -193,6 +194,8 @@
 		36B304F61979B80A001951E2 /* IMG_0434.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_0434.MOV; sourceTree = "<group>"; };
 		36B304FC1979D22A001951E2 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@2x.png"; sourceTree = "<group>"; };
 		36BB2D84197B1DD1000D6854 /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcons; sourceTree = "<group>"; };
+		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
+		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		36EEB9B0197B0E21008E2D22 /* coq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coq.ttf; sourceTree = "<group>"; };
 		36F04228197D8AF20035DAA8 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
@@ -268,6 +271,8 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
+				36CE9398197DBD270032EDCB /* KLCPopup.h */,
+				36CE9399197DBD270032EDCB /* KLCPopup.m */,
 				36F04228197D8AF20035DAA8 /* Task.h */,
 				36F04229197D8AF20035DAA8 /* Task.m */,
 				369A096D197D564700153F18 /* TaskModel.xcdatamodeld */,
@@ -606,6 +611,7 @@
 				36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */,
 				3683AB0419790D9E005E04E7 /* ViewController.m in Sources */,
 				36B3048619794F0A001951E2 /* REMenuItemView.m in Sources */,
+				36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */,
 				3683AAFE19790D9E005E04E7 /* AppDelegate.m in Sources */,
 				369A0960197D456300153F18 /* GeneralUtils.m in Sources */,
 				36B3048419794F0A001951E2 /* REMenuContainerView.m in Sources */,

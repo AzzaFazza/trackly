@@ -18,6 +18,7 @@
 #import "QuartzCore/QuartzCore.h"
 #import "CoreDataHelper.h"
 #import "NSManagedObject+CRUD.h"
+#import "KLCPopup.h"
 
 #define AVENIR_NEXT(_size) ([UIFont fontWithName:@"AvenirNext-Regular" size:(_size)])
 #define WK_COLOR_GRAY_77 			WK_COLOR(77,77,77,1)
@@ -53,6 +54,7 @@
             sadFace, noTaskLabel,
             //Views
             mainView, noTaskView, taskTableView;
+
 
 - (void)viewDidLoad
 {
@@ -100,26 +102,9 @@
     taskNameTextField.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
     taskNameTextField.delegate = self;
     taskNameTextField.layer.cornerRadius = 0.0f;
-//    taskName.borderStyle =  UITextBorderStyleNone;
-//    taskName.backgroundColor = [UIColor whiteColor];
     [taskNameTextField setReturnKeyType:UIReturnKeyDone];
     
-//    taskTags = [[UITextField alloc] initWithFrame:CGRectMake(10, 140, 280, 50)];
-//    taskTags.borderStyle = UITextBorderStyleRoundedRect;
-//    taskTags.font = [UIFont systemFontOfSize:15];
-//    taskTags.placeholder = @"Enter Tags (Optional)";
-//    taskTags.autocorrectionType = UITextAutocorrectionTypeNo;
-//    taskTags.keyboardType = UIKeyboardTypeDefault;
-//    taskTags.keyboardAppearance = UIKeyboardAppearanceDark;
-//    taskTags.returnKeyType = UIReturnKeyDone;
-//    taskTags.clearButtonMode = UITextFieldViewModeWhileEditing;
-//    taskTags.contentVerticalAlignment = UIControlContentVerticalAlignmentCenter;
-//    taskTags.delegate = self;
-//    [taskTags setReturnKeyType:UIReturnKeyDone];
     
-    
-    
-
     [contentView addSubview:taskNameTextField];
     [contentView addSubview:taskTags];
     [contentView addSubview:nameLabel];
@@ -136,10 +121,6 @@
     
     fingerX = 0.0;
     fingerY = 0.0;
-    
-//    [self firstTimeTour];
-    
-    taskTableView.hidden = YES;
     
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"Helvetica-Neue" size:6.0]];
@@ -223,6 +204,15 @@
     [taskTableView setDelegate:self];
     
     [taskTableView reloadData];
+    
+    if(_allTasks.count == 0) {
+        taskTableView.hidden = true;
+        noTaskView.hidden = false;
+    } else {
+        taskTableView.hidden = false;
+        noTaskView.hidden = true;
+    }
+    
 }
 
 -(AKTagsInputView*)createTagsInputView
@@ -457,6 +447,15 @@
     tempTask.taskTags = tnt;
     [Task saveOnMain];
     
+    _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
+    if(_allTasks.count == 0) {
+        //Do Nothing
+    } else {
+        [taskTableView reloadData];
+        taskTableView.hidden = NO;
+        noTaskView.hidden  = YES;
+    }
+    
     //TODO IF TAGS CONTAINS TIME ASSIGN CALENDER DELEGATE
     
     //TODO SYNC TO PARSE
@@ -497,18 +496,76 @@
 
 - (IBAction)rotate:(id)sender
 {
-    taskTableView.hidden = false;
     _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
     [taskTableView reloadData];
+    
+    if(_allTasks.count > 0) {
+        taskTableView.hidden = false;
+    }
+    
+    
+    //KLCPopup
+    
+    // Generate content view to present
+    UIView* contenViewKLC = [[UIView alloc] init];
+    contenViewKLC.translatesAutoresizingMaskIntoConstraints = NO;
+    contenViewKLC.backgroundColor = [UIColor colorWithRed:(184.0/255.0) green:(233.0/255.0) blue:(122.0/255.0) alpha:1.0];
+    contenViewKLC.layer.cornerRadius = 12.0;
+    
+    UILabel* dismissLabel = [[UILabel alloc] init];
+    dismissLabel.translatesAutoresizingMaskIntoConstraints = NO;
+    dismissLabel.backgroundColor = [UIColor clearColor];
+    dismissLabel.textColor = [UIColor whiteColor];
+    dismissLabel.font = [UIFont boldSystemFontOfSize:32.0];
+    dismissLabel.text = @"Tasks Synced!";
+    
+    UIButton* dismissButton = [UIButton buttonWithType:UIButtonTypeCustom];
+    dismissButton.translatesAutoresizingMaskIntoConstraints = NO;
+    dismissButton.contentEdgeInsets = UIEdgeInsetsMake(10, 20, 10, 20);
+    dismissButton.backgroundColor = [UIColor colorWithRed:(0.0/255.0) green:(204.0/255.0) blue:(134.0/255.0) alpha:1.0];
+    [dismissButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [dismissButton setTitleColor:[[dismissButton titleColorForState:UIControlStateNormal] colorWithAlphaComponent:0.5] forState:UIControlStateHighlighted];
+    dismissButton.titleLabel.font = [UIFont boldSystemFontOfSize:16.0];
+    [dismissButton setTitle:@"Yay" forState:UIControlStateNormal];
+    dismissButton.layer.cornerRadius = 6.0;
+    [dismissButton addTarget:self action:@selector(dismissButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [contenViewKLC addSubview:dismissLabel];
+    [contenViewKLC addSubview:dismissButton];
+    
+    NSDictionary* views = NSDictionaryOfVariableBindings(contenViewKLC, dismissButton, dismissLabel);
+    
+    [contenViewKLC addConstraints:
+     [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(16)-[dismissLabel]-(10)-[dismissButton]-(24)-|"
+                                             options:NSLayoutFormatAlignAllCenterX
+                                             metrics:nil
+                                               views:views]];
+    
+    [contenViewKLC addConstraints:
+     [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(36)-[dismissLabel]-(36)-|"
+                                             options:0
+                                             metrics:nil
+                                               views:views]];
+    
+    KLCPopup* pu = [KLCPopup popupWithContentView:contenViewKLC
+                                         showType:KLCPopupShowTypeBounceInFromBottom
+                                         dismissType:KLCPopupDismissTypeBounceOutToBottom
+                                         maskType:KLCPopupMaskTypeDimmed
+                                         dismissOnBackgroundTouch:YES
+                                         dismissOnContentTouch:YES];
+    
+    
     [UIView beginAnimations:@"step1" context:NULL]; {
         [UIView setAnimationDuration:1.0];
         [UIView setAnimationDidStopSelector:@selector(animationDidStop:finished:context:)];
         [UIView setAnimationDelegate:self];
         imageView.transform = CGAffineTransformMakeRotation(120 * M_PI / 180);
          } [UIView commitAnimations];
-         }
-         
-         - (void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
+    
+    [pu show];
+}
+
+- (void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context
         {
             if ([animationID isEqualToString:@"step1"]) {
                 [UIView beginAnimations:@"step2" context:NULL]; {
@@ -526,7 +583,7 @@
                     imageView.transform = CGAffineTransformMakeRotation(0);
                 } [UIView commitAnimations];
             }
-        }
+}
 
 //Table View stuff
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -574,6 +631,12 @@
         [self allTasksComplete];
         [taskTableView reloadData];
         [Task saveOnMain];
+        _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
+        if(_allTasks.count == 0)
+        {
+            taskTableView.hidden = YES;
+            noTaskView.hidden = NO;
+        }
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }
@@ -585,6 +648,11 @@
         [alert show];
         taskTableView.hidden  = true;
         [taskTableView reloadData];
+    }
+}
+- (void)dismissButtonPressed:(id)sender {
+    if ([sender isKindOfClass:[UIView class]]) {
+        [(UIView*)sender dismissPresentingPopup];
     }
 }
 
