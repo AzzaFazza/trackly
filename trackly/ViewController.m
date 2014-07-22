@@ -46,6 +46,7 @@
     UIImageView * imageView;
     UIBarButtonItem * barItem;
     NSString * genreLabelToPass;
+    customTableViewCell *cell;
 }
 @end
 
@@ -456,6 +457,7 @@
     
     //TODO Display the Task
     
+    
 }
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [taskTags resignFirstResponder];
@@ -603,7 +605,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"customTableViewCell";
-    customTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
     Task *tempTask = [_allTasks objectAtIndex:indexPath.section];
@@ -611,19 +613,20 @@
     // Just presenting some details
     NSString *taskDetails = [NSString stringWithFormat:@"%@", tempTask.taskName];
     NSLog(@"%@", tempTask.taskName);
-   cell.taskNameLabel.text = [NSString stringWithFormat:@"%@", taskDetails ];
-   cell.tagsLabel.text = [NSString stringWithFormat:@"%@", [tempTask.taskTags componentsJoinedByString:@"   "]];
+    cell.taskNameLabel.text = [NSString stringWithFormat:@"%@", taskDetails ];
+    cell.taskNameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:24.0f];
+    cell.tagsLabel.text = [NSString stringWithFormat:@"%@", [tempTask.taskTags componentsJoinedByString:@"   "]];
+    cell.tagsLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:10.0f];
     cell.taskGenre.text = [NSString stringWithFormat:@"%@", tempTask.taskGenre];
-    
+    cell.taskGenre.font = [UIFont fontWithName:@"AvenirNext-Regular" size:16.0f];
+    cell.cellView.layer.cornerRadius = 3.0;
+    cell.cellView.clipsToBounds = YES;
     [taskTableView setClipsToBounds:YES];
-    
     
     cell.imageView.image = [UIImage imageNamed:@"Icon_Activity.png"];
     
     return cell;
 }
-
-
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {

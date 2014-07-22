@@ -10,7 +10,7 @@
 #import <CXCardView/CXCardView.h>
 
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate>
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate, UIImagePickerControllerDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
 @property (weak, nonatomic) IBOutlet UIButton *addTask;
@@ -27,5 +27,4 @@
 
 -(IBAction)showTray:(id)sender;
 - (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;
--(IBAction)syncTasks:(id)sender;
 @end
