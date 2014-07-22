@@ -1,0 +1,1058 @@
+TPods-GPUImage
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053B12BA800000000000003B4
+t1404119976
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12BAE000000000000019E
+t1404119982
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.pch
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.pch
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch
+c00000000000000000000000000000000
+t2
+s0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GLProgram.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImage3x3ConvolutionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImage3x3TextureSamplingFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAdaptiveThresholdFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAddBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAlphaBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAmatorkaFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAverageColor.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAverageLuminanceThresholdFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBilateralFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBoxBlurFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBrightnessFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBuffer.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBulgeDistortionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCGAColorspaceFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCannyEdgeDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageChromaKeyBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageChromaKeyFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageClosingFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorBurnBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorDodgeBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorInvertFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorMatrixFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorPackingFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageContrastFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCropFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCrosshairGenerator.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCrosshatchFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDarkenBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDifferenceBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDilationFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDirectionalNonMaximumSuppressionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDissolveBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDivideBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageEmbossFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageErosionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageExclusionBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageExposureFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFASTCornerDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFalseColorFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFilterGroup.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFilterPipeline.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFramebuffer.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFramebufferCache.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGammaFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGaussianBlurFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGaussianBlurPositionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGaussianSelectiveBlurFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGlassSphereFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGrayscaleFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHSBFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHalftoneFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHardLightBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHarrisCornerDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHazeFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHighPassFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHighlightShadowFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHistogramFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHistogramGenerator.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHoughTransformLineDetector.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHueBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHueFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageJFAVoronoiFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageKuwaharaFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageKuwaharaRadius3Filter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLanczosResamplingFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLaplacianFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLevelsFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLightenBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLineGenerator.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLinearBurnBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLocalBinaryPatternFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLookupFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLowPassFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLuminanceRangeFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLuminanceThresholdFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLuminosity.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLuminosityBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMaskFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMedianFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMissEtikateFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMonochromeFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMosaicFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMotionBlurFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMotionDetector.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMovie.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMovieComposition.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMultiplyBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageNobleCornerDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageNonMaximumSuppressionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageNormalBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageOpacityFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageOpeningFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageOutput.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageOverlayBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageParallelCoordinateLineTransformFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePerlinNoiseFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePinchDistortionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePixellateFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePixellatePositionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePoissonBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePolarPixellateFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePolkaDotFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePosterizeFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePrewittEdgeDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBClosingFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBDilationFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBErosionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBOpeningFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRawDataInput.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRawDataOutput.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSaturationBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSaturationFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageScreenBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSepiaFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSharpenFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSingleComponentGaussianBlurFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSketchFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSmoothToonFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSobelEdgeDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSoftEleganceFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSoftLightBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSolidColorGenerator.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSourceOverBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSphereRefractionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageStillCamera.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageStretchDistortionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSubtractBlendFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSwirlFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTextureInput.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTextureOutput.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageThreeInputFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageThresholdEdgeDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageThresholdSketchFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTiltShiftFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageToneCurveFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageToonFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTransformFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTwoInputFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTwoPassFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTwoPassTextureSamplingFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageUIElement.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageUnsharpMaskFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageVideoCamera.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageVignetteFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageVoronoiConsumerFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageWeakPixelInclusionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageWhiteBalanceFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageXYDerivativeFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageZoomBlurFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageiOSBlurFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUimageDirectionalSobelEdgeDetectionFilter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/iOS/GPUImageContext.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/iOS/GPUImageMovieWriter.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/iOS/GPUImagePicture.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/iOS/GPUImageView.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies465e9e615f7eb941^3f70a5615f7eb941^-165"The file “Pods-GPUImage-Private.xcconfig” couldn’t be opened because there is no such file. (/Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-Private.xcconfig)1(21%IDEActivityLogMessage2@164"The file “Pods-GPUImage-Private.xcconfig” couldn’t be opened because there is no such file. (/Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-Private.xcconfig)-427712353#18446744073709551615#0#-1#27"com.apple.dt.IDE.LogMessage-27"Dependency Analysis Warning--0#1#1#--18"Check dependencies36"EE74B3B8-5801-4494-8559-6A5959D3A94B-
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GLProgram.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GLProgram.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImage3x3ConvolutionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImage3x3ConvolutionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImage3x3TextureSamplingFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImage3x3TextureSamplingFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageAdaptiveThresholdFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAdaptiveThresholdFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageAddBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAddBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageAlphaBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAlphaBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageAmatorkaFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAmatorkaFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageAverageColor.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAverageColor.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageAverageLuminanceThresholdFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageAverageLuminanceThresholdFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageBilateralFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBilateralFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageBoxBlurFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBoxBlurFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageBrightnessFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBrightnessFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageBuffer.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBuffer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageBulgeDistortionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageBulgeDistortionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageCGAColorspaceFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCGAColorspaceFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageCannyEdgeDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCannyEdgeDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageChromaKeyBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageChromaKeyBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageChromaKeyFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageChromaKeyFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageClosingFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageClosingFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageColorBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageColorBurnBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorBurnBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageColorDodgeBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorDodgeBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageColorInvertFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorInvertFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageColorMatrixFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorMatrixFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageColorPackingFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageColorPackingFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageContext.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/iOS/GPUImageContext.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageContrastFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageContrastFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageCropFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCropFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageCrosshairGenerator.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCrosshairGenerator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageCrosshatchFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageCrosshatchFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageDarkenBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDarkenBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageDifferenceBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDifferenceBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageDilationFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDilationFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageDirectionalNonMaximumSuppressionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDirectionalNonMaximumSuppressionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageDissolveBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDissolveBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageDivideBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageDivideBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageEmbossFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageEmbossFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageErosionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageErosionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageExclusionBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageExclusionBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageExposureFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageExposureFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageFASTCornerDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFASTCornerDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageFalseColorFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFalseColorFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageFilterGroup.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFilterGroup.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageFilterPipeline.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFilterPipeline.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageFramebuffer.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFramebuffer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageFramebufferCache.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageFramebufferCache.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageGammaFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGammaFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageGaussianBlurFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGaussianBlurFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageGaussianBlurPositionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGaussianBlurPositionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageGaussianSelectiveBlurFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGaussianSelectiveBlurFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageGlassSphereFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGlassSphereFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageGrayscaleFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageGrayscaleFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHSBFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHSBFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHalftoneFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHalftoneFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHardLightBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHardLightBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHarrisCornerDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHarrisCornerDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHazeFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHazeFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHighPassFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHighPassFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHighlightShadowFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHighlightShadowFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHistogramFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHistogramFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHistogramGenerator.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHistogramGenerator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHoughTransformLineDetector.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHoughTransformLineDetector.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHueBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHueBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageHueFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageHueFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageJFAVoronoiFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageJFAVoronoiFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageKuwaharaFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageKuwaharaFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageKuwaharaRadius3Filter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageKuwaharaRadius3Filter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLanczosResamplingFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLanczosResamplingFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLaplacianFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLaplacianFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLevelsFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLevelsFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLightenBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLightenBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLineGenerator.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLineGenerator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLinearBurnBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLinearBurnBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLocalBinaryPatternFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLocalBinaryPatternFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLookupFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLookupFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLowPassFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLowPassFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLuminanceRangeFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLuminanceRangeFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLuminanceThresholdFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLuminanceThresholdFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLuminosity.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLuminosity.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageLuminosityBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageLuminosityBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMaskFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMaskFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMedianFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMedianFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMissEtikateFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMissEtikateFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMonochromeFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMonochromeFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMosaicFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMosaicFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMotionBlurFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMotionBlurFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMotionDetector.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMotionDetector.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMovie.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMovie.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMovieComposition.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMovieComposition.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMovieWriter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/iOS/GPUImageMovieWriter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageMultiplyBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageMultiplyBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageNobleCornerDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageNobleCornerDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageNonMaximumSuppressionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageNonMaximumSuppressionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageNormalBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageNormalBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageOpacityFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageOpacityFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageOpeningFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageOpeningFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageOutput.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageOutput.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageOverlayBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageOverlayBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageParallelCoordinateLineTransformFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageParallelCoordinateLineTransformFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePerlinNoiseFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePerlinNoiseFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePicture.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/iOS/GPUImagePicture.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePinchDistortionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePinchDistortionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePixellateFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePixellateFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePixellatePositionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePixellatePositionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePoissonBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePoissonBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePolarPixellateFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePolarPixellateFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePolkaDotFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePolkaDotFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePosterizeFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePosterizeFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImagePrewittEdgeDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImagePrewittEdgeDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageRGBClosingFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBClosingFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageRGBDilationFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBDilationFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageRGBErosionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBErosionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageRGBFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageRGBOpeningFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRGBOpeningFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageRawDataInput.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRawDataInput.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageRawDataOutput.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageRawDataOutput.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSaturationBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSaturationBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSaturationFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSaturationFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageScreenBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageScreenBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSepiaFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSepiaFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSharpenFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSharpenFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageShiTomasiFeatureDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageShiTomasiFeatureDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSingleComponentGaussianBlurFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSingleComponentGaussianBlurFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSketchFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSketchFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSmoothToonFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSmoothToonFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSobelEdgeDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSobelEdgeDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSoftEleganceFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSoftEleganceFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSoftLightBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSoftLightBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSolidColorGenerator.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSolidColorGenerator.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSourceOverBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSourceOverBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSphereRefractionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSphereRefractionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageStillCamera.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageStillCamera.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageStretchDistortionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageStretchDistortionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSubtractBlendFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSubtractBlendFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageSwirlFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageSwirlFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageTextureInput.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTextureInput.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageTextureOutput.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTextureOutput.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageThreeInputFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageThreeInputFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageThresholdEdgeDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageThresholdEdgeDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageThresholdSketchFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageThresholdSketchFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageThresholdedNonMaximumSuppressionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageThresholdedNonMaximumSuppressionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageTiltShiftFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTiltShiftFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageToneCurveFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageToneCurveFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageToonFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageToonFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageTransformFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTransformFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageTwoInputCrossTextureSamplingFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTwoInputCrossTextureSamplingFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageTwoInputFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTwoInputFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageTwoPassFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTwoPassFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageTwoPassTextureSamplingFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageTwoPassTextureSamplingFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageUIElement.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageUIElement.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageUnsharpMaskFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageUnsharpMaskFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageVideoCamera.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageVideoCamera.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageView.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/iOS/GPUImageView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageVignetteFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageVignetteFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageVoronoiConsumerFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageVoronoiConsumerFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageWeakPixelInclusionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageWeakPixelInclusionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageWhiteBalanceFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageWhiteBalanceFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageXYDerivativeFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageXYDerivativeFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageZoomBlurFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageZoomBlurFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUImageiOSBlurFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUImageiOSBlurFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/GPUimageDirectionalSobelEdgeDetectionFilter.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GPUimageDirectionalSobelEdgeDetectionFilter.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Objects-normal/i386/Pods-GPUImage-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-GPUImage.a normal i386
+r0
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712353.749489
+e427712353.855840
+r0
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.pch
+xPods-GPUImage-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch'
+oclang: error: no input files
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Pods-GPUImage-prefix.pch250"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerfdf8bf615f7eb941^e738db615f7eb941^-131"clang: error: no such file or directory: '/Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch'clang: error: no input files-0#0#1#-19%DVTDocumentLocation2@65"file:///Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch003464e0ddffdf42^3403"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Pods-GPUImage-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Pods-GPUImage-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Pods-GPUImage-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Pods-GPUImage-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-dcfnocoochhaddbpgybgfbzywjey/Pods-GPUImage-prefix.pch.pch36"8445856D-AC1B-4CE6-9DFB-0412B5308AC5-
+bF68A6212-5523-42E9-BB34-81ADAD5F1BDC
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712353.745571
+e427712353.755286
+r0
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.pch
+xPods-GPUImage-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch'
+oclang: error: no input files
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection35"Precompile Pods-GPUImage-prefix.pch250"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler33fdbe615f7eb941^4f22c2615f7eb941^-256"clang: error: no such file or directory: '/Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-427712353#18446744073709551615#0#-2#--20"Apple LLVM 5.1 Error--0#0#1#-19%DVTDocumentLocation3@65"file:///Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch003464e0ddffdf42^3437"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Pods-GPUImage-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Pods-GPUImage-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Pods-GPUImage-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/Pods-GPUImage-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-GPUImage.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -DOS_OBJECT_USE_OBJC=0 --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-GPUImage-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-GPUImage-prefix-fhkgscudpeehvkbjifkxyplpxlnn/Pods-GPUImage-prefix.pch.pch36"250AAF62-5405-4C45-82B7-30804F1B697C-
+bF68A6212-5523-42E9-BB34-81ADAD5F1BDC
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-GPUImage-prefix-apvaaioozgxqhfcbmxorgekrxmad_ast/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-GPUImage-prefix-ckzheglwljbozgefmdagealbzplp_ast/Pods-GPUImage-prefix.pch.pch Pods-GPUImage-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

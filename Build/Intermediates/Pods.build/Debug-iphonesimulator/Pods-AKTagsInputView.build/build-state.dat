@@ -1,0 +1,450 @@
+TPods-AKTagsInputView
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-AKTagsInputView.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B12B980000000000A90C10
+t1404119960
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053B12BA800000000000003B4
+t1404119976
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12BAE000000000000019E
+t1404119982
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.o
+t1406019644
+s62492
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.o
+t1406019644
+s47584
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.o
+t1406019644
+s80724
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.o
+t1406019645
+s87576
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.o
+t1406019645
+s54156
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.o
+t1406019645
+s53516
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.o
+t1406019645
+s18852
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.o
+t1406019645
+s3440
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView.LinkFileList
+c0000000053CE27E100000000000004A4
+t1406019553
+s1188
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.pch
+t1406019644
+s124764
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.pch
+t1406019644
+s125172
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bennsvdhjwxmeicnowqaasoawqya/Pods-AKTagsInputView-prefix.pch.pch
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-cafdskskawtijkdyjarothmzssdh/Pods-AKTagsInputView-prefix.pch.pch
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-AKTagsInputView.a
+t1406019645
+s411928
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.h
+c0000000053CE280600000000000002A9
+t1406019590
+s681
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m
+c0000000053CE28060000000000000AFF
+t1406019590
+s2815
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.h
+c0000000053CE28060000000000000132
+t1406019590
+s306
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m
+c0000000053CE280600000000000002D5
+t1406019590
+s725
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsDefines.h
+c0000000053CE280600000000000001F3
+t1406019590
+s499
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.h
+c0000000053CE28060000000000000444
+t1406019590
+s1092
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m
+c0000000053CE2806000000000000158E
+t1406019590
+s5518
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.h
+c0000000053CE28060000000000000518
+t1406019590
+s1304
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m
+c0000000053CE28060000000000001649
+t1406019590
+s5705
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.h
+c0000000053CE280600000000000001EF
+t1406019590
+s495
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m
+c0000000053CE2806000000000000067B
+t1406019590
+s1659
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.h
+c0000000053CE28060000000000000148
+t1406019590
+s328
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m
+c0000000053CE280600000000000007FF
+t1406019590
+s2047
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.h
+c0000000053CE28060000000000000353
+t1406019590
+s851
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m
+c0000000053CE28060000000000000B39
+t1406019590
+s2873
+
+N/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringsizeWithFont.h
+c0000000053CE28060000000000000353
+t1406019590
+s851
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m
+c0000000053CE28080000000000000090
+t1406019592
+s144
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch
+c0000000053CE2808000000000000004D
+t1406019592
+s77
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+c0000000053CE28090000000000000578
+t1406019593
+s1400
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies99296104627eb941^3f546204627eb941^---0#1#1#--18"Check dependencies36"49DC6E74-2A9C-4BF5-B5A1-C5A88E21C557-
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712444.273297
+e427712444.674208
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.o
+x/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsDefines.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection77"Compile /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m253"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.o AKTagsInputView/Classes/AKTagCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9a5e46bc5f7eb941^a9dcacbc5f7eb941^---0#0#1#-19%DVTDocumentLocation2@76"file:///Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m0000000000000000^4045"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.o AKTagsInputView/Classes/AKTagCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.dia -c /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagCell.o36"5C8F7BDC-D13C-4078-B4F0-A3DE11DD270C-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712444.494031
+e427712444.684929
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.o
+x/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Compile /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m271"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.o AKTagsInputView/Classes/AKTagTextFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler8d9b7ebc5f7eb941^a75aafbc5f7eb941^---0#0#1#-19%DVTDocumentLocation2@85"file:///Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m0000000000000000^4099"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.o AKTagsInputView/Classes/AKTagTextFieldCell.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.dia -c /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagTextFieldCell.o36"3A3C5D02-3891-41A4-81D8-2735E1CEFAF7-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712444.686356
+e427712444.959835
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.o
+x/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsDefines.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagTextFieldCell.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Compile /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m265"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.o AKTagsInputView/Classes/AKTagsInputView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler99d9afbc5f7eb941^5b79f5bc5f7eb941^---0#0#1#-19%DVTDocumentLocation2@82"file:///Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m0000000000000000^4081"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.o AKTagsInputView/Classes/AKTagsInputView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.dia -c /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsInputView.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsInputView.o36"7984A64D-4528-48D2-B7BA-E76E9260DDD9-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712444.750505
+e427712445.094436
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.o
+x/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsDefines.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m263"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.o AKTagsInputView/Classes/AKTagsListView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb247c0bc5f7eb941^a85518bd5f7eb941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m0000000000000000^4075"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.o AKTagsInputView/Classes/AKTagsListView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.dia -c /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsListView.o36"7DF5400F-7BE8-433F-AD24-C93B516E66ED-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712444.947352
+e427712445.126934
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.o
+x/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsListView.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Compile /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m259"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.o AKTagsInputView/Classes/AKTagsLookup.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdcf1f2bc5f7eb941^04ad20bd5f7eb941^---0#0#1#-19%DVTDocumentLocation2@79"file:///Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m0000000000000000^4063"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.o AKTagsInputView/Classes/AKTagsLookup.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.dia -c /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagsLookup.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTagsLookup.o36"81F68290-FD66-41EE-BA26-FEA469B1EC81-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712445.094838
+e427712445.305672
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.o
+x/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.h
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m257"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.o AKTagsInputView/Classes/AKTextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler6dac18bd5f7eb941^76fe4dbd5f7eb941^---0#0#1#-19%DVTDocumentLocation2@78"file:///Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m0000000000000000^4057"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.o AKTagsInputView/Classes/AKTextField.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.dia -c /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTextField.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/AKTextField.o36"566028B1-00EE-48D4-A165-F4F3EF0AF9B6-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712445.186012
+e427712445.283998
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.o
+x/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m
+d/Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringsizeWithFont.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m289"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.o AKTagsInputView/Classes/NSString+StringSizeWithFont.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd6e130bd5f7eb941^5fce48bd5f7eb941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m0000000000000000^4153"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.o AKTagsInputView/Classes/NSString+StringSizeWithFont.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.dia -c /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/NSString+StringSizeWithFont.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/NSString+StringSizeWithFont.o36"BA007B64-6C69-4B55-9AB0-99852C796944-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712445.189315
+e427712445.246278
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.o
+x/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m263"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.o Pods-AKTagsInputView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerb5e130bd5f7eb941^d40e3fbd5f7eb941^---0#0#1#-19%DVTDocumentLocation2@69"file:///Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m0000000000000000^4088"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.o Pods-AKTagsInputView-dummy.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView-dummy.o36"660D48BC-C48D-45D8-AB12-6DB9B62BDC74-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-AKTagsInputView.a normal i386
+s427712445.311040
+e427712445.330703
+r1
+xLibtool
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-AKTagsInputView.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-AKTagsInputView.a normal i386111"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-AKTagsInputView.a normal i386a6b74fbd5f7eb941^da3955bd5f7eb941^---0#0#1#--999"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-AKTagsInputView.a normal i386    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Objects-normal/i386/Pods-AKTagsInputView.LinkFileList -framework Foundation -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-AKTagsInputView.a36"08EF1257-1774-4B6B-A19E-4A30A43E1839-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712444.085789
+e427712444.225050
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.pch
+xPods-AKTagsInputView-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-AKTagsInputView-prefix.pch271"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera5c016bc5f7eb941^a70741bc5f7eb941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch0000000000000000^3945"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-adiyxvxgetvkjkfeldcsjpgigphk/Pods-AKTagsInputView-prefix.pch.pch36"D71BC475-3482-4D0C-A1EF-5FCAD2F60D6E-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712444.080952
+e427712444.263392
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.pch
+xPods-AKTagsInputView-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-AKTagsInputView-prefix.pch271"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd20016bc5f7eb941^8dd344bc5f7eb941^---0#0#1#-19%DVTDocumentLocation2@72"file:///Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch0000000000000000^3956"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bbwwvrrsfhdmcphigxpsenmjtkwe/Pods-AKTagsInputView-prefix.pch.pch36"09C65D49-ADDE-4FAB-B9AE-7B31E11F9F3C-
+b822E0964-B27D-4C15-B429-418BD3F10A2D
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bennsvdhjwxmeicnowqaasoawqya/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712353.756858
+e427712353.866276
+r0
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bennsvdhjwxmeicnowqaasoawqya/Pods-AKTagsInputView-prefix.pch.pch
+xPods-AKTagsInputView-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch'
+oclang: error: no input files
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-AKTagsInputView-prefix.pch271"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bennsvdhjwxmeicnowqaasoawqya/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler93e0c1615f7eb941^5bd2dd615f7eb941^-138"clang: error: no such file or directory: '/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch'clang: error: no input files-0#0#1#-19%DVTDocumentLocation2@72"file:///Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch003464e0ddffdf42^3543"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bennsvdhjwxmeicnowqaasoawqya/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bennsvdhjwxmeicnowqaasoawqya/Pods-AKTagsInputView-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bennsvdhjwxmeicnowqaasoawqya/Pods-AKTagsInputView-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-bennsvdhjwxmeicnowqaasoawqya/Pods-AKTagsInputView-prefix.pch.pch36"D8A47FF4-0B5D-40BA-86D8-A2AA90249F74-
+b1E38D98C-DA12-41E8-9942-E518449B40CA
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-cafdskskawtijkdyjarothmzssdh/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s427712353.748633
+e427712353.763429
+r0
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-cafdskskawtijkdyjarothmzssdh/Pods-AKTagsInputView-prefix.pch.pch
+xPods-AKTagsInputView-prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+oclang: error: no such file or directory: '/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch'
+oclang: error: no input files
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Precompile Pods-AKTagsInputView-prefix.pch271"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-cafdskskawtijkdyjarothmzssdh/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler50c3bf615f7eb941^45b9c4615f7eb941^-263"clang: error: no such file or directory: '/Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch'clang: error: no input filesCommand /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 11(21%IDEActivityLogMessage2@124"Command /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang failed with exit code 1-427712353#18446744073709551615#0#-2#--20"Apple LLVM 5.1 Error--0#0#1#-19%DVTDocumentLocation3@72"file:///Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch003464e0ddffdf42^3554"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-cafdskskawtijkdyjarothmzssdh/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/Pods-AKTagsInputView-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources/i386 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-AKTagsInputView.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-cafdskskawtijkdyjarothmzssdh/Pods-AKTagsInputView-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-cafdskskawtijkdyjarothmzssdh/Pods-AKTagsInputView-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-AKTagsInputView-prefix-cafdskskawtijkdyjarothmzssdh/Pods-AKTagsInputView-prefix.pch.pch36"7E1421FB-2BA9-46C3-A239-773F509611CE-
+b1E38D98C-DA12-41E8-9942-E518449B40CA
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-AKTagsInputView-prefix-ajbkrtxdepyhdpcyhhlzvnnvvops_ast/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-AKTagsInputView-prefix-ekwajvezmjxnycasiyoridyavdtd_ast/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-AKTagsInputView-prefix-fgnyqokfnsmxbtfghtvepkgchnwr_ast/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-AKTagsInputView-prefix-fkhkkiwewknxjphhdrmedzgsvdzi_ast/Pods-AKTagsInputView-prefix.pch.pch Pods-AKTagsInputView-prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
