@@ -614,8 +614,12 @@
     cell.textLabel.text = taskDetails;
     cell.detailTextLabel.text = [NSString stringWithFormat:@"Tags: %@", [tempTask.taskTags componentsJoinedByString:@", "]];
     
-    if (tempTask.taskGenre == @"Work") {
+    if (indexPath.row % 2 == 0) {
         cell.backgroundColor = [UIColor colorWithRed:(0.0/255.0) green:(204.0/255.0) blue:(134.0/255.0) alpha:1.0];
+        cell.textLabel.textColor = [UIColor whiteColor];
+        cell.detailTextLabel.textColor = [UIColor whiteColor];
+    } else {
+        cell.backgroundColor = [self colorWithHexString:@"3F51B5"];
         cell.textLabel.textColor = [UIColor whiteColor];
         cell.detailTextLabel.textColor = [UIColor whiteColor];
     }
