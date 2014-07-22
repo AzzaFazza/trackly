@@ -457,7 +457,6 @@
     
     //TODO Display the Task
     
-    
 }
 - (BOOL)textFieldShouldReturn:(UITextField *)textField {
     [taskTags resignFirstResponder];
@@ -621,6 +620,7 @@
     cell.taskGenre.font = [UIFont fontWithName:@"AvenirNext-Regular" size:16.0f];
     cell.cellView.layer.cornerRadius = 3.0;
     cell.cellView.clipsToBounds = YES;
+    cell.selectionStyle = UITableViewCellSelectionStyleNone;
     [taskTableView setClipsToBounds:YES];
     
     cell.imageView.image = [UIImage imageNamed:@"Icon_Activity.png"];
