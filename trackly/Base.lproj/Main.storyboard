@@ -120,6 +120,7 @@
                         <outlet property="noTaskView" destination="JdK-Bq-xqu" id="W9N-af-HPF"/>
                         <outlet property="sadFace" destination="rK8-hl-p2A" id="5c2-Ty-0fB"/>
                         <outlet property="taskTableView" destination="XKo-d2-JZN" id="7Nc-Us-OLi"/>
+                        <outlet property="tasksHeaderLabel" destination="pMe-fW-5ZQ" id="Dl6-iD-frE"/>
                         <outlet property="trayDisplayButton" destination="ynX-A0-O3B" id="ldc-LQ-unF"/>
                     </connections>
                 </viewController>

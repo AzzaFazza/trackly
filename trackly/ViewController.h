@@ -20,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *noTaskLabel;
 @property (weak, nonatomic) IBOutlet UITableView *taskTableView;
 @property (weak, nonatomic) IBOutlet UIButton * addTaskButton;
+@property (weak, nonatomic) IBOutlet UILabel *tasksHeaderLabel;
 
 
 

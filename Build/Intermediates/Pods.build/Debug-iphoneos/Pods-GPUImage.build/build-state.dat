@@ -3014,7 +3014,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa3038276627eb941^dcb78a76627eb941^---0#1#1#--18"Check dependencies36"8A427F8D-E809-4F8F-863A-B4ED33EFB99F-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa11233a1657eb941^5f7a37a1657eb941^---0#1#1#--18"Check dependencies36"A12AA75D-9F25-4617-8FBD-15C8C230899A-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-GPUImage.build/Objects-normal/armv7s/GLProgram.o /Users/adamf/Desktop/trackly/Pods/GPUImage/framework/Source/GLProgram.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s427712570.706359

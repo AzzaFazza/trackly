@@ -52,7 +52,7 @@
 @synthesize //Buttons
             addTask, trayDisplayButton, addTaskButton,
             //Labels
-            sadFace, noTaskLabel,
+            sadFace, noTaskLabel,tasksHeaderLabel,
             //Views
             mainView, noTaskView, taskTableView;
 
@@ -205,9 +205,11 @@
     
     if(_allTasks.count == 0) {
         taskTableView.hidden = true;
+        tasksHeaderLabel.hidden = true;
         noTaskView.hidden = false;
     } else {
         taskTableView.hidden = false;
+        tasksHeaderLabel.hidden = false;
         noTaskView.hidden = true;
     }
     
@@ -244,8 +246,6 @@
 -(void)hideTray {
     if (trayShown == false) {
         [menu showFromNavigationController:self.navigationController];
-        mainView.backgroundColor = [UIColor blackColor];
-        mainView.alpha = 0.40;
         trayShown = true;
     } else {
         [menu close];
@@ -444,6 +444,7 @@
     } else {
         [taskTableView reloadData];
         taskTableView.hidden = NO;
+        tasksHeaderLabel.hidden = NO;
         noTaskView.hidden  = YES;
     }
     
@@ -492,6 +493,7 @@
     
     if(_allTasks.count > 0) {
         taskTableView.hidden = false;
+        tasksHeaderLabel.hidden = false;
     }
     
     
@@ -642,6 +644,7 @@
         if(_allTasks.count == 0)
         {
             taskTableView.hidden = YES;
+            tasksHeaderLabel.hidden = YES;
             noTaskView.hidden = NO;
         }
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
@@ -654,6 +657,7 @@
         UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"All Tasks Complete!" message:@"No More tasks left, Well Done!" delegate:nil cancelButtonTitle:@"Okay!" otherButtonTitles:nil, nil];
         [alert show];
         taskTableView.hidden  = true;
+        tasksHeaderLabel.hidden = true;
         [taskTableView reloadData];
     }
 }
