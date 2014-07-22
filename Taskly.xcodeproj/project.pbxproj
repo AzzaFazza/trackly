@@ -11,6 +11,8 @@
 		360B2C35197E1BC800A5D5C5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C34197E1BC700A5D5C5 /* CoreVideo.framework */; };
 		360B2C37197E1BCE00A5D5C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */; };
 		360B2C39197E1BE500A5D5C5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */; };
+		3641A1DB197E6F1C0026B45C /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641A1DA197E6F1C0026B45C /* customTableViewCell.m */; };
+		3641A1DE197E84610026B45C /* schedule@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3641A1DD197E84610026B45C /* schedule@2x.png */; };
 		3683AAEE19790D9E005E04E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAED19790D9E005E04E7 /* Foundation.framework */; };
 		3683AAF019790D9E005E04E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAEF19790D9E005E04E7 /* CoreGraphics.framework */; };
 		3683AAF219790D9E005E04E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAF119790D9E005E04E7 /* UIKit.framework */; };
@@ -111,6 +113,9 @@
 		360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		360B2C3A197E1BF000A5D5C5 /* libPods-GPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GPUImage.a"; path = "Pods/build/Debug-iphoneos/libPods-GPUImage.a"; sourceTree = "<group>"; };
+		3641A1D9197E6F1C0026B45C /* customTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableViewCell.h; sourceTree = "<group>"; };
+		3641A1DA197E6F1C0026B45C /* customTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableViewCell.m; sourceTree = "<group>"; };
+		3641A1DD197E84610026B45C /* schedule@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schedule@2x.png"; sourceTree = "<group>"; };
 		3683AAEA19790D9E005E04E7 /* Taskly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3683AAED19790D9E005E04E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3683AAEF19790D9E005E04E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -246,6 +251,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3641A1DC197E6F230026B45C /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3641A1D9197E6F1C0026B45C /* customTableViewCell.h */,
+				3641A1DA197E6F1C0026B45C /* customTableViewCell.m */,
+			);
+			name = "Custom Cells";
+			sourceTree = "<group>";
+		};
 		3683AAE119790D9E005E04E7 = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +303,7 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
+				3641A1DC197E6F230026B45C /* Custom Cells */,
 				36CE93A0197DD3590032EDCB /* Storyboards */,
 				36CE939F197DD33F0032EDCB /* AppDelegate */,
 				36CE939E197DD2DA0032EDCB /* Core Data Items */,
@@ -395,6 +410,7 @@
 		36B3045119792722001951E2 /* Icons */ = {
 			isa = PBXGroup;
 			children = (
+				3641A1DD197E84610026B45C /* schedule@2x.png */,
 				369A0939197B3DCD00153F18 /* 32.png */,
 				369A093A197B3DCD00153F18 /* day7.png */,
 				369A093B197B3DCD00153F18 /* three60.png */,
@@ -604,6 +620,7 @@
 				36B304DD19797413001951E2 /* skulls@2x.png in Resources */,
 				369A0950197D36CB00153F18 /* black14.png in Resources */,
 				36B3045C1979272A001951E2 /* information38.png in Resources */,
+				3641A1DE197E84610026B45C /* schedule@2x.png in Resources */,
 				36B304B619795183001951E2 /* Icon_Home@2x.png in Resources */,
 				36BB2D85197B1DD1000D6854 /* AppIcons in Resources */,
 				369A0942197B4C6000153F18 /* right10@2x.png in Resources */,
@@ -677,6 +694,7 @@
 				369A095D197D456300153F18 /* AppStorage.m in Sources */,
 				36B304F31979B712001951E2 /* videoViewController.m in Sources */,
 				36B3048219794F0A001951E2 /* RECommonFunctions.m in Sources */,
+				3641A1DB197E6F1C0026B45C /* customTableViewCell.m in Sources */,
 				369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */,
 				36CE93A3197DDB0F0032EDCB /* Task.m in Sources */,
 				369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */,

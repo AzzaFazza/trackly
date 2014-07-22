@@ -19,6 +19,7 @@
 #import "CoreDataHelper.h"
 #import "NSManagedObject+CRUD.h"
 #import "KLCPopup.h"
+#import "customTableViewCell.h"
 
 #define AVENIR_NEXT(_size) ([UIFont fontWithName:@"AvenirNext-Regular" size:(_size)])
 #define WK_COLOR_GRAY_77 			WK_COLOR(77,77,77,1)
@@ -120,7 +121,8 @@
     fingerY = 0.0;
     
     //Labels font
-    [[UILabel appearance] setFont:[UIFont fontWithName:@"Helvetica-Neue" size:6.0]];
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"Helvetica-Neue" size:4.0]];
+    
     self.navigationController.navigationBar.barStyle = UIStatusBarStyleLightContent;
     self.navigationController.navigationBar.titleTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys:
                                                                    [UIColor colorWithRed:255.0/255.0 green:250.0/250.0 blue:240.0/240.0 alpha:1.0], UITextAttributeTextColor,
@@ -582,7 +584,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    return 1;
+    return [[Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]] count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -590,44 +592,37 @@
     // Return the number of rows in the section.
     
     // For anything in the UI use main managed object context
-    return [[Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]] count];
+    return 1;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
 {
-    return 10.; // you can have your own choice, of course
+    return 5.;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *cellIdentifier = @"Cell";
-    UITableViewCell *cell;
-    [taskTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
-    if(!cell) {
-        cell =  [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
-    }
+    static NSString *CellIdentifier = @"customTableViewCell";
+    customTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
-    Task *tempTask = [_allTasks objectAtIndex:indexPath.row];
+    Task *tempTask = [_allTasks objectAtIndex:indexPath.section];
     
     // Just presenting some details
     NSString *taskDetails = [NSString stringWithFormat:@"%@", tempTask.taskName];
     NSLog(@"%@", tempTask.taskName);
-    cell.textLabel.text = taskDetails;
-    cell.detailTextLabel.text = [NSString stringWithFormat:@"Tags: %@", [tempTask.taskTags componentsJoinedByString:@", "]];
+   cell.taskNameLabel.text = [NSString stringWithFormat:@"%@", taskDetails ];
+   cell.tagsLabel.text = [NSString stringWithFormat:@"%@", [tempTask.taskTags componentsJoinedByString:@"   "]];
+    cell.taskGenre.text = [NSString stringWithFormat:@"%@", tempTask.taskGenre];
     
-    if (indexPath.row % 2 == 0) {
-        cell.backgroundColor = [UIColor colorWithRed:(0.0/255.0) green:(204.0/255.0) blue:(134.0/255.0) alpha:1.0];
-        cell.textLabel.textColor = [UIColor whiteColor];
-        cell.detailTextLabel.textColor = [UIColor whiteColor];
-    } else {
-        cell.backgroundColor = [self colorWithHexString:@"3F51B5"];
-        cell.textLabel.textColor = [UIColor whiteColor];
-        cell.detailTextLabel.textColor = [UIColor whiteColor];
-    }
+    [taskTableView setClipsToBounds:YES];
+    
+    
+    cell.imageView.image = [UIImage imageNamed:@"Icon_Activity.png"];
     
     return cell;
 }
+
 
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
@@ -635,8 +630,8 @@
     if (editingStyle == UITableViewCellEditingStyleDelete) {
         // Delete the row from the data source
         
-        [Task deleteObject:[_allTasks objectAtIndex:indexPath.row] inContext:[CoreDataHelper mainManagedObjectContext]];
-        [taskTableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+        [Task deleteObject:[_allTasks objectAtIndex:indexPath.section] inContext:[CoreDataHelper mainManagedObjectContext]];
+        [taskTableView deleteSections:[NSIndexSet indexSetWithIndex:indexPath.section] withRowAnimation:UITableViewRowAnimationFade];
         [self allTasksComplete];
         [taskTableView reloadData];
         [Task saveOnMain];
@@ -646,10 +641,18 @@
             taskTableView.hidden = YES;
             tasksHeaderLabel.hidden = YES;
             noTaskView.hidden = NO;
+            [self allTasksComplete];
         }
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }
+}
+
+// Override to support conditional rearranging of the table view.
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Return NO if you do not want the item to be re-orderable.
+    return YES;
 }
 
 -(void) allTasksComplete {
@@ -666,6 +669,7 @@
         [(UIView*)sender dismissPresentingPopup];
     }
 }
+
 
 
 @end

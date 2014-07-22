@@ -24,6 +24,7 @@
 
 
 
+
 -(IBAction)showTray:(id)sender;
 - (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer;
 -(IBAction)syncTasks:(id)sender;
