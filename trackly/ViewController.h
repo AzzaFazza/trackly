@@ -14,7 +14,7 @@
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
 @property (weak, nonatomic) IBOutlet UIButton *addTask;
-@property (weak, nonatomic) IBOutlet UIView *mainView;
+@property (weak, nonatomic) IBOutlet UIView * mainView;
 @property (weak, nonatomic) IBOutlet UIView *noTaskView;
 @property (weak, nonatomic) IBOutlet UILabel *sadFace;
 @property (weak, nonatomic) IBOutlet UILabel *noTaskLabel;

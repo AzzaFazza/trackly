@@ -2,7 +2,7 @@
 //  Task.h
 //  Taskly
 //
-//  Created by Adam Fallon on 21/07/2014.
+//  Created by Adam Fallon on 22/07/2014.
 //  Copyright (c) 2014 Dot.ly. All rights reserved.
 //
 
@@ -14,5 +14,6 @@
 
 @property (nonatomic, retain) NSString * taskName;
 @property (nonatomic, retain) id taskTags;
+@property (nonatomic, retain) NSString * taskGenre;
 
 @end

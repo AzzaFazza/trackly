@@ -75,7 +75,8 @@
     gradient.frame = self.gradientView.bounds;
     gradient.colors = [NSArray arrayWithObjects:(id)[UIColorFromRGB(0x030303) CGColor], (id)[[UIColor clearColor] CGColor], (id)[UIColorFromRGB(0x030303) CGColor],nil];
     [self.gradientView.layer insertSublayer:gradient atIndex:0];
-    
+
+        
     } else {
         [self skipView];
     }

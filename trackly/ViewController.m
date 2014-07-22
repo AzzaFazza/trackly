@@ -44,6 +44,7 @@
     NSMutableArray * _allTasks;
     UIImageView * imageView;
     UIBarButtonItem * barItem;
+    NSString * genreLabelToPass;
 }
 @end
 
@@ -64,10 +65,6 @@
 	// Do any additional setup after loading the view, typically from a nib.
  //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
     self.navigationController.navigationBar.alpha = 0.9;
-    UITapGestureRecognizer *tapRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(mySelector:)];
-    tapRecognizer.numberOfTapsRequired = 2;
-    tapRecognizer.numberOfTouchesRequired = 1;
-    [mainView addGestureRecognizer:tapRecognizer];
     
     nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
     nameLabel.text = @"TASK NAME:";
@@ -214,6 +211,8 @@
         noTaskView.hidden = true;
     }
     
+
+    
 }
 
 -(AKTagsInputView*)createTagsInputView
@@ -282,22 +281,6 @@
             [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
         }
     }
-
-}
--(IBAction)mySelector:(id)sender {
-    NSLog(@"Finger X = %f", fingerX);
-    NSLog(@"Finger Y = %f", fingerY);
-    
-    CGPoint newCurrentlyCenter = CGPointMake(addTask.center.x, addTask.center.y - 100);
-    [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:0.50f];
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
-    addTask.center = newCurrentlyCenter;
-    [UIView commitAnimations];
-    
-    CGRect rect = self.addTask.frame;
-    rect.origin = CGPointMake(fingerX, fingerY);
-    self.addTask.frame = rect;
 
 }
 
@@ -383,6 +366,7 @@
 
 -(void) createTask : (NSString*)selector{
     NSLog(@"%@", selector);
+    genreLabelToPass = selector;
     createTaskLabel.text = selector;
     createTaskLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:20.0];
     nameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:8.0f];
@@ -431,7 +415,7 @@
     NSMutableArray * tags = [[NSMutableArray alloc]initWithArray:_tagsInputView.selectedTags];
     
     if (buttonIndex ==  1) {
-     [self createAndSyncTask : taskNameTextField.text : tags];
+        [self createAndSyncTask : taskNameTextField.text : tags :genreLabelToPass];
         NSLog(@"Created Task");
         [alertView close];
         taskNameTextField.text = @"";
@@ -443,13 +427,15 @@
     
 }
 
--(void)createAndSyncTask : (NSString*)tempName : (NSMutableArray*)tempTags {
+-(void)createAndSyncTask : (NSString*)tempName : (NSMutableArray*)tempTags :(NSString *)genreLabel{
     
     Task * tempTask = [Task createObjectInContext:[CoreDataHelper mainManagedObjectContext]];
     NSString * tn = tempName;
     NSMutableArray * tnt = tempTags;
+    NSString * gl = genreLabel;
     tempTask.taskName = tn;
     tempTask.taskTags = tnt;
+    tempTask.taskGenre = gl;
     [Task saveOnMain];
     
     _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
@@ -512,10 +498,10 @@
     //KLCPopup
     
     // Generate content view to present
-    UIView* contenViewKLC = [[UIView alloc] init];
-    contenViewKLC.translatesAutoresizingMaskIntoConstraints = NO;
-    contenViewKLC.backgroundColor = [UIColor colorWithRed:(184.0/255.0) green:(233.0/255.0) blue:(122.0/255.0) alpha:1.0];
-    contenViewKLC.layer.cornerRadius = 12.0;
+    UIView* contentViewKLC = [[UIView alloc] init];
+    contentViewKLC.translatesAutoresizingMaskIntoConstraints = NO;
+    contentViewKLC.backgroundColor = [UIColor colorWithRed:(0.0/255.0) green:(204.0/255.0) blue:(134.0/255.0) alpha:1.0];
+    contentViewKLC.layer.cornerRadius = 12.0;
     
     UILabel* dismissLabel = [[UILabel alloc] init];
     dismissLabel.translatesAutoresizingMaskIntoConstraints = NO;
@@ -527,7 +513,7 @@
     UIButton* dismissButton = [UIButton buttonWithType:UIButtonTypeCustom];
     dismissButton.translatesAutoresizingMaskIntoConstraints = NO;
     dismissButton.contentEdgeInsets = UIEdgeInsetsMake(10, 20, 10, 20);
-    dismissButton.backgroundColor = [UIColor colorWithRed:(0.0/255.0) green:(204.0/255.0) blue:(134.0/255.0) alpha:1.0];
+    dismissButton.backgroundColor = [UIColor colorWithRed:(0.0/255.0) green:(233.0/255.0) blue:(122.0/255.0) alpha:1.0];
     [dismissButton setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
     [dismissButton setTitleColor:[[dismissButton titleColorForState:UIControlStateNormal] colorWithAlphaComponent:0.5] forState:UIControlStateHighlighted];
     dismissButton.titleLabel.font = [UIFont boldSystemFontOfSize:16.0];
@@ -535,24 +521,24 @@
     dismissButton.layer.cornerRadius = 6.0;
     [dismissButton addTarget:self action:@selector(dismissButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     
-    [contenViewKLC addSubview:dismissLabel];
-    [contenViewKLC addSubview:dismissButton];
+    [contentViewKLC addSubview:dismissLabel];
+    [contentViewKLC addSubview:dismissButton];
     
-    NSDictionary* views = NSDictionaryOfVariableBindings(contenViewKLC, dismissButton, dismissLabel);
+    NSDictionary* views = NSDictionaryOfVariableBindings(contentViewKLC, dismissButton, dismissLabel);
     
-    [contenViewKLC addConstraints:
+    [contentViewKLC addConstraints:
      [NSLayoutConstraint constraintsWithVisualFormat:@"V:|-(16)-[dismissLabel]-(10)-[dismissButton]-(24)-|"
                                              options:NSLayoutFormatAlignAllCenterX
                                              metrics:nil
                                                views:views]];
     
-    [contenViewKLC addConstraints:
+    [contentViewKLC addConstraints:
      [NSLayoutConstraint constraintsWithVisualFormat:@"H:|-(36)-[dismissLabel]-(36)-|"
                                              options:0
                                              metrics:nil
                                                views:views]];
     
-    KLCPopup* pu = [KLCPopup popupWithContentView:contenViewKLC
+    KLCPopup* pu = [KLCPopup popupWithContentView:contentViewKLC
                                          showType:KLCPopupShowTypeBounceInFromBottom
                                          dismissType:KLCPopupDismissTypeBounceOutToBottom
                                          maskType:KLCPopupMaskTypeDimmed
@@ -605,22 +591,34 @@
     return [[Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]] count];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    return 10.; // you can have your own choice, of course
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *cellIdentifier = @"Cell";
     UITableViewCell *cell;
     [taskTableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     if(!cell) {
-        cell = [tableView dequeueReusableCellWithIdentifier:cellIdentifier];
+        cell =  [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
     }
     
     // Configure the cell...
     Task *tempTask = [_allTasks objectAtIndex:indexPath.row];
     
     // Just presenting some details
-    NSString *taskDetails = [NSString stringWithFormat:@"Task Name: %@", tempTask.taskName];
+    NSString *taskDetails = [NSString stringWithFormat:@"%@", tempTask.taskName];
     NSLog(@"%@", tempTask.taskName);
     cell.textLabel.text = taskDetails;
+    cell.detailTextLabel.text = [NSString stringWithFormat:@"Tags: %@", [tempTask.taskTags componentsJoinedByString:@", "]];
+    
+    if (tempTask.taskGenre == @"Work") {
+        cell.backgroundColor = [UIColor colorWithRed:(0.0/255.0) green:(204.0/255.0) blue:(134.0/255.0) alpha:1.0];
+        cell.textLabel.textColor = [UIColor whiteColor];
+        cell.detailTextLabel.textColor = [UIColor whiteColor];
+    }
     
     return cell;
 }

@@ -2,7 +2,7 @@
 //  Task.m
 //  Taskly
 //
-//  Created by Adam Fallon on 21/07/2014.
+//  Created by Adam Fallon on 22/07/2014.
 //  Copyright (c) 2014 Dot.ly. All rights reserved.
 //
 
@@ -13,5 +13,6 @@
 
 @dynamic taskName;
 @dynamic taskTags;
+@dynamic taskGenre;
 
 @end

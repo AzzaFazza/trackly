@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360B2C32197E0FFF00A5D5C5 /* cellBG@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 360B2C31197E0FFF00A5D5C5 /* cellBG@2x.jpg */; };
+		360B2C35197E1BC800A5D5C5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C34197E1BC700A5D5C5 /* CoreVideo.framework */; };
+		360B2C37197E1BCE00A5D5C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */; };
+		360B2C39197E1BE500A5D5C5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */; };
 		3683AAEE19790D9E005E04E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAED19790D9E005E04E7 /* Foundation.framework */; };
 		3683AAF019790D9E005E04E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAEF19790D9E005E04E7 /* CoreGraphics.framework */; };
 		3683AAF219790D9E005E04E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAF119790D9E005E04E7 /* UIKit.framework */; };
@@ -84,9 +88,9 @@
 		36BB2D85197B1DD1000D6854 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 36BB2D84197B1DD1000D6854 /* AppIcons */; };
 		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
 		36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE939B197DD18A0032EDCB /* syncIcon@2x.png */; };
+		36CE93A3197DDB0F0032EDCB /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE93A2197DDB0F0032EDCB /* Task.m */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
 		36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9B0197B0E21008E2D22 /* coq.ttf */; };
-		36F0422A197D8AF20035DAA8 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36F04229197D8AF20035DAA8 /* Task.m */; };
 		651405B0435D475E95784B0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D7548C7B084D5E895B458C /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +106,11 @@
 
 /* Begin PBXFileReference section */
 		23D7548C7B084D5E895B458C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		360B2C31197E0FFF00A5D5C5 /* cellBG@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cellBG@2x.jpg"; sourceTree = "<group>"; };
+		360B2C34197E1BC700A5D5C5 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		360B2C3A197E1BF000A5D5C5 /* libPods-GPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GPUImage.a"; path = "Pods/build/Debug-iphoneos/libPods-GPUImage.a"; sourceTree = "<group>"; };
 		3683AAEA19790D9E005E04E7 /* Taskly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Taskly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3683AAED19790D9E005E04E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3683AAEF19790D9E005E04E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -198,10 +207,10 @@
 		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		36CE939B197DD18A0032EDCB /* syncIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncIcon@2x.png"; sourceTree = "<group>"; };
+		36CE93A1197DDB0F0032EDCB /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		36CE93A2197DDB0F0032EDCB /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		36EEB9B0197B0E21008E2D22 /* coq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coq.ttf; sourceTree = "<group>"; };
-		36F04228197D8AF20035DAA8 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
-		36F04229197D8AF20035DAA8 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		E89885221E0B4AECAEE88167 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -210,6 +219,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360B2C39197E1BE500A5D5C5 /* OpenGLES.framework in Frameworks */,
+				360B2C37197E1BCE00A5D5C5 /* CoreMedia.framework in Frameworks */,
+				360B2C35197E1BC800A5D5C5 /* CoreVideo.framework in Frameworks */,
 				369A094A197D1ED200153F18 /* CoreData.framework in Frameworks */,
 				36B304F51979B77F001951E2 /* AVFoundation.framework in Frameworks */,
 				36B304D719796BC6001951E2 /* Accelerate.framework in Frameworks */,
@@ -257,6 +269,10 @@
 		3683AAEC19790D9E005E04E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				360B2C3A197E1BF000A5D5C5 /* libPods-GPUImage.a */,
+				360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */,
+				360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */,
+				360B2C34197E1BC700A5D5C5 /* CoreVideo.framework */,
 				369A0949197D1ED200153F18 /* CoreData.framework */,
 				36B304F41979B77F001951E2 /* AVFoundation.framework */,
 				36B304D619796BC6001951E2 /* Accelerate.framework */,
@@ -273,17 +289,13 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
-				36CE9398197DBD270032EDCB /* KLCPopup.h */,
-				36CE9399197DBD270032EDCB /* KLCPopup.m */,
-				36F04228197D8AF20035DAA8 /* Task.h */,
-				36F04229197D8AF20035DAA8 /* Task.m */,
-				369A096D197D564700153F18 /* TaskModel.xcdatamodeld */,
+				36CE93A0197DD3590032EDCB /* Storyboards */,
+				36CE939F197DD33F0032EDCB /* AppDelegate */,
+				36CE939E197DD2DA0032EDCB /* Core Data Items */,
+				36CE939D197DD2C40032EDCB /* KLCPopup */,
 				369A0951197D438100153F18 /* Core Data */,
 				36B304F01979B6B0001951E2 /* VideoView Controller */,
 				36B3047719794EF6001951E2 /* REMenu */,
-				3683AAFC19790D9E005E04E7 /* AppDelegate.h */,
-				3683AAFD19790D9E005E04E7 /* AppDelegate.m */,
-				3683AAFF19790D9E005E04E7 /* Main.storyboard */,
 				3683AB0219790D9E005E04E7 /* ViewController.h */,
 				3683AB0319790D9E005E04E7 /* ViewController.m */,
 				36CE939B197DD18A0032EDCB /* syncIcon@2x.png */,
@@ -296,6 +308,7 @@
 		3683AAF419790D9E005E04E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				360B2C31197E0FFF00A5D5C5 /* cellBG@2x.jpg */,
 				369A094F197D36CB00153F18 /* black14.png */,
 				369A0941197B4C6000153F18 /* right10@2x.png */,
 				369A0934197B22A200153F18 /* introVid.mov */,
@@ -430,6 +443,42 @@
 			name = "VideoView Controller";
 			sourceTree = "<group>";
 		};
+		36CE939D197DD2C40032EDCB /* KLCPopup */ = {
+			isa = PBXGroup;
+			children = (
+				36CE9398197DBD270032EDCB /* KLCPopup.h */,
+				36CE9399197DBD270032EDCB /* KLCPopup.m */,
+			);
+			name = KLCPopup;
+			sourceTree = "<group>";
+		};
+		36CE939E197DD2DA0032EDCB /* Core Data Items */ = {
+			isa = PBXGroup;
+			children = (
+				369A096D197D564700153F18 /* TaskModel.xcdatamodeld */,
+				36CE93A1197DDB0F0032EDCB /* Task.h */,
+				36CE93A2197DDB0F0032EDCB /* Task.m */,
+			);
+			name = "Core Data Items";
+			sourceTree = "<group>";
+		};
+		36CE939F197DD33F0032EDCB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3683AAFC19790D9E005E04E7 /* AppDelegate.h */,
+				3683AAFD19790D9E005E04E7 /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		36CE93A0197DD3590032EDCB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				3683AAFF19790D9E005E04E7 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -558,6 +607,7 @@
 				36B304B619795183001951E2 /* Icon_Home@2x.png in Resources */,
 				36BB2D85197B1DD1000D6854 /* AppIcons in Resources */,
 				369A0942197B4C6000153F18 /* right10@2x.png in Resources */,
+				360B2C32197E0FFF00A5D5C5 /* cellBG@2x.jpg in Resources */,
 				36B304BC197954B6001951E2 /* reminder4.png in Resources */,
 				36B3045A1979272A001951E2 /* help1.png in Resources */,
 				36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */,
@@ -628,7 +678,7 @@
 				36B304F31979B712001951E2 /* videoViewController.m in Sources */,
 				36B3048219794F0A001951E2 /* RECommonFunctions.m in Sources */,
 				369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */,
-				36F0422A197D8AF20035DAA8 /* Task.m in Sources */,
+				36CE93A3197DDB0F0032EDCB /* Task.m in Sources */,
 				369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -759,6 +809,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "trackly/Taskly-Prefix.pch";
 				INFOPLIST_FILE = "trackly/Taskly-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = Taskly;
 				WRAPPER_EXTENSION = app;
 			};
@@ -774,6 +828,10 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "trackly/Taskly-Prefix.pch";
 				INFOPLIST_FILE = "trackly/Taskly-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
 				PRODUCT_NAME = Taskly;
 				WRAPPER_EXTENSION = app;
 			};
