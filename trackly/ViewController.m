@@ -47,6 +47,7 @@
     UIBarButtonItem * barItem;
     NSString * genreLabelToPass;
     customTableViewCell *cell;
+    UITapGestureRecognizer *tap;
 }
 @end
 
@@ -216,6 +217,22 @@
         noTaskView.hidden = true;
     }
     
+    //Tap to change image
+    tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(addImage:)];
+    [tap setNumberOfTouchesRequired:1];
+    [tap setNumberOfTapsRequired:1];
+    
+    if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+        
+        UIAlertView *myAlertView = [[UIAlertView alloc] initWithTitle:@"Error"
+                                                              message:@"Device has no camera"
+                                                             delegate:nil
+                                                    cancelButtonTitle:@"OK"
+                                                    otherButtonTitles: nil];
+        
+        [myAlertView show];
+        
+    }
 
     
 }
@@ -612,21 +629,70 @@
     // Just presenting some details
     NSString *taskDetails = [NSString stringWithFormat:@"%@", tempTask.taskName];
     NSLog(@"%@", tempTask.taskName);
+    
     cell.taskNameLabel.text = [NSString stringWithFormat:@"%@", taskDetails ];
-    cell.taskNameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:24.0f];
+    cell.taskNameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:18.0f];
     cell.tagsLabel.text = [NSString stringWithFormat:@"%@", [tempTask.taskTags componentsJoinedByString:@"   "]];
+    
     cell.tagsLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:10.0f];
     cell.taskGenre.text = [NSString stringWithFormat:@"%@", tempTask.taskGenre];
-    cell.taskGenre.font = [UIFont fontWithName:@"AvenirNext-Regular" size:16.0f];
+    cell.taskGenre.font = [UIFont fontWithName:@"AvenirNext-Regular" size:12.0f];
+    
     cell.cellView.layer.cornerRadius = 3.0;
+    cell.cellView.layer.masksToBounds = NO;
+    cell.cellView.layer.shadowOffset = CGSizeMake(-15, 20);
+    cell.cellView.layer.shadowRadius = 5;
+    cell.cellView.layer.shadowOpacity = 0.5;
     cell.cellView.clipsToBounds = YES;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     [taskTableView setClipsToBounds:YES];
     
-    cell.imageView.image = [UIImage imageNamed:@"Icon_Activity.png"];
+    if (tempTask.taskImage == nil) {
+         cell.imageView.image = [UIImage imageNamed:@"note18.png"];
+         cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
+    } else {
+       cell.imageView.image = tempTask.taskImage;
+    }
+    
+    [cell.imageView setUserInteractionEnabled:YES];
+    [cell.imageView addGestureRecognizer:tap];
+    
+    [Task saveOnMain];
     
     return cell;
 }
+
+- (void)addImage:(id)sender
+{
+    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+    picker.delegate = self;
+    picker.allowsEditing = YES;
+    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
+    
+    [self presentViewController:picker animated:YES completion:NULL];
+    NSLog(@"TAP");
+}
+
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    
+    UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
+    cell.imageView.image = chosenImage;
+    cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
+    [self getCurrentCellImage:chosenImage];
+    [picker dismissViewControllerAnimated:YES completion:NULL];
+    
+}
+
+-(UIImage*)getCurrentCellImage : (UIImage*)tempImage{
+    return tempImage;
+}
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
+    
+    [picker dismissViewControllerAnimated:YES completion:NULL];
+    
+}
+
 // Override to support editing the table view.
 - (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
 {

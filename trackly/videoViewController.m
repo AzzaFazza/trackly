@@ -101,14 +101,13 @@
 {
     [super viewDidAppear:animated];
     [self.avplayer play];
-    startButton.layer.cornerRadius = 5.0;
-    startButton.layer.masksToBounds = NO;
-    UIColor * customColor = [self colorWithHexString:@"4A73A1"];
-    startButton.layer.shadowColor = customColor.CGColor;
-    startButton.layer.shadowOpacity = 1.00;
-    startButton.layer.shadowRadius = 2;
-    startButton.layer.shadowOffset = CGSizeMake(1.0f, 3.0f);
-    startButton.titleLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:24.0];
+    startButton.buttonColor = [UIColor turquoiseColor];
+    startButton.shadowColor = [UIColor greenSeaColor];
+    startButton.shadowHeight = 3.0f;
+    startButton.cornerRadius = 6.0f;
+    startButton.titleLabel.font = [UIFont boldFlatFontOfSize:16];
+    [startButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [startButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     
     // Set vertical effect
     UIInterpolatingMotionEffect *verticalMotionEffect =

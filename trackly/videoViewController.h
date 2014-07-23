@@ -8,10 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import <EAIntroView/EAIntroView.h>
+#import <FlatUIKit/FlatUIKit.h>
 
 @interface videoViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UILabel *subTitle;
-@property (weak, nonatomic) IBOutlet UIButton *startButton;
+@property (weak, nonatomic) IBOutlet FUIButton *startButton;
 
 @property (weak, nonatomic) IBOutlet UIImageView *arrow;
 

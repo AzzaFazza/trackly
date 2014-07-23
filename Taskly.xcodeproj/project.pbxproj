@@ -11,6 +11,10 @@
 		360B2C35197E1BC800A5D5C5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C34197E1BC700A5D5C5 /* CoreVideo.framework */; };
 		360B2C37197E1BCE00A5D5C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */; };
 		360B2C39197E1BE500A5D5C5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */; };
+		362AE08D197F1DFD009B619F /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 362AE08C197F1DFD009B619F /* Task.m */; };
+		362AE08F197FAA85009B619F /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE08E197FAA85009B619F /* right.png */; };
+		362AE091197FAB8A009B619F /* note18.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE090197FAB8A009B619F /* note18.png */; };
+		362AE093197FACF9009B619F /* note18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE092197FACF9009B619F /* note18@2x.png */; };
 		3641A1DB197E6F1C0026B45C /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641A1DA197E6F1C0026B45C /* customTableViewCell.m */; };
 		3641A1DE197E84610026B45C /* schedule@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3641A1DD197E84610026B45C /* schedule@2x.png */; };
 		3683AAEE19790D9E005E04E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAED19790D9E005E04E7 /* Foundation.framework */; };
@@ -90,7 +94,6 @@
 		36BB2D85197B1DD1000D6854 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 36BB2D84197B1DD1000D6854 /* AppIcons */; };
 		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
 		36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE939B197DD18A0032EDCB /* syncIcon@2x.png */; };
-		36CE93A3197DDB0F0032EDCB /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE93A2197DDB0F0032EDCB /* Task.m */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
 		36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9B0197B0E21008E2D22 /* coq.ttf */; };
 		651405B0435D475E95784B0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D7548C7B084D5E895B458C /* libPods.a */; };
@@ -113,6 +116,11 @@
 		360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		360B2C3A197E1BF000A5D5C5 /* libPods-GPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GPUImage.a"; path = "Pods/build/Debug-iphoneos/libPods-GPUImage.a"; sourceTree = "<group>"; };
+		362AE08B197F1DFD009B619F /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		362AE08C197F1DFD009B619F /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		362AE08E197FAA85009B619F /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		362AE090197FAB8A009B619F /* note18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note18.png; sourceTree = "<group>"; };
+		362AE092197FACF9009B619F /* note18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note18@2x.png"; sourceTree = "<group>"; };
 		3641A1D9197E6F1C0026B45C /* customTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableViewCell.h; sourceTree = "<group>"; };
 		3641A1DA197E6F1C0026B45C /* customTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableViewCell.m; sourceTree = "<group>"; };
 		3641A1DD197E84610026B45C /* schedule@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schedule@2x.png"; sourceTree = "<group>"; };
@@ -212,8 +220,6 @@
 		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		36CE939B197DD18A0032EDCB /* syncIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncIcon@2x.png"; sourceTree = "<group>"; };
-		36CE93A1197DDB0F0032EDCB /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
-		36CE93A2197DDB0F0032EDCB /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		36EEB9B0197B0E21008E2D22 /* coq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coq.ttf; sourceTree = "<group>"; };
 		E89885221E0B4AECAEE88167 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -323,6 +329,9 @@
 		3683AAF419790D9E005E04E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				362AE092197FACF9009B619F /* note18@2x.png */,
+				362AE090197FAB8A009B619F /* note18.png */,
+				362AE08E197FAA85009B619F /* right.png */,
 				360B2C31197E0FFF00A5D5C5 /* cellBG@2x.jpg */,
 				369A094F197D36CB00153F18 /* black14.png */,
 				369A0941197B4C6000153F18 /* right10@2x.png */,
@@ -472,8 +481,8 @@
 			isa = PBXGroup;
 			children = (
 				369A096D197D564700153F18 /* TaskModel.xcdatamodeld */,
-				36CE93A1197DDB0F0032EDCB /* Task.h */,
-				36CE93A2197DDB0F0032EDCB /* Task.m */,
+				362AE08B197F1DFD009B619F /* Task.h */,
+				362AE08C197F1DFD009B619F /* Task.m */,
 			);
 			name = "Core Data Items";
 			sourceTree = "<group>";
@@ -584,11 +593,13 @@
 				36B304FD1979D22A001951E2 /* title@2x.png in Resources */,
 				36B304DB197970B6001951E2 /* Brandon_light.otf in Resources */,
 				369A093D197B3DCD00153F18 /* 32.png in Resources */,
+				362AE08F197FAA85009B619F /* right.png in Resources */,
 				36B304DF197974B0001951E2 /* food@2x.png in Resources */,
 				36B3045F19793294001951E2 /* marker.ttf in Resources */,
 				36B3045D1979272A001951E2 /* three115.png in Resources */,
 				36B304AD19795183001951E2 /* Balloon@2x.png in Resources */,
 				369A093E197B3DCD00153F18 /* day7.png in Resources */,
+				362AE093197FACF9009B619F /* note18@2x.png in Resources */,
 				36B304B819795183001951E2 /* Icon_Profile@2x.png in Resources */,
 				3683AB351979215D005E04E7 /* trace.ttf in Resources */,
 				36B304F71979B80A001951E2 /* IMG_0434.MOV in Resources */,
@@ -609,6 +620,7 @@
 				36B30463197936DE001951E2 /* plus24.png in Resources */,
 				36B3045B1979272A001951E2 /* info12.png in Resources */,
 				36B304B519795183001951E2 /* Icon_Home.png in Resources */,
+				362AE091197FAB8A009B619F /* note18.png in Resources */,
 				36B304BA19795478001951E2 /* list23@2x.png in Resources */,
 				36B304B019795183001951E2 /* Default@2x.png in Resources */,
 				3683AAF819790D9E005E04E7 /* InfoPlist.strings in Resources */,
@@ -680,6 +692,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */,
+				362AE08D197F1DFD009B619F /* Task.m in Sources */,
 				3683AB0419790D9E005E04E7 /* ViewController.m in Sources */,
 				36B3048619794F0A001951E2 /* REMenuItemView.m in Sources */,
 				36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */,
@@ -696,7 +709,6 @@
 				36B3048219794F0A001951E2 /* RECommonFunctions.m in Sources */,
 				3641A1DB197E6F1C0026B45C /* customTableViewCell.m in Sources */,
 				369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */,
-				36CE93A3197DDB0F0032EDCB /* Task.m in Sources */,
 				369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

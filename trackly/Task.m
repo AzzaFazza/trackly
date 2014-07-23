@@ -11,8 +11,9 @@
 
 @implementation Task
 
+@dynamic taskGenre;
 @dynamic taskName;
 @dynamic taskTags;
-@dynamic taskGenre;
+@dynamic taskImage;
 
 @end

@@ -12,8 +12,9 @@
 
 @interface Task : NSManagedObject
 
+@property (nonatomic, retain) NSString * taskGenre;
 @property (nonatomic, retain) NSString * taskName;
 @property (nonatomic, retain) id taskTags;
-@property (nonatomic, retain) NSString * taskGenre;
+@property (nonatomic, retain) id taskImage;
 
 @end
