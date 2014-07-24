@@ -4,6 +4,8 @@
 <dict>
 	<key>application-identifier</key>
 	<string>L7K45M5C78.com.dotly.Taskly</string>
+	<key>aps-environment</key>
+	<string>development</string>
 	<key>com.apple.developer.default-data-protection</key>
 	<string>NSFileProtectionComplete</string>
 	<key>com.apple.developer.team-identifier</key>

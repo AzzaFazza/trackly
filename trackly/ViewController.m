@@ -257,7 +257,13 @@
         }
     
     contentView.backgroundColor = [self colorWithHexString:@"eeeeee"];
-    self.addTaskButton.layer.cornerRadius = 6.00;
+    addTaskButton.buttonColor = [self colorWithHexString:@"3F51B5"];
+    addTaskButton.shadowColor = [self colorWithHexString:@"33439C"];
+    addTaskButton.shadowHeight = 3.0f;
+    addTaskButton.cornerRadius = 6.0f;
+    addTaskButton.titleLabel.font = [UIFont boldFlatFontOfSize:16];
+    [addTaskButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [addTaskButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
     [mainView addSubview:[self addTaskButton]];
     self.navigationItem.rightBarButtonItem.tintColor = [UIColor whiteColor];
     
@@ -632,9 +638,13 @@
     
     cell.taskNameLabel.text = [NSString stringWithFormat:@"%@", taskDetails ];
     cell.taskNameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:18.0f];
-    cell.tagsLabel.text = [NSString stringWithFormat:@"%@", [tempTask.taskTags componentsJoinedByString:@"   "]];
+    cell.taskNameLabel.numberOfLines = 2;
+    cell.taskNameLabel.minimumScaleFactor = 8./cell.taskNameLabel.font.pointSize;
+    cell.taskNameLabel.adjustsFontSizeToFitWidth = YES;
     
+    cell.tagsLabel.text = [NSString stringWithFormat:@"%@", [tempTask.taskTags componentsJoinedByString:@"   "]];
     cell.tagsLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:10.0f];
+    
     cell.taskGenre.text = [NSString stringWithFormat:@"%@", tempTask.taskGenre];
     cell.taskGenre.font = [UIFont fontWithName:@"AvenirNext-Regular" size:12.0f];
     

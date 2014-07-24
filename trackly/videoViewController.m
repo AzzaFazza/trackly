@@ -79,6 +79,8 @@
         
     } else {
         [self skipView];
+        NSMutableArray * myArray = [[NSMutableArray alloc]init];
+        NSString *myString = myArray;
     }
     
     //Labels font
@@ -101,8 +103,8 @@
 {
     [super viewDidAppear:animated];
     [self.avplayer play];
-    startButton.buttonColor = [UIColor turquoiseColor];
-    startButton.shadowColor = [UIColor greenSeaColor];
+    startButton.buttonColor = [self colorWithHexString:@"3F51B5"];
+    startButton.shadowColor = [self colorWithHexString:@"33439C"];
     startButton.shadowHeight = 3.0f;
     startButton.cornerRadius = 6.0f;
     startButton.titleLabel.font = [UIFont boldFlatFontOfSize:16];

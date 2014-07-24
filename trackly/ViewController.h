@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <CXCardView/CXCardView.h>
+#import <FlatUIKit/FlatUIKit.h>
 
 
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate, UIImagePickerControllerDelegate>
@@ -19,7 +20,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *sadFace;
 @property (weak, nonatomic) IBOutlet UILabel *noTaskLabel;
 @property (weak, nonatomic) IBOutlet UITableView *taskTableView;
-@property (weak, nonatomic) IBOutlet UIButton * addTaskButton;
+@property (weak, nonatomic) IBOutlet FUIButton * addTaskButton;
 @property (weak, nonatomic) IBOutlet UILabel *tasksHeaderLabel;
 
 

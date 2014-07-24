@@ -48,33 +48,45 @@
 		<data>
 		t1gEIYs/Qwx6XC4io1EoX2po8c4=
 		</data>
+		<key>Asana-logo.png</key>
+		<data>
+		XPiYo8PRwGoyxHSvkC953kCu2PM=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		tBApiKlV03yUvnuAOzjjw7B9inI=
+		ACZsC/qtqmhhUnim3jlhGBq/kSU=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
 		ySweNLwFFi7ux9FAhoO+iLxBTaM=
 		</data>
+		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
+		<data>
+		HB21bh8grsnFjkoz5Dz1U2buqi4=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-ISK-ZB-ybW.nib</key>
+		<data>
+		9EDF97eAuhF4uGYtgPvCzvpCpk8=
+		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		D/l/VL/P/kOqDGlgcH6EqTxBfvM=
+		L79CZVl/scGi20Zd7iQT9t8aIj8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		JlA+KOj/S0Ckz0qFvhPc6yHzgWQ=
+		4FBH+xq2QGNzthPvmmWc6WJ/jUs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		5lu3ZI9StLuuQPxmvIAVZG+cNh0=
+		tF//DwJ4DoOfdJmsaAFuuYk20xA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		P8N86LHvwcDkgXQmxTGqnPSgciA=
+		GTUCBlO3QCLuoOzagcRbCe5M9AI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		bTHvc13w9s7k+xpINIHtAEB54BM=
+		tBVx2aOrtys1nSBuxQFy03d8eIY=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -95,6 +107,14 @@
 		<key>Default@2x.png</key>
 		<data>
 		f+chbalD/cg0G6RzsOPbpHUYQAg=
+		</data>
+		<key>Evernote-icon.png</key>
+		<data>
+		SkfvecyS+An8VWy2/vZ7NDJiAwc=
+		</data>
+		<key>Google_Calendar.png</key>
+		<data>
+		FRCv7XiEGccOzvestEX0g3PIbrk=
 		</data>
 		<key>IMG_0434.MOV</key>
 		<data>
@@ -156,6 +176,10 @@
 		<data>
 		y0RSHrMu9gWddeP8H3oFS2UeDoU=
 		</data>
+		<key>Outlook-High-res.png</key>
+		<data>
+		y3/tATOgd1CNh5Nb9tg+tbf0WBE=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
@@ -206,11 +230,19 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		t/6BL0aShHCkDIe4MgiuH1BDkJc=
+		M+F3+Xsx84LOU4hjeaEcgQgKiN0=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>explore-step-off.tiff</key>
+		<data>
+		9o9408o+01NZTufvZ4GYYb0X9XA=
+		</data>
+		<key>explore-step-on.tiff</key>
+		<data>
+		fy/D0hy5jDHp7cH7I/+iEmU8Xek=
 		</data>
 		<key>food@2x.png</key>
 		<data>
@@ -219,6 +251,10 @@
 		<key>geometry_@2X.png</key>
 		<data>
 		CN8BbZyC7MhXWNSkmceXrDV5XZU=
+		</data>
+		<key>github.png</key>
+		<data>
+		bvCqguzhlQBvEClgl79C7soV1vk=
 		</data>
 		<key>help1.png</key>
 		<data>
@@ -275,6 +311,10 @@
 		<key>marker.ttf</key>
 		<data>
 		Q9wFGXA7MCuOR9Myk1FH/uF1NmE=
+		</data>
+		<key>milk.png</key>
+		<data>
+		PAufU8KKrpIgrcq24BrdqdJbbz0=
 		</data>
 		<key>note18.png</key>
 		<data>
@@ -339,6 +379,10 @@
 		<key>trace.ttf</key>
 		<data>
 		1Yfy3yRuQv4amtFcCFUVHuhZKCM=
+		</data>
+		<key>trello.png</key>
+		<data>
+		WnU0HO3zYqfeJle9ROqwFVAu/eo=
 		</data>
 		<key>triangular_@2X.png</key>
 		<data>
@@ -395,33 +439,45 @@
 		<data>
 		t1gEIYs/Qwx6XC4io1EoX2po8c4=
 		</data>
+		<key>Asana-logo.png</key>
+		<data>
+		XPiYo8PRwGoyxHSvkC953kCu2PM=
+		</data>
 		<key>Assets.car</key>
 		<data>
-		tBApiKlV03yUvnuAOzjjw7B9inI=
+		ACZsC/qtqmhhUnim3jlhGBq/kSU=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
 		ySweNLwFFi7ux9FAhoO+iLxBTaM=
 		</data>
+		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
+		<data>
+		HB21bh8grsnFjkoz5Dz1U2buqi4=
+		</data>
+		<key>Base.lproj/Main.storyboardc/UIViewController-ISK-ZB-ybW.nib</key>
+		<data>
+		9EDF97eAuhF4uGYtgPvCzvpCpk8=
+		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		D/l/VL/P/kOqDGlgcH6EqTxBfvM=
+		L79CZVl/scGi20Zd7iQT9t8aIj8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		JlA+KOj/S0Ckz0qFvhPc6yHzgWQ=
+		4FBH+xq2QGNzthPvmmWc6WJ/jUs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		5lu3ZI9StLuuQPxmvIAVZG+cNh0=
+		tF//DwJ4DoOfdJmsaAFuuYk20xA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		P8N86LHvwcDkgXQmxTGqnPSgciA=
+		GTUCBlO3QCLuoOzagcRbCe5M9AI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		bTHvc13w9s7k+xpINIHtAEB54BM=
+		tBVx2aOrtys1nSBuxQFy03d8eIY=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -442,6 +498,14 @@
 		<key>Default@2x.png</key>
 		<data>
 		f+chbalD/cg0G6RzsOPbpHUYQAg=
+		</data>
+		<key>Evernote-icon.png</key>
+		<data>
+		SkfvecyS+An8VWy2/vZ7NDJiAwc=
+		</data>
+		<key>Google_Calendar.png</key>
+		<data>
+		FRCv7XiEGccOzvestEX0g3PIbrk=
 		</data>
 		<key>IMG_0434.MOV</key>
 		<data>
@@ -503,6 +567,10 @@
 		<data>
 		y0RSHrMu9gWddeP8H3oFS2UeDoU=
 		</data>
+		<key>Outlook-High-res.png</key>
+		<data>
+		y3/tATOgd1CNh5Nb9tg+tbf0WBE=
+		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
@@ -553,11 +621,19 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		t/6BL0aShHCkDIe4MgiuH1BDkJc=
+		M+F3+Xsx84LOU4hjeaEcgQgKiN0=
 		</data>
 		<key>en.lproj/InfoPlist.strings</key>
 		<data>
 		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>explore-step-off.tiff</key>
+		<data>
+		9o9408o+01NZTufvZ4GYYb0X9XA=
+		</data>
+		<key>explore-step-on.tiff</key>
+		<data>
+		fy/D0hy5jDHp7cH7I/+iEmU8Xek=
 		</data>
 		<key>food@2x.png</key>
 		<data>
@@ -566,6 +642,10 @@
 		<key>geometry_@2X.png</key>
 		<data>
 		CN8BbZyC7MhXWNSkmceXrDV5XZU=
+		</data>
+		<key>github.png</key>
+		<data>
+		bvCqguzhlQBvEClgl79C7soV1vk=
 		</data>
 		<key>help1.png</key>
 		<data>
@@ -622,6 +702,10 @@
 		<key>marker.ttf</key>
 		<data>
 		Q9wFGXA7MCuOR9Myk1FH/uF1NmE=
+		</data>
+		<key>milk.png</key>
+		<data>
+		PAufU8KKrpIgrcq24BrdqdJbbz0=
 		</data>
 		<key>note18.png</key>
 		<data>
@@ -686,6 +770,10 @@
 		<key>trace.ttf</key>
 		<data>
 		1Yfy3yRuQv4amtFcCFUVHuhZKCM=
+		</data>
+		<key>trello.png</key>
+		<data>
+		WnU0HO3zYqfeJle9ROqwFVAu/eo=
 		</data>
 		<key>triangular_@2X.png</key>
 		<data>

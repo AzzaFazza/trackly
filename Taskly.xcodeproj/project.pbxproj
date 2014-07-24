@@ -40,7 +40,6 @@
 		369A0940197B3DCD00153F18 /* two123@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A093C197B3DCD00153F18 /* two123@2x.png */; };
 		369A0942197B4C6000153F18 /* right10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A0941197B4C6000153F18 /* right10@2x.png */; };
 		369A094A197D1ED200153F18 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369A0949197D1ED200153F18 /* CoreData.framework */; };
-		369A0950197D36CB00153F18 /* black14.png in Resources */ = {isa = PBXBuildFile; fileRef = 369A094F197D36CB00153F18 /* black14.png */; };
 		369A095D197D456300153F18 /* AppStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0953197D456300153F18 /* AppStorage.m */; };
 		369A095E197D456300153F18 /* BackgroundManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0955197D456300153F18 /* BackgroundManagedObjectContext.m */; };
 		369A0960197D456300153F18 /* GeneralUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0959197D456300153F18 /* GeneralUtils.m */; };
@@ -92,6 +91,16 @@
 		36B304F71979B80A001951E2 /* IMG_0434.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 36B304F61979B80A001951E2 /* IMG_0434.MOV */; };
 		36B304FD1979D22A001951E2 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304FC1979D22A001951E2 /* title@2x.png */; };
 		36BB2D85197B1DD1000D6854 /* AppIcons in Resources */ = {isa = PBXBuildFile; fileRef = 36BB2D84197B1DD1000D6854 /* AppIcons */; };
+		36C05A1A19810A62008F6AA0 /* connectorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C05A1919810A62008F6AA0 /* connectorsViewController.m */; };
+		36C05A271981149F008F6AA0 /* explore-step-off.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A251981149F008F6AA0 /* explore-step-off.tiff */; };
+		36C05A281981149F008F6AA0 /* explore-step-on.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A261981149F008F6AA0 /* explore-step-on.tiff */; };
+		36C05A2D19811B63008F6AA0 /* Asana-logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A2919811B63008F6AA0 /* Asana-logo.png */; };
+		36C05A2E19811B63008F6AA0 /* Evernote-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A2A19811B63008F6AA0 /* Evernote-icon.png */; };
+		36C05A2F19811B63008F6AA0 /* Google_Calendar.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A2B19811B63008F6AA0 /* Google_Calendar.png */; };
+		36C05A3019811B63008F6AA0 /* Outlook-High-res.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A2C19811B63008F6AA0 /* Outlook-High-res.png */; };
+		36C05A3219811BC8008F6AA0 /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A3119811BC8008F6AA0 /* github.png */; };
+		36C05A3419811C74008F6AA0 /* trello.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A3319811C74008F6AA0 /* trello.png */; };
+		36C05A3619811CA3008F6AA0 /* milk.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A3519811CA3008F6AA0 /* milk.png */; };
 		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
 		36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE939B197DD18A0032EDCB /* syncIcon@2x.png */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
@@ -217,6 +226,17 @@
 		36B304F61979B80A001951E2 /* IMG_0434.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_0434.MOV; sourceTree = "<group>"; };
 		36B304FC1979D22A001951E2 /* title@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "title@2x.png"; sourceTree = "<group>"; };
 		36BB2D84197B1DD1000D6854 /* AppIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcons; sourceTree = "<group>"; };
+		36C05A1819810A62008F6AA0 /* connectorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = connectorsViewController.h; sourceTree = "<group>"; };
+		36C05A1919810A62008F6AA0 /* connectorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectorsViewController.m; sourceTree = "<group>"; };
+		36C05A251981149F008F6AA0 /* explore-step-off.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "explore-step-off.tiff"; sourceTree = "<group>"; };
+		36C05A261981149F008F6AA0 /* explore-step-on.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = "explore-step-on.tiff"; sourceTree = "<group>"; };
+		36C05A2919811B63008F6AA0 /* Asana-logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Asana-logo.png"; sourceTree = "<group>"; };
+		36C05A2A19811B63008F6AA0 /* Evernote-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Evernote-icon.png"; sourceTree = "<group>"; };
+		36C05A2B19811B63008F6AA0 /* Google_Calendar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Google_Calendar.png; sourceTree = "<group>"; };
+		36C05A2C19811B63008F6AA0 /* Outlook-High-res.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Outlook-High-res.png"; sourceTree = "<group>"; };
+		36C05A3119811BC8008F6AA0 /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
+		36C05A3319811C74008F6AA0 /* trello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trello.png; sourceTree = "<group>"; };
+		36C05A3519811CA3008F6AA0 /* milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milk.png; sourceTree = "<group>"; };
 		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		36CE939B197DD18A0032EDCB /* syncIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncIcon@2x.png"; sourceTree = "<group>"; };
@@ -309,6 +329,7 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
+				36C05A1B19810A6B008F6AA0 /* Connectors */,
 				3641A1DC197E6F230026B45C /* Custom Cells */,
 				36CE93A0197DD3590032EDCB /* Storyboards */,
 				36CE939F197DD33F0032EDCB /* AppDelegate */,
@@ -329,6 +350,9 @@
 		3683AAF419790D9E005E04E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				36C05A251981149F008F6AA0 /* explore-step-off.tiff */,
+				36C05A261981149F008F6AA0 /* explore-step-on.tiff */,
+				36C05A1C19810C87008F6AA0 /* Web Services */,
 				362AE092197FACF9009B619F /* note18@2x.png */,
 				362AE090197FAB8A009B619F /* note18.png */,
 				362AE08E197FAA85009B619F /* right.png */,
@@ -468,6 +492,29 @@
 			name = "VideoView Controller";
 			sourceTree = "<group>";
 		};
+		36C05A1B19810A6B008F6AA0 /* Connectors */ = {
+			isa = PBXGroup;
+			children = (
+				36C05A1819810A62008F6AA0 /* connectorsViewController.h */,
+				36C05A1919810A62008F6AA0 /* connectorsViewController.m */,
+			);
+			name = Connectors;
+			sourceTree = "<group>";
+		};
+		36C05A1C19810C87008F6AA0 /* Web Services */ = {
+			isa = PBXGroup;
+			children = (
+				36C05A3519811CA3008F6AA0 /* milk.png */,
+				36C05A3319811C74008F6AA0 /* trello.png */,
+				36C05A3119811BC8008F6AA0 /* github.png */,
+				36C05A2919811B63008F6AA0 /* Asana-logo.png */,
+				36C05A2A19811B63008F6AA0 /* Evernote-icon.png */,
+				36C05A2B19811B63008F6AA0 /* Google_Calendar.png */,
+				36C05A2C19811B63008F6AA0 /* Outlook-High-res.png */,
+			);
+			name = "Web Services";
+			sourceTree = "<group>";
+		};
 		36CE939D197DD2C40032EDCB /* KLCPopup */ = {
 			isa = PBXGroup;
 			children = (
@@ -553,9 +600,6 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Dot.ly;
 				TargetAttributes = {
-					3683AAE919790D9E005E04E7 = {
-						DevelopmentTeam = L7K45M5C78;
-					};
 					3683AB0A19790D9E005E04E7 = {
 						TestTargetID = 3683AAE919790D9E005E04E7;
 					};
@@ -585,7 +629,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C05A3219811BC8008F6AA0 /* github.png in Resources */,
 				36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */,
+				36C05A3619811CA3008F6AA0 /* milk.png in Resources */,
 				36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */,
 				36B304DA197970B6001951E2 /* Brandon_blk.otf in Resources */,
 				369A0935197B22A300153F18 /* introVid.mov in Resources */,
@@ -600,6 +646,7 @@
 				36B304AD19795183001951E2 /* Balloon@2x.png in Resources */,
 				369A093E197B3DCD00153F18 /* day7.png in Resources */,
 				362AE093197FACF9009B619F /* note18@2x.png in Resources */,
+				36C05A2D19811B63008F6AA0 /* Asana-logo.png in Resources */,
 				36B304B819795183001951E2 /* Icon_Profile@2x.png in Resources */,
 				3683AB351979215D005E04E7 /* trace.ttf in Resources */,
 				36B304F71979B80A001951E2 /* IMG_0434.MOV in Resources */,
@@ -608,19 +655,24 @@
 				369A0933197B219500153F18 /* launchIcons in Resources */,
 				36B304C0197955C0001951E2 /* plus19(1)@2x.png in Resources */,
 				36B304591979272A001951E2 /* black14.png in Resources */,
+				36C05A3419811C74008F6AA0 /* trello.png in Resources */,
 				369A093F197B3DCD00153F18 /* three60.png in Resources */,
 				36B304B219795183001951E2 /* Icon_Activity@2x.png in Resources */,
 				36B3046F197938FD001951E2 /* settings3(2).png in Resources */,
 				36B304AF19795183001951E2 /* Default.png in Resources */,
+				36C05A271981149F008F6AA0 /* explore-step-off.tiff in Resources */,
 				36B304E5197975BE001951E2 /* triangular_@2X.png in Resources */,
 				36B30462197936DE001951E2 /* info9.png in Resources */,
 				36B304E319797577001951E2 /* geometry_@2X.png in Resources */,
 				36B304B119795183001951E2 /* Icon_Activity.png in Resources */,
 				3683AB0619790D9E005E04E7 /* Images.xcassets in Resources */,
 				36B30463197936DE001951E2 /* plus24.png in Resources */,
+				36C05A2F19811B63008F6AA0 /* Google_Calendar.png in Resources */,
 				36B3045B1979272A001951E2 /* info12.png in Resources */,
+				36C05A281981149F008F6AA0 /* explore-step-on.tiff in Resources */,
 				36B304B519795183001951E2 /* Icon_Home.png in Resources */,
 				362AE091197FAB8A009B619F /* note18.png in Resources */,
+				36C05A3019811B63008F6AA0 /* Outlook-High-res.png in Resources */,
 				36B304BA19795478001951E2 /* list23@2x.png in Resources */,
 				36B304B019795183001951E2 /* Default@2x.png in Resources */,
 				3683AAF819790D9E005E04E7 /* InfoPlist.strings in Resources */,
@@ -630,7 +682,7 @@
 				36B304E119797529001951E2 /* notebook_@2X.png in Resources */,
 				36B304B319795183001951E2 /* Icon_Explore.png in Resources */,
 				36B304DD19797413001951E2 /* skulls@2x.png in Resources */,
-				369A0950197D36CB00153F18 /* black14.png in Resources */,
+				36C05A2E19811B63008F6AA0 /* Evernote-icon.png in Resources */,
 				36B3045C1979272A001951E2 /* information38.png in Resources */,
 				3641A1DE197E84610026B45C /* schedule@2x.png in Resources */,
 				36B304B619795183001951E2 /* Icon_Home@2x.png in Resources */,
@@ -709,6 +761,7 @@
 				36B3048219794F0A001951E2 /* RECommonFunctions.m in Sources */,
 				3641A1DB197E6F1C0026B45C /* customTableViewCell.m in Sources */,
 				369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */,
+				36C05A1A19810A62008F6AA0 /* connectorsViewController.m in Sources */,
 				369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -836,6 +889,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "trackly/Taskly-Prefix.pch";
 				INFOPLIST_FILE = "trackly/Taskly-Info.plist";
@@ -844,6 +898,7 @@
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = Taskly;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -855,6 +910,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "trackly/Taskly-Prefix.pch";
 				INFOPLIST_FILE = "trackly/Taskly-Info.plist";
@@ -863,6 +919,7 @@
 					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
 				);
 				PRODUCT_NAME = Taskly;
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
