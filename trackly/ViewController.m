@@ -49,6 +49,8 @@
     NSString * genreLabelToPass;
     customTableViewCell *cell;
     UITapGestureRecognizer *tap;
+    
+    NSData *imageData;
 }
 @end
 
@@ -634,6 +636,9 @@
     NSString *taskDetails = [NSString stringWithFormat:@"%@", tempTask.taskName];
     NSLog(@"%@", tempTask.taskName);
     
+    UIImage *image = [UIImage imageWithData:imageData];
+    
+    
     cell.taskNameLabel.text = [NSString stringWithFormat:@"%@", taskDetails ];
     cell.taskNameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:18.0f];
     cell.taskNameLabel.numberOfLines = 2;
@@ -660,11 +665,12 @@
     [tap setNumberOfTouchesRequired:1];
     [tap setNumberOfTapsRequired:1];
     
-    if (tempTask.taskImage == nil) {
+    if (imageData == nil) {
          cell.imageView.image = [UIImage imageNamed:@"note18.png"];
          cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
     } else {
-       cell.imageView.image = tempTask.taskImage;
+         cell.imageView.image = [UIImage imageWithData:imageData];
+         cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
     }
     
     [cell.imageView setUserInteractionEnabled:YES];
@@ -688,10 +694,12 @@
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
+    
+   imageData = [NSData dataWithData:UIImagePNGRepresentation(chosenImage)];
+    
     cell.imageView.image = chosenImage;
     cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
     [picker dismissViewControllerAnimated:YES completion:NULL];
-    
 }
 
 
