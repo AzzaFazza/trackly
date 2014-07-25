@@ -12,4 +12,5 @@ dependencies: /Users/adamf/Desktop/trackly/trackly/ViewController.m \
   /Users/adamf/Desktop/trackly/trackly/NSManagedObject+CRUD.h \
   /Users/adamf/Desktop/trackly/trackly/NSManagedObjectUpdateWithDictionaryInContext.h \
   /Users/adamf/Desktop/trackly/trackly/KLCPopup.h \
-  /Users/adamf/Desktop/trackly/trackly/customTableViewCell.h
+  /Users/adamf/Desktop/trackly/trackly/customTableViewCell.h \
+  /Users/adamf/Desktop/trackly/trackly/connectorsViewController.h

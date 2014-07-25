@@ -20,6 +20,7 @@
 #import "NSManagedObject+CRUD.h"
 #import "KLCPopup.h"
 #import "customTableViewCell.h"
+#import "connectorsViewController.h"
 
 #define AVENIR_NEXT(_size) ([UIFont fontWithName:@"AvenirNext-Regular" size:(_size)])
 #define WK_COLOR_GRAY_77 			WK_COLOR(77,77,77,1)
@@ -150,6 +151,9 @@
                                                highlightedImage:nil
                                                          action:^(REMenuItem *item) {
                                                              NSLog(@"Item: %@", item);
+                                                             UIStoryboard *storyboard = self.storyboard;
+                                                             connectorsViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Connector"];
+                                                             [self.navigationController pushViewController:destVC animated:YES];
                                                              
                                                          }];
     
@@ -216,11 +220,6 @@
         tasksHeaderLabel.hidden = false;
         noTaskView.hidden = true;
     }
-    
-    //Tap to change image
-    tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(addImage:)];
-    [tap setNumberOfTouchesRequired:1];
-    [tap setNumberOfTapsRequired:1];
     
     if (![UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
         
@@ -656,6 +655,11 @@
     cell.cellView.clipsToBounds = YES;
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     [taskTableView setClipsToBounds:YES];
+    
+    //Tap to change image
+    tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(addImage:)];
+    [tap setNumberOfTouchesRequired:1];
+    [tap setNumberOfTapsRequired:1];
     
     if (tempTask.taskImage == nil) {
          cell.imageView.image = [UIImage imageNamed:@"note18.png"];

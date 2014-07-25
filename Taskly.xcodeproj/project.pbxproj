@@ -11,7 +11,6 @@
 		360B2C35197E1BC800A5D5C5 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C34197E1BC700A5D5C5 /* CoreVideo.framework */; };
 		360B2C37197E1BCE00A5D5C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */; };
 		360B2C39197E1BE500A5D5C5 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */; };
-		362AE08D197F1DFD009B619F /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 362AE08C197F1DFD009B619F /* Task.m */; };
 		362AE08F197FAA85009B619F /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE08E197FAA85009B619F /* right.png */; };
 		362AE091197FAB8A009B619F /* note18.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE090197FAB8A009B619F /* note18.png */; };
 		362AE093197FACF9009B619F /* note18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE092197FACF9009B619F /* note18@2x.png */; };
@@ -101,6 +100,7 @@
 		36C05A3219811BC8008F6AA0 /* github.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A3119811BC8008F6AA0 /* github.png */; };
 		36C05A3419811C74008F6AA0 /* trello.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A3319811C74008F6AA0 /* trello.png */; };
 		36C05A3619811CA3008F6AA0 /* milk.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A3519811CA3008F6AA0 /* milk.png */; };
+		36C05A411981EE9D008F6AA0 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C05A401981EE9D008F6AA0 /* Task.m */; };
 		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
 		36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE939B197DD18A0032EDCB /* syncIcon@2x.png */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
@@ -125,8 +125,6 @@
 		360B2C36197E1BCE00A5D5C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		360B2C38197E1BE500A5D5C5 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		360B2C3A197E1BF000A5D5C5 /* libPods-GPUImage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-GPUImage.a"; path = "Pods/build/Debug-iphoneos/libPods-GPUImage.a"; sourceTree = "<group>"; };
-		362AE08B197F1DFD009B619F /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
-		362AE08C197F1DFD009B619F /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		362AE08E197FAA85009B619F /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
 		362AE090197FAB8A009B619F /* note18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = note18.png; sourceTree = "<group>"; };
 		362AE092197FACF9009B619F /* note18@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "note18@2x.png"; sourceTree = "<group>"; };
@@ -237,6 +235,8 @@
 		36C05A3119811BC8008F6AA0 /* github.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = github.png; sourceTree = "<group>"; };
 		36C05A3319811C74008F6AA0 /* trello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trello.png; sourceTree = "<group>"; };
 		36C05A3519811CA3008F6AA0 /* milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milk.png; sourceTree = "<group>"; };
+		36C05A3F1981EE9D008F6AA0 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		36C05A401981EE9D008F6AA0 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
 		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		36CE939B197DD18A0032EDCB /* syncIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncIcon@2x.png"; sourceTree = "<group>"; };
@@ -528,8 +528,8 @@
 			isa = PBXGroup;
 			children = (
 				369A096D197D564700153F18 /* TaskModel.xcdatamodeld */,
-				362AE08B197F1DFD009B619F /* Task.h */,
-				362AE08C197F1DFD009B619F /* Task.m */,
+				36C05A3F1981EE9D008F6AA0 /* Task.h */,
+				36C05A401981EE9D008F6AA0 /* Task.m */,
 			);
 			name = "Core Data Items";
 			sourceTree = "<group>";
@@ -743,8 +743,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36C05A411981EE9D008F6AA0 /* Task.m in Sources */,
 				36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */,
-				362AE08D197F1DFD009B619F /* Task.m in Sources */,
 				3683AB0419790D9E005E04E7 /* ViewController.m in Sources */,
 				36B3048619794F0A001951E2 /* REMenuItemView.m in Sources */,
 				36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */,

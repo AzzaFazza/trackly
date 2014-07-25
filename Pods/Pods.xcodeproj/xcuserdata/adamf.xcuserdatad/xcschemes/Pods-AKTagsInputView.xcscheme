@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "55209171529F49CDA2288D3E"
+               BlueprintIdentifier = "D77D97CF36D5454C9ECEDADF"
                BuildableName = "libPods-AKTagsInputView.a"
                BlueprintName = "Pods-AKTagsInputView"
                ReferencedContainer = "container:Pods.xcodeproj">
