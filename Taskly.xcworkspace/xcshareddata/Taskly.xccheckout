@@ -5,19 +5,19 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>8A9C832B-C2A3-42C4-BA7E-815A258B0EE1</string>
+	<string>FF4D4236-826F-4243-BA22-A76475A2B2E1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Taskly</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>237B847B-87C5-425D-B7EE-3948618B6C40</key>
+		<key>3142B720-D2F3-4E5D-8893-F66530E93533</key>
 		<string>https://github.com/AzzaFazza/trackly.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Taskly.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>237B847B-87C5-425D-B7EE-3948618B6C40</key>
+		<key>3142B720-D2F3-4E5D-8893-F66530E93533</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>237B847B-87C5-425D-B7EE-3948618B6C40</string>
+	<string>3142B720-D2F3-4E5D-8893-F66530E93533</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>237B847B-87C5-425D-B7EE-3948618B6C40</string>
+			<string>3142B720-D2F3-4E5D-8893-F66530E93533</string>
 			<key>IDESourceControlWCCName</key>
 			<string>trackly</string>
 		</dict>
