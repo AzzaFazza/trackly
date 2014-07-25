@@ -677,7 +677,7 @@
 }
 
 - (void)addImage:(id)sender
-{
+{    
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     picker.delegate = self;
     picker.allowsEditing = YES;
@@ -688,18 +688,13 @@
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    
     UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
     cell.imageView.image = chosenImage;
     cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
-    [self getCurrentCellImage:chosenImage];
     [picker dismissViewControllerAnimated:YES completion:NULL];
     
 }
 
--(UIImage*)getCurrentCellImage : (UIImage*)tempImage{
-    return tempImage;
-}
 
 - (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
     
