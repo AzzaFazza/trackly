@@ -13,7 +13,7 @@
 @end
 
 @implementation connectorsViewController
-
+@synthesize Exchange, Asana, GoogleCalender, Evernote, GitHub, Trello;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -27,6 +27,15 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    //Generic Fallback for Buttons
+    [[FUIButton appearance]setCornerRadius:3.];
+    [[FUIButton appearance]setButtonColor:[UIColor emerlandColor]];
+    [[FUIButton appearance]setShadowColor:[UIColor nephritisColor]];
+    [[FUIButton appearance]setShadowHeight:3.0f];
+    [[FUIButton appearance]setCornerRadius:6.0f];
+    [[FUIButton appearance] setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
+    [[FUIButton appearance] setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
 }
 
 - (void)didReceiveMemoryWarning

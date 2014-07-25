@@ -6,22 +6,29 @@
 //  Copyright (c) 2014 Dot.ly. All rights reserved.
 //
 
+//Custom
 #import "ViewController.h"
+#import "customTableViewCell.h"
+#import "connectorsViewController.h"
+#import "videoViewController.h"
+
+//Frameworks + Cocoa Controls
 #import "REMenu.h"
 #import "CustomIOS7AlertView.h"
 #import <CXCardView/CXCardView.h>
 #import <RNGridMenu/RNGridMenu.h>
-#import "videoViewController.h"
 #import <AKTagsInputView/AKTextField.h>
 #import <AKTagsInputView/AKTagsInputView.h>
-#import "Task.h"
 #import "QuartzCore/QuartzCore.h"
+#import "KLCPopup.h"
+
+//Core Data
 #import "CoreDataHelper.h"
 #import "NSManagedObject+CRUD.h"
-#import "KLCPopup.h"
-#import "customTableViewCell.h"
-#import "connectorsViewController.h"
+#import "Task.h"
 
+
+//Defined Attributes
 #define AVENIR_NEXT(_size) ([UIFont fontWithName:@"AvenirNext-Regular" size:(_size)])
 #define WK_COLOR_GRAY_77 			WK_COLOR(77,77,77,1)
 #define DEGREES_TO_RADIANS(angle) ((angle) / 180.0 * M_PI)
@@ -30,33 +37,43 @@
 
 @interface ViewController ()
 {
-    CustomIOS7AlertView * newTask;
+
+    //Primitives
     BOOL trayShown;
     float fingerX;
     float fingerY;
+    
+    //Custom UI
+    CustomIOS7AlertView * newTask;
     REMenu* menu;
+    AKTagsInputView *_tagsInputView;
+    customTableViewCell *cell;
+    
+    //UI
     UIView * button1;
     UILabel * nameLabel;
     UILabel * notesLabel;
-    UITextField *taskNameTextField;
-    UITextField *taskTags;
     UILabel * createTaskLabel;
     UIView *contentView;
-    AKTagsInputView *_tagsInputView;
-    NSMutableArray * _allTasks;
     UIImageView * imageView;
     UIBarButtonItem * barItem;
     NSString * genreLabelToPass;
-    customTableViewCell *cell;
+    
+    
+    //Gestures
     UITapGestureRecognizer *tap;
     
+    //Core Data
     NSData *imageData;
+    UITextField *taskNameTextField;
+    UITextField *taskTags;
+    NSMutableArray * _allTasks;
 }
 @end
 
 @implementation ViewController
 @synthesize //Buttons
-            addTask, trayDisplayButton, addTaskButton,
+            trayDisplayButton, addTaskButton,
             //Labels
             sadFace, noTaskLabel,tasksHeaderLabel,
             //Views
@@ -71,6 +88,8 @@
 	// Do any additional setup after loading the view, typically from a nib.
  //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
     
+    
+    //Custom UI Setup
     nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
     nameLabel.text = @"TASK NAME:";
     
@@ -121,8 +140,28 @@
     
     [contentView addSubview:[self createTagsInputView]];
     
-    fingerX = 0.0;
-    fingerY = 0.0;
+    noTaskLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:28.0f];
+    sadFace.font = [UIFont fontWithName:@"CoquetteRegular" size:42.0f];
+    
+    noTaskView.layer.masksToBounds = NO;
+    noTaskView.layer.shadowOffset = CGSizeMake(5, 5);
+    noTaskView.layer.shadowRadius = 2;
+    noTaskView.layer.shadowOpacity = 0.1;
+    
+    [self parralaxEffect];
+    
+    imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"syncIcon.png"]];
+    imageView.autoresizingMask = UIViewAutoresizingNone;
+    imageView.contentMode = UIViewContentModeCenter;
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    button.frame = CGRectMake(0, 0, 40, 40);
+    [button addSubview:imageView];
+    [button addTarget:self action:@selector(rotate:) forControlEvents:UIControlEventTouchUpInside];
+    imageView.center = button.center;
+    barItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    
+    self.navigationItem.rightBarButtonItem = barItem;
     
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"Helvetica-Neue" size:4.0]];
@@ -134,9 +173,6 @@
                                                                    [NSValue valueWithUIOffset:UIOffsetMake(0, 1)],
                                                                    UITextAttributeTextShadowOffset,
                                                                    [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];
-    
-    
-    
     //REMenu
     REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Main Page"
                                                     subtitle:@"Return to Task View"
@@ -179,34 +215,11 @@
                                                          }];
     
     menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem, profileItem]];
-    
-    
-    noTaskLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:28.0f];
-    sadFace.font = [UIFont fontWithName:@"CoquetteRegular" size:42.0f];
-    
-    noTaskView.layer.masksToBounds = NO;
-    noTaskView.layer.shadowOffset = CGSizeMake(5, 5);
-    noTaskView.layer.shadowRadius = 2;
-    noTaskView.layer.shadowOpacity = 0.1;
-    
-    [self parralaxEffect];
-    
-    imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"syncIcon.png"]];
-    imageView.autoresizingMask = UIViewAutoresizingNone;
-    imageView.contentMode = UIViewContentModeCenter;
-    
-    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
-    button.frame = CGRectMake(0, 0, 40, 40);
-    [button addSubview:imageView];
-    [button addTarget:self action:@selector(rotate:) forControlEvents:UIControlEventTouchUpInside];
-    imageView.center = button.center;
-    barItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-    
-    self.navigationItem.rightBarButtonItem = barItem;
-    
+
     //Load objects from CoreData
     _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
     
+    //TableData Setup
     [taskTableView setDataSource: self];
     [taskTableView setDelegate:self];
     
@@ -233,6 +246,10 @@
         [myAlertView show];
         
     }
+    
+    //Init attributes
+    fingerX = 0.0;
+    fingerY = 0.0;
 
     
 }
@@ -257,10 +274,14 @@
         }
     
     contentView.backgroundColor = [self colorWithHexString:@"eeeeee"];
+    
+    //Set up Flat button for the add task button
     addTaskButton.buttonColor = [self colorWithHexString:@"3F51B5"];
     addTaskButton.shadowColor = [self colorWithHexString:@"33439C"];
     addTaskButton.shadowHeight = 3.0f;
     addTaskButton.cornerRadius = 6.0f;
+    
+    //Task button add to navigation bar
     addTaskButton.titleLabel.font = [UIFont boldFlatFontOfSize:16];
     [addTaskButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateNormal];
     [addTaskButton setTitleColor:[UIColor cloudsColor] forState:UIControlStateHighlighted];
@@ -276,19 +297,13 @@
     } else {
         [menu close];
         trayShown = false;
-        mainView.backgroundColor = [UIColor whiteColor];
-        mainView.alpha = 1.00;
     }
 }
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
--(void)test:(RNGridMenuItem*)objectName {
-    UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Test" message:@"Test" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
-    [alert show]; 
 }
 
 -(IBAction)showTray:(id)sender {
@@ -296,26 +311,7 @@
 }
 
 
-- (IBAction)handlePan:(UIPanGestureRecognizer *)recognizer {
-    
-    CGPoint translation = [recognizer translationInView:self.view];
-    
-    if(translation.x > -290.00 && translation.x <= 200.00) {
-        if(translation.y > -430.00 && translation.y <= 430.00) {
-            recognizer.view.center = CGPointMake(recognizer.view.center.x + translation.x,
-                                                 recognizer.view.center.y + translation.y);
-            [recognizer setTranslation:CGPointMake(0, 0) inView:self.view];
-        }
-    }
-
-}
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
-    UITouch *touched = [[event allTouches] anyObject];
-    CGPoint location = [touched locationInView:touched.view];
-    NSLog(@"x=%.2f y=%.2f", location.x, location.y);
-    fingerX = location.x; fingerY = location.y;
-}
+//Here we have the menu that appears when the add task button is pressed. From this view users can then add a new task to the task DB
 - (void)showList {
     RNGridMenuItem * item1 = [[RNGridMenuItem alloc]initWithImage:nil
                                                             title:@"Work"
@@ -375,21 +371,21 @@
     
     RNGridMenu *av = [[RNGridMenu alloc] initWithItems:options];
     av.delegate = self;
-    //    av.itemTextAlignment = NSTextAlignmentLeft;
     av.itemFont = [UIFont boldSystemFontOfSize:18];
     av.itemSize = CGSizeMake(150, 55);
     av.blurLevel = 0.1;
     av.animationDuration = 0.05;
     [av showInViewController:self center:CGPointMake(self.view.bounds.size.width/2.f, self.view.bounds.size.height/2.f)];
     
-
 }
+
+//Show the drop down menu !IMPORTANT
 -(IBAction)addTask:(id)sender {
     [self showList];
-    
-    
+
 }
 
+//TODO REFACTOR THIS - Missnamed Method (The method only gets the selected)
 -(void) createTask : (NSString*)selector{
     NSLog(@"%@", selector);
     genreLabelToPass = selector;
@@ -397,42 +393,6 @@
     createTaskLabel.font = [UIFont fontWithName:@"CoquetteRegular" size:20.0];
     nameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:8.0f];
     notesLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:8.0f];
-}
-
--(UIColor*)colorWithHexString:(NSString*)hex
-{
-    NSString *cString = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
-    
-    // String should be 6 or 8 characters
-    if ([cString length] < 6) return [UIColor grayColor];
-    
-    // strip 0X if it appears
-    if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
-    
-    if ([cString length] != 6) return  [UIColor grayColor];
-    
-    // Separate into r, g, b substrings
-    NSRange range;
-    range.location = 0;
-    range.length = 2;
-    NSString *rString = [cString substringWithRange:range];
-    
-    range.location = 2;
-    NSString *gString = [cString substringWithRange:range];
-    
-    range.location = 4;
-    NSString *bString = [cString substringWithRange:range];
-    
-    // Scan values
-    unsigned int r, g, b;
-    [[NSScanner scannerWithString:rString] scanHexInt:&r];
-    [[NSScanner scannerWithString:gString] scanHexInt:&g];
-    [[NSScanner scannerWithString:bString] scanHexInt:&b];
-    
-    return [UIColor colorWithRed:((float) r / 255.0f)
-                           green:((float) g / 255.0f)
-                            blue:((float) b / 255.0f)
-                           alpha:1.0f];
 }
 
 - (void)customIOS7dialogButtonTouchUpInside: (CustomIOS7AlertView *)alertView clickedButtonAtIndex: (NSInteger)buttonIndex
@@ -487,31 +447,6 @@
     return YES;
 }
 
--(void)parralaxEffect {
-    // Set vertical effect
-    UIInterpolatingMotionEffect *verticalMotionEffect =
-    [[UIInterpolatingMotionEffect alloc]
-     initWithKeyPath:@"center.y"
-     type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
-    verticalMotionEffect.minimumRelativeValue = @(-20);
-    verticalMotionEffect.maximumRelativeValue = @(20);
-    
-    // Set horizontal effect
-    UIInterpolatingMotionEffect *horizontalMotionEffect =
-    [[UIInterpolatingMotionEffect alloc]
-     initWithKeyPath:@"center.x"
-     type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
-    horizontalMotionEffect.minimumRelativeValue = @(-20);
-    horizontalMotionEffect.maximumRelativeValue = @(20);
-    
-    // Create group to combine both
-    UIMotionEffectGroup *group = [UIMotionEffectGroup new];
-    group.motionEffects = @[horizontalMotionEffect, verticalMotionEffect];
-    
-    // Add both effects to your view
-    [noTaskView addMotionEffect:group];
-}
-
 - (IBAction)rotate:(id)sender
 {
     _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
@@ -524,7 +459,6 @@
     
     
     //KLCPopup
-    
     // Generate content view to present
     UIView* contentViewKLC = [[UIView alloc] init];
     contentViewKLC.translatesAutoresizingMaskIntoConstraints = NO;
@@ -638,7 +572,6 @@
     
     UIImage *image = [UIImage imageWithData:imageData];
     
-    
     cell.taskNameLabel.text = [NSString stringWithFormat:@"%@", taskDetails ];
     cell.taskNameLabel.font = [UIFont fontWithName:@"AvenirNext-Regular" size:18.0f];
     cell.taskNameLabel.numberOfLines = 2;
@@ -651,6 +584,7 @@
     cell.taskGenre.text = [NSString stringWithFormat:@"%@", tempTask.taskGenre];
     cell.taskGenre.font = [UIFont fontWithName:@"AvenirNext-Regular" size:12.0f];
     
+    //Appearance of the cell view
     cell.cellView.layer.cornerRadius = 3.0;
     cell.cellView.layer.masksToBounds = NO;
     cell.cellView.layer.shadowOffset = CGSizeMake(-15, 20);
@@ -660,11 +594,7 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     [taskTableView setClipsToBounds:YES];
     
-    //Tap to change image
-    tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(addImage:)];
-    [tap setNumberOfTouchesRequired:1];
-    [tap setNumberOfTapsRequired:1];
-    
+    //Guards Against no image being shown in the cell view image
     if (imageData == nil) {
          cell.imageView.image = [UIImage imageNamed:@"note18.png"];
          cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
@@ -673,9 +603,15 @@
          cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
     }
     
+    //Tap to change image
+    tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(addImage:)];
+    [tap setNumberOfTouchesRequired:1];
+    [tap setNumberOfTapsRequired:1];
     [cell.imageView setUserInteractionEnabled:YES];
     [cell.imageView addGestureRecognizer:tap];
     
+    
+    //Save to core data
     [Task saveOnMain];
     
     return cell;
@@ -689,14 +625,18 @@
     picker.sourceType = UIImagePickerControllerSourceTypeCamera;
     
     [self presentViewController:picker animated:YES completion:NULL];
-    NSLog(@"TAP");
+    NSLog(@"Pressed Cell Image View");
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
+    
+    //Take the image that the user took
     UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
     
-   imageData = [NSData dataWithData:UIImagePNGRepresentation(chosenImage)];
+    //Convert that to binary data so Core Data can save it
+    imageData = [NSData dataWithData:UIImagePNGRepresentation(chosenImage)];
     
+    //Setup the current cell imageview to use the image the user took
     cell.imageView.image = chosenImage;
     cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
     [picker dismissViewControllerAnimated:YES completion:NULL];
@@ -740,6 +680,8 @@
     return YES;
 }
 
+
+//TODO Make this nicer looking
 -(void) allTasksComplete {
     if(_allTasks.count == 0) {
         UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"All Tasks Complete!" message:@"No More tasks left, Well Done!" delegate:nil cancelButtonTitle:@"Okay!" otherButtonTitles:nil, nil];
@@ -755,6 +697,68 @@
     }
 }
 
+//UI RICE BEYOND THIS POINT
 
+//This method allows us to write colors in HEX as oposed to writing RGB values
+-(UIColor*)colorWithHexString:(NSString*)hex
+{
+    NSString *cString = [[hex stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
+    
+    // String should be 6 or 8 characters
+    if ([cString length] < 6) return [UIColor grayColor];
+    
+    // strip 0X if it appears
+    if ([cString hasPrefix:@"0X"]) cString = [cString substringFromIndex:2];
+    
+    if ([cString length] != 6) return  [UIColor grayColor];
+    
+    // Separate into r, g, b substrings
+    NSRange range;
+    range.location = 0;
+    range.length = 2;
+    NSString *rString = [cString substringWithRange:range];
+    
+    range.location = 2;
+    NSString *gString = [cString substringWithRange:range];
+    
+    range.location = 4;
+    NSString *bString = [cString substringWithRange:range];
+    
+    // Scan values
+    unsigned int r, g, b;
+    [[NSScanner scannerWithString:rString] scanHexInt:&r];
+    [[NSScanner scannerWithString:gString] scanHexInt:&g];
+    [[NSScanner scannerWithString:bString] scanHexInt:&b];
+    
+    return [UIColor colorWithRed:((float) r / 255.0f)
+                           green:((float) g / 255.0f)
+                            blue:((float) b / 255.0f)
+                           alpha:1.0f];
+}
+
+-(void)parralaxEffect {
+    // Set vertical effect
+    UIInterpolatingMotionEffect *verticalMotionEffect =
+    [[UIInterpolatingMotionEffect alloc]
+     initWithKeyPath:@"center.y"
+     type:UIInterpolatingMotionEffectTypeTiltAlongVerticalAxis];
+    verticalMotionEffect.minimumRelativeValue = @(-20);
+    verticalMotionEffect.maximumRelativeValue = @(20);
+    
+    // Set horizontal effect
+    UIInterpolatingMotionEffect *horizontalMotionEffect =
+    [[UIInterpolatingMotionEffect alloc]
+     initWithKeyPath:@"center.x"
+     type:UIInterpolatingMotionEffectTypeTiltAlongHorizontalAxis];
+    horizontalMotionEffect.minimumRelativeValue = @(-20);
+    horizontalMotionEffect.maximumRelativeValue = @(20);
+    
+    // Create group to combine both
+    UIMotionEffectGroup *group = [UIMotionEffectGroup new];
+    group.motionEffects = @[horizontalMotionEffect, verticalMotionEffect];
+    
+    // Add both effects to your view
+    [noTaskView addMotionEffect:group];
+}
 
 @end

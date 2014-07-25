@@ -7,7 +7,7 @@
         <!--Connector-->
         <scene sceneID="06X-Va-GJO">
             <objects>
-                <viewController storyboardIdentifier="Connector" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ISK-ZB-ybW" userLabel="Connector" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Connector" useStoryboardIdentifierAsRestorationIdentifier="YES" id="ISK-ZB-ybW" userLabel="Connector" customClass="connectorsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tq2-EV-Wds"/>
                         <viewControllerLayoutGuide type="bottom" id="C4c-XU-wyr"/>
@@ -16,78 +16,115 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiJ-x8-YFX" customClass="FUIButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hiJ-x8-YFX" customClass="FUIButton">
                                 <rect key="frame" x="20" y="104" width="280" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97037827970000001" green="0.0" blue="0.031577872870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="4Bp-Cu-InO"/>
+                                </constraints>
                                 <state key="normal" title="Exchange">
                                     <color key="titleColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kf-iT-zlS" customClass="FUIButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Kf-iT-zlS" customClass="FUIButton">
                                 <rect key="frame" x="20" y="157" width="280" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97037827970000001" green="0.0" blue="0.031577872870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="rxx-ei-dxe"/>
+                                </constraints>
                                 <state key="normal" title="Asana">
                                     <color key="titleColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnt-bi-qIk" customClass="FUIButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fnt-bi-qIk" customClass="FUIButton">
                                 <rect key="frame" x="20" y="210" width="280" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97037827970000001" green="0.0" blue="0.031577872870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="IJB-yf-Fhr"/>
+                                </constraints>
                                 <state key="normal" title="Google Calender">
                                     <color key="titleColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0Q-Mm-dbV" customClass="FUIButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0Q-Mm-dbV" customClass="FUIButton">
                                 <rect key="frame" x="20" y="263" width="280" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97037827970000001" green="0.0" blue="0.031577872870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="66C-YA-Uuf"/>
+                                </constraints>
                                 <state key="normal" title="Evernote">
                                     <color key="titleColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQz-id-35c" customClass="FUIButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YQz-id-35c" customClass="FUIButton">
                                 <rect key="frame" x="20" y="316" width="280" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97037827970000001" green="0.0" blue="0.031577872870000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Connect">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="JPR-zC-Zwd"/>
+                                </constraints>
+                                <state key="normal" title="GitHub">
                                     <color key="titleColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIH-jC-aWU" customClass="FUIButton">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIH-jC-aWU" customClass="FUIButton">
                                 <rect key="frame" x="20" y="369" width="280" height="45"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97037827970000001" green="0.0" blue="0.031577872870000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="5Ji-QE-seu"/>
+                                </constraints>
                                 <state key="normal" title="Trello">
                                     <color key="titleColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGz-Ar-XAR" customClass="FUIButton">
-                                <rect key="frame" x="20" y="422" width="280" height="45"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.97037827970000001" green="0.0" blue="0.031577872870000002" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Remember the Milk">
-                                    <color key="titleColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Connectors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdY-fM-8Tp">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connectors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MdY-fM-8Tp">
                                 <rect key="frame" x="0.0" y="52" width="320" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="R15-HE-OEY"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="8"/>
                                 <color key="textColor" red="0.51713230300000002" green="0.49326745950000001" blue="0.45793232270000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="MdY-fM-8Tp" firstAttribute="top" secondItem="tq2-EV-Wds" secondAttribute="bottom" constant="32" id="5Kv-6N-f8g"/>
+                            <constraint firstItem="YQz-id-35c" firstAttribute="leading" secondItem="R0Q-Mm-dbV" secondAttribute="leading" id="7Zg-13-lKg"/>
+                            <constraint firstItem="hiJ-x8-YFX" firstAttribute="leading" secondItem="mcu-oy-kzH" secondAttribute="leading" constant="20" symbolic="YES" id="8rQ-Qx-SRJ"/>
+                            <constraint firstItem="Fnt-bi-qIk" firstAttribute="leading" secondItem="3Kf-iT-zlS" secondAttribute="leading" id="EqB-En-zXT"/>
+                            <constraint firstAttribute="trailing" secondItem="hiJ-x8-YFX" secondAttribute="trailing" constant="20" symbolic="YES" id="HTa-fM-THd"/>
+                            <constraint firstItem="3Kf-iT-zlS" firstAttribute="top" secondItem="hiJ-x8-YFX" secondAttribute="bottom" constant="8" symbolic="YES" id="HrQ-cn-svc"/>
+                            <constraint firstItem="TIH-jC-aWU" firstAttribute="top" secondItem="YQz-id-35c" secondAttribute="bottom" constant="8" symbolic="YES" id="Q2h-BZ-z13"/>
+                            <constraint firstItem="YQz-id-35c" firstAttribute="top" secondItem="R0Q-Mm-dbV" secondAttribute="bottom" constant="8" symbolic="YES" id="QJi-Bs-aEd"/>
+                            <constraint firstItem="R0Q-Mm-dbV" firstAttribute="top" secondItem="Fnt-bi-qIk" secondAttribute="bottom" constant="8" symbolic="YES" id="Vth-M0-udi"/>
+                            <constraint firstItem="Fnt-bi-qIk" firstAttribute="trailing" secondItem="R0Q-Mm-dbV" secondAttribute="trailing" id="VxS-eK-1pV"/>
+                            <constraint firstItem="R0Q-Mm-dbV" firstAttribute="leading" secondItem="Fnt-bi-qIk" secondAttribute="leading" id="cFm-Vi-wc1"/>
+                            <constraint firstItem="hiJ-x8-YFX" firstAttribute="trailing" secondItem="3Kf-iT-zlS" secondAttribute="trailing" id="gBb-XH-BG8"/>
+                            <constraint firstItem="hiJ-x8-YFX" firstAttribute="top" secondItem="MdY-fM-8Tp" secondAttribute="bottom" constant="8" symbolic="YES" id="hVC-bj-k9U"/>
+                            <constraint firstItem="YQz-id-35c" firstAttribute="trailing" secondItem="TIH-jC-aWU" secondAttribute="trailing" id="mK2-fk-Rm3"/>
+                            <constraint firstItem="YQz-id-35c" firstAttribute="leading" secondItem="TIH-jC-aWU" secondAttribute="leading" id="qGj-vB-5cP"/>
+                            <constraint firstItem="hiJ-x8-YFX" firstAttribute="leading" secondItem="3Kf-iT-zlS" secondAttribute="leading" id="t9H-kU-Jex"/>
+                            <constraint firstItem="hiJ-x8-YFX" firstAttribute="centerX" secondItem="MdY-fM-8Tp" secondAttribute="centerX" id="viU-tS-RIx"/>
+                            <constraint firstItem="R0Q-Mm-dbV" firstAttribute="trailing" secondItem="YQz-id-35c" secondAttribute="trailing" id="wmK-RV-9pb"/>
+                            <constraint firstItem="Fnt-bi-qIk" firstAttribute="top" secondItem="3Kf-iT-zlS" secondAttribute="bottom" constant="8" symbolic="YES" id="xIf-3b-AzA"/>
+                            <constraint firstItem="3Kf-iT-zlS" firstAttribute="trailing" secondItem="Fnt-bi-qIk" secondAttribute="trailing" id="xbY-EO-VVT"/>
+                            <constraint firstItem="MdY-fM-8Tp" firstAttribute="leading" secondItem="mcu-oy-kzH" secondAttribute="leading" id="yfi-kZ-WR7"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Asana" destination="3Kf-iT-zlS" id="zjT-Fl-G2P"/>
+                        <outlet property="Evernote" destination="R0Q-Mm-dbV" id="eQw-uz-zoB"/>
+                        <outlet property="Exchange" destination="hiJ-x8-YFX" id="e9j-in-XhL"/>
+                        <outlet property="GitHub" destination="YQz-id-35c" id="arT-gN-Lj8"/>
+                        <outlet property="GoogleCalender" destination="Fnt-bi-qIk" id="X3y-u8-OhF"/>
+                        <outlet property="Trello" destination="TIH-jC-aWU" id="36u-1J-Ggu"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DA1-sU-71V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -128,7 +165,7 @@
                                         <rect key="frame" x="83" y="408" width="154" height="44"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
                                         <color key="tintColor" red="0.98517305810404021" green="0.95680583692265087" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                        <state key="normal" title=" Add">
+                                        <state key="normal" title=" Add Task">
                                             <color key="titleColor" red="0.97647064920000004" green="0.97647064920000004" blue="0.97647064920000004" alpha="1" colorSpace="deviceRGB"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -304,7 +341,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="addTask" destination="Yb2-cT-omq" id="d94-Mq-wWJ"/>
                         <outlet property="addTaskButton" destination="Yb2-cT-omq" id="8HV-Mz-P9v"/>
                         <outlet property="mainView" destination="S9z-gk-Ek6" id="sdD-ky-M81"/>
                         <outlet property="noTaskLabel" destination="l51-3R-Jby" id="CmF-WA-Aap"/>
@@ -322,12 +358,6 @@
                         <outlet property="delegate" destination="vXZ-lx-hvc" id="oIh-e9-mgd"/>
                     </connections>
                 </tapGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="GEs-sw-u3E">
-                    <connections>
-                        <action selector="handlePan:" destination="vXZ-lx-hvc" id="Y1O-Jy-Yjn"/>
-                        <outlet property="delegate" destination="vXZ-lx-hvc" id="ZtJ-v9-QPt"/>
-                    </connections>
-                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="385" y="91"/>
         </scene>

@@ -14,7 +14,7 @@
 		362AE08F197FAA85009B619F /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE08E197FAA85009B619F /* right.png */; };
 		362AE091197FAB8A009B619F /* note18.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE090197FAB8A009B619F /* note18.png */; };
 		362AE093197FACF9009B619F /* note18@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 362AE092197FACF9009B619F /* note18@2x.png */; };
-		3641A1DB197E6F1C0026B45C /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641A1DA197E6F1C0026B45C /* customTableViewCell.m */; };
+		3641A1DB197E6F1C0026B45C /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3641A1DA197E6F1C0026B45C /* customTableViewCell.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		3641A1DE197E84610026B45C /* schedule@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3641A1DD197E84610026B45C /* schedule@2x.png */; };
 		3683AAEE19790D9E005E04E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAED19790D9E005E04E7 /* Foundation.framework */; };
 		3683AAF019790D9E005E04E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAEF19790D9E005E04E7 /* CoreGraphics.framework */; };
@@ -23,7 +23,7 @@
 		3683AAFA19790D9E005E04E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683AAF919790D9E005E04E7 /* main.m */; };
 		3683AAFE19790D9E005E04E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683AAFD19790D9E005E04E7 /* AppDelegate.m */; };
 		3683AB0119790D9E005E04E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3683AAFF19790D9E005E04E7 /* Main.storyboard */; };
-		3683AB0419790D9E005E04E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683AB0319790D9E005E04E7 /* ViewController.m */; };
+		3683AB0419790D9E005E04E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3683AB0319790D9E005E04E7 /* ViewController.m */; settings = {COMPILER_FLAGS = "-w -v"; }; };
 		3683AB0619790D9E005E04E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3683AB0519790D9E005E04E7 /* Images.xcassets */; };
 		3683AB0D19790D9E005E04E7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AB0C19790D9E005E04E7 /* XCTest.framework */; };
 		3683AB0E19790D9E005E04E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3683AAED19790D9E005E04E7 /* Foundation.framework */; };
@@ -41,7 +41,7 @@
 		369A094A197D1ED200153F18 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 369A0949197D1ED200153F18 /* CoreData.framework */; };
 		369A095D197D456300153F18 /* AppStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0953197D456300153F18 /* AppStorage.m */; };
 		369A095E197D456300153F18 /* BackgroundManagedObjectContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0955197D456300153F18 /* BackgroundManagedObjectContext.m */; };
-		369A0960197D456300153F18 /* GeneralUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0959197D456300153F18 /* GeneralUtils.m */; };
+		369A0960197D456300153F18 /* GeneralUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A0959197D456300153F18 /* GeneralUtils.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A095B197D456300153F18 /* NSManagedObject+CRUD.m */; };
 		369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A096B197D4F9F00153F18 /* CoreDataHelper.m */; };
 		369A096F197D564700153F18 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 369A096D197D564700153F18 /* TaskModel.xcdatamodeld */; };
@@ -75,7 +75,7 @@
 		36B304BA19795478001951E2 /* list23@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304B919795478001951E2 /* list23@2x.png */; };
 		36B304BC197954B6001951E2 /* reminder4.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304BB197954B6001951E2 /* reminder4.png */; };
 		36B304C0197955C0001951E2 /* plus19(1)@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304BF197955C0001951E2 /* plus19(1)@2x.png */; };
-		36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B304CD197959AD001951E2 /* CustomIOS7AlertView.m */; };
+		36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B304CD197959AD001951E2 /* CustomIOS7AlertView.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		36B304D519796BBF001951E2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B304D419796BBF001951E2 /* QuartzCore.framework */; };
 		36B304D719796BC6001951E2 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B304D619796BC6001951E2 /* Accelerate.framework */; };
 		36B304DA197970B6001951E2 /* Brandon_blk.otf in Resources */ = {isa = PBXBuildFile; fileRef = 36B304D8197970A1001951E2 /* Brandon_blk.otf */; };
@@ -85,7 +85,7 @@
 		36B304E119797529001951E2 /* notebook_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304E019797529001951E2 /* notebook_@2X.png */; };
 		36B304E319797577001951E2 /* geometry_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304E219797577001951E2 /* geometry_@2X.png */; };
 		36B304E5197975BE001951E2 /* triangular_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304E4197975BD001951E2 /* triangular_@2X.png */; };
-		36B304F31979B712001951E2 /* videoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B304F21979B712001951E2 /* videoViewController.m */; };
+		36B304F31979B712001951E2 /* videoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B304F21979B712001951E2 /* videoViewController.m */; settings = {COMPILER_FLAGS = "-w"; }; };
 		36B304F51979B77F001951E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B304F41979B77F001951E2 /* AVFoundation.framework */; };
 		36B304F71979B80A001951E2 /* IMG_0434.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 36B304F61979B80A001951E2 /* IMG_0434.MOV */; };
 		36B304FD1979D22A001951E2 /* title@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304FC1979D22A001951E2 /* title@2x.png */; };

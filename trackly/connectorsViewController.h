@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <FlatUIKit/FlatUIKit.h>
 
 @interface connectorsViewController : UIViewController
+@property (weak, nonatomic) IBOutlet FUIButton *Exchange;
+@property (weak, nonatomic) IBOutlet FUIButton *Asana;
+@property (weak, nonatomic) IBOutlet FUIButton *GoogleCalender;
+@property (weak, nonatomic) IBOutlet FUIButton *Evernote;
+@property (weak, nonatomic) IBOutlet FUIButton *GitHub;
+@property (weak, nonatomic) IBOutlet FUIButton *Trello;
 
 @end
