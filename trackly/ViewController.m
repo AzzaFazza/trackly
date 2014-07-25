@@ -68,7 +68,6 @@
     [super viewWillAppear:YES];
 	// Do any additional setup after loading the view, typically from a nib.
  //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
-    self.navigationController.navigationBar.alpha = 0.9;
     
     nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
     nameLabel.text = @"TASK NAME:";
@@ -677,7 +676,7 @@
 }
 
 - (void)addImage:(id)sender
-{    
+{
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
     picker.delegate = self;
     picker.allowsEditing = YES;
