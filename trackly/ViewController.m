@@ -138,6 +138,7 @@
     [contentView addSubview:notesLabel];
     [contentView addSubview:header];
     
+    
     newTask = [[CustomIOS7AlertView alloc]init];
     [newTask setContainerView:contentView];
     [newTask setUseMotionEffects:TRUE];

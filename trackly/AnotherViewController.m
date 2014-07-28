@@ -30,6 +30,7 @@
 {
     [super viewWillAppear:animated];
     [(MRFlipTransition *)self.transitioningDelegate updateContentSnapshot:self.view afterScreenUpdate:YES];
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)flyAway:(id)sender
