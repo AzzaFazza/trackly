@@ -45,6 +45,7 @@
 		369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A095B197D456300153F18 /* NSManagedObject+CRUD.m */; };
 		369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A096B197D4F9F00153F18 /* CoreDataHelper.m */; };
 		369A096F197D564700153F18 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 369A096D197D564700153F18 /* TaskModel.xcdatamodeld */; };
+		369BC5FA1982955A0022DBED /* photo11.png in Resources */ = {isa = PBXBuildFile; fileRef = 369BC5F91982955A0022DBED /* photo11.png */; };
 		36B304581979272A001951E2 /* add121@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304521979272A001951E2 /* add121@2x.png */; };
 		36B304591979272A001951E2 /* black14.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304531979272A001951E2 /* black14.png */; };
 		36B3045A1979272A001951E2 /* help1.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304541979272A001951E2 /* help1.png */; };
@@ -103,6 +104,8 @@
 		36C05A411981EE9D008F6AA0 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C05A401981EE9D008F6AA0 /* Task.m */; };
 		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
 		36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE939B197DD18A0032EDCB /* syncIcon@2x.png */; };
+		36E7597319866EE20039BCCA /* MRFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E7597219866EE20039BCCA /* MRFlipTransition.m */; };
+		36E7597619866F460039BCCA /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E7597519866F460039BCCA /* AnotherViewController.m */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
 		36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9B0197B0E21008E2D22 /* coq.ttf */; };
 		651405B0435D475E95784B0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D7548C7B084D5E895B458C /* libPods.a */; };
@@ -172,6 +175,7 @@
 		369A096A197D4F9F00153F18 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
 		369A096B197D4F9F00153F18 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
 		369A096E197D564700153F18 /* TaskModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskModel.xcdatamodel; sourceTree = "<group>"; };
+		369BC5F91982955A0022DBED /* photo11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo11.png; sourceTree = "<group>"; };
 		36B304521979272A001951E2 /* add121@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add121@2x.png"; sourceTree = "<group>"; };
 		36B304531979272A001951E2 /* black14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black14.png; sourceTree = "<group>"; };
 		36B304541979272A001951E2 /* help1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = help1.png; sourceTree = "<group>"; };
@@ -240,6 +244,10 @@
 		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		36CE939B197DD18A0032EDCB /* syncIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncIcon@2x.png"; sourceTree = "<group>"; };
+		36E7597119866EE20039BCCA /* MRFlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRFlipTransition.h; sourceTree = "<group>"; };
+		36E7597219866EE20039BCCA /* MRFlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRFlipTransition.m; sourceTree = "<group>"; };
+		36E7597419866F460039BCCA /* AnotherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		36E7597519866F460039BCCA /* AnotherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 		36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		36EEB9B0197B0E21008E2D22 /* coq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coq.ttf; sourceTree = "<group>"; };
 		E89885221E0B4AECAEE88167 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -329,6 +337,7 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
+				36E7597019866ED70039BCCA /* FlipView */,
 				36C05A1B19810A6B008F6AA0 /* Connectors */,
 				3641A1DC197E6F230026B45C /* Custom Cells */,
 				36CE93A0197DD3590032EDCB /* Storyboards */,
@@ -350,6 +359,7 @@
 		3683AAF419790D9E005E04E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				369BC5F91982955A0022DBED /* photo11.png */,
 				36C05A251981149F008F6AA0 /* explore-step-off.tiff */,
 				36C05A261981149F008F6AA0 /* explore-step-on.tiff */,
 				36C05A1C19810C87008F6AA0 /* Web Services */,
@@ -551,6 +561,17 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
+		36E7597019866ED70039BCCA /* FlipView */ = {
+			isa = PBXGroup;
+			children = (
+				36E7597119866EE20039BCCA /* MRFlipTransition.h */,
+				36E7597219866EE20039BCCA /* MRFlipTransition.m */,
+				36E7597419866F460039BCCA /* AnotherViewController.h */,
+				36E7597519866F460039BCCA /* AnotherViewController.m */,
+			);
+			name = FlipView;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -639,6 +660,7 @@
 				36B304FD1979D22A001951E2 /* title@2x.png in Resources */,
 				36B304DB197970B6001951E2 /* Brandon_light.otf in Resources */,
 				369A093D197B3DCD00153F18 /* 32.png in Resources */,
+				369BC5FA1982955A0022DBED /* photo11.png in Resources */,
 				362AE08F197FAA85009B619F /* right.png in Resources */,
 				36B304DF197974B0001951E2 /* food@2x.png in Resources */,
 				36B3045F19793294001951E2 /* marker.ttf in Resources */,
@@ -743,6 +765,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E7597319866EE20039BCCA /* MRFlipTransition.m in Sources */,
 				36C05A411981EE9D008F6AA0 /* Task.m in Sources */,
 				36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */,
 				3683AB0419790D9E005E04E7 /* ViewController.m in Sources */,
@@ -762,6 +785,7 @@
 				3641A1DB197E6F1C0026B45C /* customTableViewCell.m in Sources */,
 				369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */,
 				36C05A1A19810A62008F6AA0 /* connectorsViewController.m in Sources */,
+				36E7597619866F460039BCCA /* AnotherViewController.m in Sources */,
 				369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

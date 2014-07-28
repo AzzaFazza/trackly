@@ -9,20 +9,21 @@
 #import "customTableViewCell.h"
 
 @implementation customTableViewCell
-@synthesize tagsView, taskNameView, imageView, taskNameLabel, tagsLabel, taskGenre, cellView;
+@synthesize tagsView, taskNameView, imageView, taskNameLabel, tagsLabel, taskGenre, cellView, cameraButton, movingImages;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
         // Initialization code
-        taskNameView = [[UIView alloc]init];
-        tagsView = [[UIView alloc]init];
-        imageView = [[UIImageView alloc]init];
-        taskNameLabel = [[UILabel alloc]init];
-        tagsLabel = [[UILabel alloc]init];
-        taskGenre = [[UILabel alloc]init];
-        cellView = [[UIView alloc]init];
-        
+        taskNameView =  [[UIView alloc]init];
+        tagsView     =  [[UIView alloc]init];
+        imageView    =  [[UIImageView alloc]init];
+        taskNameLabel=  [[UILabel alloc]init];
+        tagsLabel    =  [[UILabel alloc]init];
+        taskGenre    =  [[UILabel alloc]init];
+        cellView     =  [[UIView alloc]init];
+        cameraButton =  [[UIButton alloc]init];
+        movingImages =  [[JBKenBurnsView alloc]init];
     }
     return self;
 }

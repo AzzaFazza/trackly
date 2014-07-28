@@ -11,6 +11,7 @@
 #import "customTableViewCell.h"
 #import "connectorsViewController.h"
 #import "videoViewController.h"
+#import "AnotherViewController.h"
 
 //Frameworks + Cocoa Controls
 #import "REMenu.h"
@@ -21,6 +22,9 @@
 #import <AKTagsInputView/AKTagsInputView.h>
 #import "QuartzCore/QuartzCore.h"
 #import "KLCPopup.h"
+#import <JBKenBurnsView/JBKenBurnsView.h>
+#import <QuartzCore/QuartzCore.h>
+#import "MRFlipTransition.h"
 
 //Core Data
 #import "CoreDataHelper.h"
@@ -58,6 +62,7 @@
     UIImageView * imageView;
     UIBarButtonItem * barItem;
     NSString * genreLabelToPass;
+    MRFlipTransition *animator;
     
     
     //Gestures
@@ -111,6 +116,7 @@
     contentView = [[UIView alloc] initWithFrame:applicationFrame];
     contentView.backgroundColor = [UIColor whiteColor];
     contentView.layer.cornerRadius = 5.0;
+    
     taskNameTextField = [[UITextField alloc] initWithFrame:CGRectMake(10, 70, 280, 50)];
     taskNameTextField.borderStyle = UITextBorderStyleRoundedRect;
     taskNameTextField.font = [UIFont systemFontOfSize:15];
@@ -596,19 +602,32 @@
     
     //Guards Against no image being shown in the cell view image
     if (imageData == nil) {
-         cell.imageView.image = [UIImage imageNamed:@"note18.png"];
-         cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
+         cell.imageView.image = [UIImage imageNamed:@"triangular.png"];
     } else {
          cell.imageView.image = [UIImage imageWithData:imageData];
-         cell.imageView.contentMode = UIViewContentModeScaleAspectFit;
     }
     
     //Tap to change image
     tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(addImage:)];
     [tap setNumberOfTouchesRequired:1];
     [tap setNumberOfTapsRequired:1];
-    [cell.imageView setUserInteractionEnabled:YES];
-    [cell.imageView addGestureRecognizer:tap];
+    [cell.cameraButton setUserInteractionEnabled:YES];
+    [cell.cameraButton addGestureRecognizer:tap];
+    
+    //Ken Burns transition
+    if(cell.imageView.image != nil) {
+        NSArray * myImages = [NSArray arrayWithObject:cell.imageView.image];
+        [cell.movingImages animateWithImages:myImages
+                      transitionDuration:20
+                            initialDelay:0
+                                    loop:YES
+                             isLandscape:YES];
+        cell.movingImages.alpha = 0.3;
+        cell.movingImages.opaque = NO;
+    } else {
+        //Do Nothing
+         cell.movingImages.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
+    }
     
     
     //Save to core data
@@ -640,6 +659,7 @@
     cell.imageView.image = chosenImage;
     cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
     [picker dismissViewControllerAnimated:YES completion:NULL];
+    [taskTableView reloadData];
 }
 
 
@@ -678,6 +698,13 @@
 {
     // Return NO if you do not want the item to be re-orderable.
     return YES;
+}
+
+- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
+    self->animator = [[MRFlipTransition alloc] initWithPresentingViewController:self presentBlock:^UIViewController *{
+        return [[AnotherViewController alloc] initWithNibName:nil bundle:nil];
+    }];
+    [self->animator presentFrom:MRFlipTransitionPresentingFromBottom completion:nil];
 }
 
 
@@ -760,5 +787,9 @@
     // Add both effects to your view
     [noTaskView addMotionEffect:group];
 }
+
+
+
+
 
 @end

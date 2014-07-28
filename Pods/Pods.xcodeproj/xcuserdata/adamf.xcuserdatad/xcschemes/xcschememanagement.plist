@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Pods-APPaginalTableView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CXCardView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -25,6 +30,11 @@
 			<false/>
 		</dict>
 		<key>Pods-GPUImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-JBKenBurnsView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -47,42 +57,52 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0ACB01AFB07A4FDAAF0E1A97</key>
+		<key>0659F7325BD54A89818E4D67</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1483824BD27F4A23A9902235</key>
+		<key>1E111C89EBD44893B13055A0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>502172CC3F544BA6B1B7367C</key>
+		<key>32BBCEBFBC4249AC8E3697F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>76768A0B6B824BDDACF6FE6D</key>
+		<key>95C64EA10C1A4AD597F4B193</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>7EAA4A5343AF40FE89E11533</key>
+		<key>BAA262C802134EDA8939AE7A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>94B3575E6A45456AB58A93ED</key>
+		<key>C9D99B2B240B43EFB83F73A5</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>B630E3077714498C8F7CCAEB</key>
+		<key>E0A5C58EE7ED4C539828A9A0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>CD40B42370F74F9DB6812CAA</key>
+		<key>E4763FA2A5694932B7BC94B7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC1D03773430400FA3D5A9AC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FFA57690FC5A4137B143367F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
