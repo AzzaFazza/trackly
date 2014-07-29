@@ -10,7 +10,6 @@
 #import <CXCardView/CXCardView.h>
 #import <FlatUIKit/FlatUIKit.h>
 
-
 @interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate, UIImagePickerControllerDelegate, UIActionSheetDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
@@ -21,7 +20,6 @@
 @property (weak, nonatomic) IBOutlet UITableView *taskTableView;
 @property (weak, nonatomic) IBOutlet FUIButton * addTaskButton;
 @property (weak, nonatomic) IBOutlet UILabel *tasksHeaderLabel;
-
 
 -(IBAction)showTray:(id)sender;
 @end

@@ -27,7 +27,7 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    
+    self.navigationController.title = @"Connectors";
     //Generic Fallback for Buttons
     [[FUIButton appearance]setCornerRadius:3.];
     [[FUIButton appearance]setButtonColor:[UIColor emerlandColor]];

@@ -1,5 +1,6 @@
 PODS:
   - AKTagsInputView (1.0.0)
+  - APDropDownNavToolbar (1.1)
   - APPaginalTableView (1.0.0)
   - CXCardView (1.0.0)
   - EAIntroView (2.5.1)
@@ -11,6 +12,7 @@ PODS:
 
 DEPENDENCIES:
   - AKTagsInputView (~> 1.0)
+  - APDropDownNavToolbar (~> 1.1)
   - APPaginalTableView
   - CXCardView
   - EAIntroView (~> 2.5.0)
@@ -22,6 +24,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   AKTagsInputView: 30e9bb56285edd31a0d82aea6e57d301680853f0
+  APDropDownNavToolbar: 11c73db7013276a3b208be046c4c24cd2eb01883
   APPaginalTableView: 0de2c77ea2624796b482f095cc223429dd25e3c9
   CXCardView: 113ff84aceb858d5faf3e610ac3ff524f95b9c21
   EAIntroView: 9586107ac7a6e849fb985c8d62109a9da649136b

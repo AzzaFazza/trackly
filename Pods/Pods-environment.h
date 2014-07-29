@@ -12,6 +12,12 @@
 #define COCOAPODS_VERSION_MINOR_AKTagsInputView 0
 #define COCOAPODS_VERSION_PATCH_AKTagsInputView 0
 
+// APDropDownNavToolbar
+#define COCOAPODS_POD_AVAILABLE_APDropDownNavToolbar
+#define COCOAPODS_VERSION_MAJOR_APDropDownNavToolbar 1
+#define COCOAPODS_VERSION_MINOR_APDropDownNavToolbar 1
+#define COCOAPODS_VERSION_PATCH_APDropDownNavToolbar 0
+
 // APPaginalTableView
 #define COCOAPODS_POD_AVAILABLE_APPaginalTableView
 #define COCOAPODS_VERSION_MAJOR_APPaginalTableView 1

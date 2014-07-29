@@ -45,6 +45,13 @@
 		369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A095B197D456300153F18 /* NSManagedObject+CRUD.m */; };
 		369A096C197D4F9F00153F18 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 369A096B197D4F9F00153F18 /* CoreDataHelper.m */; };
 		369A096F197D564700153F18 /* TaskModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 369A096D197D564700153F18 /* TaskModel.xcdatamodeld */; };
+		369AACD11987E08400764EBF /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 369AACD01987E08400764EBF /* search.png */; };
+		369AACD31987E15200764EBF /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 369AACD21987E15200764EBF /* search@2x.png */; };
+		369AACDD1987ECFC00764EBF /* MDSearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 369AACD61987ECFC00764EBF /* MDSearchBar.m */; };
+		369AACDE1987ECFC00764EBF /* MDSearchBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369AACD71987ECFC00764EBF /* MDSearchBar.xib */; };
+		369AACDF1987ECFC00764EBF /* MDSearchBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 369AACD91987ECFC00764EBF /* MDSearchBarController.m */; };
+		369AACE01987ECFC00764EBF /* MDSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 369AACDB1987ECFC00764EBF /* MDSearchView.m */; };
+		369AACE11987ECFC00764EBF /* MDSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 369AACDC1987ECFC00764EBF /* MDSearchView.xib */; };
 		369BC5FA1982955A0022DBED /* photo11.png in Resources */ = {isa = PBXBuildFile; fileRef = 369BC5F91982955A0022DBED /* photo11.png */; };
 		36B304581979272A001951E2 /* add121@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304521979272A001951E2 /* add121@2x.png */; };
 		36B304591979272A001951E2 /* black14.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B304531979272A001951E2 /* black14.png */; };
@@ -175,6 +182,16 @@
 		369A096A197D4F9F00153F18 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
 		369A096B197D4F9F00153F18 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
 		369A096E197D564700153F18 /* TaskModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TaskModel.xcdatamodel; sourceTree = "<group>"; };
+		369AACD01987E08400764EBF /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		369AACD21987E15200764EBF /* search@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search@2x.png"; sourceTree = "<group>"; };
+		369AACD51987ECFC00764EBF /* MDSearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSearchBar.h; sourceTree = "<group>"; };
+		369AACD61987ECFC00764EBF /* MDSearchBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSearchBar.m; sourceTree = "<group>"; };
+		369AACD71987ECFC00764EBF /* MDSearchBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSearchBar.xib; sourceTree = "<group>"; };
+		369AACD81987ECFC00764EBF /* MDSearchBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSearchBarController.h; sourceTree = "<group>"; };
+		369AACD91987ECFC00764EBF /* MDSearchBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSearchBarController.m; sourceTree = "<group>"; };
+		369AACDA1987ECFC00764EBF /* MDSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDSearchView.h; sourceTree = "<group>"; };
+		369AACDB1987ECFC00764EBF /* MDSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDSearchView.m; sourceTree = "<group>"; };
+		369AACDC1987ECFC00764EBF /* MDSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MDSearchView.xib; sourceTree = "<group>"; };
 		369BC5F91982955A0022DBED /* photo11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = photo11.png; sourceTree = "<group>"; };
 		36B304521979272A001951E2 /* add121@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "add121@2x.png"; sourceTree = "<group>"; };
 		36B304531979272A001951E2 /* black14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = black14.png; sourceTree = "<group>"; };
@@ -337,6 +354,7 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
+				369AACD41987ECE000764EBF /* SearchBar */,
 				36E7597019866ED70039BCCA /* FlipView */,
 				36C05A1B19810A6B008F6AA0 /* Connectors */,
 				3641A1DC197E6F230026B45C /* Custom Cells */,
@@ -359,6 +377,7 @@
 		3683AAF419790D9E005E04E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				369AACD21987E15200764EBF /* search@2x.png */,
 				369BC5F91982955A0022DBED /* photo11.png */,
 				36C05A251981149F008F6AA0 /* explore-step-off.tiff */,
 				36C05A261981149F008F6AA0 /* explore-step-on.tiff */,
@@ -414,6 +433,7 @@
 		3683AB1319790D9E005E04E7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				369AACD01987E08400764EBF /* search.png */,
 				3683AB1419790D9E005E04E7 /* TasklyTests-Info.plist */,
 				3683AB1519790D9E005E04E7 /* InfoPlist.strings */,
 			);
@@ -448,6 +468,21 @@
 				369A095C197D456300153F18 /* NSManagedObjectUpdateWithDictionaryInContext.h */,
 			);
 			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		369AACD41987ECE000764EBF /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				369AACD51987ECFC00764EBF /* MDSearchBar.h */,
+				369AACD61987ECFC00764EBF /* MDSearchBar.m */,
+				369AACD71987ECFC00764EBF /* MDSearchBar.xib */,
+				369AACD81987ECFC00764EBF /* MDSearchBarController.h */,
+				369AACD91987ECFC00764EBF /* MDSearchBarController.m */,
+				369AACDA1987ECFC00764EBF /* MDSearchView.h */,
+				369AACDB1987ECFC00764EBF /* MDSearchView.m */,
+				369AACDC1987ECFC00764EBF /* MDSearchView.xib */,
+			);
+			name = SearchBar;
 			sourceTree = "<group>";
 		};
 		36B3045119792722001951E2 /* Icons */ = {
@@ -657,15 +692,18 @@
 				36B304DA197970B6001951E2 /* Brandon_blk.otf in Resources */,
 				369A0935197B22A300153F18 /* introVid.mov in Resources */,
 				369A0940197B3DCD00153F18 /* two123@2x.png in Resources */,
+				369AACD11987E08400764EBF /* search.png in Resources */,
 				36B304FD1979D22A001951E2 /* title@2x.png in Resources */,
 				36B304DB197970B6001951E2 /* Brandon_light.otf in Resources */,
 				369A093D197B3DCD00153F18 /* 32.png in Resources */,
 				369BC5FA1982955A0022DBED /* photo11.png in Resources */,
+				369AACD31987E15200764EBF /* search@2x.png in Resources */,
 				362AE08F197FAA85009B619F /* right.png in Resources */,
 				36B304DF197974B0001951E2 /* food@2x.png in Resources */,
 				36B3045F19793294001951E2 /* marker.ttf in Resources */,
 				36B3045D1979272A001951E2 /* three115.png in Resources */,
 				36B304AD19795183001951E2 /* Balloon@2x.png in Resources */,
+				369AACDE1987ECFC00764EBF /* MDSearchBar.xib in Resources */,
 				369A093E197B3DCD00153F18 /* day7.png in Resources */,
 				362AE093197FACF9009B619F /* note18@2x.png in Resources */,
 				36C05A2D19811B63008F6AA0 /* Asana-logo.png in Resources */,
@@ -686,6 +724,7 @@
 				36B304E5197975BE001951E2 /* triangular_@2X.png in Resources */,
 				36B30462197936DE001951E2 /* info9.png in Resources */,
 				36B304E319797577001951E2 /* geometry_@2X.png in Resources */,
+				369AACE11987ECFC00764EBF /* MDSearchView.xib in Resources */,
 				36B304B119795183001951E2 /* Icon_Activity.png in Resources */,
 				3683AB0619790D9E005E04E7 /* Images.xcassets in Resources */,
 				36B30463197936DE001951E2 /* plus24.png in Resources */,
@@ -765,6 +804,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				369AACDD1987ECFC00764EBF /* MDSearchBar.m in Sources */,
 				36E7597319866EE20039BCCA /* MRFlipTransition.m in Sources */,
 				36C05A411981EE9D008F6AA0 /* Task.m in Sources */,
 				36B304CE197959AD001951E2 /* CustomIOS7AlertView.m in Sources */,
@@ -774,6 +814,8 @@
 				3683AAFE19790D9E005E04E7 /* AppDelegate.m in Sources */,
 				369A0960197D456300153F18 /* GeneralUtils.m in Sources */,
 				36B3048419794F0A001951E2 /* REMenuContainerView.m in Sources */,
+				369AACDF1987ECFC00764EBF /* MDSearchBarController.m in Sources */,
+				369AACE01987ECFC00764EBF /* MDSearchView.m in Sources */,
 				36B3048319794F0A001951E2 /* REMenu.m in Sources */,
 				3683AAFA19790D9E005E04E7 /* main.m in Sources */,
 				369A095E197D456300153F18 /* BackgroundManagedObjectContext.m in Sources */,

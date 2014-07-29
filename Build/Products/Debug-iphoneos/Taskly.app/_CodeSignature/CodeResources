@@ -54,7 +54,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		oOS3IADhR7OU3ZjMhJECiakr9HE=
+		kMuzIrIpDqWZ6pjgwwGcWCu5f6g=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -62,31 +62,31 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Connector.nib</key>
 		<data>
-		9A6sSisVhFC6ClE8vPVS92QrNSU=
+		3bC5mtm9pkwn9bKbGib3L4Mmxok=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
 		<data>
-		XpUBtKDOYbueUXvK+Ej/74DgAiA=
+		s7d2QNnvwV9TFSGlov5IG2KilOo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		LiVTJ40vEzXLVXbg/WVutCHL/4I=
+		IRKtdtl2wb3PPzPg5Qd8zYpmc8w=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		q+NiArvDn3miL0vA0dqnChRhjng=
+		HiGuEenjVez1OZUgD3RQ9vqUxU0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		mvEg/xebYtUTewru38aWc8Glko8=
+		LiJVBQaH104dhL0+UbLlTxPIBaY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		g/CocT1awhYWrkAPU5cy3PvpDnQ=
+		2Y7VigEHH1kgB8Ya6Yj1iqY7KPU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		E8OwqV8H3VSIF1UyJZ4aW1yxSZw=
+		jlvjOgPNB3I/IfP0VhwV45Y7dH8=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -176,6 +176,14 @@
 		<data>
 		y0RSHrMu9gWddeP8H3oFS2UeDoU=
 		</data>
+		<key>MDSearchBar.nib</key>
+		<data>
+		yN6vlj8ZW0GUkH7Q5tRdiaDFTKI=
+		</data>
+		<key>MDSearchView.nib</key>
+		<data>
+		a1kLdkFUwxP8/45ySRup14Jh80c=
+		</data>
 		<key>Outlook-High-res.png</key>
 		<data>
 		y3/tATOgd1CNh5Nb9tg+tbf0WBE=
@@ -224,9 +232,25 @@
 		<data>
 		j1xnh1yIdWv3/BwCE4c5WE7LrR4=
 		</data>
+		<key>dark37.png</key>
+		<data>
+		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
+		</data>
+		<key>dark37@2x.png</key>
+		<data>
+		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
+		</data>
 		<key>day7.png</key>
 		<data>
 		gXEXkmhufdfePiRCStPClzlHiBE=
+		</data>
+		<key>elNav/ELHeaderView.h</key>
+		<data>
+		VqdRphbtv4UUw9eytlLhW+NAEJI=
+		</data>
+		<key>elNav/ELHeaderView.m</key>
+		<data>
+		Htu75rXZDOF58EtC8EMcgXXv2yc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -355,6 +379,14 @@
 		<key>schedule@2x.png</key>
 		<data>
 		kbjfYhht/qnnvYic1tBarvmZCEE=
+		</data>
+		<key>search.png</key>
+		<data>
+		ikFhUppYc3U8UlmZ+RD0CffKti4=
+		</data>
+		<key>search@2x.png</key>
+		<data>
+		ikFhUppYc3U8UlmZ+RD0CffKti4=
 		</data>
 		<key>settings3(2).png</key>
 		<data>
@@ -449,7 +481,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		oOS3IADhR7OU3ZjMhJECiakr9HE=
+		kMuzIrIpDqWZ6pjgwwGcWCu5f6g=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -457,31 +489,31 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Connector.nib</key>
 		<data>
-		9A6sSisVhFC6ClE8vPVS92QrNSU=
+		3bC5mtm9pkwn9bKbGib3L4Mmxok=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
 		<data>
-		XpUBtKDOYbueUXvK+Ej/74DgAiA=
+		s7d2QNnvwV9TFSGlov5IG2KilOo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		LiVTJ40vEzXLVXbg/WVutCHL/4I=
+		IRKtdtl2wb3PPzPg5Qd8zYpmc8w=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		q+NiArvDn3miL0vA0dqnChRhjng=
+		HiGuEenjVez1OZUgD3RQ9vqUxU0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		mvEg/xebYtUTewru38aWc8Glko8=
+		LiJVBQaH104dhL0+UbLlTxPIBaY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		g/CocT1awhYWrkAPU5cy3PvpDnQ=
+		2Y7VigEHH1kgB8Ya6Yj1iqY7KPU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		E8OwqV8H3VSIF1UyJZ4aW1yxSZw=
+		jlvjOgPNB3I/IfP0VhwV45Y7dH8=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -571,6 +603,14 @@
 		<data>
 		y0RSHrMu9gWddeP8H3oFS2UeDoU=
 		</data>
+		<key>MDSearchBar.nib</key>
+		<data>
+		yN6vlj8ZW0GUkH7Q5tRdiaDFTKI=
+		</data>
+		<key>MDSearchView.nib</key>
+		<data>
+		a1kLdkFUwxP8/45ySRup14Jh80c=
+		</data>
 		<key>Outlook-High-res.png</key>
 		<data>
 		y3/tATOgd1CNh5Nb9tg+tbf0WBE=
@@ -619,9 +659,25 @@
 		<data>
 		j1xnh1yIdWv3/BwCE4c5WE7LrR4=
 		</data>
+		<key>dark37.png</key>
+		<data>
+		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
+		</data>
+		<key>dark37@2x.png</key>
+		<data>
+		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
+		</data>
 		<key>day7.png</key>
 		<data>
 		gXEXkmhufdfePiRCStPClzlHiBE=
+		</data>
+		<key>elNav/ELHeaderView.h</key>
+		<data>
+		VqdRphbtv4UUw9eytlLhW+NAEJI=
+		</data>
+		<key>elNav/ELHeaderView.m</key>
+		<data>
+		Htu75rXZDOF58EtC8EMcgXXv2yc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -750,6 +806,14 @@
 		<key>schedule@2x.png</key>
 		<data>
 		kbjfYhht/qnnvYic1tBarvmZCEE=
+		</data>
+		<key>search.png</key>
+		<data>
+		ikFhUppYc3U8UlmZ+RD0CffKti4=
+		</data>
+		<key>search@2x.png</key>
+		<data>
+		ikFhUppYc3U8UlmZ+RD0CffKti4=
 		</data>
 		<key>settings3(2).png</key>
 		<data>

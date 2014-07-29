@@ -61,7 +61,9 @@
     UILabel * createTaskLabel;
     UIView *contentView;
     UIImageView * imageView;
+    UIImageView * imageView2;
     UIBarButtonItem * barItem;
+    UIBarButtonItem * barItem2;
     NSString * genreLabelToPass;
     MRFlipTransition *animator;
     
@@ -93,7 +95,7 @@
     [super viewWillAppear:YES];
 	// Do any additional setup after loading the view, typically from a nib.
  //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
-    
+
     
     //Custom UI Setup
     nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
@@ -162,6 +164,10 @@
     imageView.autoresizingMask = UIViewAutoresizingNone;
     imageView.contentMode = UIViewContentModeCenter;
     
+    imageView2 = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"search.png"]];
+    imageView2.autoresizingMask = UIViewAutoresizingNone;
+    imageView2.contentMode = UIViewContentModeCenter;
+    
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(0, 0, 40, 40);
     [button addSubview:imageView];
@@ -169,7 +175,15 @@
     imageView.center = button.center;
     barItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     
-    self.navigationItem.rightBarButtonItem = barItem;
+    UIButton *button2 = [UIButton buttonWithType:UIButtonTypeCustom];
+    button2.frame = CGRectMake(0, 0, 40, 40);
+    [button2 addSubview:imageView2];
+    [button2 addTarget:self action:@selector(search:) forControlEvents:UIControlEventTouchUpInside];
+    imageView2.center = button.center;
+    barItem2 = [[UIBarButtonItem alloc] initWithCustomView:button2];
+    
+    NSArray * navButtons = [NSArray arrayWithObjects:barItem2, barItem, nil];
+    self.navigationItem.rightBarButtonItems = navButtons;
     
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"Helvetica-Neue" size:4.0]];
@@ -655,6 +669,9 @@
         imagePicker.sourceType = type;
         imagePicker.delegate = self;
         [imagePicker setAllowsEditing:YES];
+        imagePicker.navigationBar.barStyle = UIBarStyleBlackOpaque;
+        imagePicker.navigationBar.translucent = NO;
+        imagePicker.navigationBar.tintColor = [UIColor whiteColor];
         [self presentViewController:imagePicker animated:YES completion:^{}];
     }
 }
@@ -812,7 +829,9 @@
     [noTaskView addMotionEffect:group];
 }
 
-
+-(void)search {
+    //Do nothing
+}
 
 
 
