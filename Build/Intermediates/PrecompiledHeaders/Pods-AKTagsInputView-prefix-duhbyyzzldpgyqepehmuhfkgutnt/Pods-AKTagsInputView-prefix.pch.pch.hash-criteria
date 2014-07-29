@@ -1,0 +1,36 @@
+Contents of /Users/adamf/Desktop/trackly/Pods/Pods-AKTagsInputView-prefix.pch
+-x
+objective-c
+-arch
+armv7
+-std=gnu99
+-fmodules
+-fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache
+-fpascal-strings
+-O0
+-DDEBUG=1
+-DCOCOAPODS=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+-g
+-miphoneos-version-min=7.1
+-iquote
+-iquote
+-I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include
+-I/Users/adamf/Desktop/trackly/Pods/BuildHeaders
+-I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/AKTagsInputView
+-I/Users/adamf/Desktop/trackly/Pods/Headers
+-I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView
+-I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView
+-I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView
+-I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView
+-I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit
+-I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage
+-I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView
+-I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands
+-I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu
+-F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos
+arm-apple-darwin13.3.0
+"4.2.1 Compatible Apple LLVM 5.1 (clang-503.0.40)"
+SDK_PRODUCT_BUILD_VERSION=11D167
+11D167
