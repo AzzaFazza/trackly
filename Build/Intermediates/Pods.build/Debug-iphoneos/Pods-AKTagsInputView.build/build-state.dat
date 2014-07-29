@@ -351,7 +351,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencieseb3ad0ddf487b941^1aa7d1ddf487b941^---0#1#1#--18"Check dependencies36"F5E8BAC2-585F-48DB-BAAF-AA02C06299E4-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies7cf20066f587b941^0c560466f587b941^---0#1#1#--18"Check dependencies36"393B3C29-B13A-499E-9B6F-0202830CA2DB-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-AKTagsInputView.build/Objects-normal/arm64/AKTagCell.o /Users/adamf/Desktop/trackly/Pods/AKTagsInputView/Classes/AKTagCell.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s428328396.408116

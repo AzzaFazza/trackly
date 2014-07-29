@@ -178,7 +178,7 @@
     UIButton *button2 = [UIButton buttonWithType:UIButtonTypeCustom];
     button2.frame = CGRectMake(0, 0, 40, 40);
     [button2 addSubview:imageView2];
-    [button2 addTarget:self action:@selector(search:) forControlEvents:UIControlEventTouchUpInside];
+    [button2 addTarget:self action:@selector(search) forControlEvents:UIControlEventTouchUpInside];
     imageView2.center = button.center;
     barItem2 = [[UIBarButtonItem alloc] initWithCustomView:button2];
     
@@ -831,6 +831,8 @@
 
 -(void)search {
     //Do nothing
+    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Search" message:@"Coming Soon" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
+    [alert show];
 }
 
 

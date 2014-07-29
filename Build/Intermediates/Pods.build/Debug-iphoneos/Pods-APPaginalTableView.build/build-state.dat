@@ -214,7 +214,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd63bd0ddf487b941^0073d1ddf487b941^---0#1#1#--18"Check dependencies36"4CB3EF53-E1A4-40FF-A8BB-5FD61F6A52A3-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesbdfe0066f587b941^79240266f587b941^---0#1#1#--18"Check dependencies36"7161A64E-83D4-45B3-9137-D601B3575608-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-APPaginalTableView.build/Objects-normal/arm64/APPaginalContainerView.o /Users/adamf/Desktop/trackly/Pods/APPaginalTableView/APPaginalTableViewComponents/APPaginalContainerView/APPaginalContainerView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s428328395.381621
