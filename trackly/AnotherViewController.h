@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Task.h"
 
 @interface AnotherViewController : UIViewController
-
+@property (nonatomic) Task * tempTask;
 @end

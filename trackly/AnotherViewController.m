@@ -14,7 +14,7 @@
 @end
 
 @implementation AnotherViewController
-
+@synthesize tempTask;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -23,6 +23,12 @@
     launchButton.backgroundColor = [UIColor blackColor];
     [launchButton setTitle:@"Dismiss" forState:UIControlStateNormal];
     [launchButton addTarget:self action:@selector(flyAway:) forControlEvents:UIControlEventTouchUpInside];
+    
+    UILabel * nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(self.view.bounds.size.width/2 , 0, 210, 60)];
+    nameLabel.text = tempTask.taskName;
+        
+    [self.view addSubview:nameLabel];
+    
     [self.view addSubview:launchButton];
 }
 

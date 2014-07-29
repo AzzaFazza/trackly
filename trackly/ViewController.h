@@ -11,7 +11,7 @@
 #import <FlatUIKit/FlatUIKit.h>
 
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate, UIImagePickerControllerDelegate>
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate, UIImagePickerControllerDelegate, UIActionSheetDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
 @property (weak, nonatomic) IBOutlet UIView * mainView;

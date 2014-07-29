@@ -46,6 +46,7 @@
     BOOL trayShown;
     float fingerX;
     float fingerY;
+    NSInteger currentCellToEditNumber;
     
     //Custom UI
     CustomIOS7AlertView * newTask;
@@ -601,19 +602,16 @@
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
     [taskTableView setClipsToBounds:YES];
     
-    //Guards Against no image being shown in the cell view image
-    if (imageData == nil) {
-         cell.imageView.image = [UIImage imageNamed:@"triangular.png"];
-    } else {
-         cell.imageView.image = [UIImage imageWithData:imageData];
-    }
+    
+    UIImage *tempImage = [UIImage imageWithData:tempTask.taskImage];
+
     
     //Tap to change image
-    tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(addImage:)];
-    [tap setNumberOfTouchesRequired:1];
-    [tap setNumberOfTapsRequired:1];
+    [cell.cameraButton addTarget:self action:@selector(addImage:) forControlEvents:UIControlEventTouchUpInside];
     [cell.cameraButton setUserInteractionEnabled:YES];
-    [cell.cameraButton addGestureRecognizer:tap];
+    cell.cameraButton.tag = indexPath.section;
+    
+    cell.imageView.image = tempImage;
     
     //Ken Burns transition
     if(cell.imageView.image != nil) {
@@ -630,35 +628,56 @@
          cell.movingImages.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
     }
     
-    
-    //Save to core data
-    [Task saveOnMain];
-    
     return cell;
 }
 
-- (void)addImage:(id)sender
+- (void)addImage:(UIButton*)sender
 {
-    UIImagePickerController *picker = [[UIImagePickerController alloc] init];
-    picker.delegate = self;
-    picker.allowsEditing = YES;
-    picker.sourceType = UIImagePickerControllerSourceTypeCamera;
-    
-    [self presentViewController:picker animated:YES completion:NULL];
-    NSLog(@"Pressed Cell Image View");
+    currentCellToEditNumber = sender.tag;
+    UIActionSheet * sheet = [[UIActionSheet alloc]initWithTitle:@"Select Picture" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:nil otherButtonTitles:@"From Library", @"From Camera", nil];
+    [sheet showInView:self.view];
+}
+
+-(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex < 2) {
+        UIImagePickerController * imagePicker = [[UIImagePickerController alloc]init];
+        UIImagePickerControllerSourceType type;
+        
+        switch (buttonIndex) {
+            case 0:
+                type = UIImagePickerControllerSourceTypePhotoLibrary;
+                break;
+            case 1:
+                type = UIImagePickerControllerSourceTypeCamera;
+            default:
+                break;
+        }
+        imagePicker.sourceType = type;
+        imagePicker.delegate = self;
+        [imagePicker setAllowsEditing:YES];
+        [self presentViewController:imagePicker animated:YES completion:^{}];
+    }
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
-    
     //Take the image that the user took
     UIImage *chosenImage = info[UIImagePickerControllerEditedImage];
     
     //Convert that to binary data so Core Data can save it
     imageData = [NSData dataWithData:UIImagePNGRepresentation(chosenImage)];
+    // Create path.
+    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSString *filePath = [[paths objectAtIndex:0] stringByAppendingPathComponent:@"Image.png"];
     
-    //Setup the current cell imageview to use the image the user took
-    cell.imageView.image = chosenImage;
-    cell.imageView.contentMode = UIViewContentModeScaleAspectFill;
+    // Save image.
+    [imageData writeToFile:filePath atomically:YES];
+    
+    Task * tempTask = [_allTasks objectAtIndex:currentCellToEditNumber];
+    
+    tempTask.taskImage = imageData;
+    [tempTask setValue:imageData forKeyPath:@"taskImage"];
+    [Task saveOnMain];
+    
     [picker dismissViewControllerAnimated:YES completion:NULL];
     [taskTableView reloadData];
 }
@@ -703,7 +722,11 @@
 
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
     self->animator = [[MRFlipTransition alloc] initWithPresentingViewController:self presentBlock:^UIViewController *{
-        return [[AnotherViewController alloc] initWithNibName:nil bundle:nil];
+        AnotherViewController * anvc = [[AnotherViewController alloc]init];
+        Task *tempTask = [_allTasks objectAtIndex:indexPath.section];
+        anvc.tempTask = tempTask;
+        
+        return anvc;
     }];
     [self->animator presentFrom:MRFlipTransitionPresentingFromBottom completion:nil];
 }

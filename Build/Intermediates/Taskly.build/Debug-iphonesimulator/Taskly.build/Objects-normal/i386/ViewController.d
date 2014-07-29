@@ -4,6 +4,7 @@ dependencies: /Users/adamf/Desktop/trackly/trackly/ViewController.m \
   /Users/adamf/Desktop/trackly/trackly/connectorsViewController.h \
   /Users/adamf/Desktop/trackly/trackly/videoViewController.h \
   /Users/adamf/Desktop/trackly/trackly/AnotherViewController.h \
+  /Users/adamf/Desktop/trackly/trackly/Task.h \
   /Users/adamf/Desktop/trackly/trackly/REMenu.h \
   /Users/adamf/Desktop/trackly/trackly/RECommonFunctions.h \
   /Users/adamf/Desktop/trackly/trackly/REMenuItem.h \
@@ -14,5 +15,4 @@ dependencies: /Users/adamf/Desktop/trackly/trackly/ViewController.m \
   /Users/adamf/Desktop/trackly/trackly/CoreDataHelper.h \
   /Users/adamf/Desktop/trackly/trackly/BackgroundManagedObjectContext.h \
   /Users/adamf/Desktop/trackly/trackly/NSManagedObject+CRUD.h \
-  /Users/adamf/Desktop/trackly/trackly/NSManagedObjectUpdateWithDictionaryInContext.h \
-  /Users/adamf/Desktop/trackly/trackly/Task.h
+  /Users/adamf/Desktop/trackly/trackly/NSManagedObjectUpdateWithDictionaryInContext.h
