@@ -230,6 +230,7 @@
 		36CB8AF419893A7100189EAC /* TestPanel4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CB8AF319893A7100189EAC /* TestPanel4.xib */; };
 		36CB8AF619893A7D00189EAC /* tab3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36CB8AF519893A7D00189EAC /* tab3.jpg */; };
 		36CB8AF819893CBA00189EAC /* tab2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 36CB8AF719893CBA00189EAC /* tab2.jpg */; };
+		36CB8AFA1989603F00189EAC /* TestPanel5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36CB8AF91989603F00189EAC /* TestPanel5.xib */; };
 		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
 		36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE939B197DD18A0032EDCB /* syncIcon@2x.png */; };
 		36E7597319866EE20039BCCA /* MRFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E7597219866EE20039BCCA /* MRFlipTransition.m */; };
@@ -504,6 +505,7 @@
 		36CB8AF319893A7100189EAC /* TestPanel4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestPanel4.xib; sourceTree = "<group>"; };
 		36CB8AF519893A7D00189EAC /* tab3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tab3.jpg; sourceTree = "<group>"; };
 		36CB8AF719893CBA00189EAC /* tab2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tab2.jpg; sourceTree = "<group>"; };
+		36CB8AF91989603F00189EAC /* TestPanel5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestPanel5.xib; sourceTree = "<group>"; };
 		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		36CE939B197DD18A0032EDCB /* syncIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncIcon@2x.png"; sourceTree = "<group>"; };
@@ -867,6 +869,7 @@
 				36CB8A0B19890D1C00189EAC /* TestHeader.xib */,
 				36CB8A0D19890D9700189EAC /* TestPanel3.xib */,
 				36CB8AF319893A7100189EAC /* TestPanel4.xib */,
+				36CB8AF91989603F00189EAC /* TestPanel5.xib */,
 			);
 			name = XIBS;
 			sourceTree = "<group>";
@@ -1287,6 +1290,7 @@
 				36CB8A1519890DD600189EAC /* Toronto, ON.jpg in Resources */,
 				36C05A2E19811B63008F6AA0 /* Evernote-icon.png in Resources */,
 				36B3045C1979272A001951E2 /* information38.png in Resources */,
+				36CB8AFA1989603F00189EAC /* TestPanel5.xib in Resources */,
 				3641A1DE197E84610026B45C /* schedule@2x.png in Resources */,
 				36CB8A1F19891FDA00189EAC /* Services@2x.png in Resources */,
 				36B304B619795183001951E2 /* Icon_Home@2x.png in Resources */,

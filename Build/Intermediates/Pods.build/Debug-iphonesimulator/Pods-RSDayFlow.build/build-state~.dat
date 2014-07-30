@@ -1,0 +1,300 @@
+TPods-RSDayFlow
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RSDayFlow.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B12B980000000000A90C10
+t1404119960
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c0000000053B12B990000000000649DB0
+t1404119961
+s6593968
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c0000000053B12B9E0000000002759920
+t1404119966
+s41261344
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053B12BA800000000000003B4
+t1404119976
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12BAE000000000000019E
+t1404119982
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.o
+t1406712850
+s7528
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.o
+t1406712850
+s3844
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow.LinkFileList
+c0000000053D8BC110000000000000388
+t1406712849
+s904
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.o
+t1406712850
+s40512
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.o
+t1406712850
+s90572
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.o
+t1406712850
+s49136
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.o
+t1406712851
+s127912
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.pch
+t1406712849
+s128480
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.pch
+t1406712850
+s128064
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RSDayFlow.a
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m
+c0000000053D8B5DC0000000000000084
+t1406711260
+s132
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-prefix.pch
+c0000000053D8B5DC000000000000004D
+t1406711260
+s77
+
+N/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m
+c0000000053D8B5DB00000000000002CD
+t1406711259
+s717
+
+N/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m
+c0000000053D8B5DB0000000000000152
+t1406711259
+s338
+
+N/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m
+c0000000053D8B5DB00000000000022FF
+t1406711259
+s8959
+
+N/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m
+c0000000053D8B5DB0000000000000364
+t1406711259
+s868
+
+N/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m
+c0000000053D8B5DB00000000000040E4
+t1406711259
+s16612
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies378ecc91f388b941^645bce91f388b941^---0#1#1#--18"Check dependencies36"5E668CBD-9CD5-46D8-8E08-0EB0CC8BC7AB-
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405650.121782
+e428405650.183983
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.o
+x/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection88"Compile /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m277"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.o RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler65521f92f388b941^944a5092f388b941^---0#0#1#-19%DVTDocumentLocation2@87"file:///Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m0000000000000000^4334"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.o RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/RSDayFlow -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.dia -c /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/NSCalendar+RSDFAdditions.o36"6A8681E0-F8DC-45BF-BECA-616F70D46319-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405650.194617
+e428405650.247578
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.o
+x/Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m249"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.o Pods-RSDayFlow-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilere63d3292f388b941^3d625092f388b941^---0#0#1#-19%DVTDocumentLocation2@63"file:///Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m0000000000000000^4259"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.o Pods-RSDayFlow-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/RSDayFlow -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow-dummy.o36"E2EDE6FF-945B-441A-9ED8-80067F64F0E4-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405650.286762
+e428405650.433788
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.o
+x/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Compile /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m285"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.o RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerce8d4992f388b941^a9139092f388b941^---0#0#1#-19%DVTDocumentLocation2@91"file:///Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m0000000000000000^4358"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.o RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/RSDayFlow -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.dia -c /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerCollectionView.o36"4C9C6770-A725-4333-88F2-577E025A58F4-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405650.435156
+e428405650.753740
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.o
+x/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDayFlow.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Compile /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m271"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.o RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler81cf6f92f388b941^c957e292f388b941^---0#0#1#-19%DVTDocumentLocation2@84"file:///Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m0000000000000000^4316"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.o RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/RSDayFlow -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.dia -c /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerDayCell.o36"2ADF79E6-60EC-4823-87EC-A1AB90B43E74-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405650.615069
+e428405650.730624
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.o
+x/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDayFlow.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Compile /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m279"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.o RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler5f9b9d92f388b941^23a2c092f388b941^---0#0#1#-19%DVTDocumentLocation2@88"file:///Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m0000000000000000^4340"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.o RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/RSDayFlow -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.dia -c /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerMonthHeader.o36"7BDD32FB-788F-4326-94C7-3100933206C3-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.o /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405650.731004
+e428405651.062317
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.o
+x/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDayFlow.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerCollectionView.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerDayCell.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerMonthHeader.h
+d/Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/NSCalendar+RSDFAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Compile /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m265"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.o RSDayFlow/RSDayFlow/RSDFDatePickerView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerbb46bb92f388b941^59f70f93f388b941^---0#0#1#-19%DVTDocumentLocation2@81"file:///Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m0000000000000000^4298"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.o RSDayFlow/RSDayFlow/RSDFDatePickerView.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/RSDayFlow -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.dia -c /Users/adamf/Desktop/trackly/Pods/RSDayFlow/RSDayFlow/RSDFDatePickerView.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/RSDFDatePickerView.o36"10C55492-BC84-40D7-9A49-63912F6341F8-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RSDayFlow.a normal x86_64
+s428405651.171495
+e428405651.183620
+r1
+xLibtool
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RSDayFlow.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RSDayFlow.a normal x86_64107"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RSDayFlow.a normal x86_644b022c93f388b941^a6282f93f388b941^---0#0#1#--1020"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RSDayFlow.a normal x86_64    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Objects-normal/x86_64/Pods-RSDayFlow.LinkFileList -framework Foundation -framework QuartzCore -framework UIKit -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-RSDayFlow.a36"3D323E2C-4E04-4C71-9B32-C5CB18784354-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405649.923393
+e428405650.000697
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.pch
+xPods-RSDayFlow-prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Pods-RSDayFlow-prefix.pch255"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilerf99fec91f388b941^52d42192f388b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-prefix.pch0000000000000000^4131"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/RSDayFlow -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-cofwsxrlvulgbsdrliokzextwvge/Pods-RSDayFlow-prefix.pch.pch36"5131B329-9815-403C-A720-7063E2A9C556-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405650.021069
+e428405650.088615
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.pch
+xPods-RSDayFlow-prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Precompile Pods-RSDayFlow-prefix.pch255"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler9d850592f388b941^45f22192f388b941^---0#0#1#-19%DVTDocumentLocation2@66"file:///Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-prefix.pch0000000000000000^4120"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/Pods-RSDayFlow-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/RSDayFlow -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-RSDayFlow.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-RSDayFlow-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-RSDayFlow-prefix-hggzjolbrocikiaecelwqjmpdwtj/Pods-RSDayFlow-prefix.pch.pch36"4ADED2C0-93CF-4C69-9388-9153C295DD47-
+bE587ED5D-60BA-4A8B-B378-A2AE048B78C4
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-RSDayFlow-prefix-bkvwgjmjhvvopjccgyffgfkeutpw_ast/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-RSDayFlow-prefix-fzjyhtpbcqtglgghqxlvletzfipw_ast/Pods-RSDayFlow-prefix.pch.pch Pods-RSDayFlow-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

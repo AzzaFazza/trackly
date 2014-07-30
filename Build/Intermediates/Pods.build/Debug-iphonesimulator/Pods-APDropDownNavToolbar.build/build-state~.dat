@@ -1,0 +1,165 @@
+TPods-APDropDownNavToolbar
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.o /Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-APDropDownNavToolbar.a normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B12B980000000000A90C10
+t1404119960
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk
+c0000000053119F8A0000000000000198
+t1393663882
+s408
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/SDKSettings.plist
+c0000000053B12BA800000000000003B4
+t1404119976
+s948
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12BAE000000000000019E
+t1404119982
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.o
+t1406712846
+s74296
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.o
+t1406712846
+s3928
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar.LinkFileList
+c0000000053D8BC0D000000000000014B
+t1406712845
+s331
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.pch
+t1406712846
+s128380
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.pch
+t1406712846
+s128796
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-APDropDownNavToolbar.a
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m
+c0000000053D7AADD0000000000000D81
+t1406642909
+s3457
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m
+c0000000053D8B5DC000000000000009A
+t1406711260
+s154
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-prefix.pch
+c0000000053D8B5DC000000000000004D
+t1406711260
+s77
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies63999e8df388b941^215ca58df388b941^---0#1#1#--18"Check dependencies36"59F83581-1937-4AB7-B4AB-580D84C83A23-
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.o /Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405646.143124
+e428405646.672877
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.o
+x/Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m
+d/Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Compile /Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m293"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.o APDropDownNavToolbar/Classes/APNavigationController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler7b85258ef388b941^8542ac8ef388b941^---0#0#1#-19%DVTDocumentLocation2@94"file:///Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m0000000000000000^4527"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.o APDropDownNavToolbar/Classes/APNavigationController.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.dia -c /Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/APNavigationController.o36"DB0AA05E-0E0F-4C67-B769-A582446DE0C1-
+b86AE595A-988F-48EE-A600-5D9CF5EE9E6A
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405646.236177
+e428405646.389981
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.o
+x/Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection75"Compile /Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m282"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.o Pods-APDropDownNavToolbar-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compilera2983c8ef388b941^bde0638ef388b941^---0#0#1#-19%DVTDocumentLocation2@74"file:///Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m0000000000000000^4512"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.o Pods-APDropDownNavToolbar-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar-dummy.o36"1C486462-B495-4E7E-A451-57166C9ED832-
+b86AE595A-988F-48EE-A600-5D9CF5EE9E6A
+
+CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-APDropDownNavToolbar.a normal x86_64
+s428405646.871726
+e428405646.893478
+r1
+xLibtool
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-APDropDownNavToolbar.a
+xnormal
+xx86_64
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-APDropDownNavToolbar.a normal x86_64118"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-APDropDownNavToolbar.a normal x86_64b092df8ef388b941^8cd7e48ef388b941^---0#0#1#--1025"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-APDropDownNavToolbar.a normal x86_64    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/x86_64/Pods-APDropDownNavToolbar.LinkFileList -framework Foundation -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/libPods-APDropDownNavToolbar.a36"63FD52B8-5565-4838-8A07-A51C9B33A01E-
+b86AE595A-988F-48EE-A600-5D9CF5EE9E6A
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405645.660758
+e428405646.134908
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.pch
+xPods-APDropDownNavToolbar-prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Pods-APDropDownNavToolbar-prefix.pch288"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler23f6a98df388b941^8d97228ef388b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-prefix.pch0000000000000000^4351"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fiomvbkperjphfgrtecbawkuddwu/Pods-APDropDownNavToolbar-prefix.pch.pch36"F00B0502-C984-48E7-BCBB-517F1B2534DE-
+b86AE595A-988F-48EE-A600-5D9CF5EE9E6A
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428405645.653676
+e428405646.139550
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.pch
+xPods-APDropDownNavToolbar-prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Precompile Pods-APDropDownNavToolbar-prefix.pch288"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler6000a98df388b941^a800248ef388b941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-prefix.pch0000000000000000^4362"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Pods-APDropDownNavToolbar-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/DerivedSources/x86_64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphonesimulator -fobjc-arc --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-APDropDownNavToolbar-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-fnafnbsmzdbrzvfmhubwirobkund/Pods-APDropDownNavToolbar-prefix.pch.pch36"EB7A6931-9EA9-43EA-B0FB-01624B6CE792-
+b86AE595A-988F-48EE-A600-5D9CF5EE9E6A
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-assuzkfprfwpsjhjxpmcygwvvkhd_ast/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-APDropDownNavToolbar-prefix-hbgqiveswdiwcxcubpgjmozblowm_ast/Pods-APDropDownNavToolbar-prefix.pch.pch Pods-APDropDownNavToolbar-prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
