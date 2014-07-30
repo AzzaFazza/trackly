@@ -5,6 +5,8 @@ dependencies: /Users/adamf/Desktop/trackly/trackly/ViewController.m \
   /Users/adamf/Desktop/trackly/trackly/videoViewController.h \
   /Users/adamf/Desktop/trackly/trackly/AnotherViewController.h \
   /Users/adamf/Desktop/trackly/trackly/Task.h \
+  /Users/adamf/Desktop/trackly/trackly/calandarView.h \
+  /Users/adamf/Desktop/trackly/trackly/settingsTableViewController.h \
   /Users/adamf/Desktop/trackly/trackly/REMenu.h \
   /Users/adamf/Desktop/trackly/trackly/RECommonFunctions.h \
   /Users/adamf/Desktop/trackly/trackly/REMenuItem.h \

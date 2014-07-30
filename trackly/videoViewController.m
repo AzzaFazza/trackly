@@ -23,7 +23,7 @@
 @end
 
 @implementation videoViewController
-@synthesize subTitle, startButton, arrow;
+@synthesize subTitle, startButton, arrow, title;
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
@@ -36,16 +36,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self.navigationController setNavigationBarHidden:YES animated:NO];
+    [super viewWillAppear:YES];
     if (![@"1" isEqualToString:[[NSUserDefaults standardUserDefaults]
                                 objectForKey:@"aValue"]]) {
         //TODO CHANGE THIS IN PRODUCTION!!
         [[NSUserDefaults standardUserDefaults] setValue:@"0" forKey:@"aValue"];
         [[NSUserDefaults standardUserDefaults] synchronize];
+            
         
-        //Action here
-        
-    [self.navigationController setNavigationBarHidden:YES animated:NO];
-    [super viewWillAppear:YES];
     // Do any additional setup after loading the view from its nib.
     NSBundle *bundle = [NSBundle mainBundle];
     NSString *moviePath = [bundle pathForResource:@"introVid" ofType:@"mov"];
@@ -75,7 +74,6 @@
     gradient.frame = self.gradientView.bounds;
     gradient.colors = [NSArray arrayWithObjects:(id)[UIColorFromRGB(0x030303) CGColor], (id)[[UIColor clearColor] CGColor], (id)[UIColorFromRGB(0x030303) CGColor],nil];
     [self.gradientView.layer insertSublayer:gradient atIndex:0];
-
         
     } else {
         [self skipView];
@@ -84,8 +82,9 @@
     }
     
     //Labels font
-    [[UILabel appearance] setFont:[UIFont fontWithName:@"CoquetteRegular" size:74.0]];
+    [[UILabel appearance] setFont:[UIFont fontWithName:@"CoquetteRegular" size:22.0]];
     subTitle.font = [UIFont fontWithName:@"CoquetteRegular" size:16.0];
+    title.font = [UIFont fontWithName:@"CoquetteRegular" size:74.0];
     
     // image drawing code here
     
@@ -134,8 +133,57 @@
     // Add both effects to your view
     [self.contentView addMotionEffect:group];
     
+    //My introduction
+    if (![@"3" isEqualToString:[[NSUserDefaults standardUserDefaults]
+                                objectForKey:@"intro"]]) {
+        [[NSUserDefaults standardUserDefaults] setValue:@"0" forKey:@"intro"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        //MyIntro
+        [self buildIntro];
+
+        
+    }
+    
     [self flashingAnimation:YES forView:arrow];
     
+}
+-(void)buildIntro{
+    for (NSString* family in [UIFont familyNames])
+    {
+        NSLog(@"%@", family);
+        
+        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+        {
+            NSLog(@" %@", name);
+        }
+    }
+    //Create Stock Panel with header
+    UIView *headerView = [[NSBundle mainBundle] loadNibNamed:@"TestHeader" owner:nil options:nil][0];
+    MYIntroductionPanel *panel1 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Welcome to Taskly!" description:@"Taskly allows users to keep track of all their tasks by connecting web services together in one task list.\n\nSwipe right to Indicate a task is complete, Swipe right to Delete it." image:[UIImage imageNamed:@".png"] header:headerView];
+    
+    //Create Stock Panel With Image
+    MYIntroductionPanel *panel2 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Sync Across Devices" description:@"By creating a Taskly account you can Sync your tasklist across devices.\n\n\nKeep track of everything using one service" image:[UIImage imageNamed:@"ForkImage.png"]];
+    
+    //Create Panel From Nib
+    MYIntroductionPanel *panel3 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Connect Everything" description:@"Using the Connectors Menu, Users can import tasks from:\n\nGoogle Calendar, Asana, GitHub, Evernote and more!\n\n\nKeeping on top of everything has never been easier" image:[UIImage imageNamed:@"Services.png"]];
+    
+    
+    //Add panels to an array
+    NSArray *panels = @[panel1, panel2, panel3];
+    
+    //Create the introduction view and set its delegate
+    MYBlurIntroductionView *introductionView = [[MYBlurIntroductionView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    introductionView.delegate = self;
+    introductionView.BackgroundImageView.image = [UIImage imageNamed:nil];
+    [introductionView setBackgroundColor:[UIColor colorWithRed:63.0f/255.0f green:81.0f/255.0f blue:181.0f/255.0f alpha:0.96]];
+    //introductionView.LanguageDirection = MYLanguageDirectionRightToLeft;
+    
+    //Build the introduction with desired panels
+    [introductionView buildIntroductionWithPanels:panels];
+    
+    //Add the introduction to your view
+    [self.view addSubview:introductionView];
 }
 -(void)flashingAnimation:(BOOL)boolVal forView:(UIView *) view{
     [UIView animateWithDuration:0.7

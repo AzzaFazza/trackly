@@ -9,11 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <EAIntroView/EAIntroView.h>
 #import <FlatUIKit/FlatUIKit.h>
+#import <MYBlurIntroductionView/MYBlurIntroductionView.h>
 
-@interface videoViewController : UIViewController
+@interface videoViewController : UIViewController<MYIntroductionDelegate>
 @property (weak, nonatomic) IBOutlet UILabel *subTitle;
 @property (weak, nonatomic) IBOutlet FUIButton *startButton;
-
+@property (weak, nonatomic) IBOutlet UILabel *title;
 @property (weak, nonatomic) IBOutlet UIImageView *arrow;
 
 @end

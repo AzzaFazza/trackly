@@ -13,6 +13,7 @@
 #import "videoViewController.h"
 #import "AnotherViewController.h"
 #import "calandarView.h"
+#import "settingsTableViewController.h"
 
 
 //Frameworks + Cocoa Controls
@@ -198,12 +199,15 @@
                                                                    UITextAttributeTextShadowOffset,
                                                                    [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];
     //REMenu
-    REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Main Page"
-                                                    subtitle:@"Return to Task View"
+    REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Settings"
+                                                    subtitle:@"Settings and About Page"
                                                        image:[UIImage imageNamed:@"Icon_Home"]
                                             highlightedImage:nil
                                                       action:^(REMenuItem *item) {
                                                           NSLog(@"Item: %@", item);
+                                                          UIStoryboard *storyboard = self.storyboard;
+                                                          settingsTableViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Settings"];
+                                                          [self.navigationController pushViewController:destVC animated:YES];
                                                       }];
     
     REMenuItem *exploreItem = [[REMenuItem alloc] initWithTitle:@"Connectors"

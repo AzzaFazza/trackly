@@ -9,7 +9,7 @@
 #import "customTableViewCell.h"
 
 @implementation customTableViewCell
-@synthesize tagsView, taskNameView, imageView, taskNameLabel, tagsLabel, taskGenre, cellView, cameraButton, movingImages;
+@synthesize tagsView, taskNameView, imageView, taskNameLabel, tagsLabel, taskGenre, cellView, cameraButton, movingImages, labelImage;
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
@@ -24,6 +24,7 @@
         cellView     =  [[UIView alloc]init];
         cameraButton =  [[UIButton alloc]init];
         movingImages =  [[JBKenBurnsView alloc]init];
+        labelImage   =  [[UIImageView alloc]init];
     }
     return self;
 }

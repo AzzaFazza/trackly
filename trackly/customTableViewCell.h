@@ -19,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet   UIView *cellView;
 @property (weak, nonatomic) IBOutlet   UIButton *cameraButton;
 @property (weak, nonatomic) IBOutlet   JBKenBurnsView *movingImages;
+@property (weak, nonatomic) IBOutlet UIImageView *labelImage;
 
 
 @end

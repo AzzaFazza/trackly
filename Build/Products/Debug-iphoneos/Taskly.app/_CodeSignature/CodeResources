@@ -4,9 +4,421 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>!.png</key>
+		<data>
+		4074Trf4t3HzBcgmKZwoFH7Yn2U=
+		</data>
 		<key>32.png</key>
 		<data>
 		ng7fmeveGbp5vfU5Bvp/S09xols=
+		</data>
+		<key>4.png</key>
+		<data>
+		iSSxJ00SuyW69g3NUk1xbtaAMSo=
+		</data>
+		<key>64/!.png</key>
+		<data>
+		DeiGGjuOxLRmkEjd1CIGb5uegu4=
+		</data>
+		<key>64/4.png</key>
+		<data>
+		Jet1FA+ZvgvJJPXEknlcYiSm2SU=
+		</data>
+		<key>64/9.png</key>
+		<data>
+		6GtGDOZOMITneLqNHHjP7rM52yU=
+		</data>
+		<key>64/Handbag.png</key>
+		<data>
+		04z0zM1s0/hZ/nVp0LwIQbppEQw=
+		</data>
+		<key>64/Star.png</key>
+		<data>
+		dO5zoR3nzgcZtee5CXxJj8BQay0=
+		</data>
+		<key>64/_.png</key>
+		<data>
+		7hc4LXIfAR0Zsw5eNBAxjA+IUrI=
+		</data>
+		<key>64/anchor.png</key>
+		<data>
+		yCPpknHvgomvY3AbEYsafJZSizo=
+		</data>
+		<key>64/archive.png</key>
+		<data>
+		N1bbitsXqa6RgvgpUVmH2Z0gCik=
+		</data>
+		<key>64/archive2.png</key>
+		<data>
+		w8OZsbKu+BXTvs4qx8ZMcjpnYNs=
+		</data>
+		<key>64/ban.png</key>
+		<data>
+		7tUN3i9vJlOxz4mvnqfjRmnHhqY=
+		</data>
+		<key>64/basket.png</key>
+		<data>
+		UZOJorzEUvpVUdPxBh4vSnFhdSc=
+		</data>
+		<key>64/bell.png</key>
+		<data>
+		1tDZHQTYWlmLaCk4he9tQADTl1Q=
+		</data>
+		<key>64/bluetooth.png</key>
+		<data>
+		vN0zA9mPBRS/icQzSgrVnx4JWAE=
+		</data>
+		<key>64/book.png</key>
+		<data>
+		35m/I75VJSbHqPSjAoSWo1AiLo4=
+		</data>
+		<key>64/box.png</key>
+		<data>
+		VGDdKfhNeY8DfvbwzdLjPEW4KS8=
+		</data>
+		<key>64/browser.png</key>
+		<data>
+		soYmgaSeFC34r0ekKaBjowfY/Cg=
+		</data>
+		<key>64/bubble.png</key>
+		<data>
+		TtXx8ETR8mkElYYol8wFG1YPLU0=
+		</data>
+		<key>64/calc.png</key>
+		<data>
+		uBjxAeFhGh6gGzMKpRNusNNggPI=
+		</data>
+		<key>64/calendar.png</key>
+		<data>
+		JTa4eXZWioV2WjObt62DzgurD1Q=
+		</data>
+		<key>64/camera.png</key>
+		<data>
+		bU1P6hwq+EIOTyBFPFEo3M9fTi0=
+		</data>
+		<key>64/camera_0.png</key>
+		<data>
+		jDTwxNCGKVwNyKCz646PYUXcuFA=
+		</data>
+		<key>64/card.png</key>
+		<data>
+		kF/kivVcq+CG6lWf6D/nFyYnPWk=
+		</data>
+		<key>64/chart1.png</key>
+		<data>
+		fHyJZh8IeJZS9MOTj6uMRuiDZ+U=
+		</data>
+		<key>64/chart2.png</key>
+		<data>
+		FB6El5SNz6Qfx10BCFAlmDXp+8c=
+		</data>
+		<key>64/check.png</key>
+		<data>
+		Ar+eDamy3F1nHGNgp8+rNnFL6GA=
+		</data>
+		<key>64/clip.png</key>
+		<data>
+		fs1dXzSxkgpd9guS3Rit3kzvE2Y=
+		</data>
+		<key>64/clipboard.png</key>
+		<data>
+		vGc60HYPwwW1PDLBZIwBl36K2z8=
+		</data>
+		<key>64/clock.png</key>
+		<data>
+		QiIZy3B5A5c8sKuWgG9kw4W+yd4=
+		</data>
+		<key>64/cloud-down.png</key>
+		<data>
+		PvyGV3pEClwDiX5/P5y/vZ8I3Rw=
+		</data>
+		<key>64/cloud-up.png</key>
+		<data>
+		sTdGm8F1VV0BfkMW7vRgvzz5oL8=
+		</data>
+		<key>64/cloud.png</key>
+		<data>
+		Conp4kgbvw9iVqTb6V8xEYl8ZyE=
+		</data>
+		<key>64/cocktail.png</key>
+		<data>
+		I+mEwQ+Emllg941PHZn7kD7oR94=
+		</data>
+		<key>64/coding.png</key>
+		<data>
+		pdiriWGYlB/wJkLJQMU2QcNxrvo=
+		</data>
+		<key>64/conf.png</key>
+		<data>
+		cR8v9xUqk7XAcZGzzd6RLhIZSOg=
+		</data>
+		<key>64/copy.png</key>
+		<data>
+		yl4qW1p5J0R3XbBlOylGbQQ5eSo=
+		</data>
+		<key>64/crop.png</key>
+		<data>
+		O6FLJIRs6bl+l/A00PQwO2wUnSY=
+		</data>
+		<key>64/crop_0.png</key>
+		<data>
+		Sw7IKJWxvEoOtsiEd2UU4qSifj8=
+		</data>
+		<key>64/cup.png</key>
+		<data>
+		w/76EMXiLiL7aNikWBDIcbL/oWw=
+		</data>
+		<key>64/doc.png</key>
+		<data>
+		Nqmf1QD35JMn02s2Cvwl0E2w51A=
+		</data>
+		<key>64/dollar.png</key>
+		<data>
+		O10WiPmseC2Nq7rQtYaA5p3zhZ0=
+		</data>
+		<key>64/drop.png</key>
+		<data>
+		pjs7psk5RHn98A2hupckB1A5tvg=
+		</data>
+		<key>64/duble-bubble.png</key>
+		<data>
+		bftMh8tUUj6nF7QBqMiwW1Q3tCA=
+		</data>
+		<key>64/dynamic.png</key>
+		<data>
+		cnbJVLRBHJnO28nUUb48vjndKUY=
+		</data>
+		<key>64/eye.png</key>
+		<data>
+		CC8N+QMIbZylMkIhhIpPdbVm5D8=
+		</data>
+		<key>64/flag.png</key>
+		<data>
+		vZG9qvle4r0gX5CdicKMNih9oQM=
+		</data>
+		<key>64/folder.png</key>
+		<data>
+		k8lTBU6sRAlbrt0vP5ddVIFjh/M=
+		</data>
+		<key>64/globe.png</key>
+		<data>
+		HXrtOwaSURmdW2icKOMFYtl/B8A=
+		</data>
+		<key>64/graph.png</key>
+		<data>
+		F4ifeIjJjxBt76UuDkgfccGRoxE=
+		</data>
+		<key>64/headphones.png</key>
+		<data>
+		mX89uvj0DK96PPJXI2tumekili4=
+		</data>
+		<key>64/heart.png</key>
+		<data>
+		7DYpvVgN9QUdfExmi98L0KZJYZ0=
+		</data>
+		<key>64/home.png</key>
+		<data>
+		OVH73v/o5ZsZorJD1XGZSPKummw=
+		</data>
+		<key>64/iMac.png</key>
+		<data>
+		ZztMy7ERJ6bTnGeoi85JcSx3Hew=
+		</data>
+		<key>64/iPhone.png</key>
+		<data>
+		GTSoa422QSih1A3lFL7Ajzh9U80=
+		</data>
+		<key>64/in.png</key>
+		<data>
+		3xpXSltNbvudW+4vdN9zLnl1v0Q=
+		</data>
+		<key>64/infinity.png</key>
+		<data>
+		ModzlozvZPTxegM2jp5tXGA8HwQ=
+		</data>
+		<key>64/joypad.png</key>
+		<data>
+		tgnrDoXbJS4yVmpfBuvhUQhJkb4=
+		</data>
+		<key>64/label.png</key>
+		<data>
+		sD6cZD0kGmjA8Vhj9vkZRNoE03Q=
+		</data>
+		<key>64/lifesaver.png</key>
+		<data>
+		WVj42RGoUxQNjDCk8zDzkGqipEk=
+		</data>
+		<key>64/lightbulb.png</key>
+		<data>
+		UT3GnUkeD6r+t4sqgpDX5QbbcgQ=
+		</data>
+		<key>64/lightning.png</key>
+		<data>
+		K8B0jgLUNYLi5MoOXPaBgJj8In4=
+		</data>
+		<key>64/link.png</key>
+		<data>
+		VemMDzctYf05bZ6vAPYgN1ybjyA=
+		</data>
+		<key>64/lock-open.png</key>
+		<data>
+		a8waNGZSGiM+2rhb+ktY0vuHpnU=
+		</data>
+		<key>64/lock.png</key>
+		<data>
+		7Mv3m2jNkQLWBAtTIKcIB1fAEMQ=
+		</data>
+		<key>64/mail.png</key>
+		<data>
+		LIxthase1+MlDTdR1PKQUAYCzCE=
+		</data>
+		<key>64/many.png</key>
+		<data>
+		DOW4VKOfhsTTwegKK5xSwa57HN0=
+		</data>
+		<key>64/map.png</key>
+		<data>
+		gYbsJodIDTa8KjgoasxH2dgQIjw=
+		</data>
+		<key>64/mark.png</key>
+		<data>
+		Igcf2Wy168Cu6TM+CRMJ5To2GEQ=
+		</data>
+		<key>64/medal.png</key>
+		<data>
+		sz5w8PxzAfOrzQHuBYPkV2HlF34=
+		</data>
+		<key>64/mic.png</key>
+		<data>
+		QSzMPxCBxScqW3qYtY9bBhtWqOw=
+		</data>
+		<key>64/minus.png</key>
+		<data>
+		g3tv78iWFiJdGQrDQvzqn1uwweE=
+		</data>
+		<key>64/mouse.png</key>
+		<data>
+		vJOzNrPvv5wAwdBoe5BmzZt4gDU=
+		</data>
+		<key>64/music.png</key>
+		<data>
+		kLjJnqMP1UB4w0KZF5ItHxYVVig=
+		</data>
+		<key>64/open-letter.png</key>
+		<data>
+		MYciQhmW1WgT0Pdj9xl/eGbSc6I=
+		</data>
+		<key>64/open.png</key>
+		<data>
+		wmVJpOMo8keFN+GeDZmyFFxctmY=
+		</data>
+		<key>64/out.png</key>
+		<data>
+		0GOD44SpZQfrNxaIrgClwrfsw4A=
+		</data>
+		<key>64/pause.png</key>
+		<data>
+		wvL5vzy6ALdgwUk7gXO3gPKp3AQ=
+		</data>
+		<key>64/pen.png</key>
+		<data>
+		EG+C9n4vlmrTqFdIdv1uNB899Sk=
+		</data>
+		<key>64/pic.png</key>
+		<data>
+		lKt/bAxOxRUa6nTflygGxrrJGlM=
+		</data>
+		<key>64/play.png</key>
+		<data>
+		bYDY77/AT6rFI9vQV7+62S9A754=
+		</data>
+		<key>64/pluse.png</key>
+		<data>
+		vapoSNkVk8GgLElTppfkxeN2dB0=
+		</data>
+		<key>64/power.png</key>
+		<data>
+		HarRAUGIGSiHPW5agq655oUXIOw=
+		</data>
+		<key>64/printer.png</key>
+		<data>
+		N5+RgLMRlZdTWdLb4HcsbQBnXrc=
+		</data>
+		<key>64/refresh.png</key>
+		<data>
+		fmSYezsP9h0510mJc7YEfyFtDO8=
+		</data>
+		<key>64/reload.png</key>
+		<data>
+		GRp5djPJTjgHTyXk0eU2ecU0Dt0=
+		</data>
+		<key>64/setting.png</key>
+		<data>
+		8Dm2XG9LGvKKdls/S1/wNYzyGwA=
+		</data>
+		<key>64/share.png</key>
+		<data>
+		guTyeuhYE7+o5W0JWiod2+k6LNU=
+		</data>
+		<key>64/shield.png</key>
+		<data>
+		aOQlczcq5mwiFo88QGf1/CeT44E=
+		</data>
+		<key>64/sight.png</key>
+		<data>
+		ZTxeFw+PeMS+mYPSfTGuy0flAh0=
+		</data>
+		<key>64/stop.png</key>
+		<data>
+		mNkiVtoZrYLep2tzCZDJ0X59MUs=
+		</data>
+		<key>64/switcher.png</key>
+		<data>
+		wUbpVlx5tAVZacYBX1TRE0/8/zk=
+		</data>
+		<key>64/tablet.png</key>
+		<data>
+		15yWlhwvxdocvrBzmJzNQe+gSh8=
+		</data>
+		<key>64/timer.png</key>
+		<data>
+		csp34qxI1I/8XkUjAqgoaQYpG/8=
+		</data>
+		<key>64/trash.png</key>
+		<data>
+		hjQXV20b9DLFyHqd0C1p7nYDOUY=
+		</data>
+		<key>64/tree.png</key>
+		<data>
+		kDOKoLHuWMGPQrIwp3wksF+f+KY=
+		</data>
+		<key>64/tv.png</key>
+		<data>
+		BKL8nqNFL+MXZrbZcmUn8bdfTZM=
+		</data>
+		<key>64/user.png</key>
+		<data>
+		cnu4upFqu0Jj3Mexu+GqrJzFVUU=
+		</data>
+		<key>64/video.png</key>
+		<data>
+		8CaZDAltnIDpJjco4/synjv89Z8=
+		</data>
+		<key>64/vinyl.png</key>
+		<data>
+		yt78I5QEB9uAJ3YF2Z/YqrrMIA4=
+		</data>
+		<key>64/x.png</key>
+		<data>
+		3WnJE7rJzp/bC1CSH6k4k696NHI=
+		</data>
+		<key>64/zoom.png</key>
+		<data>
+		UsEm5H6o/Tgco3qGK6tTvXjQxZ8=
+		</data>
+		<key>9.png</key>
+		<data>
+		SnsWg1TCZ6JkrLLHO9SPcAKu5p8=
 		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
@@ -54,7 +466,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		HDaj7QUrobLTog1IyYkgE5YkbaI=
+		XpyLdWMc1F3oPE2UVfdTkzTAHTo=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -62,39 +474,47 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Calandar.nib</key>
 		<data>
-		6DCn+0VjBy5mDuW4bklu6fChkMk=
+		RJ3KTZAv/gzgjJO4SH/jusMgCNU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Connector.nib</key>
 		<data>
-		9zbPs4HRkrSttJbH1rWbr9H/2Ss=
+		7Iwzv+ENjg0JGcFMFu4s+K+xgro=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
 		<data>
-		wBxDBkWcFx+ThI5UqigtV0b5Ov0=
+		upYyiNYRZb7Jsffzo3aG8vHZ7Vg=
+		</data>
+		<key>Base.lproj/Main.storyboardc/S8d-qF-8gj-view-NBg-eA-zdi.nib</key>
+		<data>
+		92hCGPwq9VdpNA3vWl5y5/A7Wno=
+		</data>
+		<key>Base.lproj/Main.storyboardc/Settings.nib</key>
+		<data>
+		EhSZcF6x+ELUjaZ+a82mvE+tGH0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		kKj8uw0ZQ+HhEJ9cDcpiCkkZMuI=
+		B+F9FLN1MlDRfrewjyeeu8msN8g=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		xgGwK3+BVLWpGetIP5NyV6C4rsY=
+		24cN7KDSnY23LOgeaA724YPjerM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/aIW-8z-pL0-view-5kv-xg-cnb.nib</key>
 		<data>
-		fbCaUIHkWHGUu+lQSvUnPJf2Gd0=
+		8ex59pCXyGqrC2PxGvMkRA8FlZU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		5GO5Tj8Pd5POy8qjEAiCXUTdO3Q=
+		By4w51Mu9pRxqcPJ0u/ruAJd5RA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		3QXLA9NhYI7aBqSxluKSXA5SIcg=
+		7yRUiMrpJFm/o7pSXtGxHxXhWP4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		Ic0CQIzv+Ruk1qfhdWEt3uOu7wQ=
+		jxowAR7DORcdu0TRt7Sko9r2h40=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -103,6 +523,14 @@
 		<key>Brandon_light.otf</key>
 		<data>
 		fnmCtbDhK3ZX03tvilxT+ChHLMQ=
+		</data>
+		<key>CaeciliaLTStd-Roman.ttf</key>
+		<data>
+		yk6SmhqY55Rp+HU1VeQIN9UzZiQ=
+		</data>
+		<key>CheckMarkWhite.png</key>
+		<data>
+		q0f/dw2lPRf9TpV2ZXs1PjsPszs=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -120,9 +548,21 @@
 		<data>
 		SkfvecyS+An8VWy2/vZ7NDJiAwc=
 		</data>
+		<key>ForkImage.png</key>
+		<data>
+		wC4v3BZT9Heu2mS0chHJAvoA/cY=
+		</data>
 		<key>Google_Calendar.png</key>
 		<data>
 		FRCv7XiEGccOzvestEX0g3PIbrk=
+		</data>
+		<key>Handbag.png</key>
+		<data>
+		l4s4OwdvJ8LPvHuZeLq38fWiZ2s=
+		</data>
+		<key>HeaderImage.png</key>
+		<data>
+		rgLjbyiwit74bLQRuwCnDqn0H3E=
 		</data>
 		<key>IMG_0434.MOV</key>
 		<data>
@@ -204,25 +644,189 @@
 		<data>
 		gktUgMl3qBZuF35TV9ExZMzEX0c=
 		</data>
+		<key>SampleHeaderImage.png</key>
+		<data>
+		xbjTJXKikM2NApCGJFv9qc4YU3I=
+		</data>
+		<key>SampleImage1.png</key>
+		<data>
+		uaqiAEUm2UL5fRJdOAlhPNw6vNk=
+		</data>
+		<key>SampleImage2.png</key>
+		<data>
+		GJazNhAeRtBd87u+u+cZ8v8Ol+A=
+		</data>
+		<key>Services.png</key>
+		<data>
+		sltUG5q386u9mIG3MZPXrUKhnoE=
+		</data>
+		<key>Star.png</key>
+		<data>
+		T4vyfiC9Amt8SIfhfhCcoUaP3Ko=
+		</data>
 		<key>TaskModel.momd/TaskModel.mom</key>
 		<data>
 		v1OCqxuMvMrEigOWzBOLgjVM0Vo=
+		</data>
+		<key>TestHeader.nib</key>
+		<data>
+		OfBKKoRC8uISqR6dD9IfLTaMStI=
+		</data>
+		<key>TestPanel3.nib</key>
+		<data>
+		FXoEhh1+DTthu/a6qDWcTySMYlE=
+		</data>
+		<key>Toronto, ON.jpg</key>
+		<data>
+		co1uuvEhdHNMAFPdLsJHjm+3XrQ=
+		</data>
+		<key>_.png</key>
+		<data>
+		FK3K0adfTXkNAdCiNQJrgtt0kBE=
 		</data>
 		<key>add121@2x.png</key>
 		<data>
 		tgkiqUg57D9YBbJ6VcHtLdIM8Uc=
 		</data>
+		<key>anchor.png</key>
+		<data>
+		P5WPbBOfFWeSr7/Vnqnk3yjJwwA=
+		</data>
+		<key>archive.png</key>
+		<data>
+		nqIkWrbpqxrXmV/RiWX++i4jbkU=
+		</data>
+		<key>archive2.png</key>
+		<data>
+		4GyXppTK7LfxCThEGS1Q2rxdFlY=
+		</data>
+		<key>ban.png</key>
+		<data>
+		Ekg5I0tiZbeby32M8tV+4js7wYE=
+		</data>
+		<key>basket.png</key>
+		<data>
+		stw+hgb9+MQOOrIHwDllTebiOxM=
+		</data>
+		<key>bell.png</key>
+		<data>
+		0ZEiR7MZtU1T7DNf4QHvKeO+t4A=
+		</data>
 		<key>black14.png</key>
 		<data>
 		+BNoC0zzyNV7e2KMeDcKdCztoTg=
+		</data>
+		<key>bluetooth.png</key>
+		<data>
+		KXKftXmu4xInPqvn2uFqbhFMOGQ=
+		</data>
+		<key>book.png</key>
+		<data>
+		InraMM1GJ4rXX6bAjKBsRejqwLE=
+		</data>
+		<key>box.png</key>
+		<data>
+		9yjR0EAPGb3RqI/HHDb7JmHzqyg=
+		</data>
+		<key>browser.png</key>
+		<data>
+		dA+nOMmkCX2D0O/0OYmXAeLyd6Y=
+		</data>
+		<key>bubble.png</key>
+		<data>
+		2FUZovhwIBCpM01aLQJjqycEzOA=
+		</data>
+		<key>calc.png</key>
+		<data>
+		OcnVBCWij3TKi3qKc61dlKMSSEk=
+		</data>
+		<key>calendar.png</key>
+		<data>
+		CcgTj0OV5yMItravx0xNUvnpAQY=
+		</data>
+		<key>camera.png</key>
+		<data>
+		9T/ULrV9vyRK6Di0LLe67PuWACQ=
+		</data>
+		<key>camera_0.png</key>
+		<data>
+		ajQJmojrr80GCciMBLFEGfIxzyY=
+		</data>
+		<key>card.png</key>
+		<data>
+		ObawQAzwRAR1NZs+SltnK3vGQk0=
 		</data>
 		<key>cellBG@2x.jpg</key>
 		<data>
 		3amKqDluIB5nnQ/uN9Atq9z3zdo=
 		</data>
+		<key>chart1.png</key>
+		<data>
+		lDdbtya/q9hRmeLZjZkfel1q9kE=
+		</data>
+		<key>chart2.png</key>
+		<data>
+		NaauNFdqeuvvfjs9ZF/9SPObgPs=
+		</data>
+		<key>check.png</key>
+		<data>
+		LQJ00vPixqI9881rujJwHsQIG3A=
+		</data>
+		<key>clip.png</key>
+		<data>
+		1MBtUrR1Jz+KvZ6zqY2driSeYOo=
+		</data>
+		<key>clipboard.png</key>
+		<data>
+		APAtyBIP8fweNiEMKmtFfIIRA0s=
+		</data>
+		<key>clock.png</key>
+		<data>
+		9Sty90DwyDseZlrPIXTexiUSDKQ=
+		</data>
+		<key>cloud-down.png</key>
+		<data>
+		aHUOIjJx4ABo7Rd2SDwbEnwScwQ=
+		</data>
+		<key>cloud-up.png</key>
+		<data>
+		YIBYKp51WefnYSgkaQhlVnOdK7A=
+		</data>
+		<key>cloud.png</key>
+		<data>
+		0O9j21qz/HfNzMxwp98GuZX5QLo=
+		</data>
+		<key>cocktail.png</key>
+		<data>
+		1b7d777mJZEIy5XvvvbdKjVTRjI=
+		</data>
+		<key>coding.png</key>
+		<data>
+		HXJST7+y497THZWfyfxIVJL1QfM=
+		</data>
+		<key>cola.png</key>
+		<data>
+		1nrOJq5C9kvXHFh9QMCegJaFQu8=
+		</data>
+		<key>conf.png</key>
+		<data>
+		JCQV9DqCp660UZXX6nziAvKOk14=
+		</data>
+		<key>copy.png</key>
+		<data>
+		nPJYdlYgNgrCUsEDI8Ut4pG2uuQ=
+		</data>
 		<key>coq.ttf</key>
 		<data>
 		8dtwcxVzUYddfEehsQQcaGAm6Jk=
+		</data>
+		<key>crop.png</key>
+		<data>
+		CBO5OlCq3R4sn7TEqYKxEQaEuAc=
+		</data>
+		<key>crop_0.png</key>
+		<data>
+		R4CJINxHKVSm2UZukEV07tSTB60=
 		</data>
 		<key>cross_icon.png</key>
 		<data>
@@ -240,6 +844,10 @@
 		<data>
 		j1xnh1yIdWv3/BwCE4c5WE7LrR4=
 		</data>
+		<key>cup.png</key>
+		<data>
+		+yIeI4lSceRiF8st4B0pF7YnQJY=
+		</data>
 		<key>dark37.png</key>
 		<data>
 		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
@@ -251,6 +859,26 @@
 		<key>day7.png</key>
 		<data>
 		gXEXkmhufdfePiRCStPClzlHiBE=
+		</data>
+		<key>doc.png</key>
+		<data>
+		O30X7jg+uwcb+x0eLkralc1M2bE=
+		</data>
+		<key>dollar.png</key>
+		<data>
+		q1zQFYIa1P/TnL7oFm6hQcUNpBU=
+		</data>
+		<key>drop.png</key>
+		<data>
+		PlM/89AXBiwTuSiRS9a7DyvIvAo=
+		</data>
+		<key>duble-bubble.png</key>
+		<data>
+		A7sX3NqtSY9qmLeImsBEYlATXhM=
+		</data>
+		<key>dynamic.png</key>
+		<data>
+		g5QSpxtFLJdK3fR1WxxYh1EA+5E=
 		</data>
 		<key>elNav/ELHeaderView.h</key>
 		<data>
@@ -276,6 +904,18 @@
 		<data>
 		fy/D0hy5jDHp7cH7I/+iEmU8Xek=
 		</data>
+		<key>eye.png</key>
+		<data>
+		3oZSA3jsIfmFUHN51qtQFUGKSKM=
+		</data>
+		<key>flag.png</key>
+		<data>
+		R8qGRbvj/conB+NaW7VF9ihkIwc=
+		</data>
+		<key>folder.png</key>
+		<data>
+		lhDLC0AJkWgSFVQkiTOXcMnIHGc=
+		</data>
 		<key>food@2x.png</key>
 		<data>
 		Wp+db6VesA3AP9DzRlx1M18ajWM=
@@ -288,9 +928,45 @@
 		<data>
 		bvCqguzhlQBvEClgl79C7soV1vk=
 		</data>
+		<key>globe.png</key>
+		<data>
+		ocZm9UVvKIpVcagtOV+kJeV9JDw=
+		</data>
+		<key>graph.png</key>
+		<data>
+		mmGVvvg/QDtXhmAJ2LSqqY4s910=
+		</data>
+		<key>headphones.png</key>
+		<data>
+		ozT+nRrsC3qQhnTpqCOGohMO4/I=
+		</data>
+		<key>heart.png</key>
+		<data>
+		+Ejj3GRZXP3413dtF5pP4BYpCGo=
+		</data>
 		<key>help1.png</key>
 		<data>
 		5OiMhOXRr/deNlVPgdfta8KjfVE=
+		</data>
+		<key>home.png</key>
+		<data>
+		NukAvI+GXooJ1PqfhLabIT9HFDo=
+		</data>
+		<key>iMac.png</key>
+		<data>
+		P7Jrl+AqLsz5UXvjeTa8SjoWSpE=
+		</data>
+		<key>iPhone.png</key>
+		<data>
+		cKeQHFJ6Ujwkijvqb5xhH+peSXA=
+		</data>
+		<key>in.png</key>
+		<data>
+		4qA3ZicE12m62qygNbZCdhb1o3U=
+		</data>
+		<key>infinity.png</key>
+		<data>
+		6t0r2LEWRXdKHFoi8gldDnYxh1Q=
 		</data>
 		<key>info12.png</key>
 		<data>
@@ -308,6 +984,14 @@
 		<data>
 		DqZTLJ9YzjzEfp7icyA03g3d/6U=
 		</data>
+		<key>joypad.png</key>
+		<data>
+		yQOe21Ub1FtIuP5UdVo+joNCzsw=
+		</data>
+		<key>label.png</key>
+		<data>
+		lDJSL7RZ3LChMYB/Wkd8+2K7/Ac=
+		</data>
 		<key>launchIcons/launchIcon.png</key>
 		<data>
 		DVaHTEDFuuTrnC9slL4UYfRreIw=
@@ -316,9 +1000,33 @@
 		<data>
 		/GI7mRPZtAdT0gRwNtd1US546S8=
 		</data>
+		<key>lifesaver.png</key>
+		<data>
+		Qa+OXqNnVWLyak5x3u/HYTloTX4=
+		</data>
+		<key>lightbulb.png</key>
+		<data>
+		HdipU8t+Y/TEiYZRhE0Gq7S8hto=
+		</data>
+		<key>lightning.png</key>
+		<data>
+		q3bZe/lBVyqPAyGVYe4M8q1/AN4=
+		</data>
+		<key>link.png</key>
+		<data>
+		8RAyZ45bEuOmsmfwC/SYiljQBMg=
+		</data>
 		<key>list23@2x.png</key>
 		<data>
 		me1wQ2d47TST1lIaZLSa3e3naKk=
+		</data>
+		<key>lock-open.png</key>
+		<data>
+		IcclndwWA3hVVFCgEUgPgFBmJgk=
+		</data>
+		<key>lock.png</key>
+		<data>
+		AKcepYp3QPI1FzyqRcBLgB3YZZ4=
 		</data>
 		<key>lookup.png</key>
 		<data>
@@ -340,13 +1048,49 @@
 		<data>
 		V/TUsjkRY4r4phrGYLPaW+FXFl0=
 		</data>
+		<key>mail.png</key>
+		<data>
+		wyf8gvst96E/9zGH+kly4VC9IMk=
+		</data>
+		<key>many.png</key>
+		<data>
+		yMZpUO8rA+oMSHunLF6S/pDwKkQ=
+		</data>
+		<key>map.png</key>
+		<data>
+		1RPXqPWwlof0A1oDLk+efgn7CUg=
+		</data>
+		<key>mark.png</key>
+		<data>
+		ivMZfNLKJpsvZ9U0M69eoSkpkUw=
+		</data>
 		<key>marker.ttf</key>
 		<data>
 		Q9wFGXA7MCuOR9Myk1FH/uF1NmE=
 		</data>
+		<key>medal.png</key>
+		<data>
+		2ngT2JRhbPW5Xd8iUqocYkzy9dk=
+		</data>
+		<key>mic.png</key>
+		<data>
+		tZxcJJ0eqEuHc9hiGFKegvYM3kA=
+		</data>
 		<key>milk.png</key>
 		<data>
 		PAufU8KKrpIgrcq24BrdqdJbbz0=
+		</data>
+		<key>minus.png</key>
+		<data>
+		SwaXeBi6Sv1j3zTX/UuXrr8SYwg=
+		</data>
+		<key>mouse.png</key>
+		<data>
+		NktyFqNVPthar9p74GUAmZ256nw=
+		</data>
+		<key>music.png</key>
+		<data>
+		TfSCDB4Sct/vax6MGRRbp+a0r64=
 		</data>
 		<key>note18.png</key>
 		<data>
@@ -360,9 +1104,37 @@
 		<data>
 		8Wukp+x7lTVSHed95+rbuP1yUpo=
 		</data>
+		<key>open-letter.png</key>
+		<data>
+		HzGOJl3UkbDv6zFQK+pTlorFIw4=
+		</data>
+		<key>open.png</key>
+		<data>
+		7tqgaRoNhVGm9DGViu2LGL/PmSw=
+		</data>
+		<key>out.png</key>
+		<data>
+		znECD2IcrAEZ5Xz/41wHxq3OEJU=
+		</data>
+		<key>pause.png</key>
+		<data>
+		Cylpzjo/fL7wgX6c01flutWk3eY=
+		</data>
+		<key>pen.png</key>
+		<data>
+		KvG8m1R9wsqiSBSsbVlRMafG7lg=
+		</data>
 		<key>photo11.png</key>
 		<data>
 		odKhqFnQRIEm7NIlIok9XVB9wOI=
+		</data>
+		<key>pic.png</key>
+		<data>
+		h8qwPWu93J149Mbuh7vnL9HkHEk=
+		</data>
+		<key>play.png</key>
+		<data>
+		fxGa+r3lgNTtzkQ62cwQG0kMNLM=
 		</data>
 		<key>plus19(1)@2x.png</key>
 		<data>
@@ -371,6 +1143,26 @@
 		<key>plus24.png</key>
 		<data>
 		madKNVEYelWc25x4E3JDzXh6aCU=
+		</data>
+		<key>pluse.png</key>
+		<data>
+		PDAQNh6V+YzyqMOTVsvdE2j/B0w=
+		</data>
+		<key>power.png</key>
+		<data>
+		3fGer/YFEu785iY+f1Ig9sP/v/Q=
+		</data>
+		<key>printer.png</key>
+		<data>
+		3MrPeda5mU76q3QgnFwSu+jkE2U=
+		</data>
+		<key>refresh.png</key>
+		<data>
+		ePCMt06TFKcxnvvtinG8wteDwYY=
+		</data>
+		<key>reload.png</key>
+		<data>
+		Cns5qrmnRXyOI1YpEZtEb9yTzVU=
 		</data>
 		<key>reminder4.png</key>
 		<data>
@@ -396,17 +1188,45 @@
 		<data>
 		ikFhUppYc3U8UlmZ+RD0CffKti4=
 		</data>
+		<key>setting.png</key>
+		<data>
+		abNN10wPZCWRO8SOTOkB5INVbI0=
+		</data>
 		<key>settings3(2).png</key>
 		<data>
 		nma5DddzRzNrS/SQdM/vCFjzcWI=
+		</data>
+		<key>share.png</key>
+		<data>
+		5VuXGwoJLd8zRNnJliuimSzUQSI=
+		</data>
+		<key>shield.png</key>
+		<data>
+		/MIZaaPkmdb+jeKcifnPgiobpGA=
+		</data>
+		<key>sight.png</key>
+		<data>
+		VutNcxkS5ofrcMDpW2OKkQnbLs0=
 		</data>
 		<key>skulls@2x.png</key>
 		<data>
 		qAZ44/cEr9mN1x1GGB8G4GEnQdc=
 		</data>
+		<key>stop.png</key>
+		<data>
+		mdKomzXV/4GgCdpBPoCl86B56fU=
+		</data>
+		<key>switcher.png</key>
+		<data>
+		WcmRfvIV55wn/xwsaVnCGmmFW1E=
+		</data>
 		<key>syncIcon@2x.png</key>
 		<data>
 		XH1TqLxfPe+yrRP453/0+YUQVnQ=
+		</data>
+		<key>tablet.png</key>
+		<data>
+		DapFmKRm9w2HugUojwvnkeFbJTw=
 		</data>
 		<key>three115.png</key>
 		<data>
@@ -416,6 +1236,10 @@
 		<data>
 		kGypyaIW6fHV+p6y16mBc3NoVwg=
 		</data>
+		<key>timer.png</key>
+		<data>
+		Mopyc1ZV2bNf9lvVX9fVugKjb/o=
+		</data>
 		<key>title@2x.png</key>
 		<data>
 		qyMozMDJH2TYpzEXWSl4xC1t1Kw=
@@ -423,6 +1247,14 @@
 		<key>trace.ttf</key>
 		<data>
 		1Yfy3yRuQv4amtFcCFUVHuhZKCM=
+		</data>
+		<key>trash.png</key>
+		<data>
+		JcSeRvudTwdvM/MNHoMBh3HfOes=
+		</data>
+		<key>tree.png</key>
+		<data>
+		VKg189rS7d+DFY1pUXR/Theqo6s=
 		</data>
 		<key>trello.png</key>
 		<data>
@@ -432,16 +1264,452 @@
 		<data>
 		rC0ehD/d1XUhGRcWj0dIwukpczI=
 		</data>
+		<key>tv.png</key>
+		<data>
+		KnTYcd2DbQzqUOSWTp/9rnaMUWo=
+		</data>
 		<key>two123@2x.png</key>
 		<data>
 		k6m3cMpuPF2k3EgTNufPojoeDnU=
+		</data>
+		<key>user.png</key>
+		<data>
+		toRoevddgp+V3O1X02LOy8QRK3c=
+		</data>
+		<key>video.png</key>
+		<data>
+		9RbweMpJ5yGYUDymmi35JtN1Qpk=
+		</data>
+		<key>vinyl.png</key>
+		<data>
+		UpYJo2pP88lM5pobmDety7a9OKM=
+		</data>
+		<key>x.png</key>
+		<data>
+		/l5j3W8qBJi7xtMxQPr7TLVDlKA=
+		</data>
+		<key>zoom.png</key>
+		<data>
+		G/zEH3Misy3ez7z2deUGME5p7JQ=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>!.png</key>
+		<data>
+		4074Trf4t3HzBcgmKZwoFH7Yn2U=
+		</data>
 		<key>32.png</key>
 		<data>
 		ng7fmeveGbp5vfU5Bvp/S09xols=
+		</data>
+		<key>4.png</key>
+		<data>
+		iSSxJ00SuyW69g3NUk1xbtaAMSo=
+		</data>
+		<key>64/!.png</key>
+		<data>
+		DeiGGjuOxLRmkEjd1CIGb5uegu4=
+		</data>
+		<key>64/4.png</key>
+		<data>
+		Jet1FA+ZvgvJJPXEknlcYiSm2SU=
+		</data>
+		<key>64/9.png</key>
+		<data>
+		6GtGDOZOMITneLqNHHjP7rM52yU=
+		</data>
+		<key>64/Handbag.png</key>
+		<data>
+		04z0zM1s0/hZ/nVp0LwIQbppEQw=
+		</data>
+		<key>64/Star.png</key>
+		<data>
+		dO5zoR3nzgcZtee5CXxJj8BQay0=
+		</data>
+		<key>64/_.png</key>
+		<data>
+		7hc4LXIfAR0Zsw5eNBAxjA+IUrI=
+		</data>
+		<key>64/anchor.png</key>
+		<data>
+		yCPpknHvgomvY3AbEYsafJZSizo=
+		</data>
+		<key>64/archive.png</key>
+		<data>
+		N1bbitsXqa6RgvgpUVmH2Z0gCik=
+		</data>
+		<key>64/archive2.png</key>
+		<data>
+		w8OZsbKu+BXTvs4qx8ZMcjpnYNs=
+		</data>
+		<key>64/ban.png</key>
+		<data>
+		7tUN3i9vJlOxz4mvnqfjRmnHhqY=
+		</data>
+		<key>64/basket.png</key>
+		<data>
+		UZOJorzEUvpVUdPxBh4vSnFhdSc=
+		</data>
+		<key>64/bell.png</key>
+		<data>
+		1tDZHQTYWlmLaCk4he9tQADTl1Q=
+		</data>
+		<key>64/bluetooth.png</key>
+		<data>
+		vN0zA9mPBRS/icQzSgrVnx4JWAE=
+		</data>
+		<key>64/book.png</key>
+		<data>
+		35m/I75VJSbHqPSjAoSWo1AiLo4=
+		</data>
+		<key>64/box.png</key>
+		<data>
+		VGDdKfhNeY8DfvbwzdLjPEW4KS8=
+		</data>
+		<key>64/browser.png</key>
+		<data>
+		soYmgaSeFC34r0ekKaBjowfY/Cg=
+		</data>
+		<key>64/bubble.png</key>
+		<data>
+		TtXx8ETR8mkElYYol8wFG1YPLU0=
+		</data>
+		<key>64/calc.png</key>
+		<data>
+		uBjxAeFhGh6gGzMKpRNusNNggPI=
+		</data>
+		<key>64/calendar.png</key>
+		<data>
+		JTa4eXZWioV2WjObt62DzgurD1Q=
+		</data>
+		<key>64/camera.png</key>
+		<data>
+		bU1P6hwq+EIOTyBFPFEo3M9fTi0=
+		</data>
+		<key>64/camera_0.png</key>
+		<data>
+		jDTwxNCGKVwNyKCz646PYUXcuFA=
+		</data>
+		<key>64/card.png</key>
+		<data>
+		kF/kivVcq+CG6lWf6D/nFyYnPWk=
+		</data>
+		<key>64/chart1.png</key>
+		<data>
+		fHyJZh8IeJZS9MOTj6uMRuiDZ+U=
+		</data>
+		<key>64/chart2.png</key>
+		<data>
+		FB6El5SNz6Qfx10BCFAlmDXp+8c=
+		</data>
+		<key>64/check.png</key>
+		<data>
+		Ar+eDamy3F1nHGNgp8+rNnFL6GA=
+		</data>
+		<key>64/clip.png</key>
+		<data>
+		fs1dXzSxkgpd9guS3Rit3kzvE2Y=
+		</data>
+		<key>64/clipboard.png</key>
+		<data>
+		vGc60HYPwwW1PDLBZIwBl36K2z8=
+		</data>
+		<key>64/clock.png</key>
+		<data>
+		QiIZy3B5A5c8sKuWgG9kw4W+yd4=
+		</data>
+		<key>64/cloud-down.png</key>
+		<data>
+		PvyGV3pEClwDiX5/P5y/vZ8I3Rw=
+		</data>
+		<key>64/cloud-up.png</key>
+		<data>
+		sTdGm8F1VV0BfkMW7vRgvzz5oL8=
+		</data>
+		<key>64/cloud.png</key>
+		<data>
+		Conp4kgbvw9iVqTb6V8xEYl8ZyE=
+		</data>
+		<key>64/cocktail.png</key>
+		<data>
+		I+mEwQ+Emllg941PHZn7kD7oR94=
+		</data>
+		<key>64/coding.png</key>
+		<data>
+		pdiriWGYlB/wJkLJQMU2QcNxrvo=
+		</data>
+		<key>64/conf.png</key>
+		<data>
+		cR8v9xUqk7XAcZGzzd6RLhIZSOg=
+		</data>
+		<key>64/copy.png</key>
+		<data>
+		yl4qW1p5J0R3XbBlOylGbQQ5eSo=
+		</data>
+		<key>64/crop.png</key>
+		<data>
+		O6FLJIRs6bl+l/A00PQwO2wUnSY=
+		</data>
+		<key>64/crop_0.png</key>
+		<data>
+		Sw7IKJWxvEoOtsiEd2UU4qSifj8=
+		</data>
+		<key>64/cup.png</key>
+		<data>
+		w/76EMXiLiL7aNikWBDIcbL/oWw=
+		</data>
+		<key>64/doc.png</key>
+		<data>
+		Nqmf1QD35JMn02s2Cvwl0E2w51A=
+		</data>
+		<key>64/dollar.png</key>
+		<data>
+		O10WiPmseC2Nq7rQtYaA5p3zhZ0=
+		</data>
+		<key>64/drop.png</key>
+		<data>
+		pjs7psk5RHn98A2hupckB1A5tvg=
+		</data>
+		<key>64/duble-bubble.png</key>
+		<data>
+		bftMh8tUUj6nF7QBqMiwW1Q3tCA=
+		</data>
+		<key>64/dynamic.png</key>
+		<data>
+		cnbJVLRBHJnO28nUUb48vjndKUY=
+		</data>
+		<key>64/eye.png</key>
+		<data>
+		CC8N+QMIbZylMkIhhIpPdbVm5D8=
+		</data>
+		<key>64/flag.png</key>
+		<data>
+		vZG9qvle4r0gX5CdicKMNih9oQM=
+		</data>
+		<key>64/folder.png</key>
+		<data>
+		k8lTBU6sRAlbrt0vP5ddVIFjh/M=
+		</data>
+		<key>64/globe.png</key>
+		<data>
+		HXrtOwaSURmdW2icKOMFYtl/B8A=
+		</data>
+		<key>64/graph.png</key>
+		<data>
+		F4ifeIjJjxBt76UuDkgfccGRoxE=
+		</data>
+		<key>64/headphones.png</key>
+		<data>
+		mX89uvj0DK96PPJXI2tumekili4=
+		</data>
+		<key>64/heart.png</key>
+		<data>
+		7DYpvVgN9QUdfExmi98L0KZJYZ0=
+		</data>
+		<key>64/home.png</key>
+		<data>
+		OVH73v/o5ZsZorJD1XGZSPKummw=
+		</data>
+		<key>64/iMac.png</key>
+		<data>
+		ZztMy7ERJ6bTnGeoi85JcSx3Hew=
+		</data>
+		<key>64/iPhone.png</key>
+		<data>
+		GTSoa422QSih1A3lFL7Ajzh9U80=
+		</data>
+		<key>64/in.png</key>
+		<data>
+		3xpXSltNbvudW+4vdN9zLnl1v0Q=
+		</data>
+		<key>64/infinity.png</key>
+		<data>
+		ModzlozvZPTxegM2jp5tXGA8HwQ=
+		</data>
+		<key>64/joypad.png</key>
+		<data>
+		tgnrDoXbJS4yVmpfBuvhUQhJkb4=
+		</data>
+		<key>64/label.png</key>
+		<data>
+		sD6cZD0kGmjA8Vhj9vkZRNoE03Q=
+		</data>
+		<key>64/lifesaver.png</key>
+		<data>
+		WVj42RGoUxQNjDCk8zDzkGqipEk=
+		</data>
+		<key>64/lightbulb.png</key>
+		<data>
+		UT3GnUkeD6r+t4sqgpDX5QbbcgQ=
+		</data>
+		<key>64/lightning.png</key>
+		<data>
+		K8B0jgLUNYLi5MoOXPaBgJj8In4=
+		</data>
+		<key>64/link.png</key>
+		<data>
+		VemMDzctYf05bZ6vAPYgN1ybjyA=
+		</data>
+		<key>64/lock-open.png</key>
+		<data>
+		a8waNGZSGiM+2rhb+ktY0vuHpnU=
+		</data>
+		<key>64/lock.png</key>
+		<data>
+		7Mv3m2jNkQLWBAtTIKcIB1fAEMQ=
+		</data>
+		<key>64/mail.png</key>
+		<data>
+		LIxthase1+MlDTdR1PKQUAYCzCE=
+		</data>
+		<key>64/many.png</key>
+		<data>
+		DOW4VKOfhsTTwegKK5xSwa57HN0=
+		</data>
+		<key>64/map.png</key>
+		<data>
+		gYbsJodIDTa8KjgoasxH2dgQIjw=
+		</data>
+		<key>64/mark.png</key>
+		<data>
+		Igcf2Wy168Cu6TM+CRMJ5To2GEQ=
+		</data>
+		<key>64/medal.png</key>
+		<data>
+		sz5w8PxzAfOrzQHuBYPkV2HlF34=
+		</data>
+		<key>64/mic.png</key>
+		<data>
+		QSzMPxCBxScqW3qYtY9bBhtWqOw=
+		</data>
+		<key>64/minus.png</key>
+		<data>
+		g3tv78iWFiJdGQrDQvzqn1uwweE=
+		</data>
+		<key>64/mouse.png</key>
+		<data>
+		vJOzNrPvv5wAwdBoe5BmzZt4gDU=
+		</data>
+		<key>64/music.png</key>
+		<data>
+		kLjJnqMP1UB4w0KZF5ItHxYVVig=
+		</data>
+		<key>64/open-letter.png</key>
+		<data>
+		MYciQhmW1WgT0Pdj9xl/eGbSc6I=
+		</data>
+		<key>64/open.png</key>
+		<data>
+		wmVJpOMo8keFN+GeDZmyFFxctmY=
+		</data>
+		<key>64/out.png</key>
+		<data>
+		0GOD44SpZQfrNxaIrgClwrfsw4A=
+		</data>
+		<key>64/pause.png</key>
+		<data>
+		wvL5vzy6ALdgwUk7gXO3gPKp3AQ=
+		</data>
+		<key>64/pen.png</key>
+		<data>
+		EG+C9n4vlmrTqFdIdv1uNB899Sk=
+		</data>
+		<key>64/pic.png</key>
+		<data>
+		lKt/bAxOxRUa6nTflygGxrrJGlM=
+		</data>
+		<key>64/play.png</key>
+		<data>
+		bYDY77/AT6rFI9vQV7+62S9A754=
+		</data>
+		<key>64/pluse.png</key>
+		<data>
+		vapoSNkVk8GgLElTppfkxeN2dB0=
+		</data>
+		<key>64/power.png</key>
+		<data>
+		HarRAUGIGSiHPW5agq655oUXIOw=
+		</data>
+		<key>64/printer.png</key>
+		<data>
+		N5+RgLMRlZdTWdLb4HcsbQBnXrc=
+		</data>
+		<key>64/refresh.png</key>
+		<data>
+		fmSYezsP9h0510mJc7YEfyFtDO8=
+		</data>
+		<key>64/reload.png</key>
+		<data>
+		GRp5djPJTjgHTyXk0eU2ecU0Dt0=
+		</data>
+		<key>64/setting.png</key>
+		<data>
+		8Dm2XG9LGvKKdls/S1/wNYzyGwA=
+		</data>
+		<key>64/share.png</key>
+		<data>
+		guTyeuhYE7+o5W0JWiod2+k6LNU=
+		</data>
+		<key>64/shield.png</key>
+		<data>
+		aOQlczcq5mwiFo88QGf1/CeT44E=
+		</data>
+		<key>64/sight.png</key>
+		<data>
+		ZTxeFw+PeMS+mYPSfTGuy0flAh0=
+		</data>
+		<key>64/stop.png</key>
+		<data>
+		mNkiVtoZrYLep2tzCZDJ0X59MUs=
+		</data>
+		<key>64/switcher.png</key>
+		<data>
+		wUbpVlx5tAVZacYBX1TRE0/8/zk=
+		</data>
+		<key>64/tablet.png</key>
+		<data>
+		15yWlhwvxdocvrBzmJzNQe+gSh8=
+		</data>
+		<key>64/timer.png</key>
+		<data>
+		csp34qxI1I/8XkUjAqgoaQYpG/8=
+		</data>
+		<key>64/trash.png</key>
+		<data>
+		hjQXV20b9DLFyHqd0C1p7nYDOUY=
+		</data>
+		<key>64/tree.png</key>
+		<data>
+		kDOKoLHuWMGPQrIwp3wksF+f+KY=
+		</data>
+		<key>64/tv.png</key>
+		<data>
+		BKL8nqNFL+MXZrbZcmUn8bdfTZM=
+		</data>
+		<key>64/user.png</key>
+		<data>
+		cnu4upFqu0Jj3Mexu+GqrJzFVUU=
+		</data>
+		<key>64/video.png</key>
+		<data>
+		8CaZDAltnIDpJjco4/synjv89Z8=
+		</data>
+		<key>64/vinyl.png</key>
+		<data>
+		yt78I5QEB9uAJ3YF2Z/YqrrMIA4=
+		</data>
+		<key>64/x.png</key>
+		<data>
+		3WnJE7rJzp/bC1CSH6k4k696NHI=
+		</data>
+		<key>64/zoom.png</key>
+		<data>
+		UsEm5H6o/Tgco3qGK6tTvXjQxZ8=
+		</data>
+		<key>9.png</key>
+		<data>
+		SnsWg1TCZ6JkrLLHO9SPcAKu5p8=
 		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
@@ -489,7 +1757,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		HDaj7QUrobLTog1IyYkgE5YkbaI=
+		XpyLdWMc1F3oPE2UVfdTkzTAHTo=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -497,39 +1765,47 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Calandar.nib</key>
 		<data>
-		6DCn+0VjBy5mDuW4bklu6fChkMk=
+		RJ3KTZAv/gzgjJO4SH/jusMgCNU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Connector.nib</key>
 		<data>
-		9zbPs4HRkrSttJbH1rWbr9H/2Ss=
+		7Iwzv+ENjg0JGcFMFu4s+K+xgro=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
 		<data>
-		wBxDBkWcFx+ThI5UqigtV0b5Ov0=
+		upYyiNYRZb7Jsffzo3aG8vHZ7Vg=
+		</data>
+		<key>Base.lproj/Main.storyboardc/S8d-qF-8gj-view-NBg-eA-zdi.nib</key>
+		<data>
+		92hCGPwq9VdpNA3vWl5y5/A7Wno=
+		</data>
+		<key>Base.lproj/Main.storyboardc/Settings.nib</key>
+		<data>
+		EhSZcF6x+ELUjaZ+a82mvE+tGH0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		kKj8uw0ZQ+HhEJ9cDcpiCkkZMuI=
+		B+F9FLN1MlDRfrewjyeeu8msN8g=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		xgGwK3+BVLWpGetIP5NyV6C4rsY=
+		24cN7KDSnY23LOgeaA724YPjerM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/aIW-8z-pL0-view-5kv-xg-cnb.nib</key>
 		<data>
-		fbCaUIHkWHGUu+lQSvUnPJf2Gd0=
+		8ex59pCXyGqrC2PxGvMkRA8FlZU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		5GO5Tj8Pd5POy8qjEAiCXUTdO3Q=
+		By4w51Mu9pRxqcPJ0u/ruAJd5RA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		3QXLA9NhYI7aBqSxluKSXA5SIcg=
+		7yRUiMrpJFm/o7pSXtGxHxXhWP4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		Ic0CQIzv+Ruk1qfhdWEt3uOu7wQ=
+		jxowAR7DORcdu0TRt7Sko9r2h40=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -538,6 +1814,14 @@
 		<key>Brandon_light.otf</key>
 		<data>
 		fnmCtbDhK3ZX03tvilxT+ChHLMQ=
+		</data>
+		<key>CaeciliaLTStd-Roman.ttf</key>
+		<data>
+		yk6SmhqY55Rp+HU1VeQIN9UzZiQ=
+		</data>
+		<key>CheckMarkWhite.png</key>
+		<data>
+		q0f/dw2lPRf9TpV2ZXs1PjsPszs=
 		</data>
 		<key>Default-568h@2x.png</key>
 		<data>
@@ -555,9 +1839,21 @@
 		<data>
 		SkfvecyS+An8VWy2/vZ7NDJiAwc=
 		</data>
+		<key>ForkImage.png</key>
+		<data>
+		wC4v3BZT9Heu2mS0chHJAvoA/cY=
+		</data>
 		<key>Google_Calendar.png</key>
 		<data>
 		FRCv7XiEGccOzvestEX0g3PIbrk=
+		</data>
+		<key>Handbag.png</key>
+		<data>
+		l4s4OwdvJ8LPvHuZeLq38fWiZ2s=
+		</data>
+		<key>HeaderImage.png</key>
+		<data>
+		rgLjbyiwit74bLQRuwCnDqn0H3E=
 		</data>
 		<key>IMG_0434.MOV</key>
 		<data>
@@ -639,25 +1935,189 @@
 		<data>
 		gktUgMl3qBZuF35TV9ExZMzEX0c=
 		</data>
+		<key>SampleHeaderImage.png</key>
+		<data>
+		xbjTJXKikM2NApCGJFv9qc4YU3I=
+		</data>
+		<key>SampleImage1.png</key>
+		<data>
+		uaqiAEUm2UL5fRJdOAlhPNw6vNk=
+		</data>
+		<key>SampleImage2.png</key>
+		<data>
+		GJazNhAeRtBd87u+u+cZ8v8Ol+A=
+		</data>
+		<key>Services.png</key>
+		<data>
+		sltUG5q386u9mIG3MZPXrUKhnoE=
+		</data>
+		<key>Star.png</key>
+		<data>
+		T4vyfiC9Amt8SIfhfhCcoUaP3Ko=
+		</data>
 		<key>TaskModel.momd/TaskModel.mom</key>
 		<data>
 		v1OCqxuMvMrEigOWzBOLgjVM0Vo=
+		</data>
+		<key>TestHeader.nib</key>
+		<data>
+		OfBKKoRC8uISqR6dD9IfLTaMStI=
+		</data>
+		<key>TestPanel3.nib</key>
+		<data>
+		FXoEhh1+DTthu/a6qDWcTySMYlE=
+		</data>
+		<key>Toronto, ON.jpg</key>
+		<data>
+		co1uuvEhdHNMAFPdLsJHjm+3XrQ=
+		</data>
+		<key>_.png</key>
+		<data>
+		FK3K0adfTXkNAdCiNQJrgtt0kBE=
 		</data>
 		<key>add121@2x.png</key>
 		<data>
 		tgkiqUg57D9YBbJ6VcHtLdIM8Uc=
 		</data>
+		<key>anchor.png</key>
+		<data>
+		P5WPbBOfFWeSr7/Vnqnk3yjJwwA=
+		</data>
+		<key>archive.png</key>
+		<data>
+		nqIkWrbpqxrXmV/RiWX++i4jbkU=
+		</data>
+		<key>archive2.png</key>
+		<data>
+		4GyXppTK7LfxCThEGS1Q2rxdFlY=
+		</data>
+		<key>ban.png</key>
+		<data>
+		Ekg5I0tiZbeby32M8tV+4js7wYE=
+		</data>
+		<key>basket.png</key>
+		<data>
+		stw+hgb9+MQOOrIHwDllTebiOxM=
+		</data>
+		<key>bell.png</key>
+		<data>
+		0ZEiR7MZtU1T7DNf4QHvKeO+t4A=
+		</data>
 		<key>black14.png</key>
 		<data>
 		+BNoC0zzyNV7e2KMeDcKdCztoTg=
+		</data>
+		<key>bluetooth.png</key>
+		<data>
+		KXKftXmu4xInPqvn2uFqbhFMOGQ=
+		</data>
+		<key>book.png</key>
+		<data>
+		InraMM1GJ4rXX6bAjKBsRejqwLE=
+		</data>
+		<key>box.png</key>
+		<data>
+		9yjR0EAPGb3RqI/HHDb7JmHzqyg=
+		</data>
+		<key>browser.png</key>
+		<data>
+		dA+nOMmkCX2D0O/0OYmXAeLyd6Y=
+		</data>
+		<key>bubble.png</key>
+		<data>
+		2FUZovhwIBCpM01aLQJjqycEzOA=
+		</data>
+		<key>calc.png</key>
+		<data>
+		OcnVBCWij3TKi3qKc61dlKMSSEk=
+		</data>
+		<key>calendar.png</key>
+		<data>
+		CcgTj0OV5yMItravx0xNUvnpAQY=
+		</data>
+		<key>camera.png</key>
+		<data>
+		9T/ULrV9vyRK6Di0LLe67PuWACQ=
+		</data>
+		<key>camera_0.png</key>
+		<data>
+		ajQJmojrr80GCciMBLFEGfIxzyY=
+		</data>
+		<key>card.png</key>
+		<data>
+		ObawQAzwRAR1NZs+SltnK3vGQk0=
 		</data>
 		<key>cellBG@2x.jpg</key>
 		<data>
 		3amKqDluIB5nnQ/uN9Atq9z3zdo=
 		</data>
+		<key>chart1.png</key>
+		<data>
+		lDdbtya/q9hRmeLZjZkfel1q9kE=
+		</data>
+		<key>chart2.png</key>
+		<data>
+		NaauNFdqeuvvfjs9ZF/9SPObgPs=
+		</data>
+		<key>check.png</key>
+		<data>
+		LQJ00vPixqI9881rujJwHsQIG3A=
+		</data>
+		<key>clip.png</key>
+		<data>
+		1MBtUrR1Jz+KvZ6zqY2driSeYOo=
+		</data>
+		<key>clipboard.png</key>
+		<data>
+		APAtyBIP8fweNiEMKmtFfIIRA0s=
+		</data>
+		<key>clock.png</key>
+		<data>
+		9Sty90DwyDseZlrPIXTexiUSDKQ=
+		</data>
+		<key>cloud-down.png</key>
+		<data>
+		aHUOIjJx4ABo7Rd2SDwbEnwScwQ=
+		</data>
+		<key>cloud-up.png</key>
+		<data>
+		YIBYKp51WefnYSgkaQhlVnOdK7A=
+		</data>
+		<key>cloud.png</key>
+		<data>
+		0O9j21qz/HfNzMxwp98GuZX5QLo=
+		</data>
+		<key>cocktail.png</key>
+		<data>
+		1b7d777mJZEIy5XvvvbdKjVTRjI=
+		</data>
+		<key>coding.png</key>
+		<data>
+		HXJST7+y497THZWfyfxIVJL1QfM=
+		</data>
+		<key>cola.png</key>
+		<data>
+		1nrOJq5C9kvXHFh9QMCegJaFQu8=
+		</data>
+		<key>conf.png</key>
+		<data>
+		JCQV9DqCp660UZXX6nziAvKOk14=
+		</data>
+		<key>copy.png</key>
+		<data>
+		nPJYdlYgNgrCUsEDI8Ut4pG2uuQ=
+		</data>
 		<key>coq.ttf</key>
 		<data>
 		8dtwcxVzUYddfEehsQQcaGAm6Jk=
+		</data>
+		<key>crop.png</key>
+		<data>
+		CBO5OlCq3R4sn7TEqYKxEQaEuAc=
+		</data>
+		<key>crop_0.png</key>
+		<data>
+		R4CJINxHKVSm2UZukEV07tSTB60=
 		</data>
 		<key>cross_icon.png</key>
 		<data>
@@ -675,6 +2135,10 @@
 		<data>
 		j1xnh1yIdWv3/BwCE4c5WE7LrR4=
 		</data>
+		<key>cup.png</key>
+		<data>
+		+yIeI4lSceRiF8st4B0pF7YnQJY=
+		</data>
 		<key>dark37.png</key>
 		<data>
 		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
@@ -686,6 +2150,26 @@
 		<key>day7.png</key>
 		<data>
 		gXEXkmhufdfePiRCStPClzlHiBE=
+		</data>
+		<key>doc.png</key>
+		<data>
+		O30X7jg+uwcb+x0eLkralc1M2bE=
+		</data>
+		<key>dollar.png</key>
+		<data>
+		q1zQFYIa1P/TnL7oFm6hQcUNpBU=
+		</data>
+		<key>drop.png</key>
+		<data>
+		PlM/89AXBiwTuSiRS9a7DyvIvAo=
+		</data>
+		<key>duble-bubble.png</key>
+		<data>
+		A7sX3NqtSY9qmLeImsBEYlATXhM=
+		</data>
+		<key>dynamic.png</key>
+		<data>
+		g5QSpxtFLJdK3fR1WxxYh1EA+5E=
 		</data>
 		<key>elNav/ELHeaderView.h</key>
 		<data>
@@ -711,6 +2195,18 @@
 		<data>
 		fy/D0hy5jDHp7cH7I/+iEmU8Xek=
 		</data>
+		<key>eye.png</key>
+		<data>
+		3oZSA3jsIfmFUHN51qtQFUGKSKM=
+		</data>
+		<key>flag.png</key>
+		<data>
+		R8qGRbvj/conB+NaW7VF9ihkIwc=
+		</data>
+		<key>folder.png</key>
+		<data>
+		lhDLC0AJkWgSFVQkiTOXcMnIHGc=
+		</data>
 		<key>food@2x.png</key>
 		<data>
 		Wp+db6VesA3AP9DzRlx1M18ajWM=
@@ -723,9 +2219,45 @@
 		<data>
 		bvCqguzhlQBvEClgl79C7soV1vk=
 		</data>
+		<key>globe.png</key>
+		<data>
+		ocZm9UVvKIpVcagtOV+kJeV9JDw=
+		</data>
+		<key>graph.png</key>
+		<data>
+		mmGVvvg/QDtXhmAJ2LSqqY4s910=
+		</data>
+		<key>headphones.png</key>
+		<data>
+		ozT+nRrsC3qQhnTpqCOGohMO4/I=
+		</data>
+		<key>heart.png</key>
+		<data>
+		+Ejj3GRZXP3413dtF5pP4BYpCGo=
+		</data>
 		<key>help1.png</key>
 		<data>
 		5OiMhOXRr/deNlVPgdfta8KjfVE=
+		</data>
+		<key>home.png</key>
+		<data>
+		NukAvI+GXooJ1PqfhLabIT9HFDo=
+		</data>
+		<key>iMac.png</key>
+		<data>
+		P7Jrl+AqLsz5UXvjeTa8SjoWSpE=
+		</data>
+		<key>iPhone.png</key>
+		<data>
+		cKeQHFJ6Ujwkijvqb5xhH+peSXA=
+		</data>
+		<key>in.png</key>
+		<data>
+		4qA3ZicE12m62qygNbZCdhb1o3U=
+		</data>
+		<key>infinity.png</key>
+		<data>
+		6t0r2LEWRXdKHFoi8gldDnYxh1Q=
 		</data>
 		<key>info12.png</key>
 		<data>
@@ -743,6 +2275,14 @@
 		<data>
 		DqZTLJ9YzjzEfp7icyA03g3d/6U=
 		</data>
+		<key>joypad.png</key>
+		<data>
+		yQOe21Ub1FtIuP5UdVo+joNCzsw=
+		</data>
+		<key>label.png</key>
+		<data>
+		lDJSL7RZ3LChMYB/Wkd8+2K7/Ac=
+		</data>
 		<key>launchIcons/launchIcon.png</key>
 		<data>
 		DVaHTEDFuuTrnC9slL4UYfRreIw=
@@ -751,9 +2291,33 @@
 		<data>
 		/GI7mRPZtAdT0gRwNtd1US546S8=
 		</data>
+		<key>lifesaver.png</key>
+		<data>
+		Qa+OXqNnVWLyak5x3u/HYTloTX4=
+		</data>
+		<key>lightbulb.png</key>
+		<data>
+		HdipU8t+Y/TEiYZRhE0Gq7S8hto=
+		</data>
+		<key>lightning.png</key>
+		<data>
+		q3bZe/lBVyqPAyGVYe4M8q1/AN4=
+		</data>
+		<key>link.png</key>
+		<data>
+		8RAyZ45bEuOmsmfwC/SYiljQBMg=
+		</data>
 		<key>list23@2x.png</key>
 		<data>
 		me1wQ2d47TST1lIaZLSa3e3naKk=
+		</data>
+		<key>lock-open.png</key>
+		<data>
+		IcclndwWA3hVVFCgEUgPgFBmJgk=
+		</data>
+		<key>lock.png</key>
+		<data>
+		AKcepYp3QPI1FzyqRcBLgB3YZZ4=
 		</data>
 		<key>lookup.png</key>
 		<data>
@@ -775,13 +2339,49 @@
 		<data>
 		V/TUsjkRY4r4phrGYLPaW+FXFl0=
 		</data>
+		<key>mail.png</key>
+		<data>
+		wyf8gvst96E/9zGH+kly4VC9IMk=
+		</data>
+		<key>many.png</key>
+		<data>
+		yMZpUO8rA+oMSHunLF6S/pDwKkQ=
+		</data>
+		<key>map.png</key>
+		<data>
+		1RPXqPWwlof0A1oDLk+efgn7CUg=
+		</data>
+		<key>mark.png</key>
+		<data>
+		ivMZfNLKJpsvZ9U0M69eoSkpkUw=
+		</data>
 		<key>marker.ttf</key>
 		<data>
 		Q9wFGXA7MCuOR9Myk1FH/uF1NmE=
 		</data>
+		<key>medal.png</key>
+		<data>
+		2ngT2JRhbPW5Xd8iUqocYkzy9dk=
+		</data>
+		<key>mic.png</key>
+		<data>
+		tZxcJJ0eqEuHc9hiGFKegvYM3kA=
+		</data>
 		<key>milk.png</key>
 		<data>
 		PAufU8KKrpIgrcq24BrdqdJbbz0=
+		</data>
+		<key>minus.png</key>
+		<data>
+		SwaXeBi6Sv1j3zTX/UuXrr8SYwg=
+		</data>
+		<key>mouse.png</key>
+		<data>
+		NktyFqNVPthar9p74GUAmZ256nw=
+		</data>
+		<key>music.png</key>
+		<data>
+		TfSCDB4Sct/vax6MGRRbp+a0r64=
 		</data>
 		<key>note18.png</key>
 		<data>
@@ -795,9 +2395,37 @@
 		<data>
 		8Wukp+x7lTVSHed95+rbuP1yUpo=
 		</data>
+		<key>open-letter.png</key>
+		<data>
+		HzGOJl3UkbDv6zFQK+pTlorFIw4=
+		</data>
+		<key>open.png</key>
+		<data>
+		7tqgaRoNhVGm9DGViu2LGL/PmSw=
+		</data>
+		<key>out.png</key>
+		<data>
+		znECD2IcrAEZ5Xz/41wHxq3OEJU=
+		</data>
+		<key>pause.png</key>
+		<data>
+		Cylpzjo/fL7wgX6c01flutWk3eY=
+		</data>
+		<key>pen.png</key>
+		<data>
+		KvG8m1R9wsqiSBSsbVlRMafG7lg=
+		</data>
 		<key>photo11.png</key>
 		<data>
 		odKhqFnQRIEm7NIlIok9XVB9wOI=
+		</data>
+		<key>pic.png</key>
+		<data>
+		h8qwPWu93J149Mbuh7vnL9HkHEk=
+		</data>
+		<key>play.png</key>
+		<data>
+		fxGa+r3lgNTtzkQ62cwQG0kMNLM=
 		</data>
 		<key>plus19(1)@2x.png</key>
 		<data>
@@ -806,6 +2434,26 @@
 		<key>plus24.png</key>
 		<data>
 		madKNVEYelWc25x4E3JDzXh6aCU=
+		</data>
+		<key>pluse.png</key>
+		<data>
+		PDAQNh6V+YzyqMOTVsvdE2j/B0w=
+		</data>
+		<key>power.png</key>
+		<data>
+		3fGer/YFEu785iY+f1Ig9sP/v/Q=
+		</data>
+		<key>printer.png</key>
+		<data>
+		3MrPeda5mU76q3QgnFwSu+jkE2U=
+		</data>
+		<key>refresh.png</key>
+		<data>
+		ePCMt06TFKcxnvvtinG8wteDwYY=
+		</data>
+		<key>reload.png</key>
+		<data>
+		Cns5qrmnRXyOI1YpEZtEb9yTzVU=
 		</data>
 		<key>reminder4.png</key>
 		<data>
@@ -831,17 +2479,45 @@
 		<data>
 		ikFhUppYc3U8UlmZ+RD0CffKti4=
 		</data>
+		<key>setting.png</key>
+		<data>
+		abNN10wPZCWRO8SOTOkB5INVbI0=
+		</data>
 		<key>settings3(2).png</key>
 		<data>
 		nma5DddzRzNrS/SQdM/vCFjzcWI=
+		</data>
+		<key>share.png</key>
+		<data>
+		5VuXGwoJLd8zRNnJliuimSzUQSI=
+		</data>
+		<key>shield.png</key>
+		<data>
+		/MIZaaPkmdb+jeKcifnPgiobpGA=
+		</data>
+		<key>sight.png</key>
+		<data>
+		VutNcxkS5ofrcMDpW2OKkQnbLs0=
 		</data>
 		<key>skulls@2x.png</key>
 		<data>
 		qAZ44/cEr9mN1x1GGB8G4GEnQdc=
 		</data>
+		<key>stop.png</key>
+		<data>
+		mdKomzXV/4GgCdpBPoCl86B56fU=
+		</data>
+		<key>switcher.png</key>
+		<data>
+		WcmRfvIV55wn/xwsaVnCGmmFW1E=
+		</data>
 		<key>syncIcon@2x.png</key>
 		<data>
 		XH1TqLxfPe+yrRP453/0+YUQVnQ=
+		</data>
+		<key>tablet.png</key>
+		<data>
+		DapFmKRm9w2HugUojwvnkeFbJTw=
 		</data>
 		<key>three115.png</key>
 		<data>
@@ -851,6 +2527,10 @@
 		<data>
 		kGypyaIW6fHV+p6y16mBc3NoVwg=
 		</data>
+		<key>timer.png</key>
+		<data>
+		Mopyc1ZV2bNf9lvVX9fVugKjb/o=
+		</data>
 		<key>title@2x.png</key>
 		<data>
 		qyMozMDJH2TYpzEXWSl4xC1t1Kw=
@@ -858,6 +2538,14 @@
 		<key>trace.ttf</key>
 		<data>
 		1Yfy3yRuQv4amtFcCFUVHuhZKCM=
+		</data>
+		<key>trash.png</key>
+		<data>
+		JcSeRvudTwdvM/MNHoMBh3HfOes=
+		</data>
+		<key>tree.png</key>
+		<data>
+		VKg189rS7d+DFY1pUXR/Theqo6s=
 		</data>
 		<key>trello.png</key>
 		<data>
@@ -867,9 +2555,33 @@
 		<data>
 		rC0ehD/d1XUhGRcWj0dIwukpczI=
 		</data>
+		<key>tv.png</key>
+		<data>
+		KnTYcd2DbQzqUOSWTp/9rnaMUWo=
+		</data>
 		<key>two123@2x.png</key>
 		<data>
 		k6m3cMpuPF2k3EgTNufPojoeDnU=
+		</data>
+		<key>user.png</key>
+		<data>
+		toRoevddgp+V3O1X02LOy8QRK3c=
+		</data>
+		<key>video.png</key>
+		<data>
+		9RbweMpJ5yGYUDymmi35JtN1Qpk=
+		</data>
+		<key>vinyl.png</key>
+		<data>
+		UpYJo2pP88lM5pobmDety7a9OKM=
+		</data>
+		<key>x.png</key>
+		<data>
+		/l5j3W8qBJi7xtMxQPr7TLVDlKA=
+		</data>
+		<key>zoom.png</key>
+		<data>
+		G/zEH3Misy3ez7z2deUGME5p7JQ=
 		</data>
 	</dict>
 	<key>rules</key>

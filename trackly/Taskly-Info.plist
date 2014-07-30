@@ -36,6 +36,7 @@
 	<string>UIStatusBarStyleDefault</string>
 	<key>UIAppFonts</key>
 	<array>
+		<string>CaeciliaLTStd-Roman.ttf</string>
 		<string>coq.ttf</string>
 		<string>Roboto-Regular.ttf</string>
 		<string>Brandon_blk.otf</string>
