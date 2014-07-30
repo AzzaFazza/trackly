@@ -1,5 +1,5 @@
 1f06784374cbb84a5f401048e954c510 de5beb045dab475a562c5a4d0402a752 ffffffffffffffffffffffffffffffff 640 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Taskly.xcent
-6f29cfdeffb9462f0bca744f58265611 2846229e90fa2e7d59842e6feb330853 ffffffffffffffffffffffffffffffff 7140 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app
+f073cb76810672a733e54ae88a16ec2a 2846229e90fa2e7d59842e6feb330853 ffffffffffffffffffffffffffffffff 7378 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app
 0000000053cfc6830000000000002875 11977834173cd1e73e7516c6cde5b8c1 ffffffffffffffffffffffffffffffff 10357 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/embedded.mobileprovision
 3f87f8438e3fe7fe535f979fb7eb0368 20818000a94574200c1f87d75ebfc6ec ffffffffffffffffffffffffffffffff 8 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/PkgInfo
 0000000053cd9a280000000000001b4e 3fda6fdadaa507fce10abce804e7f9d0 ffffffffffffffffffffffffffffffff 3742 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/syncIcon@2x.png
@@ -11,7 +11,7 @@
 0000000053cb16e00000000000004173 a3cb8a5479d6b94e2cfce5b70c1078f4 ffffffffffffffffffffffffffffffff 3042 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/right10@2x.png
 0000000053cae64a0000000000000176 8fce5b6ba6e8f9c82cae251bf2ed79e0 ffffffffffffffffffffffffffffffff 340 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/AppIcons
 0000000053bc32ae00000000000006e4 3ca0d9ff760c62f961d0b1a9390d8934 ffffffffffffffffffffffffffffffff 1606 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Icon_Home@2x.png
-0000000053d8e83a0000000000027d7f ea4e1abcd89e9f450bce15a710b50650 ffffffffffffffffffffffffffffffff 17600 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Services.png
+0000000053d8e83a0000000000027d7f b961282ba13a2b983dbc7b19c63a3f31 ffffffffffffffffffffffffffffffff 17600 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Services@2x.png
 0000000053ce4ccc0000000000000680 b16120aa49da64563a02254831a29bc0 ffffffffffffffffffffffffffffffff 1418 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/schedule@2x.png
 0000000053c8fd64000000000000026e 5a92388505cb23114ca6f0680d5992f8 ffffffffffffffffffffffffffffffff 627 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/information38.png
 0000000053d0dbef0000000000007d22 8ed2325a0909bd16035940c1531ba428 ffffffffffffffffffffffffffffffff 27453 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Evernote-icon.png
@@ -34,6 +34,7 @@
 0000000053d0d4fc000000000000218e 6f5f670d66f97dda5d71edb6905a7916 ffffffffffffffffffffffffffffffff 6418 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Google_Calendar.png
 0000000053c90d4e0000000000000079 ed4aa8f9d657657cca7a07af678487d1 ffffffffffffffffffffffffffffffff 119 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/plus24.png
 0000000053bc32ae0000000000000b48 bc268c62a656ed8e8901d02a066d3068 ffffffffffffffffffffffffffffffff 2655 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Icon_Activity.png
+0000000053d902cd00000000000675c0 3da44696143eb21cadeff67c87ec2da0 ffffffffffffffffffffffffffffffff 423360 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/tab3.jpg
 0000000052819f120000000000000b14 fef69eaea6d1143c285752d24cf7b1a4 ffffffffffffffffffffffffffffffff 1811 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/MDSearchView.nib
 00000000525ffb2200000000000001cc ebc0b2d9abefc6444016903df1aba504 ffffffffffffffffffffffffffffffff 618 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/SampleHeaderImage.png
 0000000053d1b5af0000000000001063 a00534e3d7652050260a2a176f9e230c ffffffffffffffffffffffffffffffff 4195 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/geometry_@2X.png
@@ -73,17 +74,19 @@
 0000000053d8d6ae00000000000009af a132036b11a8497b051c8fbf3808cd20 ffffffffffffffffffffffffffffffff 1694 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/TestHeader.nib
 0000000053d7a8f70000000000004792 99edd5e873fc0f3c371786db0aa36ccb ffffffffffffffffffffffffffffffff 3528 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/search.png
 0000000053cb143a00000000000006b0 191419901b95e35cc8ec6a5d4e8a37d3 ffffffffffffffffffffffffffffffff 1523 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/two123@2x.png
+0000000053d8f5ba0000000000027d7f cc75363f54c375ef0e5d501904bdfe25 ffffffffffffffffffffffffffffffff 17624 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/cloudSync@2x.png
 0000000053caeafd000000000083d337 e5c05b0294731a8084844f7b0023bfe9 ffffffffffffffffffffffffffffffff 8639287 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/introVid.mov
 0000000053bf1a57000000000001630c 5b5a691eecce31e23c4340919c7684df ffffffffffffffffffffffffffffffff 90892 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Brandon_blk.otf
 00000000539b9b7b000000000001ec78 15dc679d11957c7bb806a2641e9d29cc ffffffffffffffffffffffffffffffff 126072 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Roboto-Regular.ttf
 0000000053d0e51c0000000000005522 1db16743616b5bd71cfd5220ef6d8a39 ffffffffffffffffffffffffffffffff 18830 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/milk.png
-00000000535fff120000000000000d2d c81cab02181a2201ec210cdef6554365 ffffffffffffffffffffffffffffffff 2157 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/TestPanel3.nib
+0000000053d901670000000000000d02 c81cab02181a2201ec210cdef6554365 ffffffffffffffffffffffffffffffff 2141 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/TestPanel3.nib
 0000000053cad684000000000002d21d e0fcaf4f4e86db001cdb4ab1965e8093 ffffffffffffffffffffffffffffffff 184861 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/coq.ttf
 0000000053d0e43e0000000000003cfd 58ced53648bb702c287a0ce8113a2561 ffffffffffffffffffffffffffffffff 17316 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/github.png
 0000000053d8e12c000000000001d1e4 740b87b7538b45149f1788ae3e7bc98d ffffffffffffffffffffffffffffffff 119268 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/CaeciliaLTStd-Roman.ttf
 0000000053b2a87800000000000011a8 76d49a2464742efae6fe95036ab5b0df ffffffffffffffffffffffffffffffff 4572 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/zoom.png
 0000000053b2a87400000000000012db d6a43ce6be9bbf5291434323bc6b9e31 ffffffffffffffffffffffffffffffff 4971 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/x.png
 0000000053b2a88d0000000000001426 f0eb250603eac54804ff63c1e327a160 ffffffffffffffffffffffffffffffff 5308 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/vinyl.png
+0000000053d902c5000000000002d1e2 995930f992640b870108f89ee31d7ae3 ffffffffffffffffffffffffffffffff 184802 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/tab2.jpg
 0000000053b2a89b0000000000000ff6 18280fe00d490d0f5182d78e5153541f ffffffffffffffffffffffffffffffff 4133 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/video.png
 0000000053b2a8a70000000000001330 8653b6848bf7e913f8bfb8e7c564b1c5 ffffffffffffffffffffffffffffffff 4932 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/user.png
 0000000053b2a8640000000000001107 b0ad32b890497bf948ba1648aaef4e25 ffffffffffffffffffffffffffffffff 4313 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/tv.png
@@ -92,8 +95,10 @@
 0000000053b2a85f00000000000012a2 bb102f9d7bde44f8bad7bc7430848b04 ffffffffffffffffffffffffffffffff 4658 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/timer.png
 0000000053b2a85b00000000000011fb 41cd9918ac2065dd3c31ad0e9cf8bcd0 ffffffffffffffffffffffffffffffff 4691 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/tablet.png
 0000000053b2a89f000000000000118c 9a6223900bc6d94d85ea0182fcfd4245 ffffffffffffffffffffffffffffffff 4380 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/switcher.png
+0000000053d903b50000000000000d02 889ffc180523ce3b67e8e83ca46d311e ffffffffffffffffffffffffffffffff 2141 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/TestPanel4.nib
 0000000053b2a88a00000000000012bb 920b6ccc3cbf0927c00a988a93100789 ffffffffffffffffffffffffffffffff 4920 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/stop.png
 0000000053b2a89d00000000000012bc 37bd215d20c91f610f05c9667a683423 ffffffffffffffffffffffffffffffff 4806 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Star.png
+0000000053d8fae30000000000043724 c5ae2881718119d7c1b1bb743b263a20 ffffffffffffffffffffffffffffffff 276260 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/tab1.jpg
 0000000053b2a86100000000000011e9 6b006930f324650a82a3ecafac380e58 ffffffffffffffffffffffffffffffff 4758 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/sight.png
 0000000053b2a88700000000000012bb 75259c2108d364ffdf7246b24149ec89 ffffffffffffffffffffffffffffffff 4732 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/shield.png
 0000000053b2a865000000000000118f e72eb4962ff4ec082fc240ee5a94421b ffffffffffffffffffffffffffffffff 4400 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/share.png
@@ -120,6 +125,7 @@
 0000000053b2a8780000000000000f4f 1ec6e513da5df9217e685b80ffca448b ffffffffffffffffffffffffffffffff 3976 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/many.png
 0000000053b2a8770000000000001189 a3269ad7970c06049924d2283e4966bf ffffffffffffffffffffffffffffffff 4467 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/mail.png
 0000000053b2a8710000000000001114 95000cc2ca819ffc02dd636d3d447b94 ffffffffffffffffffffffffffffffff 4307 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/lock.png
+0000000053d8f6b00000000000027d7f 858439b42785e48d1e26596e22a7bcf3 ffffffffffffffffffffffffffffffff 19643 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/task@2x.png
 0000000053b2a87200000000000010fa 35365b63719af941740e905687c7c08e ffffffffffffffffffffffffffffffff 4278 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/lock-open.png
 0000000053b2a8a4000000000000127e efcaec822ab2323b121dc84d5a1674e6 ffffffffffffffffffffffffffffffff 4838 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/link.png
 0000000053b2a8a200000000000011b3 914b8454da6902afaacc364390c60601 ffffffffffffffffffffffffffffffff 4513 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/lightning.png
@@ -185,7 +191,7 @@
 0000000053b12b940000000000000096 38b2ff18ad42397dd9ec83434bbf3845 ffffffffffffffffffffffffffffffff 150 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/ResourceRules.plist
 04d7740079c0ceba7331a79ea079624d 9963814bbe6e3fe427189c293db9d101 ffffffffffffffffffffffffffffffff 102 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app.dSYM
 3f87f8438e3fe7fe535f979fb7eb0368 20818000a94574200c1f87d75ebfc6ec ffffffffffffffffffffffffffffffff 1656 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Info.plist
-0000000053119ffe0000000000d6a6de 1bd10c430dabc29a2c71b7d649fb0117 ffffffffffffffffffffffffffffffff 2482352 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Taskly
+0000000053119ffe0000000000d6a6de 1bd10c430dabc29a2c71b7d649fb0117 ffffffffffffffffffffffffffffffff 2459700 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Taskly
 0000000053caea330000000000000088 3f87f843ddf50dcd535f979fb7eb03e0 ffffffffffffffffffffffffffffffff 1029 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/assetcatalog_generated_info.plist
 0000000053caea330000000000000088 3f87f843ddf50dcd535f979fb7eb03e0 ffffffffffffffffffffffffffffffff 595 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/assetcatalog_dependencies.txt
 2fdaa05327865045c9f686f9214c9d92 b8242e7f8b4ffb03df54913b9244d4f0 ffffffffffffffffffffffffffffffff 89832 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/NSManagedObject+CRUD.o
@@ -195,7 +201,7 @@
 2fdaa053740162acc9f686f9214c96df f89cfeab6781ad2f60100b9fd834a1d0 ffffffffffffffffffffffffffffffff 61668 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/customTableViewCell.o
 2fdaa05327a8a922c9f686f9214c91e1 b7799757e246b53fbc5717764967b7ea ffffffffffffffffffffffffffffffff 7516 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/RECommonFunctions.o
 2fdaa05374015112c9f686f9214c9555 55c9b514318215799f2489a66199e8ae ffffffffffffffffffffffffffffffff 6464 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/UIFont+UIFont_SystemFontOverride.o
-2fdaa05327d6e5cdc9f686f9214c9475 65247f2e4a8c5ae563e6320be6c0eafd ffffffffffffffffffffffffffffffff 107892 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/videoViewController.o
+2fdaa05327d6e5cdc9f686f9214c9475 65247f2e4a8c5ae563e6320be6c0eafd ffffffffffffffffffffffffffffffff 107332 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/videoViewController.o
 2fdaa053278cd033c9f686f9214c9dcf 676eea87f28ffbc52556298015478dac ffffffffffffffffffffffffffffffff 11676 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/AppStorage.o
 2fdaa05327a8a922c9f686f9214c8b0e 591286f9a3e968b7e5ca5fef9bccb1fa ffffffffffffffffffffffffffffffff 86712 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/REMenuItem.o
 2fdaa05327cc5cabc9f686f9214c95af 152214ff5fa60d1ed61fbb5c07d6e53c ffffffffffffffffffffffffffffffff 61884 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/settingsTableViewController.o
@@ -216,6 +222,7 @@
 2fdaa05327d46eacc9f686f9214c976e c90ebffde0b1e40f32154158c19a8c74 ffffffffffffffffffffffffffffffff 150436 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/MRFlipTransition.o
 2fdaa0532695049ec9f686f9214c94de 572f0cc9aae086eb9f35be67431731ce ffffffffffffffffffffffffffffffff 57284 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7s/MDSearchBar.o
 0000000053cd17e30000000000000a38 2fdaa05327d98c6fc9f686f9214c9ef0 ffffffffffffffffffffffffffffffff 96448 /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Taskly-Prefix-fozefupbbqfrkiclpoixsrallppe/Taskly-Prefix.pch.pch
+0000000053d8e83a0000000000027d7f ea4e1abcd89e9f450bce15a710b50650 ffffffffffffffffffffffffffffffff 17600 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/Services.png
 0000000053d8ea9b0000000000027d7f 3998011ead9990deb7a5c88bf47f2ba0 ffffffffffffffffffffffffffffffff 45696 /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/Taskly.app/cola.png
 ffffffffffffffffffffffffffffffff 0def2e8fc366c5dcabef4b13008066c4 ffffffffffffffffffffffffffffffff 56456 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7/connectorsViewController.o
 ffffffffffffffffffffffffffffffff 6f0ac38e65db4fb2c0c08adc8090cec3 ffffffffffffffffffffffffffffffff 89240 /Users/adamf/Desktop/trackly/Build/Intermediates/Taskly.build/Debug-iphoneos/Taskly.build/Objects-normal/armv7/CoreDataHelper.o

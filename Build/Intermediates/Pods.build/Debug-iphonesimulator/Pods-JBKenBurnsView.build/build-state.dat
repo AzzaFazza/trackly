@@ -149,7 +149,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies49648fe71f89b941^9cfa94e71f89b941^---0#1#1#--18"Check dependencies36"588EDDC7-B9D1-45D6-A2B7-09617C36CD15-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies166e15bf2d89b941^c17056bf2d89b941^---0#1#1#--18"Check dependencies36"57C78228-12E9-41AA-85E3-44926F8891CA-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-JBKenBurnsView.build/Objects-normal/i386/JBKenBurnsView.o /Users/adamf/Desktop/trackly/Pods/JBKenBurnsView/KenBurns/JBKenBurnsView.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s428411961.171369

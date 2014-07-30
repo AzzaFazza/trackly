@@ -466,7 +466,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		XpyLdWMc1F3oPE2UVfdTkzTAHTo=
+		vr3yz/ukUrKWkLdbXB4v8bXK4Ec=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -660,6 +660,10 @@
 		<data>
 		sltUG5q386u9mIG3MZPXrUKhnoE=
 		</data>
+		<key>Services@2x.png</key>
+		<data>
+		sltUG5q386u9mIG3MZPXrUKhnoE=
+		</data>
 		<key>Star.png</key>
 		<data>
 		T4vyfiC9Amt8SIfhfhCcoUaP3Ko=
@@ -674,7 +678,11 @@
 		</data>
 		<key>TestPanel3.nib</key>
 		<data>
-		FXoEhh1+DTthu/a6qDWcTySMYlE=
+		18iR4cbzFutscKr9YRlfXiRQ/3o=
+		</data>
+		<key>TestPanel4.nib</key>
+		<data>
+		6C03EAcklmFDCZjRCZEbjdBf1FE=
 		</data>
 		<key>Toronto, ON.jpg</key>
 		<data>
@@ -795,6 +803,10 @@
 		<key>cloud.png</key>
 		<data>
 		0O9j21qz/HfNzMxwp98GuZX5QLo=
+		</data>
+		<key>cloudSync@2x.png</key>
+		<data>
+		57K4ko6mI+oHU5lK2ng4dVZzK/4=
 		</data>
 		<key>cocktail.png</key>
 		<data>
@@ -1224,9 +1236,25 @@
 		<data>
 		XH1TqLxfPe+yrRP453/0+YUQVnQ=
 		</data>
+		<key>tab1.jpg</key>
+		<data>
+		ocl3g5PlXyYdsBCqwQsDcLJaGvs=
+		</data>
+		<key>tab2.jpg</key>
+		<data>
+		x9FN/ftLQhuS0g3pXdv6P1bNaJ4=
+		</data>
+		<key>tab3.jpg</key>
+		<data>
+		QhTOJ3Wu9IGC7zF+tFBs/+x9ONQ=
+		</data>
 		<key>tablet.png</key>
 		<data>
 		DapFmKRm9w2HugUojwvnkeFbJTw=
+		</data>
+		<key>task@2x.png</key>
+		<data>
+		gDmsXf8hpGRewl45G1LxMiOJLLc=
 		</data>
 		<key>three115.png</key>
 		<data>
@@ -1757,7 +1785,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		XpyLdWMc1F3oPE2UVfdTkzTAHTo=
+		vr3yz/ukUrKWkLdbXB4v8bXK4Ec=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -1951,6 +1979,10 @@
 		<data>
 		sltUG5q386u9mIG3MZPXrUKhnoE=
 		</data>
+		<key>Services@2x.png</key>
+		<data>
+		sltUG5q386u9mIG3MZPXrUKhnoE=
+		</data>
 		<key>Star.png</key>
 		<data>
 		T4vyfiC9Amt8SIfhfhCcoUaP3Ko=
@@ -1965,7 +1997,11 @@
 		</data>
 		<key>TestPanel3.nib</key>
 		<data>
-		FXoEhh1+DTthu/a6qDWcTySMYlE=
+		18iR4cbzFutscKr9YRlfXiRQ/3o=
+		</data>
+		<key>TestPanel4.nib</key>
+		<data>
+		6C03EAcklmFDCZjRCZEbjdBf1FE=
 		</data>
 		<key>Toronto, ON.jpg</key>
 		<data>
@@ -2086,6 +2122,10 @@
 		<key>cloud.png</key>
 		<data>
 		0O9j21qz/HfNzMxwp98GuZX5QLo=
+		</data>
+		<key>cloudSync@2x.png</key>
+		<data>
+		57K4ko6mI+oHU5lK2ng4dVZzK/4=
 		</data>
 		<key>cocktail.png</key>
 		<data>
@@ -2515,9 +2555,25 @@
 		<data>
 		XH1TqLxfPe+yrRP453/0+YUQVnQ=
 		</data>
+		<key>tab1.jpg</key>
+		<data>
+		ocl3g5PlXyYdsBCqwQsDcLJaGvs=
+		</data>
+		<key>tab2.jpg</key>
+		<data>
+		x9FN/ftLQhuS0g3pXdv6P1bNaJ4=
+		</data>
+		<key>tab3.jpg</key>
+		<data>
+		QhTOJ3Wu9IGC7zF+tFBs/+x9ONQ=
+		</data>
 		<key>tablet.png</key>
 		<data>
 		DapFmKRm9w2HugUojwvnkeFbJTw=
+		</data>
+		<key>task@2x.png</key>
+		<data>
+		gDmsXf8hpGRewl45G1LxMiOJLLc=
 		</data>
 		<key>three115.png</key>
 		<data>

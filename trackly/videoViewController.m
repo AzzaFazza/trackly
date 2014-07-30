@@ -82,7 +82,6 @@
     }
     
     //Labels font
-    [[UILabel appearance] setFont:[UIFont fontWithName:@"CoquetteRegular" size:22.0]];
     subTitle.font = [UIFont fontWithName:@"CoquetteRegular" size:16.0];
     title.font = [UIFont fontWithName:@"CoquetteRegular" size:74.0];
     
@@ -160,13 +159,13 @@
     }
     //Create Stock Panel with header
     UIView *headerView = [[NSBundle mainBundle] loadNibNamed:@"TestHeader" owner:nil options:nil][0];
-    MYIntroductionPanel *panel1 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Welcome to Taskly!" description:@"Taskly allows users to keep track of all their tasks by connecting web services together in one task list.\n\nSwipe right to Indicate a task is complete, Swipe right to Delete it." image:[UIImage imageNamed:@".png"] header:headerView];
+    MYIntroductionPanel *panel1 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Welcome to Taskly!" description:@"Taskly allows users to keep track of all their tasks by connecting web services together in one task list.\n\nSwipe right to Indicate a task is complete, Swipe left to Delete it." image:[UIImage imageNamed:nil] header:headerView];
     
     //Create Stock Panel With Image
-    MYIntroductionPanel *panel2 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Sync Across Devices" description:@"By creating a Taskly account you can Sync your tasklist across devices.\n\n\nKeep track of everything using one service" image:[UIImage imageNamed:@"ForkImage.png"]];
+    MYIntroductionPanel *panel2 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Sync Across Devices" description:@"By creating a Taskly account you can access Taskly CloudSync.\n\nBack up your tasklist across devices.\n\nKeep track of everything using one service" image:[UIImage imageNamed:@"cloudSync.png"]];
     
     //Create Panel From Nib
-    MYIntroductionPanel *panel3 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Connect Everything" description:@"Using the Connectors Menu, Users can import tasks from:\n\nGoogle Calendar, Asana, GitHub, Evernote and more!\n\n\nKeeping on top of everything has never been easier" image:[UIImage imageNamed:@"Services.png"]];
+    MYIntroductionPanel *panel3 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Connect Everything" description:@"Using the Connectors Menu, Users can import tasks from:\n\nGoogle Calendar, Asana, GitHub, Evernote and more\n\nKeeping on top of everything has never been easier" image:[UIImage imageNamed:@"Services.png"]];
     
     
     //Add panels to an array
@@ -175,8 +174,8 @@
     //Create the introduction view and set its delegate
     MYBlurIntroductionView *introductionView = [[MYBlurIntroductionView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
     introductionView.delegate = self;
-    introductionView.BackgroundImageView.image = [UIImage imageNamed:nil];
-    [introductionView setBackgroundColor:[UIColor colorWithRed:63.0f/255.0f green:81.0f/255.0f blue:181.0f/255.0f alpha:0.96]];
+    introductionView.BackgroundImageView.image = [UIImage imageNamed:@"tab3.jpg"];
+    [introductionView setBackgroundColor:[UIColor colorWithRed:63.0f/255.0f green:81.0f/255.0f blue:181.0f/255.0f alpha:0.50]];
     //introductionView.LanguageDirection = MYLanguageDirectionRightToLeft;
     
     //Build the introduction with desired panels
