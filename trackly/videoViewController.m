@@ -148,24 +148,59 @@
     
 }
 -(void)buildIntro{
-    for (NSString* family in [UIFont familyNames])
-    {
-        NSLog(@"%@", family);
-        
-        for (NSString* name in [UIFont fontNamesForFamilyName: family])
-        {
-            NSLog(@" %@", name);
-        }
-    }
+//    for (NSString* family in [UIFont familyNames])
+//    {
+//        NSLog(@"%@", family);
+//        
+//        for (NSString* name in [UIFont fontNamesForFamilyName: family])
+//        {
+//            NSLog(@" %@", name);
+//        }
+//    }
     //Create Stock Panel with header
+    
     UIView *headerView = [[NSBundle mainBundle] loadNibNamed:@"TestHeader" owner:nil options:nil][0];
-    MYIntroductionPanel *panel1 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Welcome to Taskly!" description:@"Taskly allows users to keep track of all their tasks by connecting web services together in one task list.\n\nSwipe right to Indicate a task is complete, Swipe left to Delete it." image:[UIImage imageNamed:nil] header:headerView];
+    
+    NSString * titleString = @"Keep\ntrack of\nEverything";
+    NSString * panel2String = @"By creating a Taskly account you can access Taskly CloudSync.\n\nBack up your tasklist across devices";
+    NSString * panel3String = @"Using the Connectors Menu, Users can import tasks from:\n\nGoogle Calendar, Asana, GitHub, Evernote and more";
+    
+    MYIntroductionPanel *panel1 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Welcome to Taskly" description:titleString image:[UIImage imageNamed:nil] header:headerView];
     
     //Create Stock Panel With Image
-    MYIntroductionPanel *panel2 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Sync Across Devices" description:@"By creating a Taskly account you can access Taskly CloudSync.\n\nBack up your tasklist across devices.\n\nKeep track of everything using one service" image:[UIImage imageNamed:@"cloudSync.png"]];
+    MYIntroductionPanel *panel2 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Sync Across Devices" description:panel2String image:[UIImage imageNamed:@"cloudSync.png"]];
     
     //Create Panel From Nib
-    MYIntroductionPanel *panel3 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Connect Everything" description:@"Using the Connectors Menu, Users can import tasks from:\n\nGoogle Calendar, Asana, GitHub, Evernote and more\n\nKeeping on top of everything has never been easier" image:[UIImage imageNamed:@"Services.png"]];
+    MYIntroductionPanel *panel3 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Connect Everything" description:panel3String image:[UIImage imageNamed:@"Services.png"]];
+    panel1.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:60.];
+    CGSize maximumLabelSize = CGSizeMake(296, FLT_MAX);
+
+    CGSize expectedLabelSize = [titleString sizeWithFont:panel1.PanelDescriptionLabel.font constrainedToSize:maximumLabelSize lineBreakMode:panel1.PanelDescriptionLabel.lineBreakMode];
+    
+    //adjust the label the the new height.
+    CGRect newFrame = panel1.PanelDescriptionLabel.frame;
+    newFrame.size.height = expectedLabelSize.height;
+    panel1.PanelDescriptionLabel.frame = newFrame;
+    
+    panel2.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:24.];
+    CGSize maximumLabelSize2 = CGSizeMake(296, FLT_MAX);
+    
+    CGSize expectedLabelSize2 = [panel2String sizeWithFont:panel2.PanelDescriptionLabel.font constrainedToSize:maximumLabelSize2 lineBreakMode:panel2.PanelDescriptionLabel.lineBreakMode];
+    
+    //adjust the label the the new height.
+    CGRect newFrame2 = panel2.PanelDescriptionLabel.frame;
+    newFrame2.size.height = expectedLabelSize2.height;
+    panel2.PanelDescriptionLabel.frame = newFrame2;
+    
+    panel3.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:24.];
+    CGSize maximumLabelSize3 = CGSizeMake(296, FLT_MAX);
+    
+    CGSize expectedLabelSize3 = [panel3String sizeWithFont:panel3.PanelDescriptionLabel.font constrainedToSize:maximumLabelSize3 lineBreakMode:panel3.PanelDescriptionLabel.lineBreakMode];
+    
+    //adjust the label the the new height.
+    CGRect newFrame3 = panel3.PanelDescriptionLabel.frame;
+    newFrame3.size.height = expectedLabelSize3.height;
+    panel3.PanelDescriptionLabel.frame = newFrame3;
     
     //Add panels to an array
     NSArray *panels = @[panel1, panel2, panel3];

@@ -17,7 +17,7 @@
 }
 
 + (UIFont *)systemFontOfSize:(CGFloat)fontSize {
-    return [UIFont fontWithName:@"HelveticaNeue-Light" size:16];
+    return [UIFont fontWithName:@"AvenirNext-Medium" size:16];
 }
 
 #pragma clang diagnostic pop
