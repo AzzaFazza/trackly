@@ -167,7 +167,6 @@
     //Create Panel From Nib
     MYIntroductionPanel *panel3 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Connect Everything" description:@"Using the Connectors Menu, Users can import tasks from:\n\nGoogle Calendar, Asana, GitHub, Evernote and more\n\nKeeping on top of everything has never been easier" image:[UIImage imageNamed:@"Services.png"]];
     
-    
     //Add panels to an array
     NSArray *panels = @[panel1, panel2, panel3];
     

@@ -107,7 +107,6 @@
 */
 
 -(void)buildPanelWithFrame:(CGRect)frame{
-    [[UILabel appearance] setFont:[UIFont fontWithName:@"CoquetteRegular" size:22.0]];
     CGFloat panelTitleHeight = 0;
     CGFloat panelDescriptionHeight = 0;
     

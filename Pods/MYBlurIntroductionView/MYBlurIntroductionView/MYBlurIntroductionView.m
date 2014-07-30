@@ -23,7 +23,6 @@
         self.MasterScrollView.delegate = self;
         self.frame = frame;
         [self initializeViewComponents];
-        [[UILabel appearance] setFont:[UIFont fontWithName:@"CoquetteRegular" size:22.0]];
     }
     return self;
 }
