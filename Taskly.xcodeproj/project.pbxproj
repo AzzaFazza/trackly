@@ -109,6 +109,7 @@
 		36C05A3419811C74008F6AA0 /* trello.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A3319811C74008F6AA0 /* trello.png */; };
 		36C05A3619811CA3008F6AA0 /* milk.png in Resources */ = {isa = PBXBuildFile; fileRef = 36C05A3519811CA3008F6AA0 /* milk.png */; };
 		36C05A411981EE9D008F6AA0 /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C05A401981EE9D008F6AA0 /* Task.m */; };
+		36CB89FD1988F5DB00189EAC /* calandarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CB89FC1988F5DB00189EAC /* calandarView.m */; };
 		36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 36CE9399197DBD270032EDCB /* KLCPopup.m */; };
 		36CE939C197DD18A0032EDCB /* syncIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36CE939B197DD18A0032EDCB /* syncIcon@2x.png */; };
 		36E7597319866EE20039BCCA /* MRFlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E7597219866EE20039BCCA /* MRFlipTransition.m */; };
@@ -258,6 +259,8 @@
 		36C05A3519811CA3008F6AA0 /* milk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = milk.png; sourceTree = "<group>"; };
 		36C05A3F1981EE9D008F6AA0 /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
 		36C05A401981EE9D008F6AA0 /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		36CB89FB1988F5DB00189EAC /* calandarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = calandarView.h; sourceTree = "<group>"; };
+		36CB89FC1988F5DB00189EAC /* calandarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = calandarView.m; sourceTree = "<group>"; };
 		36CE9398197DBD270032EDCB /* KLCPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCPopup.h; sourceTree = "<group>"; };
 		36CE9399197DBD270032EDCB /* KLCPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCPopup.m; sourceTree = "<group>"; };
 		36CE939B197DD18A0032EDCB /* syncIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "syncIcon@2x.png"; sourceTree = "<group>"; };
@@ -354,6 +357,7 @@
 		3683AAF319790D9E005E04E7 /* trackly */ = {
 			isa = PBXGroup;
 			children = (
+				36CB89F71988F59900189EAC /* CalandarView */,
 				369AACD41987ECE000764EBF /* SearchBar */,
 				36E7597019866ED70039BCCA /* FlipView */,
 				36C05A1B19810A6B008F6AA0 /* Connectors */,
@@ -558,6 +562,15 @@
 				36C05A2C19811B63008F6AA0 /* Outlook-High-res.png */,
 			);
 			name = "Web Services";
+			sourceTree = "<group>";
+		};
+		36CB89F71988F59900189EAC /* CalandarView */ = {
+			isa = PBXGroup;
+			children = (
+				36CB89FB1988F5DB00189EAC /* calandarView.h */,
+				36CB89FC1988F5DB00189EAC /* calandarView.m */,
+			);
+			name = CalandarView;
 			sourceTree = "<group>";
 		};
 		36CE939D197DD2C40032EDCB /* KLCPopup */ = {
@@ -812,6 +825,7 @@
 				36B3048619794F0A001951E2 /* REMenuItemView.m in Sources */,
 				36CE939A197DBD270032EDCB /* KLCPopup.m in Sources */,
 				3683AAFE19790D9E005E04E7 /* AppDelegate.m in Sources */,
+				36CB89FD1988F5DB00189EAC /* calandarView.m in Sources */,
 				369A0960197D456300153F18 /* GeneralUtils.m in Sources */,
 				36B3048419794F0A001951E2 /* REMenuContainerView.m in Sources */,
 				369AACDF1987ECFC00764EBF /* MDSearchBarController.m in Sources */,

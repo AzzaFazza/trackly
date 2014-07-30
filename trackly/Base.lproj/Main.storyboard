@@ -126,9 +126,29 @@
                         <outlet property="Trello" destination="TIH-jC-aWU" id="36u-1J-Ggu"/>
                     </connections>
                 </viewController>
+                <navigationItem title="Connectors" id="XdK-8B-P2m"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DA1-sU-71V" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="898" y="379"/>
+        </scene>
+        <!--Calandar-->
+        <scene sceneID="pxh-eW-9Dk">
+            <objects>
+                <viewController storyboardIdentifier="Calandar" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aIW-8z-pL0" userLabel="Calandar" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IQQ-QW-GSV"/>
+                        <viewControllerLayoutGuide type="bottom" id="VtE-4C-EL6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="5kv-xg-cnb" customClass="RSDFDatePickerView">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Calandar" id="Btf-33-DVf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="05Q-gN-uTo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="898" y="-339"/>
         </scene>
         <!--View Controller - Taskly-->
         <scene sceneID="ufC-wZ-h7g">
@@ -354,6 +374,7 @@
                         <outlet property="tasksHeaderLabel" destination="pMe-fW-5ZQ" id="Dl6-iD-frE"/>
                         <outlet property="trayDisplayButton" destination="ynX-A0-O3B" id="ldc-LQ-unF"/>
                         <segue destination="ISK-ZB-ybW" kind="custom" id="Zuy-jL-4Qw"/>
+                        <segue destination="aIW-8z-pL0" kind="custom" id="F06-Aw-eCr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>

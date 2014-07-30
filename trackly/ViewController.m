@@ -12,6 +12,8 @@
 #import "connectorsViewController.h"
 #import "videoViewController.h"
 #import "AnotherViewController.h"
+#import "calandarView.h"
+
 
 //Frameworks + Cocoa Controls
 #import "REMenu.h"
@@ -216,12 +218,15 @@
                                                              
                                                          }];
     
-    REMenuItem *activityItem = [[REMenuItem alloc] initWithTitle:@"Garbage Pile"
-                                                        subtitle:@"Completed Tasks"
+    REMenuItem *activityItem = [[REMenuItem alloc] initWithTitle:@"Calendar"
+                                                        subtitle:@"Show your Calender"
                                                            image:[UIImage imageNamed:@"Icon_Activity"]
                                                 highlightedImage:nil
                                                           action:^(REMenuItem *item) {
                                                               NSLog(@"Item: %@", item);
+                                                              UIStoryboard *storyboard = self.storyboard;
+                                                              calandarView *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Calandar"];
+                                                              [self.navigationController pushViewController:destVC animated:YES];
                                                           }];
     
     REMenuItem *profileItem = [[REMenuItem alloc] initWithTitle:@"Logout"
