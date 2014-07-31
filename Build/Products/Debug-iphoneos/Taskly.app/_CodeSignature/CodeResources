@@ -420,6 +420,82 @@
 		<data>
 		SnsWg1TCZ6JkrLLHO9SPcAKu5p8=
 		</data>
+		<key>AcousticModelEnglish.bundle/LanguageModelGeneratorLookupList.text</key>
+		<data>
+		/9M/dMxmFv5Bx/4MahPLbDl6chU=
+		</data>
+		<key>AcousticModelEnglish.bundle/en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>AcousticModelEnglish.bundle/feat.params</key>
+		<data>
+		tpU19Y/w0RcLhWbWIEntVR1tVXk=
+		</data>
+		<key>AcousticModelEnglish.bundle/mdef</key>
+		<data>
+		8RNynmaqb1eH0NsY+rytUBs2yzs=
+		</data>
+		<key>AcousticModelEnglish.bundle/means</key>
+		<data>
+		Cx982AjTmFEvNYZNfU9wFlXpHPw=
+		</data>
+		<key>AcousticModelEnglish.bundle/noisedict</key>
+		<data>
+		BspECSHqGVwK5dbR52eNRD/vVRs=
+		</data>
+		<key>AcousticModelEnglish.bundle/sendump</key>
+		<data>
+		xMi2AFV2wbRmMVJtDn9MTx+uUNM=
+		</data>
+		<key>AcousticModelEnglish.bundle/transition_matrices</key>
+		<data>
+		8oG1T75aeBTUxwBefHnCjlSwLJk=
+		</data>
+		<key>AcousticModelEnglish.bundle/variances</key>
+		<data>
+		wiux6cx776lWpL67+IMF7/Xb/B4=
+		</data>
+		<key>AcousticModelSpanish.bundle/LICENSE</key>
+		<data>
+		buCDyXkrow6pSRAMjsapavYC8LQ=
+		</data>
+		<key>AcousticModelSpanish.bundle/LanguageModelGeneratorLookupList.text</key>
+		<data>
+		8TjRuQyol6HGFRJDUqxD1aD39SM=
+		</data>
+		<key>AcousticModelSpanish.bundle/en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>AcousticModelSpanish.bundle/feat.params</key>
+		<data>
+		CkkzEdvZZaPThhhRYeyNXo7vQYw=
+		</data>
+		<key>AcousticModelSpanish.bundle/mdef</key>
+		<data>
+		8t9Br6cXilQNdgvRhIH3HglK5BA=
+		</data>
+		<key>AcousticModelSpanish.bundle/means</key>
+		<data>
+		X/6inSu6URMuib6OV1wM2rkKUnw=
+		</data>
+		<key>AcousticModelSpanish.bundle/mixture_weights</key>
+		<data>
+		YuNk5xjhYHZB/ovED2gSdvphEjE=
+		</data>
+		<key>AcousticModelSpanish.bundle/noisedict</key>
+		<data>
+		6FkNgQXKmp4ICaj98pa6r5D+0xk=
+		</data>
+		<key>AcousticModelSpanish.bundle/transition_matrices</key>
+		<data>
+		Ud8zTxTDZH1wJ7F4nv1MYyzJg0g=
+		</data>
+		<key>AcousticModelSpanish.bundle/variances</key>
+		<data>
+		NjgMS4M3BR4q1ciYRQ1RXARiHHQ=
+		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
 		q0PJyknWiLYqhKBBkOUYUDv9nx4=
@@ -466,7 +542,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ema5bwtq1Zmrf/pU5nvv+ER4SZ0=
+		wSgmNBtNU1hYUlmZh6J4ZBQ7cMc=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -474,47 +550,47 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Calandar.nib</key>
 		<data>
-		YZzFdKF6Gr7+NAap6dk8WEq1m80=
+		yKODOOEOru2hOg6jM/MvN+FLoUA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Connector.nib</key>
 		<data>
-		ZjhOOAselcns4T7LVpZA9dwVqmQ=
+		hopRZLs7o7R3mwHyjPg7F6bAew0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
 		<data>
-		NV9UzxaAXRueKHkScTXIZmVpUmc=
+		N+14OO+Qxbph0R6UcoO39wd/k7I=
 		</data>
 		<key>Base.lproj/Main.storyboardc/S8d-qF-8gj-view-NBg-eA-zdi.nib</key>
 		<data>
-		K8jrqHFeZ7QK8nVNthcJNoihDcE=
+		zHsn6D/DJwJHUroq3nT8EIY7n+4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Settings.nib</key>
 		<data>
-		2eSLhIekw2bOigbUWL5AhhRAd/E=
+		2qaQ7dOgqeQUv8iBBg14u7zOzyY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		+jtYqAft2D2vGwayFrKq5U4ZZHI=
+		sRokt4pI1TjGjx/KVA+bZBHgUQM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		8zho05Li+NkSnLhoQiEs4M2BnT0=
+		tVfierz6VzwwsdMoWVg804wZOcM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/aIW-8z-pL0-view-5kv-xg-cnb.nib</key>
 		<data>
-		HvVnFLjaqaHpeuYjSbtttY0veXs=
+		DW3AXApc4e/JWSGmOF0qlX5CTAM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		guiDAV0IVvykLO8oM0cWxlbtWpo=
+		zR70R2DaaFkeqfrpOE8Zus4JCmg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		B/pHa4e9cJNCgnXAVZlGQER+kU0=
+		UU5bNA1/ZfIAAYhCr1DLX3NNNYE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		B6wwt4ZDNk52RDYj4M3BDMEJnpg=
+		v3YcpmZ7gWwSYhA4USeaAwckDlA=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -626,11 +702,15 @@
 		</data>
 		<key>MDSearchBar.nib</key>
 		<data>
-		yN6vlj8ZW0GUkH7Q5tRdiaDFTKI=
+		vIHprgTvtTdKpmpLqg40qBp1oSM=
 		</data>
 		<key>MDSearchView.nib</key>
 		<data>
-		a1kLdkFUwxP8/45ySRup14Jh80c=
+		Cbmp2+wOyJ8lHKHMOOwmu+/CDtE=
+		</data>
+		<key>Mic@2x.png</key>
+		<data>
+		2S7W8GProzZyW1fuSiBLmbi6rOM=
 		</data>
 		<key>Outlook-High-res.png</key>
 		<data>
@@ -656,10 +736,6 @@
 		<data>
 		GJazNhAeRtBd87u+u+cZ8v8Ol+A=
 		</data>
-		<key>Services.png</key>
-		<data>
-		sltUG5q386u9mIG3MZPXrUKhnoE=
-		</data>
 		<key>Services@2x.png</key>
 		<data>
 		sltUG5q386u9mIG3MZPXrUKhnoE=
@@ -674,19 +750,19 @@
 		</data>
 		<key>TestHeader.nib</key>
 		<data>
-		OfBKKoRC8uISqR6dD9IfLTaMStI=
+		BtviU9Db/BL/aUeRdPiQXL5EKHU=
 		</data>
 		<key>TestPanel3.nib</key>
 		<data>
-		L1L6ieDmQaDKfhclPAyn7kLjH+A=
+		hA1buL/p3jN6giYLGvRL/LPSVe4=
 		</data>
 		<key>TestPanel4.nib</key>
 		<data>
-		j5IbohREfroqbw+dXk6RQnwblD0=
+		CgNF1L85sh7X5rlFPK+GF0tS1x0=
 		</data>
 		<key>TestPanel5.nib</key>
 		<data>
-		/SMO6wgRxfmJZ37UNn7+afLTMzk=
+		JjpoBXN3FhNXawtMM1WgG84nA2k=
 		</data>
 		<key>Toronto, ON.jpg</key>
 		<data>
@@ -820,10 +896,6 @@
 		<data>
 		HXJST7+y497THZWfyfxIVJL1QfM=
 		</data>
-		<key>cola.png</key>
-		<data>
-		1nrOJq5C9kvXHFh9QMCegJaFQu8=
-		</data>
 		<key>conf.png</key>
 		<data>
 		JCQV9DqCp660UZXX6nziAvKOk14=
@@ -864,14 +936,6 @@
 		<data>
 		+yIeI4lSceRiF8st4B0pF7YnQJY=
 		</data>
-		<key>dark37.png</key>
-		<data>
-		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
-		</data>
-		<key>dark37@2x.png</key>
-		<data>
-		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
-		</data>
 		<key>day7.png</key>
 		<data>
 		gXEXkmhufdfePiRCStPClzlHiBE=
@@ -895,14 +959,6 @@
 		<key>dynamic.png</key>
 		<data>
 		g5QSpxtFLJdK3fR1WxxYh1EA+5E=
-		</data>
-		<key>elNav/ELHeaderView.h</key>
-		<data>
-		VqdRphbtv4UUw9eytlLhW+NAEJI=
-		</data>
-		<key>elNav/ELHeaderView.m</key>
-		<data>
-		Htu75rXZDOF58EtC8EMcgXXv2yc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
@@ -1743,6 +1799,82 @@
 		<data>
 		SnsWg1TCZ6JkrLLHO9SPcAKu5p8=
 		</data>
+		<key>AcousticModelEnglish.bundle/LanguageModelGeneratorLookupList.text</key>
+		<data>
+		/9M/dMxmFv5Bx/4MahPLbDl6chU=
+		</data>
+		<key>AcousticModelEnglish.bundle/en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>AcousticModelEnglish.bundle/feat.params</key>
+		<data>
+		tpU19Y/w0RcLhWbWIEntVR1tVXk=
+		</data>
+		<key>AcousticModelEnglish.bundle/mdef</key>
+		<data>
+		8RNynmaqb1eH0NsY+rytUBs2yzs=
+		</data>
+		<key>AcousticModelEnglish.bundle/means</key>
+		<data>
+		Cx982AjTmFEvNYZNfU9wFlXpHPw=
+		</data>
+		<key>AcousticModelEnglish.bundle/noisedict</key>
+		<data>
+		BspECSHqGVwK5dbR52eNRD/vVRs=
+		</data>
+		<key>AcousticModelEnglish.bundle/sendump</key>
+		<data>
+		xMi2AFV2wbRmMVJtDn9MTx+uUNM=
+		</data>
+		<key>AcousticModelEnglish.bundle/transition_matrices</key>
+		<data>
+		8oG1T75aeBTUxwBefHnCjlSwLJk=
+		</data>
+		<key>AcousticModelEnglish.bundle/variances</key>
+		<data>
+		wiux6cx776lWpL67+IMF7/Xb/B4=
+		</data>
+		<key>AcousticModelSpanish.bundle/LICENSE</key>
+		<data>
+		buCDyXkrow6pSRAMjsapavYC8LQ=
+		</data>
+		<key>AcousticModelSpanish.bundle/LanguageModelGeneratorLookupList.text</key>
+		<data>
+		8TjRuQyol6HGFRJDUqxD1aD39SM=
+		</data>
+		<key>AcousticModelSpanish.bundle/en.lproj/InfoPlist.strings</key>
+		<data>
+		zmV6UqBSo6r1NOz798vd5O4zTBA=
+		</data>
+		<key>AcousticModelSpanish.bundle/feat.params</key>
+		<data>
+		CkkzEdvZZaPThhhRYeyNXo7vQYw=
+		</data>
+		<key>AcousticModelSpanish.bundle/mdef</key>
+		<data>
+		8t9Br6cXilQNdgvRhIH3HglK5BA=
+		</data>
+		<key>AcousticModelSpanish.bundle/means</key>
+		<data>
+		X/6inSu6URMuib6OV1wM2rkKUnw=
+		</data>
+		<key>AcousticModelSpanish.bundle/mixture_weights</key>
+		<data>
+		YuNk5xjhYHZB/ovED2gSdvphEjE=
+		</data>
+		<key>AcousticModelSpanish.bundle/noisedict</key>
+		<data>
+		6FkNgQXKmp4ICaj98pa6r5D+0xk=
+		</data>
+		<key>AcousticModelSpanish.bundle/transition_matrices</key>
+		<data>
+		Ud8zTxTDZH1wJ7F4nv1MYyzJg0g=
+		</data>
+		<key>AcousticModelSpanish.bundle/variances</key>
+		<data>
+		NjgMS4M3BR4q1ciYRQ1RXARiHHQ=
+		</data>
 		<key>AppIcon40x40@2x.png</key>
 		<data>
 		q0PJyknWiLYqhKBBkOUYUDv9nx4=
@@ -1789,7 +1921,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		ema5bwtq1Zmrf/pU5nvv+ER4SZ0=
+		wSgmNBtNU1hYUlmZh6J4ZBQ7cMc=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -1797,47 +1929,47 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Calandar.nib</key>
 		<data>
-		YZzFdKF6Gr7+NAap6dk8WEq1m80=
+		yKODOOEOru2hOg6jM/MvN+FLoUA=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Connector.nib</key>
 		<data>
-		ZjhOOAselcns4T7LVpZA9dwVqmQ=
+		hopRZLs7o7R3mwHyjPg7F6bAew0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
 		<data>
-		NV9UzxaAXRueKHkScTXIZmVpUmc=
+		N+14OO+Qxbph0R6UcoO39wd/k7I=
 		</data>
 		<key>Base.lproj/Main.storyboardc/S8d-qF-8gj-view-NBg-eA-zdi.nib</key>
 		<data>
-		K8jrqHFeZ7QK8nVNthcJNoihDcE=
+		zHsn6D/DJwJHUroq3nT8EIY7n+4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Settings.nib</key>
 		<data>
-		2eSLhIekw2bOigbUWL5AhhRAd/E=
+		2qaQ7dOgqeQUv8iBBg14u7zOzyY=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		+jtYqAft2D2vGwayFrKq5U4ZZHI=
+		sRokt4pI1TjGjx/KVA+bZBHgUQM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		8zho05Li+NkSnLhoQiEs4M2BnT0=
+		tVfierz6VzwwsdMoWVg804wZOcM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/aIW-8z-pL0-view-5kv-xg-cnb.nib</key>
 		<data>
-		HvVnFLjaqaHpeuYjSbtttY0veXs=
+		DW3AXApc4e/JWSGmOF0qlX5CTAM=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		guiDAV0IVvykLO8oM0cWxlbtWpo=
+		zR70R2DaaFkeqfrpOE8Zus4JCmg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		B/pHa4e9cJNCgnXAVZlGQER+kU0=
+		UU5bNA1/ZfIAAYhCr1DLX3NNNYE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		B6wwt4ZDNk52RDYj4M3BDMEJnpg=
+		v3YcpmZ7gWwSYhA4USeaAwckDlA=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -1949,11 +2081,15 @@
 		</data>
 		<key>MDSearchBar.nib</key>
 		<data>
-		yN6vlj8ZW0GUkH7Q5tRdiaDFTKI=
+		vIHprgTvtTdKpmpLqg40qBp1oSM=
 		</data>
 		<key>MDSearchView.nib</key>
 		<data>
-		a1kLdkFUwxP8/45ySRup14Jh80c=
+		Cbmp2+wOyJ8lHKHMOOwmu+/CDtE=
+		</data>
+		<key>Mic@2x.png</key>
+		<data>
+		2S7W8GProzZyW1fuSiBLmbi6rOM=
 		</data>
 		<key>Outlook-High-res.png</key>
 		<data>
@@ -1979,10 +2115,6 @@
 		<data>
 		GJazNhAeRtBd87u+u+cZ8v8Ol+A=
 		</data>
-		<key>Services.png</key>
-		<data>
-		sltUG5q386u9mIG3MZPXrUKhnoE=
-		</data>
 		<key>Services@2x.png</key>
 		<data>
 		sltUG5q386u9mIG3MZPXrUKhnoE=
@@ -1997,19 +2129,19 @@
 		</data>
 		<key>TestHeader.nib</key>
 		<data>
-		OfBKKoRC8uISqR6dD9IfLTaMStI=
+		BtviU9Db/BL/aUeRdPiQXL5EKHU=
 		</data>
 		<key>TestPanel3.nib</key>
 		<data>
-		L1L6ieDmQaDKfhclPAyn7kLjH+A=
+		hA1buL/p3jN6giYLGvRL/LPSVe4=
 		</data>
 		<key>TestPanel4.nib</key>
 		<data>
-		j5IbohREfroqbw+dXk6RQnwblD0=
+		CgNF1L85sh7X5rlFPK+GF0tS1x0=
 		</data>
 		<key>TestPanel5.nib</key>
 		<data>
-		/SMO6wgRxfmJZ37UNn7+afLTMzk=
+		JjpoBXN3FhNXawtMM1WgG84nA2k=
 		</data>
 		<key>Toronto, ON.jpg</key>
 		<data>
@@ -2143,10 +2275,6 @@
 		<data>
 		HXJST7+y497THZWfyfxIVJL1QfM=
 		</data>
-		<key>cola.png</key>
-		<data>
-		1nrOJq5C9kvXHFh9QMCegJaFQu8=
-		</data>
 		<key>conf.png</key>
 		<data>
 		JCQV9DqCp660UZXX6nziAvKOk14=
@@ -2187,14 +2315,6 @@
 		<data>
 		+yIeI4lSceRiF8st4B0pF7YnQJY=
 		</data>
-		<key>dark37.png</key>
-		<data>
-		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
-		</data>
-		<key>dark37@2x.png</key>
-		<data>
-		WzUV2PBtxoEZbjS1dClSOtw/S/Y=
-		</data>
 		<key>day7.png</key>
 		<data>
 		gXEXkmhufdfePiRCStPClzlHiBE=
@@ -2218,14 +2338,6 @@
 		<key>dynamic.png</key>
 		<data>
 		g5QSpxtFLJdK3fR1WxxYh1EA+5E=
-		</data>
-		<key>elNav/ELHeaderView.h</key>
-		<data>
-		VqdRphbtv4UUw9eytlLhW+NAEJI=
-		</data>
-		<key>elNav/ELHeaderView.m</key>
-		<data>
-		Htu75rXZDOF58EtC8EMcgXXv2yc=
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>

@@ -2,6 +2,7 @@ PODS:
   - AKTagsInputView (1.0.0)
   - APDropDownNavToolbar (1.1)
   - APPaginalTableView (1.0.0)
+  - CWStatusBarNotification (2.1.1)
   - CXCardView (1.0.0)
   - EAIntroView (2.5.1)
   - FlatUIKit (1.4)
@@ -16,6 +17,7 @@ DEPENDENCIES:
   - AKTagsInputView (~> 1.0)
   - APDropDownNavToolbar (~> 1.1)
   - APPaginalTableView
+  - CWStatusBarNotification (~> 2.1.0)
   - CXCardView
   - EAIntroView (~> 2.5.0)
   - FlatUIKit
@@ -30,6 +32,7 @@ SPEC CHECKSUMS:
   AKTagsInputView: 30e9bb56285edd31a0d82aea6e57d301680853f0
   APDropDownNavToolbar: 11c73db7013276a3b208be046c4c24cd2eb01883
   APPaginalTableView: 0de2c77ea2624796b482f095cc223429dd25e3c9
+  CWStatusBarNotification: 90989a73615aceb90c2da393d926ab76d8ea6a6d
   CXCardView: 113ff84aceb858d5faf3e610ac3ff524f95b9c21
   EAIntroView: 9586107ac7a6e849fb985c8d62109a9da649136b
   FlatUIKit: edc1ed0c130687dc64a10e45851cc58925f6893d

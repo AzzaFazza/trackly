@@ -9,8 +9,9 @@
 #import <UIKit/UIKit.h>
 #import <CXCardView/CXCardView.h>
 #import <FlatUIKit/FlatUIKit.h>
+#import <OpenEars/OpenEarsEventsObserver.h>
 
-@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate, UIImagePickerControllerDelegate, UIActionSheetDelegate>
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate,UITextFieldDelegate, UIImagePickerControllerDelegate, UIActionSheetDelegate, OpenEarsEventsObserverDelegate>
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *trayDisplayButton;
 @property (weak, nonatomic) IBOutlet UIView * mainView;

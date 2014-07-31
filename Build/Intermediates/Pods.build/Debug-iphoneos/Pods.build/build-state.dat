@@ -30,117 +30,87 @@ c0000000053B12BDA0000000000000ADC
 t1404120026
 s2780
 
-N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
-t1406717523
-s3868
-
-N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList
-c0000000053D78E5C0000000000000078
-t1406635612
-s120
-
-N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a
-t1406717524
-s8045384
-
-N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
-t1406717523
-s3396
-
-N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList
-c0000000053D78E5C0000000000000078
-t1406635612
-s120
-
-N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
-t1406717524
-s7633032
-
 N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
-t1406720477
+t1406800705
 s3396
 
 N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList
-c0000000053D657080000000000000079
-t1406555912
+c0000000053D999F10000000000000079
+t1406769649
 s121
 
-N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
-t1406717524
-s7631152
-
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-AKTagsInputView.a
-c0000000053D8D9CF0000000000064E00
-t1406720463
+c0000000053DA13360000000000064E00
+t1406800694
 s413184
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-APDropDownNavToolbar.a
-c0000000053D8D9CF0000000000011F68
-t1406720463
+c0000000053DA13360000000000011F68
+t1406800694
 s73576
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-APPaginalTableView.a
-c0000000053D8D9CF0000000000053240
-t1406720463
+c0000000053DA13370000000000053240
+t1406800695
 s340544
 
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a
+c0000000053DA1336000000000001DAC0
+t1406800694
+s121536
+
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CXCardView.a
-c0000000053D8D9D0000000000003E4E8
-t1406720464
+c0000000053DA1338000000000003E4E8
+t1406800696
 s255208
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-EAIntroView.a
-c0000000053D8D9D1000000000003DC98
-t1406720465
+c0000000053DA1338000000000003DC98
+t1406800696
 s253080
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-FlatUIKit.a
-c0000000053D8D9D100000000000FD768
-t1406720465
+c0000000053DA133A00000000000FD768
+t1406800698
 s1038184
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-GPUImage.a
-c0000000053D8D9DD00000000003C71E0
-t1406720477
+c0000000053DA134100000000003C71E0
+t1406800705
 s3961312
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-JBKenBurnsView.a
-c0000000053D8D9D10000000000013C60
-t1406720465
+c0000000053DA13390000000000013C60
+t1406800697
 s80992
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-JazzHands.a
-c0000000053D8D9D30000000000080C48
-t1406720467
+c0000000053DA133A0000000000080C48
+t1406800698
 s527432
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-MYBlurIntroductionView.a
-c0000000053D947DF0000000000035928
-t1406748639
+c0000000053DA133A0000000000035928
+t1406800698
 s219432
 
-N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-MYIntroduction.a
-c0000000053D8CE43000000000007B574
-t1406717507
-s505204
-
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-RNGridMenu.a
-c0000000053D8D9D40000000000032E18
-t1406720468
+c0000000053DA133B0000000000032E18
+t1406800699
 s208408
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-RSDayFlow.a
-c0000000053D8D9D5000000000004AEF0
-t1406720469
+c0000000053DA133C000000000004AEF0
+t1406800700
 s306928
 
 N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a
-t1406748639
-s7680744
+t1406800705
+s7802184
 
 N/Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
-c0000000053D8D4870000000000000070
-t1406719111
+c0000000053DA12580000000000000070
+t1406800472
 s112
 
 CBuild AST from /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
@@ -148,41 +118,17 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesd2acdc1dcb89b941^5377dd1dcb89b941^---0#1#1#--18"Check dependencies36"D5FC845F-D089-4275-9D0A-0AC4D183EF26-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies726c5da8608ab941^7f4c73a8608ab941^---0#1#1#--18"Check dependencies36"260B88CC-873D-4262-9F06-0987B6ACD090-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428410323.820234
-e428410324.001845
-r1
-xCompileC
-x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o
-x/Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
-xnormal
-xarm64
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m210"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compilercd75d2d30589b941^c47900d40589b941^---0#0#1#-19%DVTDocumentLocation2@53"file:///Users/adamf/Desktop/trackly/Pods/Pods-dummy.m0000000000000000^4631"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o Pods-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch arm64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/MYIntroduction -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/arm64 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/AKTagsInputView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/APDropDownNavToolbar -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/APPaginalTableView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/EAIntroView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/FlatUIKit -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/GPUImage -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/JBKenBurnsView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/JazzHands -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/MYIntroduction -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/RNGridMenu -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/RSDayFlow -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods-dummy.o36"E3CE7E8B-6F1E-4973-AA3C-6810E0618DD1-
-bAEF3EE3E-76AD-462F-A137-DFEEF8334562
+r0
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428410323.813848
-e428410323.997863
-r1
-xCompileC
-x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o
-x/Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
-xnormal
-xarmv7
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-d/Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m210"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler8388d0d30589b941^6076ffd30589b941^---0#0#1#-19%DVTDocumentLocation2@53"file:///Users/adamf/Desktop/trackly/Pods/Pods-dummy.m0000000000000000^4631"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o Pods-dummy.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/MYIntroduction -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7 -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/AKTagsInputView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/APDropDownNavToolbar -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/APPaginalTableView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/EAIntroView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/FlatUIKit -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/GPUImage -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/JBKenBurnsView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/JazzHands -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/MYIntroduction -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/RNGridMenu -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/RSDayFlow -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods-dummy.o36"C0BF236D-FCDC-47F4-9D3B-226BA86ADB65-
-bAEF3EE3E-76AD-462F-A137-DFEEF8334562
+r0
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s428413277.841015
-e428413277.995974
+s428493505.092165
+e428493505.211831
 r1
 xCompileC
 x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o
@@ -192,61 +138,29 @@ xarmv7s
 xobjective-c
 xcom.apple.compilers.llvm.clang.1_0.compiler
 d/Users/adamf/Desktop/trackly/Pods/Pods-dummy.m
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m212"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler5471d75d1189b941^eb3bff5d1189b941^---0#0#1#-19%DVTDocumentLocation2@53"file:///Users/adamf/Desktop/trackly/Pods/Pods-dummy.m0000000000000000^4654"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/MYBlurIntroductionView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/AKTagsInputView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/APDropDownNavToolbar -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/APPaginalTableView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/EAIntroView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/FlatUIKit -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/GPUImage -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/JBKenBurnsView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/JazzHands -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/MYBlurIntroductionView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/RNGridMenu -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/RSDayFlow -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o36"8BD30D5C-8EDC-43DF-B72C-33B61F19AAF2-
-b79CDFD2C-1CEC-46F6-A7E4-89D338FA8C35
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Compile /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m212"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerd8bb17c14a8ab941^323c36c14a8ab941^---0#0#1#-19%DVTDocumentLocation2@53"file:///Users/adamf/Desktop/trackly/Pods/Pods-dummy.m0000000000000000^4807"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o Pods-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Pods-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/MYBlurIntroductionView -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/AKTagsInputView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/APDropDownNavToolbar -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/APPaginalTableView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/CWStatusBarNotification -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/CXCardView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/EAIntroView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/FlatUIKit -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/GPUImage -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/JBKenBurnsView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/JazzHands -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/MYBlurIntroductionView -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/RNGridMenu -isystem /Users/adamf/Desktop/trackly/Pods/Pods/Headers/RSDayFlow -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods-dummy.o36"DFA7D173-908F-4475-8F8E-F8A49973BEE2-
+b5565130F-29DD-4FCB-ADA4-2E7A1C511E4E
 
 CCreateUniversalBinary /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7\ armv7s\ arm64
-s428410324.466045
-e428410325.192412
-r1
-xCreateUniversalBinary
-x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a
-xnormal
-xarmv7 armv7s arm64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Create universal binary /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a118"CreateUniversalBinary /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7\ armv7s\ arm64956677d40589b941^914231d50589b941^---0#0#1#-19%DVTDocumentLocation2@75"file:///Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a0000000000000000^879"CreateUniversalBinary /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7\ armv7s\ arm64    cd /Users/adamf/Desktop/trackly/Pods    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a36"1FF75DCB-542D-4EA3-BE6E-C6835F50E652-
-bAEF3EE3E-76AD-462F-A137-DFEEF8334562
+r0
 
 CLibtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm64
-s428410324.006126
-e428410324.462847
-r1
-xLibtool
-x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a
-xnormal
-xarm64
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm64137"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm6446ee01d40589b941^338976d40589b941^---0#0#1#--1228"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a normal arm64    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/Pods.LinkFileList -framework Foundation -lPods-AKTagsInputView -lPods-APDropDownNavToolbar -lPods-APPaginalTableView -lPods-CXCardView -lPods-EAIntroView -lPods-FlatUIKit -lPods-GPUImage -lPods-JBKenBurnsView -lPods-JazzHands -lPods-MYIntroduction -lPods-RNGridMenu -lPods-RSDayFlow -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/arm64/libPods.a36"0528D57D-BB9C-41A2-B1E7-2A5FCB823FC7-
-bAEF3EE3E-76AD-462F-A137-DFEEF8334562
+r0
 
 CLibtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7
-s428410324.004116
-e428410324.465318
-r1
-xLibtool
-x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a
-xnormal
-xarmv7
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection137"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7137"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv753b101d40589b941^791f77d40589b941^---0#0#1#--1228"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a normal armv7    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/Pods.LinkFileList -framework Foundation -lPods-AKTagsInputView -lPods-APDropDownNavToolbar -lPods-APPaginalTableView -lPods-CXCardView -lPods-EAIntroView -lPods-FlatUIKit -lPods-GPUImage -lPods-JBKenBurnsView -lPods-JazzHands -lPods-MYIntroduction -lPods-RNGridMenu -lPods-RSDayFlow -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7/libPods.a36"3A719881-4D8C-4F53-96E8-B3665D4EB398-
-bAEF3EE3E-76AD-462F-A137-DFEEF8334562
+r0
 
 CLibtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s
-s428410324.004816
-e428410324.443410
-r1
-xLibtool
-x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a
-xnormal
-xarmv7s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection139"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s139"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7sc15201d40589b941^f58471d40589b941^---0#0#1#--1233"Libtool /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a normal armv7s    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-AKTagsInputView -lPods-APDropDownNavToolbar -lPods-APPaginalTableView -lPods-CXCardView -lPods-EAIntroView -lPods-FlatUIKit -lPods-GPUImage -lPods-JBKenBurnsView -lPods-JazzHands -lPods-MYIntroduction -lPods-RNGridMenu -lPods-RSDayFlow -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/libPods.a36"FF1B88C5-E944-4042-90F1-9D44890F0F42-
-bAEF3EE3E-76AD-462F-A137-DFEEF8334562
+r0
 
 CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s
-s428441439.199562
-e428441439.305782
+s428493505.212689
+e428493505.363117
 r1
 xLibtool
 x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a
 xnormal
 xarmv7s
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s90"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s0a2d335f7f89b941^ef1b575f7f89b941^---0#0#1#--1143"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-AKTagsInputView -lPods-APDropDownNavToolbar -lPods-APPaginalTableView -lPods-CXCardView -lPods-EAIntroView -lPods-FlatUIKit -lPods-GPUImage -lPods-JBKenBurnsView -lPods-JazzHands -lPods-MYBlurIntroductionView -lPods-RNGridMenu -lPods-RSDayFlow -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a36"34C877B7-67ED-4A80-9C64-33A9D5DBCBC5-
-bF2FBD416-D924-4457-AE0F-3A31A3621F6A
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection90"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s90"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7sd38336c14a8ab941^adf65cc14a8ab941^---0#0#1#--1174"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a normal armv7s    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods.build/Objects-normal/armv7s/Pods.LinkFileList -framework Foundation -lPods-AKTagsInputView -lPods-APDropDownNavToolbar -lPods-APPaginalTableView -lPods-CWStatusBarNotification -lPods-CXCardView -lPods-EAIntroView -lPods-FlatUIKit -lPods-GPUImage -lPods-JBKenBurnsView -lPods-JazzHands -lPods-MYBlurIntroductionView -lPods-RNGridMenu -lPods-RSDayFlow -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods.a36"81D2388B-DC91-4DE2-AC04-4675F1050E85-
+b5565130F-29DD-4FCB-ADA4-2E7A1C511E4E
 

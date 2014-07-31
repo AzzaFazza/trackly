@@ -24,6 +24,12 @@
 #define COCOAPODS_VERSION_MINOR_APPaginalTableView 0
 #define COCOAPODS_VERSION_PATCH_APPaginalTableView 0
 
+// CWStatusBarNotification
+#define COCOAPODS_POD_AVAILABLE_CWStatusBarNotification
+#define COCOAPODS_VERSION_MAJOR_CWStatusBarNotification 2
+#define COCOAPODS_VERSION_MINOR_CWStatusBarNotification 1
+#define COCOAPODS_VERSION_PATCH_CWStatusBarNotification 1
+
 // CXCardView
 #define COCOAPODS_POD_AVAILABLE_CXCardView
 #define COCOAPODS_VERSION_MAJOR_CXCardView 1

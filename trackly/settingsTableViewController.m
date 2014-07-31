@@ -36,7 +36,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    settings = [NSArray arrayWithObjects:@"About", @"Attributions", @"Logout", @"Reset all Data", nil];
+    settings = [NSArray arrayWithObjects:@"About", @"Attributions", @"Logout", @"Reset all Data", @"Turn Off Voice Recognition",@"Voice Commands", nil];
     
 }
 

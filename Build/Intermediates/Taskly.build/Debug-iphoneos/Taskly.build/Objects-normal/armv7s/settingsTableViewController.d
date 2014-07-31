@@ -30,47 +30,47 @@ dependencies: \
   /Users/adamf/Desktop/trackly/Parse.framework/Headers/PFPush.h \
   /Users/adamf/Desktop/trackly/Parse.framework/Headers/PFTwitterUtils.h \
   /Users/adamf/Desktop/trackly/Parse.framework/Headers/PF_Twitter.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FacebookSDK.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBAccessTokenData.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBSession.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBSDKMacros.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBAppCall.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBAppLinkData.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBDialogsData.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBAppEvents.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBCacheDescriptor.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBDialogs.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBLinkShareParams.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBDialogsParams.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBOpenGraphActionParams.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBOpenGraphAction.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBGraphObject.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBPhotoParams.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBError.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBErrorUtility.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBFrictionlessRecipientCache.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBRequest.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBOpenGraphObject.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBRequestConnection.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBWebDialogs.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBFriendPickerViewController.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBGraphUser.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBGraphPlace.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBGraphLocation.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBViewController.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBInsights.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBLikeControl.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBLoginView.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBTooltipView.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBNativeDialogs.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBOpenGraphActionShareDialogParams.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBShareDialogParams.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBPlacePickerViewController.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBProfilePictureView.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBSessionTokenCachingStrategy.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBSettings.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBShareDialogPhotoParams.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/FBUserSettingsViewController.h \
-  /Users/adamf/Desktop/Appcamp\ Projects/SDKs/FacebookSDK.framework/Headers/NSError+FBError.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FacebookSDK.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBAccessTokenData.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBSession.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBSDKMacros.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBAppCall.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBAppLinkData.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBDialogsData.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBAppEvents.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBCacheDescriptor.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBDialogs.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBLinkShareParams.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBDialogsParams.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBOpenGraphActionParams.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBOpenGraphAction.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBGraphObject.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBPhotoParams.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBError.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBErrorUtility.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBFrictionlessRecipientCache.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBRequest.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBOpenGraphObject.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBRequestConnection.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBWebDialogs.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBFriendPickerViewController.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBGraphUser.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBGraphPlace.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBGraphLocation.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBViewController.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBInsights.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBLikeControl.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBLoginView.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBTooltipView.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBNativeDialogs.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBOpenGraphActionShareDialogParams.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBShareDialogParams.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBPlacePickerViewController.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBProfilePictureView.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBSessionTokenCachingStrategy.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBSettings.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBShareDialogPhotoParams.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBUserSettingsViewController.h \
+  /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/NSError+FBError.h \
   /Users/adamf/Desktop/trackly/Parse.framework/Headers/PFFacebookUtils.h \
   /Users/adamf/Desktop/trackly/trackly/videoViewController.h

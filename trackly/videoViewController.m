@@ -11,6 +11,7 @@
 #import "ViewController.h"
 #import <GPUImage/GPUImage.h>
 #import "CustomIOS7AlertView.h"
+#import "loginViewController.h"
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
@@ -177,6 +178,7 @@
     NSString * titleString = @"Keep\ntrack of\nEverything";
     NSString * panel2String = @"By creating a Taskly account you can access Taskly CloudSync.\n\nBack up your tasklist across devices";
     NSString * panel3String = @"Using the Connectors Menu, Users can import tasks from:\n\nGoogle Calendar, Asana, GitHub, Evernote and more";
+    NSString * panel4String = @"Control Taskly with your voice\n\n Say 'New Note' to create a new note\n\n Or Say 'Calendar' to take you there (Full List availble in Settings)";
     
     MYIntroductionPanel *panel1 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Welcome to Taskly" description:titleString image:[UIImage imageNamed:nil] header:headerView];
     
@@ -185,26 +187,29 @@
     
     //Create Panel From Nib
     MYIntroductionPanel *panel3 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Connect Everything" description:panel3String image:[UIImage imageNamed:@"Services.png"]];
+    
+        MYIntroductionPanel *panel4 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Use Your Voice" description:panel4String image:[UIImage imageNamed:@"Mic.png"]];
+    //1
     panel1.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:60.];
     CGSize maximumLabelSize = CGSizeMake(296, FLT_MAX);
 
     CGSize expectedLabelSize = [titleString sizeWithFont:panel1.PanelDescriptionLabel.font constrainedToSize:maximumLabelSize lineBreakMode:panel1.PanelDescriptionLabel.lineBreakMode];
     
-    //adjust the label the the new height.
     CGRect newFrame = panel1.PanelDescriptionLabel.frame;
     newFrame.size.height = expectedLabelSize.height;
     panel1.PanelDescriptionLabel.frame = newFrame;
     
+    //2
     panel2.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:24.];
     CGSize maximumLabelSize2 = CGSizeMake(296, FLT_MAX);
     
     CGSize expectedLabelSize2 = [panel2String sizeWithFont:panel2.PanelDescriptionLabel.font constrainedToSize:maximumLabelSize2 lineBreakMode:panel2.PanelDescriptionLabel.lineBreakMode];
     
-    //adjust the label the the new height.
     CGRect newFrame2 = panel2.PanelDescriptionLabel.frame;
     newFrame2.size.height = expectedLabelSize2.height;
     panel2.PanelDescriptionLabel.frame = newFrame2;
     
+    //3
     panel3.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:24.];
     CGSize maximumLabelSize3 = CGSizeMake(296, FLT_MAX);
     
@@ -215,8 +220,19 @@
     newFrame3.size.height = expectedLabelSize3.height;
     panel3.PanelDescriptionLabel.frame = newFrame3;
     
+    //4
+    panel4.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:18.];
+    CGSize maximumLabelSize4 = CGSizeMake(296, FLT_MAX);
+    
+    CGSize expectedLabelSize4 = [panel4String sizeWithFont:panel4.PanelDescriptionLabel.font constrainedToSize:maximumLabelSize4 lineBreakMode:panel4.PanelDescriptionLabel.lineBreakMode];
+    
+    //adjust the label the the new height.
+    CGRect newFrame4 = panel4.PanelDescriptionLabel.frame;
+    newFrame4.size.height = expectedLabelSize4.height;
+    panel4.PanelDescriptionLabel.frame = newFrame4;
+    
     //Add panels to an array
-    NSArray *panels = @[panel1, panel2, panel3];
+    NSArray *panels = @[panel1, panel2, panel3, panel4];
     
     //Create the introduction view and set its delegate
     MYBlurIntroductionView *introductionView = [[MYBlurIntroductionView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
@@ -324,16 +340,22 @@
 
 -(IBAction)signIn:(id)sender {
     if (![PFUser currentUser]) { // No user logged in
-        // Create the log in view controller
-        PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
-        [logInViewController setDelegate:self]; // Set ourselves as the delegate
+//        // Create the log in view controller
+//        PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
+//        [logInViewController setDelegate:self]; // Set ourselves as the delegate
+//        
+//        // Create the sign up view controller
+//        PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
+//        [signUpViewController setDelegate:self]; // Set ourselves as the delegate
+//        
+//        // Assign our sign up controller to be displayed from the login controller
+//        [logInViewController setSignUpController:signUpViewController];
         
-        // Create the sign up view controller
-        PFSignUpViewController *signUpViewController = [[PFSignUpViewController alloc] init];
-        [signUpViewController setDelegate:self]; // Set ourselves as the delegate
-        
-        // Assign our sign up controller to be displayed from the login controller
-        [logInViewController setSignUpController:signUpViewController];
+        loginViewController * logInViewController = [[loginViewController alloc]init];
+        [logInViewController setDelegate:self];
+        [logInViewController setFields:PFLogInFieldsUsernameAndPassword
+         | PFLogInFieldsSignUpButton
+         | PFLogInFieldsDismissButton];
         
         // Present the log in view controller
         [self presentViewController:logInViewController animated:YES completion:NULL];

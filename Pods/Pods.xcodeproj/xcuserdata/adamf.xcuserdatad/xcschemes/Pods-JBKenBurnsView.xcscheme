@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "D51A40ED73794BE99EF3C312"
+               BlueprintIdentifier = "E7218EA0D9F84B16BD88B784"
                BuildableName = "libPods-JBKenBurnsView.a"
                BlueprintName = "Pods-JBKenBurnsView"
                ReferencedContainer = "container:Pods.xcodeproj">

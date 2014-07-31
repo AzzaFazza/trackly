@@ -28,6 +28,7 @@
 #import <JBKenBurnsView/JBKenBurnsView.h>
 #import <QuartzCore/QuartzCore.h>
 #import "MRFlipTransition.h"
+#import <CWStatusBarNotification/CWStatusBarNotification.h>
 
 //Core Data
 #import "CoreDataHelper.h"
@@ -36,6 +37,12 @@
 
 //Parse
 #import <Parse/Parse.h>
+
+//Open Ears
+#import <OpenEars/LanguageModelGenerator.h>
+#import <OpenEars/AcousticModel.h>
+#import <OpenEars/PocketsphinxController.h>
+#import <OpenEars/AcousticModel.h>
 
 
 //Defined Attributes
@@ -85,7 +92,22 @@
     
     //Parse
     PFUser * user;
+    
+    //Open Ears
+    LanguageModelGenerator * lmGenerator;
+    PocketsphinxController * pocketSphinxController;
+    OpenEarsEventsObserver *openEarsEventsObserver;
+    NSString *lmPath;
+    NSString *dicPath;
+    NSArray * words;
+    
+    //Notifications
+    CWStatusBarNotification * listening;
 }
+
+@property (strong, nonatomic) PocketsphinxController * pocketSphinxController;
+@property (strong, nonatomic) OpenEarsEventsObserver *openEarsEventsObserver;
+
 @end
 
 @implementation ViewController
@@ -94,8 +116,10 @@
             //Labels
             sadFace, noTaskLabel,tasksHeaderLabel,
             //Views
-            mainView, noTaskView, taskTableView;
-
+            mainView, noTaskView, taskTableView,
+            //OpenEars
+            pocketSphinxController, openEarsEventsObserver
+            ;
 
 - (void)viewDidLoad
 {
@@ -104,6 +128,39 @@
     [super viewWillAppear:YES];
 	// Do any additional setup after loading the view, typically from a nib.
  //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
+    
+    //Open Ears
+    lmGenerator = [[LanguageModelGenerator alloc]init];
+    words = [NSArray arrayWithObjects:          @"NOTE",
+                                                @"TASKLY",
+                                                @"TASKLY OPEN NOTES",
+                                                @"TASKLY OPEN CALENDAR",
+                                                @"TASKLY OPEN CONNECTORS",
+                                                @"TASKLY NOTE",
+                                                @"TASKLY NEW NOTE",
+                                                @"TASKLY TAKE A NOTE",
+                                                @"CALANDAR",
+                                                @"NOTES",
+                                                @"CONNECTORS",
+                                                @"NEW NOTE",
+                                                @"OPEN CALENDAR",
+                                                nil];
+    NSString  *  name  = @"TASKLY_COMMANDS";
+    NSError   *  err   = [lmGenerator generateLanguageModelFromArray:words withFilesNamed:name forAcousticModelAtPath:[AcousticModel pathToModel:@"AcousticModelEnglish"]];
+    NSDictionary * languageGeneratorResults = nil;
+    lmPath = nil;
+    dicPath = nil;
+    
+    if ([err code] == noErr) {
+        languageGeneratorResults = [err userInfo];
+        
+        lmPath = [languageGeneratorResults objectForKey:@"LMPath"];
+        dicPath = [languageGeneratorResults objectForKey:@"DictionaryPath"];
+    } else {
+        NSLog(@"Error : %@", [err localizedDescription]);
+    }
+    
+    [self StartListening];
     
     //Custom UI Setup
     nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
@@ -303,10 +360,16 @@
     //_tagsInputView.placeholder = @"+ Add";
     return _tagsInputView;
 }
+-(void)viewDidDisappear:(BOOL)animated {
+    [self  StopListening];
+}
+
+-(void)StopListening {
+    
+}
 
 -(void)viewWillAppear:(BOOL)animated {
-        trayShown = false;
-    
+    trayShown = false;
         if ([_allTasks count] > 0) {
             noTaskView.hidden = YES;
         }
@@ -887,5 +950,113 @@
 }
 
 
+//Open Ears
+- (PocketsphinxController *)pocketSphinxController {
+    if (pocketSphinxController == nil) {
+        pocketSphinxController = [[PocketsphinxController alloc] init];
+    }
+    return pocketSphinxController;
+}
+
+- (OpenEarsEventsObserver *)openEarsEventsObserver {
+    if (openEarsEventsObserver == nil) {
+        openEarsEventsObserver = [[OpenEarsEventsObserver alloc] init];
+    }
+    return openEarsEventsObserver;
+}
+- (void) StartListening {
+    
+    // startListeningWithLanguageModelAtPath:dictionaryAtPath:languageModelIsJSGF always needs to know the grammar file being used,
+    // the dictionary file being used, and whether the grammar is a JSGF. You must put in the correct value for languageModelIsJSGF.
+    // Inside of a single recognition loop, you can only use JSGF grammars or ARPA grammars, you can't switch between the two types.
+    
+    // An ARPA grammar is the kind with a .languagemodel or .DMP file, and a JSGF grammar is the kind with a .gram file.
+    
+    // If you wanted to just perform recognition on an isolated wav file for testing, you could do it as follows:
+    
+    // NSString *wavPath = [NSString stringWithFormat:@"%@/%@",[[NSBundle mainBundle] resourcePath], @"test.wav"];
+    //[self.pocketsphinxController runRecognitionOnWavFileAtPath:wavPath usingLanguageModelAtPath:self.pathToGrammarToStartAppWith dictionaryAtPath:self.pathToDictionaryToStartAppWith languageModelIsJSGF:FALSE];  // Starts the recognition loop.
+    
+    // But under normal circumstances you'll probably want to do continuous recognition as follows:
+    [self.openEarsEventsObserver setDelegate:self];
+    [self.pocketSphinxController startListeningWithLanguageModelAtPath:lmPath dictionaryAtPath:dicPath acousticModelAtPath:[AcousticModel pathToModel:@"AcousticModelEnglish"] languageModelIsJSGF:FALSE];
+}
+
+- (void)pocketsphinxDidReceiveHypothesis:(NSString *)hypothesis recognitionScore:(NSString *)recognitionScore utteranceID:(NSString *)utteranceID {
+    NSLog(@"The received hypothesis is %@ with a score of %@ and an ID of %@", hypothesis, recognitionScore, utteranceID);
+    
+    if ([hypothesis isEqualToString: @"NEW NOTE"]) {
+        [self showList];
+    }
+    
+    if ([hypothesis isEqualToString: @"CALENDAR"]) {
+        UIStoryboard *storyboard = self.storyboard;
+        calandarView *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Calandar"];
+        [self.navigationController pushViewController:destVC animated:YES];
+    }
+    
+    if ([hypothesis isEqualToString: @"CONNECTORS"]) {
+        UIStoryboard *storyboard = self.storyboard;
+        connectorsViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Connector"];
+        [self.navigationController pushViewController:destVC animated:YES];
+    }
+    
+}
+
+- (void) pocketsphinxDidStartCalibration {
+    NSLog(@"Pocketsphinx calibration has started.");
+}
+
+- (void) pocketsphinxDidCompleteCalibration {
+    NSLog(@"Pocketsphinx calibration is complete.");
+    listening = [CWStatusBarNotification new];
+    listening.notificationLabelBackgroundColor = [UIColor blueColor];
+    listening.notificationLabelTextColor = [UIColor whiteColor];
+    [listening displayNotificationWithMessage:@"Voices Commands Now Available" forDuration:2.0f];
+}
+
+- (void) pocketsphinxDidStartListening {
+    NSLog(@"Pocketsphinx is now listening.");
+    
+}
+
+- (void) pocketsphinxDidDetectSpeech {
+    NSLog(@"Pocketsphinx has detected speech.");
+    listening = [CWStatusBarNotification new];
+    listening.notificationLabelBackgroundColor = [UIColor redColor];
+    listening.notificationLabelTextColor = [UIColor whiteColor];
+    [listening displayNotificationWithMessage:@"Detecting Speech" forDuration:0.7f];
+}
+
+- (void) pocketsphinxDidDetectFinishedSpeech {
+    NSLog(@"Pocketsphinx has detected a period of silence, concluding an utterance.");
+    listening = [CWStatusBarNotification new];
+    listening.notificationLabelBackgroundColor = [UIColor emerlandColor];
+    listening.notificationLabelTextColor = [UIColor whiteColor];
+    [listening displayNotificationWithMessage:@"Processing..." forDuration:1.0f];
+}
+
+- (void) pocketsphinxDidStopListening {
+    NSLog(@"Pocketsphinx has stopped listening.");
+}
+
+- (void) pocketsphinxDidSuspendRecognition {
+    NSLog(@"Pocketsphinx has suspended recognition.");
+}
+
+- (void) pocketsphinxDidResumeRecognition {
+    NSLog(@"Pocketsphinx has resumed recognition.");
+}
+
+- (void) pocketsphinxDidChangeLanguageModelToFile:(NSString *)newLanguageModelPathAsString andDictionary:(NSString *)newDictionaryPathAsString {
+    NSLog(@"Pocketsphinx is now using the following language model: \n%@ and the following dictionary: %@",newLanguageModelPathAsString,newDictionaryPathAsString);
+}
+
+- (void) pocketSphinxContinuousSetupDidFail { // This can let you know that something went wrong with the recognition loop startup. Turn on OPENEARSLOGGING to learn why.
+    NSLog(@"Setting up the continuous recognition loop has failed for some reason, please turn on OpenEarsLogging to learn more.");
+}
+- (void) testRecognitionCompleted {
+    NSLog(@"A test file that was submitted for recognition is now complete.");
+}
 
 @end
