@@ -7,6 +7,8 @@
 //
 
 #import "settingsTableViewController.h"
+#import <Parse/Parse.h>
+#import "videoViewController.h"
 
 @interface settingsTableViewController () {
     NSArray * settings;
@@ -34,7 +36,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    settings = [NSArray arrayWithObjects:@"About", @"Attributions", @"Delete Account", @"Reset all Data", nil];
+    settings = [NSArray arrayWithObjects:@"About", @"Attributions", @"Logout", @"Reset all Data", nil];
     
 }
 
@@ -73,6 +75,49 @@
     return cell;
 }
 
+- (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
+    if (indexPath.row == 2) {
+        UIActionSheet * actionSheet = [[UIActionSheet alloc]initWithTitle:@"Are You Sure you want to Logout?" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Yes" otherButtonTitles:@"No", nil];
+        [actionSheet showInView:self.view];
+    }
+}
+
+-(void)actionSheet:(UIActionSheet*)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex {
+    if (buttonIndex < 1) {
+        switch (buttonIndex) {
+            case 0: {
+                [PFUser logOut];
+                UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Logged Out" message:@"You will now be returned to the login screen" delegate:self cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
+                [alert show];
+            }
+            case 1: {
+                //Do Nothing
+            }
+            default:
+                break;
+        }
+    }
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex {
+    // the user clicked one of the OK/Cancel buttons
+    if (buttonIndex == 0)
+    {
+        if (![PFUser currentUser]) { // No user logged in
+            UIStoryboard *storyboard = self.storyboard;
+            videoViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"videoView"];
+            [self.navigationController pushViewController:destVC animated:YES];
+        } else {
+            //Do Nothing
+
+        }
+        
+    }
+    else
+    {
+        NSLog(@"cancel");
+    }
+}
 
 /*
 // Override to support conditional editing of the table view.

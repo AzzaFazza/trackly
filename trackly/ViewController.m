@@ -34,6 +34,9 @@
 #import "NSManagedObject+CRUD.h"
 #import "Task.h"
 
+//Parse
+#import <Parse/Parse.h>
+
 
 //Defined Attributes
 #define AVENIR_NEXT(_size) ([UIFont fontWithName:@"AvenirNext-Regular" size:(_size)])
@@ -79,6 +82,9 @@
     UITextField *taskNameTextField;
     UITextField *taskTags;
     NSMutableArray * _allTasks;
+    
+    //Parse
+    PFUser * user;
 }
 @end
 
@@ -98,7 +104,6 @@
     [super viewWillAppear:YES];
 	// Do any additional setup after loading the view, typically from a nib.
  //   mainView.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
-
     
     //Custom UI Setup
     nameLabel = [[UILabel alloc]initWithFrame:CGRectMake(10, 50, 100, 25)];
@@ -244,8 +249,7 @@
                                                              videoViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"videoView"];
                                                              [self.navigationController pushViewController:destVC animated:YES];
                                                          }];
-    
-    menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem, profileItem]];
+    menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem]];
 
     //Load objects from CoreData
     _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
@@ -282,6 +286,9 @@
     fingerX = 0.0;
     fingerY = 0.0;
 
+    
+}
+-(void)viewDidAppear:(BOOL)animated {
     
 }
 
@@ -467,7 +474,24 @@
     
     //TODO IF TAGS CONTAINS TIME ASSIGN CALENDER DELEGATE
     
-    //TODO SYNC TO PARSE
+    //TODO CHECK INTERNET
+    PFObject *taskToSyncToParse = [PFObject objectWithClassName:@"Tasks"];
+    taskToSyncToParse[@"TaskName"] = tn;
+    taskToSyncToParse[@"TaskTags"] = tnt;
+    taskToSyncToParse[@"TaskGenre"] = gl;
+    
+    //Assign this task to Parse User
+    user = [PFUser currentUser];
+    
+    [taskToSyncToParse saveEventually:^(BOOL succeeded, NSError *error)
+    {
+        if (succeeded)
+        {
+            PFRelation *relation = [user relationforKey:@"Tasks"];
+            [relation addObject:taskToSyncToParse];
+            [user saveInBackground];
+        }
+    }];
     
     //TODO Display the Task
     
@@ -481,6 +505,7 @@
 - (IBAction)rotate:(id)sender
 {
     _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
+    [self retrieveUsersParseTasks];
     [taskTableView reloadData];
     
     if(_allTasks.count > 0) {
@@ -547,6 +572,23 @@
          } [UIView commitAnimations];
     
     [pu show];
+}
+
+-(void)retrieveUsersParseTasks {
+    PFRelation *relation = [[PFUser currentUser] relationForKey:@"Tasks"];
+    PFQuery *query = [relation query];
+    [query findObjectsInBackgroundWithBlock:^(NSArray *results, NSError *error) {
+        if(!error) {
+            NSLog(@"Successfully retrieved %d Tasks.", results.count);
+            // Do something with the found objects
+            for (PFObject *object in results) {
+                NSLog(@"%@", object);
+                [taskTableView reloadData];
+            }
+        } else {
+            NSLog(@"%@Error", error);
+        }
+    }];
 }
 
 - (void)animationDidStop:(NSString *)animationID finished:(NSNumber *)finished context:(void *)context

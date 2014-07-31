@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <Parse/Parse.h>
 
 @implementation AppDelegate
 
@@ -20,6 +21,11 @@
     // Override point for customization after application launch.
         _appStorage = [AppStorage new];
     
+    //Parse
+    [Parse setApplicationId:@"dToEOgerdDqi4RYf2zEJFfNP7Yecze9XhL2tybRC"
+                  clientKey:@"odnZiS5kcU2KasBYPn2nMYsOi0iirTgRfso7Mqjq"];
+    
+    [PFAnalytics trackAppOpenedWithLaunchOptions:launchOptions];
     
     if([UINavigationBar conformsToProtocol:@protocol(UIAppearanceContainer)]) {
         [UINavigationBar appearance].tintColor = [UIColor whiteColor];

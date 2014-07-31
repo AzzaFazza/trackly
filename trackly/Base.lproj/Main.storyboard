@@ -459,7 +459,7 @@
                                             <color key="titleShadowColor" red="0.16415872406899346" green="0.43854920792261259" blue="0.66232860331632648" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="vXZ-lx-hvc" kind="custom" id="3yF-TU-c9o"/>
+                                            <action selector="signIn:" destination="YEo-F4-AOY" eventType="touchUpInside" id="dfz-pg-VDH"/>
                                         </connections>
                                     </button>
                                     <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Taskly" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CqH-Ui-9ce">
