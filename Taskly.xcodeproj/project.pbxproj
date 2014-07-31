@@ -255,13 +255,6 @@
 		36E90CE5198A3B39008911BB /* Slt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E90CE1198A3B39008911BB /* Slt.framework */; };
 		36E90CE7198A4E34008911BB /* Mic@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36E90CE6198A4E34008911BB /* Mic@2x.png */; };
 		36E90CEB198A6C43008911BB /* signUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36E90CEA198A6C43008911BB /* signUp@2x.png */; };
-		36E90CFD198A71F7008911BB /* AFViewShaker-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 36E90CED198A71F7008911BB /* AFViewShaker-Info.plist */; };
-		36E90CFE198A71F7008911BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E90CEF198A71F7008911BB /* Main.storyboard */; };
-		36E90CFF198A71F7008911BB /* AFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E90CF4198A71F7008911BB /* AFAppDelegate.m */; };
-		36E90D00198A71F7008911BB /* AFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E90CF7198A71F7008911BB /* AFViewController.m */; };
-		36E90D01198A71F7008911BB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36E90CF8198A71F7008911BB /* InfoPlist.strings */; };
-		36E90D02198A71F7008911BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E90CFA198A71F7008911BB /* main.m */; };
-		36E90D03198A71F7008911BB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E90CFC198A71F7008911BB /* Images.xcassets */; };
 		36EEB9AC197AFFB7008E2D22 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */; };
 		36EEB9B1197B0E44008E2D22 /* coq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 36EEB9B0197B0E21008E2D22 /* coq.ttf */; };
 		651405B0435D475E95784B0B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D7548C7B084D5E895B458C /* libPods.a */; };
@@ -562,16 +555,6 @@
 		36E90CE1198A3B39008911BB /* Slt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slt.framework; sourceTree = "<group>"; };
 		36E90CE6198A4E34008911BB /* Mic@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Mic@2x.png"; sourceTree = "<group>"; };
 		36E90CEA198A6C43008911BB /* signUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signUp@2x.png"; sourceTree = "<group>"; };
-		36E90CED198A71F7008911BB /* AFViewShaker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "AFViewShaker-Info.plist"; sourceTree = "<group>"; };
-		36E90CEE198A71F7008911BB /* AFViewShaker-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFViewShaker-Prefix.pch"; sourceTree = "<group>"; };
-		36E90CF0198A71F7008911BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		36E90CF3198A71F7008911BB /* AFAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFAppDelegate.h; sourceTree = "<group>"; };
-		36E90CF4198A71F7008911BB /* AFAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFAppDelegate.m; sourceTree = "<group>"; };
-		36E90CF6198A71F7008911BB /* AFViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFViewController.h; sourceTree = "<group>"; };
-		36E90CF7198A71F7008911BB /* AFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFViewController.m; sourceTree = "<group>"; };
-		36E90CF9198A71F7008911BB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		36E90CFA198A71F7008911BB /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		36E90CFC198A71F7008911BB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		36EEB9AB197AFFAC008E2D22 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		36EEB9B0197B0E21008E2D22 /* coq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = coq.ttf; sourceTree = "<group>"; };
 		E89885221E0B4AECAEE88167 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
@@ -635,7 +618,6 @@
 		3683AAE119790D9E005E04E7 = {
 			isa = PBXGroup;
 			children = (
-				36E90CEC198A71F7008911BB /* AFViewShaker */,
 				36E90CDD198A3B39008911BB /* Framework */,
 				36CB8AEC198926B700189EAC /* Icons */,
 				36CB8A1C19891A7F00189EAC /* CaeciliaLTStd-Roman.ttf */,
@@ -1149,55 +1131,6 @@
 			path = Framework;
 			sourceTree = "<group>";
 		};
-		36E90CEC198A71F7008911BB /* AFViewShaker */ = {
-			isa = PBXGroup;
-			children = (
-				36E90CED198A71F7008911BB /* AFViewShaker-Info.plist */,
-				36E90CEE198A71F7008911BB /* AFViewShaker-Prefix.pch */,
-				36E90CEF198A71F7008911BB /* Main.storyboard */,
-				36E90CF1198A71F7008911BB /* Classes */,
-				36E90CF8198A71F7008911BB /* InfoPlist.strings */,
-				36E90CFA198A71F7008911BB /* main.m */,
-				36E90CFB198A71F7008911BB /* Resources */,
-			);
-			path = AFViewShaker;
-			sourceTree = "<group>";
-		};
-		36E90CF1198A71F7008911BB /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				36E90CF2198A71F7008911BB /* AppDelegate */,
-				36E90CF5198A71F7008911BB /* ViewControllers */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		36E90CF2198A71F7008911BB /* AppDelegate */ = {
-			isa = PBXGroup;
-			children = (
-				36E90CF3198A71F7008911BB /* AFAppDelegate.h */,
-				36E90CF4198A71F7008911BB /* AFAppDelegate.m */,
-			);
-			path = AppDelegate;
-			sourceTree = "<group>";
-		};
-		36E90CF5198A71F7008911BB /* ViewControllers */ = {
-			isa = PBXGroup;
-			children = (
-				36E90CF6198A71F7008911BB /* AFViewController.h */,
-				36E90CF7198A71F7008911BB /* AFViewController.m */,
-			);
-			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		36E90CFB198A71F7008911BB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				36E90CFC198A71F7008911BB /* Images.xcassets */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1318,7 +1251,6 @@
 				36CB8AAD1989264500189EAC /* dollar.png in Resources */,
 				36CB8AAE1989264500189EAC /* drop.png in Resources */,
 				36CB8AAF1989264500189EAC /* duble-bubble.png in Resources */,
-				36E90CFD198A71F7008911BB /* AFViewShaker-Info.plist in Resources */,
 				36CB8AB01989264500189EAC /* dynamic.png in Resources */,
 				36CB8AB11989264500189EAC /* eye.png in Resources */,
 				36CB8AB21989264500189EAC /* flag.png in Resources */,
@@ -1357,7 +1289,6 @@
 				36CB8AD21989264600189EAC /* pause.png in Resources */,
 				36CB8AD31989264600189EAC /* pen.png in Resources */,
 				36CB8AD41989264600189EAC /* pic.png in Resources */,
-				36E90D03198A71F7008911BB /* Images.xcassets in Resources */,
 				36CB8AD51989264600189EAC /* play.png in Resources */,
 				36CB8AD61989264600189EAC /* pluse.png in Resources */,
 				36CB8AD71989264600189EAC /* power.png in Resources */,
@@ -1398,7 +1329,6 @@
 				369AACD11987E08400764EBF /* search.png in Resources */,
 				36CB8A0C19890D1C00189EAC /* TestHeader.xib in Resources */,
 				36B304FD1979D22A001951E2 /* title@2x.png in Resources */,
-				36E90D01198A71F7008911BB /* InfoPlist.strings in Resources */,
 				36B304DB197970B6001951E2 /* Brandon_light.otf in Resources */,
 				369A093D197B3DCD00153F18 /* 32.png in Resources */,
 				36CB8A05198907C500189EAC /* SampleImage1.png in Resources */,
@@ -1461,7 +1391,6 @@
 				36CB8AFA1989603F00189EAC /* TestPanel5.xib in Resources */,
 				3641A1DE197E84610026B45C /* schedule@2x.png in Resources */,
 				36CB8A1F19891FDA00189EAC /* Services@2x.png in Resources */,
-				36E90CFE198A71F7008911BB /* Main.storyboard in Resources */,
 				36B304B619795183001951E2 /* Icon_Home@2x.png in Resources */,
 				36BB2D85197B1DD1000D6854 /* AppIcons in Resources */,
 				369A0942197B4C6000153F18 /* right10@2x.png in Resources */,
@@ -1541,8 +1470,6 @@
 				369A095E197D456300153F18 /* BackgroundManagedObjectContext.m in Sources */,
 				369A096F197D564700153F18 /* TaskModel.xcdatamodeld in Sources */,
 				36CB8A011988FBBF00189EAC /* settingsTableViewController.m in Sources */,
-				36E90D00198A71F7008911BB /* AFViewController.m in Sources */,
-				36E90CFF198A71F7008911BB /* AFAppDelegate.m in Sources */,
 				36B3048519794F0A001951E2 /* REMenuItem.m in Sources */,
 				369A095D197D456300153F18 /* AppStorage.m in Sources */,
 				36B304F31979B712001951E2 /* videoViewController.m in Sources */,
@@ -1553,7 +1480,6 @@
 				36C05A1A19810A62008F6AA0 /* connectorsViewController.m in Sources */,
 				36E7597619866F460039BCCA /* AnotherViewController.m in Sources */,
 				36CB8B1F1989B2A400189EAC /* signupViewController.m in Sources */,
-				36E90D02198A71F7008911BB /* main.m in Sources */,
 				369A0961197D456300153F18 /* NSManagedObject+CRUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1597,22 +1523,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				3683AB1619790D9E005E04E7 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		36E90CEF198A71F7008911BB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36E90CF0198A71F7008911BB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		36E90CF8198A71F7008911BB /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				36E90CF9198A71F7008911BB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
