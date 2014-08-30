@@ -408,7 +408,7 @@
 		<data>
 		yt78I5QEB9uAJ3YF2Z/YqrrMIA4=
 		</data>
-		<key>64/x.png</key>
+		<key>64/x@2x.png</key>
 		<data>
 		3WnJE7rJzp/bC1CSH6k4k696NHI=
 		</data>
@@ -542,7 +542,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		wSgmNBtNU1hYUlmZh6J4ZBQ7cMc=
+		V5ap5+Oi7YqlN2M8694e3zYApmU=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -550,47 +550,55 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Calandar.nib</key>
 		<data>
-		yKODOOEOru2hOg6jM/MvN+FLoUA=
+		xZOfpSX7IsCJ+5o5yq36ILgJGjg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Connector.nib</key>
 		<data>
-		hopRZLs7o7R3mwHyjPg7F6bAew0=
+		LAadlLd3OcDacsX8YOvGZylssKE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
 		<data>
-		N+14OO+Qxbph0R6UcoO39wd/k7I=
+		F2bf+I7IYBGXLpcluD4nTnsB70w=
+		</data>
+		<key>Base.lproj/Main.storyboardc/OPC-LW-39O-view-ado-PM-gj2.nib</key>
+		<data>
+		MRtRJw9OavkFBbM+KoCokkwjzgg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/S8d-qF-8gj-view-NBg-eA-zdi.nib</key>
 		<data>
-		zHsn6D/DJwJHUroq3nT8EIY7n+4=
+		ncVlo/A2O1h+qGNXUqAbjpONuM8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Settings.nib</key>
 		<data>
-		2qaQ7dOgqeQUv8iBBg14u7zOzyY=
+		Hlnz9iF7CxOGpdidE3KzxLK8l08=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		sRokt4pI1TjGjx/KVA+bZBHgUQM=
+		shamdJ0I2BSMFk+05zEnMJ/O9HE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		tVfierz6VzwwsdMoWVg804wZOcM=
+		iv+orHoZPQGsmEHK2HxEsA3Cy3M=
 		</data>
 		<key>Base.lproj/Main.storyboardc/aIW-8z-pL0-view-5kv-xg-cnb.nib</key>
 		<data>
-		DW3AXApc4e/JWSGmOF0qlX5CTAM=
+		NbuIOya3T2UmuYvYX0UN5v78SIo=
+		</data>
+		<key>Base.lproj/Main.storyboardc/loginNew.nib</key>
+		<data>
+		umsNe6ZUn6Gobw0Dp0BrombC2vo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		zR70R2DaaFkeqfrpOE8Zus4JCmg=
+		sotu8GW9QSj5VhTBJCeHsu9hwPU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		UU5bNA1/ZfIAAYhCr1DLX3NNNYE=
+		4scIlcVnCrh9Di96JqZk8JO2bIQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		v3YcpmZ7gWwSYhA4USeaAwckDlA=
+		z/cGO5RZQE3YKyiN4/mfw2YAKiI=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -643,6 +651,14 @@
 		<key>IMG_0434.MOV</key>
 		<data>
 		MoBdWCVxtkBBA+cFJzwuTARmVdQ=
+		</data>
+		<key>Icon-60.png</key>
+		<data>
+		SFCH8KD6sSg2cHG6AisKEkDYfCE=
+		</data>
+		<key>Icon-60@2x.png</key>
+		<data>
+		hSPqRNRJEfEzVXXgpZKgDiwfzZA=
 		</data>
 		<key>Icon_Activity.png</key>
 		<data>
@@ -916,6 +932,10 @@
 		<data>
 		R4CJINxHKVSm2UZukEV07tSTB60=
 		</data>
+		<key>cross@2x.png</key>
+		<data>
+		iV3aJoNtOFD4vzkrYnNaDhdA+U4=
+		</data>
 		<key>cross_icon.png</key>
 		<data>
 		nxjSXIXQzQRjfYkeX2AnV3cWsmM=
@@ -1100,6 +1120,18 @@
 		<data>
 		AKcepYp3QPI1FzyqRcBLgB3YZZ4=
 		</data>
+		<key>loginBG.png</key>
+		<data>
+		fRvqi0x7OrDDPBOTWvO534FNGlo=
+		</data>
+		<key>loginButton.png</key>
+		<data>
+		vFfD5D1L01dhavJ5FjD8ahOu4BM=
+		</data>
+		<key>loginButton@2x.png</key>
+		<data>
+		vFfD5D1L01dhavJ5FjD8ahOu4BM=
+		</data>
 		<key>lookup.png</key>
 		<data>
 		EoppCtxZM9DGLNIGHFt7x6OsFAs=
@@ -1280,6 +1312,14 @@
 		<data>
 		VutNcxkS5ofrcMDpW2OKkQnbLs0=
 		</data>
+		<key>signUp@2x.png</key>
+		<data>
+		Fwk+X49pTJdZ48vukoEznvIWxdE=
+		</data>
+		<key>signinButton.png</key>
+		<data>
+		My/B9d4loYIbQgRA8peqZLq68Z8=
+		</data>
 		<key>skulls@2x.png</key>
 		<data>
 		qAZ44/cEr9mN1x1GGB8G4GEnQdc=
@@ -1307,6 +1347,10 @@
 		<key>tab3.jpg</key>
 		<data>
 		QhTOJ3Wu9IGC7zF+tFBs/+x9ONQ=
+		</data>
+		<key>tab3Blur.jpg</key>
+		<data>
+		eV/ffBcjdI/bI+/NCeCy6/wXm3I=
 		</data>
 		<key>tablet.png</key>
 		<data>
@@ -1373,6 +1417,10 @@
 		UpYJo2pP88lM5pobmDety7a9OKM=
 		</data>
 		<key>x.png</key>
+		<data>
+		/l5j3W8qBJi7xtMxQPr7TLVDlKA=
+		</data>
+		<key>x@2x.png</key>
 		<data>
 		/l5j3W8qBJi7xtMxQPr7TLVDlKA=
 		</data>
@@ -1787,7 +1835,7 @@
 		<data>
 		yt78I5QEB9uAJ3YF2Z/YqrrMIA4=
 		</data>
-		<key>64/x.png</key>
+		<key>64/x@2x.png</key>
 		<data>
 		3WnJE7rJzp/bC1CSH6k4k696NHI=
 		</data>
@@ -1921,7 +1969,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		wSgmNBtNU1hYUlmZh6J4ZBQ7cMc=
+		V5ap5+Oi7YqlN2M8694e3zYApmU=
 		</data>
 		<key>Balloon@2x.png</key>
 		<data>
@@ -1929,47 +1977,55 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/Calandar.nib</key>
 		<data>
-		yKODOOEOru2hOg6jM/MvN+FLoUA=
+		xZOfpSX7IsCJ+5o5yq36ILgJGjg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Connector.nib</key>
 		<data>
-		hopRZLs7o7R3mwHyjPg7F6bAew0=
+		LAadlLd3OcDacsX8YOvGZylssKE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/ISK-ZB-ybW-view-mcu-oy-kzH.nib</key>
 		<data>
-		N+14OO+Qxbph0R6UcoO39wd/k7I=
+		F2bf+I7IYBGXLpcluD4nTnsB70w=
+		</data>
+		<key>Base.lproj/Main.storyboardc/OPC-LW-39O-view-ado-PM-gj2.nib</key>
+		<data>
+		MRtRJw9OavkFBbM+KoCokkwjzgg=
 		</data>
 		<key>Base.lproj/Main.storyboardc/S8d-qF-8gj-view-NBg-eA-zdi.nib</key>
 		<data>
-		zHsn6D/DJwJHUroq3nT8EIY7n+4=
+		ncVlo/A2O1h+qGNXUqAbjpONuM8=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Settings.nib</key>
 		<data>
-		2qaQ7dOgqeQUv8iBBg14u7zOzyY=
+		Hlnz9iF7CxOGpdidE3KzxLK8l08=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-gzh-nq-dbz.nib</key>
 		<data>
-		sRokt4pI1TjGjx/KVA+bZBHgUQM=
+		shamdJ0I2BSMFk+05zEnMJ/O9HE=
 		</data>
 		<key>Base.lproj/Main.storyboardc/YEo-F4-AOY-view-R0x-wK-89a.nib</key>
 		<data>
-		tVfierz6VzwwsdMoWVg804wZOcM=
+		iv+orHoZPQGsmEHK2HxEsA3Cy3M=
 		</data>
 		<key>Base.lproj/Main.storyboardc/aIW-8z-pL0-view-5kv-xg-cnb.nib</key>
 		<data>
-		DW3AXApc4e/JWSGmOF0qlX5CTAM=
+		NbuIOya3T2UmuYvYX0UN5v78SIo=
+		</data>
+		<key>Base.lproj/Main.storyboardc/loginNew.nib</key>
+		<data>
+		umsNe6ZUn6Gobw0Dp0BrombC2vo=
 		</data>
 		<key>Base.lproj/Main.storyboardc/mainView.nib</key>
 		<data>
-		zR70R2DaaFkeqfrpOE8Zus4JCmg=
+		sotu8GW9QSj5VhTBJCeHsu9hwPU=
 		</data>
 		<key>Base.lproj/Main.storyboardc/vXZ-lx-hvc-view-kh9-bI-dsS.nib</key>
 		<data>
-		UU5bNA1/ZfIAAYhCr1DLX3NNNYE=
+		4scIlcVnCrh9Di96JqZk8JO2bIQ=
 		</data>
 		<key>Base.lproj/Main.storyboardc/videoView.nib</key>
 		<data>
-		v3YcpmZ7gWwSYhA4USeaAwckDlA=
+		z/cGO5RZQE3YKyiN4/mfw2YAKiI=
 		</data>
 		<key>Brandon_blk.otf</key>
 		<data>
@@ -2022,6 +2078,14 @@
 		<key>IMG_0434.MOV</key>
 		<data>
 		MoBdWCVxtkBBA+cFJzwuTARmVdQ=
+		</data>
+		<key>Icon-60.png</key>
+		<data>
+		SFCH8KD6sSg2cHG6AisKEkDYfCE=
+		</data>
+		<key>Icon-60@2x.png</key>
+		<data>
+		hSPqRNRJEfEzVXXgpZKgDiwfzZA=
 		</data>
 		<key>Icon_Activity.png</key>
 		<data>
@@ -2295,6 +2359,10 @@
 		<data>
 		R4CJINxHKVSm2UZukEV07tSTB60=
 		</data>
+		<key>cross@2x.png</key>
+		<data>
+		iV3aJoNtOFD4vzkrYnNaDhdA+U4=
+		</data>
 		<key>cross_icon.png</key>
 		<data>
 		nxjSXIXQzQRjfYkeX2AnV3cWsmM=
@@ -2479,6 +2547,18 @@
 		<data>
 		AKcepYp3QPI1FzyqRcBLgB3YZZ4=
 		</data>
+		<key>loginBG.png</key>
+		<data>
+		fRvqi0x7OrDDPBOTWvO534FNGlo=
+		</data>
+		<key>loginButton.png</key>
+		<data>
+		vFfD5D1L01dhavJ5FjD8ahOu4BM=
+		</data>
+		<key>loginButton@2x.png</key>
+		<data>
+		vFfD5D1L01dhavJ5FjD8ahOu4BM=
+		</data>
 		<key>lookup.png</key>
 		<data>
 		EoppCtxZM9DGLNIGHFt7x6OsFAs=
@@ -2659,6 +2739,14 @@
 		<data>
 		VutNcxkS5ofrcMDpW2OKkQnbLs0=
 		</data>
+		<key>signUp@2x.png</key>
+		<data>
+		Fwk+X49pTJdZ48vukoEznvIWxdE=
+		</data>
+		<key>signinButton.png</key>
+		<data>
+		My/B9d4loYIbQgRA8peqZLq68Z8=
+		</data>
 		<key>skulls@2x.png</key>
 		<data>
 		qAZ44/cEr9mN1x1GGB8G4GEnQdc=
@@ -2686,6 +2774,10 @@
 		<key>tab3.jpg</key>
 		<data>
 		QhTOJ3Wu9IGC7zF+tFBs/+x9ONQ=
+		</data>
+		<key>tab3Blur.jpg</key>
+		<data>
+		eV/ffBcjdI/bI+/NCeCy6/wXm3I=
 		</data>
 		<key>tablet.png</key>
 		<data>
@@ -2752,6 +2844,10 @@
 		UpYJo2pP88lM5pobmDety7a9OKM=
 		</data>
 		<key>x.png</key>
+		<data>
+		/l5j3W8qBJi7xtMxQPr7TLVDlKA=
+		</data>
+		<key>x@2x.png</key>
 		<data>
 		/l5j3W8qBJi7xtMxQPr7TLVDlKA=
 		</data>

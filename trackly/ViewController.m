@@ -30,6 +30,7 @@
 #import "MRFlipTransition.h"
 #import <CWStatusBarNotification/CWStatusBarNotification.h>
 
+
 //Core Data
 #import "CoreDataHelper.h"
 #import "NSManagedObject+CRUD.h"
@@ -57,6 +58,7 @@
 
     //Primitives
     BOOL trayShown;
+    BOOL * searchShown;
     float fingerX;
     float fingerY;
     NSInteger currentCellToEditNumber;
@@ -116,7 +118,7 @@
             //Labels
             sadFace, noTaskLabel,tasksHeaderLabel,
             //Views
-            mainView, noTaskView, taskTableView,
+            mainView, noTaskView, taskTableView, searchBar,
             //OpenEars
             pocketSphinxController, openEarsEventsObserver
             ;
@@ -272,17 +274,6 @@
                                                           [self.navigationController pushViewController:destVC animated:YES];
                                                       }];
     
-    REMenuItem *exploreItem = [[REMenuItem alloc] initWithTitle:@"Connectors"
-                                                       subtitle:@"Add services"
-                                                          image:[UIImage imageNamed:@"Icon_Explore"]
-                                               highlightedImage:nil
-                                                         action:^(REMenuItem *item) {
-                                                             NSLog(@"Item: %@", item);
-                                                             UIStoryboard *storyboard = self.storyboard;
-                                                             connectorsViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Connector"];
-                                                             [self.navigationController pushViewController:destVC animated:YES];
-                                                             
-                                                         }];
     
     REMenuItem *activityItem = [[REMenuItem alloc] initWithTitle:@"Calendar"
                                                         subtitle:@"Show your Calender"
@@ -306,7 +297,7 @@
                                                              videoViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"videoView"];
                                                              [self.navigationController pushViewController:destVC animated:YES];
                                                          }];
-    menu = [[REMenu alloc] initWithItems:@[homeItem, exploreItem, activityItem]];
+    menu = [[REMenu alloc] initWithItems:@[activityItem, homeItem]];
 
     //Load objects from CoreData
     _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
@@ -346,7 +337,18 @@
     
 }
 -(void)viewDidAppear:(BOOL)animated {
+    searchShown = false;
+    if(_allTasks.count == 0) {
+        taskTableView.hidden = true;
+        tasksHeaderLabel.hidden = true;
+        noTaskView.hidden = false;
+    } else {
+        taskTableView.hidden = false;
+        tasksHeaderLabel.hidden = false;
+        noTaskView.hidden = true;
+    }
     
+    [taskTableView reloadData];
 }
 
 -(AKTagsInputView*)createTagsInputView
@@ -369,6 +371,7 @@
 }
 
 -(void)viewWillAppear:(BOOL)animated {
+    searchBar.hidden = true;
     trayShown = false;
         if ([_allTasks count] > 0) {
             noTaskView.hidden = YES;
@@ -697,6 +700,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     static NSString *CellIdentifier = @"customTableViewCell";
+    
     cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
     // Configure the cell...
@@ -945,8 +949,14 @@
 
 -(void)search {
     //Do nothing
-    UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"Search" message:@"Coming Soon" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
-    [alert show];
+    
+    if (!searchShown) {
+        searchBar.hidden = false;
+        searchShown = true;
+    } else {
+        searchBar.hidden = true;
+        searchShown = false;
+    }
 }
 
 
@@ -995,12 +1005,6 @@
         [self.navigationController pushViewController:destVC animated:YES];
     }
     
-    if ([hypothesis isEqualToString: @"CONNECTORS"]) {
-        UIStoryboard *storyboard = self.storyboard;
-        connectorsViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Connector"];
-        [self.navigationController pushViewController:destVC animated:YES];
-    }
-    
 }
 
 - (void) pocketsphinxDidStartCalibration {
@@ -1022,18 +1026,18 @@
 
 - (void) pocketsphinxDidDetectSpeech {
     NSLog(@"Pocketsphinx has detected speech.");
-    listening = [CWStatusBarNotification new];
-    listening.notificationLabelBackgroundColor = [UIColor redColor];
-    listening.notificationLabelTextColor = [UIColor whiteColor];
-    [listening displayNotificationWithMessage:@"Detecting Speech" forDuration:0.7f];
+//    listening = [CWStatusBarNotification new];
+//    listening.notificationLabelBackgroundColor = [UIColor redColor];
+//    listening.notificationLabelTextColor = [UIColor whiteColor];
+//    [listening displayNotificationWithMessage:@"Detecting Speech" forDuration:0.7f];
 }
 
 - (void) pocketsphinxDidDetectFinishedSpeech {
     NSLog(@"Pocketsphinx has detected a period of silence, concluding an utterance.");
-    listening = [CWStatusBarNotification new];
-    listening.notificationLabelBackgroundColor = [UIColor emerlandColor];
-    listening.notificationLabelTextColor = [UIColor whiteColor];
-    [listening displayNotificationWithMessage:@"Processing..." forDuration:1.0f];
+//    listening = [CWStatusBarNotification new];
+//    listening.notificationLabelBackgroundColor = [UIColor emerlandColor];
+//    listening.notificationLabelTextColor = [UIColor whiteColor];
+//    [listening displayNotificationWithMessage:@"Processing..." forDuration:1.0f];
 }
 
 - (void) pocketsphinxDidStopListening {

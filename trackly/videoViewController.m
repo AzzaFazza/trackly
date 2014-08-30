@@ -12,11 +12,17 @@
 #import <GPUImage/GPUImage.h>
 #import "CustomIOS7AlertView.h"
 #import "loginViewController.h"
+#import "Reachability.h"
+#import "AFViewController.h"
+#import "signupViewController.h"
+
 
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
 @interface videoViewController () {
     CustomIOS7AlertView * loginView;
+    Reachability *internetReachableFoo;
+    BOOL internet;
 }
 
 @property (nonatomic, strong) AVPlayer *avplayer;
@@ -37,9 +43,39 @@
     return self;
 }
 
+- (void)testInternetConnection
+{
+    internetReachableFoo = [Reachability reachabilityWithHostname:@"www.google.com"];
+    
+    // Internet is reachable
+    internetReachableFoo.reachableBlock = ^(Reachability*reach)
+    {
+        // Update the UI on the main thread
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"Yayyy, we have the interwebs!");
+            internet = YES;
+        });
+    };
+    
+    // Internet is not reachable
+    internetReachableFoo.unreachableBlock = ^(Reachability*reach)
+    {
+        // Update the UI on the main thread
+        dispatch_async(dispatch_get_main_queue(), ^{
+            NSLog(@"Someone broke the internet :(");
+            internet = NO;
+        });
+    };
+    
+    [internetReachableFoo startNotifier];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    internet = NO;
+    [self testInternetConnection];
+
     if (![PFUser currentUser]) { // No user logged in
         NSLog(@"No User Logged In Yet");
     } else {
@@ -114,6 +150,7 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    [self testInternetConnection];
     [self.avplayer play];
     startButton.buttonColor = [self colorWithHexString:@"3F51B5"];
     startButton.shadowColor = [self colorWithHexString:@"33439C"];
@@ -177,7 +214,6 @@
     
     NSString * titleString = @"Keep\ntrack of\nEverything";
     NSString * panel2String = @"By creating a Taskly account you can access Taskly CloudSync.\n\nBack up your tasklist across devices";
-    NSString * panel3String = @"Using the Connectors Menu, Users can import tasks from:\n\nGoogle Calendar, Asana, GitHub, Evernote and more";
     NSString * panel4String = @"Control Taskly with your voice\n\n Say 'New Note' to create a new note\n\n Or Say 'Calendar' to take you there (Full List availble in Settings)";
     
     MYIntroductionPanel *panel1 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Welcome to Taskly" description:titleString image:[UIImage imageNamed:nil] header:headerView];
@@ -185,10 +221,7 @@
     //Create Stock Panel With Image
     MYIntroductionPanel *panel2 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Sync Across Devices" description:panel2String image:[UIImage imageNamed:@"cloudSync.png"]];
     
-    //Create Panel From Nib
-    MYIntroductionPanel *panel3 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Connect Everything" description:panel3String image:[UIImage imageNamed:@"Services.png"]];
-    
-        MYIntroductionPanel *panel4 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Use Your Voice" description:panel4String image:[UIImage imageNamed:@"Mic.png"]];
+    MYIntroductionPanel *panel4 = [[MYIntroductionPanel alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) title:@"Use Your Voice" description:panel4String image:[UIImage imageNamed:@"Mic.png"]];
     //1
     panel1.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:60.];
     CGSize maximumLabelSize = CGSizeMake(296, FLT_MAX);
@@ -208,18 +241,6 @@
     CGRect newFrame2 = panel2.PanelDescriptionLabel.frame;
     newFrame2.size.height = expectedLabelSize2.height;
     panel2.PanelDescriptionLabel.frame = newFrame2;
-    
-    //3
-    panel3.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:24.];
-    CGSize maximumLabelSize3 = CGSizeMake(296, FLT_MAX);
-    
-    CGSize expectedLabelSize3 = [panel3String sizeWithFont:panel3.PanelDescriptionLabel.font constrainedToSize:maximumLabelSize3 lineBreakMode:panel3.PanelDescriptionLabel.lineBreakMode];
-    
-    //adjust the label the the new height.
-    CGRect newFrame3 = panel3.PanelDescriptionLabel.frame;
-    newFrame3.size.height = expectedLabelSize3.height;
-    panel3.PanelDescriptionLabel.frame = newFrame3;
-    
     //4
     panel4.PanelDescriptionLabel.font = [UIFont fontWithName:@"AvenirNext-Medium" size:18.];
     CGSize maximumLabelSize4 = CGSizeMake(296, FLT_MAX);
@@ -232,7 +253,7 @@
     panel4.PanelDescriptionLabel.frame = newFrame4;
     
     //Add panels to an array
-    NSArray *panels = @[panel1, panel2, panel3, panel4];
+    NSArray *panels = @[panel1, panel2, panel4];
     
     //Create the introduction view and set its delegate
     MYBlurIntroductionView *introductionView = [[MYBlurIntroductionView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
@@ -339,6 +360,7 @@
 //Parse Stuff
 
 -(IBAction)signIn:(id)sender {
+    if (internet == YES) {
     if (![PFUser currentUser]) { // No user logged in
 //        // Create the log in view controller
 //        PFLogInViewController *logInViewController = [[PFLogInViewController alloc] init];
@@ -351,11 +373,19 @@
 //        // Assign our sign up controller to be displayed from the login controller
 //        [logInViewController setSignUpController:signUpViewController];
         
-        loginViewController * logInViewController = [[loginViewController alloc]init];
+        AFViewController * logInViewController = [[AFViewController alloc]init];
         [logInViewController setDelegate:self];
         [logInViewController setFields:PFLogInFieldsUsernameAndPassword
          | PFLogInFieldsSignUpButton
+         | PFLogInFieldsPasswordForgotten
          | PFLogInFieldsDismissButton];
+        
+        signupViewController *signUpViewController = [[signupViewController alloc] init];
+        [signUpViewController setDelegate:self];
+        [signUpViewController setFields:PFSignUpFieldsDefault];
+        
+        // Link the sign up view controller
+        [logInViewController setSignUpController:signUpViewController];
         
         // Present the log in view controller
         [self presentViewController:logInViewController animated:YES completion:NULL];
@@ -365,6 +395,11 @@
         ViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"mainView"];
         [self.navigationController pushViewController:destVC animated:YES];
 
+        }
+    } else {
+        UIAlertView * noInternet = [[UIAlertView alloc]initWithTitle:@"No Internet Conenction" message:@"You Need to be Connected to the internet to Sign up or Register for Taskly" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
+        [noInternet show];
+        
     }
 }
 
@@ -373,7 +408,6 @@
     UIStoryboard *storyboard = self.storyboard;
     ViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"mainView"];
     [self.navigationController pushViewController:destVC animated:YES];
-    
 }
 
 // Sent to the delegate to determine whether the sign up request should be submitted to the server.
@@ -418,5 +452,6 @@
 - (void)signUpViewControllerDidCancelSignUp:(PFSignUpViewController *)signUpController {
     NSLog(@"User dismissed the signUpViewController");
 }
+
 
 @end

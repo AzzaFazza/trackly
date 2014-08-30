@@ -369,6 +369,14 @@
                                         <color key="textColor" red="0.51713230300000002" green="0.49326745950000001" blue="0.45793232270000001" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <searchBar contentMode="redraw" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0M4-bC-kE8">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="vXZ-lx-hvc" id="luZ-mR-hD5"/>
+                                        </connections>
+                                    </searchBar>
                                 </subviews>
                                 <color key="backgroundColor" red="0.97647064924240112" green="0.97647064924240112" blue="0.97647064924240112" alpha="1" colorSpace="deviceRGB"/>
                                 <constraints>
@@ -411,6 +419,8 @@
                         <outlet property="noTaskLabel" destination="l51-3R-Jby" id="CmF-WA-Aap"/>
                         <outlet property="noTaskView" destination="JdK-Bq-xqu" id="W9N-af-HPF"/>
                         <outlet property="sadFace" destination="rK8-hl-p2A" id="5c2-Ty-0fB"/>
+                        <outlet property="searchBar" destination="0M4-bC-kE8" id="EIS-Tw-C6A"/>
+                        <outlet property="searchDisplayController" destination="IkQ-yg-ce2" id="sP1-TP-kxN"/>
                         <outlet property="taskTableView" destination="XKo-d2-JZN" id="7Nc-Us-OLi"/>
                         <outlet property="tasksHeaderLabel" destination="pMe-fW-5ZQ" id="Dl6-iD-frE"/>
                         <outlet property="trayDisplayButton" destination="ynX-A0-O3B" id="ldc-LQ-unF"/>
@@ -425,6 +435,15 @@
                         <outlet property="delegate" destination="vXZ-lx-hvc" id="oIh-e9-mgd"/>
                     </connections>
                 </tapGestureRecognizer>
+                <searchDisplayController id="IkQ-yg-ce2">
+                    <connections>
+                        <outlet property="delegate" destination="vXZ-lx-hvc" id="6Rb-RM-UTZ"/>
+                        <outlet property="searchBar" destination="0M4-bC-kE8" id="ZW8-wv-rbT"/>
+                        <outlet property="searchContentsController" destination="vXZ-lx-hvc" id="OGb-mk-Nyn"/>
+                        <outlet property="searchResultsDataSource" destination="vXZ-lx-hvc" id="e7t-cy-VOW"/>
+                        <outlet property="searchResultsDelegate" destination="vXZ-lx-hvc" id="qsF-r3-G2x"/>
+                    </connections>
+                </searchDisplayController>
             </objects>
             <point key="canvasLocation" x="425" y="91"/>
         </scene>
@@ -522,24 +541,6 @@
             </objects>
             <point key="canvasLocation" x="-128" y="91"/>
         </scene>
-        <!--Login View Controller-->
-        <scene sceneID="wFn-Ib-bAp">
-            <objects>
-                <viewController id="9b5-ln-FY9" customClass="loginViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="8eV-V2-bc9"/>
-                        <viewControllerLayoutGuide type="bottom" id="BOi-ka-qec"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Yrj-Bm-E4M">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="szQ-pO-38p" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-358" y="-514"/>
-        </scene>
         <!--Signup View Controller-->
         <scene sceneID="bc3-GX-Dof">
             <objects>
@@ -580,6 +581,133 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sJA-Zm-2v2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-626" y="91"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="H3j-VO-C7T">
+            <objects>
+                <viewController storyboardIdentifier="loginNew" useStoryboardIdentifierAsRestorationIdentifier="YES" id="OPC-LW-39O" customClass="AFViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sg8-J5-ojr"/>
+                        <viewControllerLayoutGuide type="bottom" id="O9R-DW-7Gt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ado-PM-gj2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="user@mail.com" placeholder="E-mail" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Q67-Qq-1c4" userLabel="E-mail Text Field">
+                                <rect key="frame" x="50" y="60" width="220" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="XX9-oq-vsR"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="emailAddress" keyboardAppearance="alert" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCQ-LE-frW" userLabel="Separator View">
+                                <rect key="frame" x="50" y="100" width="220" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="NIe-2t-NZV"/>
+                                </constraints>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="assking" placeholder="Password" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="psK-rb-Qf4" userLabel="Password Text Field">
+                                <rect key="frame" x="50" y="110" width="220" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardAppearance="alert" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                            </textField>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3bH-tv-cam" userLabel="Separator View">
+                                <rect key="frame" x="50" y="150" width="220" height="1"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="WZb-3X-Iel"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UO-ux-Izc">
+                                <rect key="frame" x="50" y="190" width="220" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6OF-Sr-l7M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Shake One">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onShakeOneAction:" destination="OPC-LW-39O" eventType="touchUpInside" id="HdH-vi-NpU"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eB0-p2-e1g">
+                                <rect key="frame" x="50" y="240" width="220" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Shake All Fields">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onShakeAllAction:" destination="OPC-LW-39O" eventType="touchUpInside" id="Ccy-nE-Sh8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0NR-cE-tt5">
+                                <rect key="frame" x="50" y="291" width="220" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="16"/>
+                                <state key="normal" title="Shake All With Completion">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="onShakeAllWithBlockAction:" destination="OPC-LW-39O" eventType="touchUpInside" id="PdZ-9K-crc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rCQ-LE-frW" firstAttribute="trailing" secondItem="Q67-Qq-1c4" secondAttribute="trailing" id="1kA-P4-2wk"/>
+                            <constraint firstItem="3bH-tv-cam" firstAttribute="trailing" secondItem="psK-rb-Qf4" secondAttribute="trailing" id="2PR-6j-BII"/>
+                            <constraint firstItem="eB0-p2-e1g" firstAttribute="leading" secondItem="0UO-ux-Izc" secondAttribute="leading" id="38E-YP-hdJ"/>
+                            <constraint firstItem="0NR-cE-tt5" firstAttribute="leading" secondItem="eB0-p2-e1g" secondAttribute="leading" id="9Jq-Yy-60i"/>
+                            <constraint firstItem="0NR-cE-tt5" firstAttribute="trailing" secondItem="eB0-p2-e1g" secondAttribute="trailing" id="9uU-Tg-kIB"/>
+                            <constraint firstItem="eB0-p2-e1g" firstAttribute="top" secondItem="0UO-ux-Izc" secondAttribute="bottom" constant="10" id="FSb-FB-H1x"/>
+                            <constraint firstItem="Q67-Qq-1c4" firstAttribute="trailing" secondItem="psK-rb-Qf4" secondAttribute="trailing" id="GYQ-Ot-8LL"/>
+                            <constraint firstItem="3bH-tv-cam" firstAttribute="top" secondItem="psK-rb-Qf4" secondAttribute="bottom" id="Gv1-qr-QbX"/>
+                            <constraint firstAttribute="trailing" secondItem="Q67-Qq-1c4" secondAttribute="trailing" constant="50" id="PnS-Wr-DHO"/>
+                            <constraint firstItem="Q67-Qq-1c4" firstAttribute="top" secondItem="sg8-J5-ojr" secondAttribute="bottom" constant="40" id="Rok-K3-Tor"/>
+                            <constraint firstItem="Q67-Qq-1c4" firstAttribute="height" secondItem="psK-rb-Qf4" secondAttribute="height" id="S04-EX-BbH"/>
+                            <constraint firstItem="eB0-p2-e1g" firstAttribute="height" secondItem="0UO-ux-Izc" secondAttribute="height" id="TDE-IE-u4s"/>
+                            <constraint firstItem="psK-rb-Qf4" firstAttribute="trailing" secondItem="0UO-ux-Izc" secondAttribute="trailing" id="TNf-fg-cU1"/>
+                            <constraint firstItem="psK-rb-Qf4" firstAttribute="top" secondItem="Q67-Qq-1c4" secondAttribute="bottom" constant="10" id="Usr-zm-zWD"/>
+                            <constraint firstItem="rCQ-LE-frW" firstAttribute="leading" secondItem="Q67-Qq-1c4" secondAttribute="leading" id="W1x-us-kIQ"/>
+                            <constraint firstItem="rCQ-LE-frW" firstAttribute="top" secondItem="Q67-Qq-1c4" secondAttribute="bottom" id="Woh-Be-BnJ"/>
+                            <constraint firstItem="0NR-cE-tt5" firstAttribute="top" secondItem="eB0-p2-e1g" secondAttribute="bottom" constant="10" id="bwf-tn-wI8"/>
+                            <constraint firstItem="psK-rb-Qf4" firstAttribute="leading" secondItem="0UO-ux-Izc" secondAttribute="leading" id="hyh-wm-fUn"/>
+                            <constraint firstItem="eB0-p2-e1g" firstAttribute="trailing" secondItem="0UO-ux-Izc" secondAttribute="trailing" id="iaL-MP-tYA"/>
+                            <constraint firstItem="0UO-ux-Izc" firstAttribute="top" secondItem="psK-rb-Qf4" secondAttribute="bottom" constant="40" id="iu8-Je-GCh"/>
+                            <constraint firstItem="Q67-Qq-1c4" firstAttribute="leading" secondItem="psK-rb-Qf4" secondAttribute="leading" id="pRe-6O-SOM"/>
+                            <constraint firstItem="3bH-tv-cam" firstAttribute="leading" secondItem="psK-rb-Qf4" secondAttribute="leading" id="rcp-va-7nk"/>
+                            <constraint firstItem="Q67-Qq-1c4" firstAttribute="leading" secondItem="ado-PM-gj2" secondAttribute="leading" constant="50" id="tre-uA-yv3"/>
+                            <constraint firstItem="0NR-cE-tt5" firstAttribute="height" secondItem="eB0-p2-e1g" secondAttribute="height" id="ypW-ef-Un8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outletCollection property="allButtons" destination="0UO-ux-Izc" id="UD1-c2-BnX"/>
+                        <outletCollection property="allButtons" destination="eB0-p2-e1g" id="pbF-LZ-qJn"/>
+                        <outletCollection property="allButtons" destination="0NR-cE-tt5" id="Nzb-o2-ufN"/>
+                        <outletCollection property="allTextFields" destination="Q67-Qq-1c4" id="dBs-vi-xEr"/>
+                        <outletCollection property="allTextFields" destination="rCQ-LE-frW" id="0l8-4I-kWR"/>
+                        <outletCollection property="allTextFields" destination="psK-rb-Qf4" id="RYq-ox-bnw"/>
+                        <outletCollection property="allTextFields" destination="3bH-tv-cam" id="52b-vI-YyF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aqV-Nx-aad" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136" y="675"/>
         </scene>
     </scenes>
     <resources>

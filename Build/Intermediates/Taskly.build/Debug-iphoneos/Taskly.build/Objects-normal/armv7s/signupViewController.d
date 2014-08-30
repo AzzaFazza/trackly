@@ -71,4 +71,6 @@ dependencies: /Users/adamf/Desktop/trackly/trackly/signupViewController.m \
   /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBShareDialogPhotoParams.h \
   /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBUserSettingsViewController.h \
   /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/NSError+FBError.h \
-  /Users/adamf/Desktop/trackly/Parse.framework/Headers/PFFacebookUtils.h
+  /Users/adamf/Desktop/trackly/Parse.framework/Headers/PFFacebookUtils.h \
+  /Users/adamf/Desktop/trackly/trackly/ViewController.h \
+  /Users/adamf/Desktop/trackly/Framework/OpenEars.framework/Headers/OpenEarsEventsObserver.h

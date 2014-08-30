@@ -21,6 +21,8 @@
 @property (weak, nonatomic) IBOutlet UITableView *taskTableView;
 @property (weak, nonatomic) IBOutlet FUIButton * addTaskButton;
 @property (weak, nonatomic) IBOutlet UILabel *tasksHeaderLabel;
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
+
 
 -(IBAction)showTray:(id)sender;
 @end

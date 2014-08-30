@@ -73,4 +73,6 @@ dependencies: \
   /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/FBUserSettingsViewController.h \
   /Users/adamf/Desktop/trackly/FacebookSDK.framework/Headers/NSError+FBError.h \
   /Users/adamf/Desktop/trackly/Parse.framework/Headers/PFFacebookUtils.h \
-  /Users/adamf/Desktop/trackly/trackly/videoViewController.h
+  /Users/adamf/Desktop/trackly/trackly/videoViewController.h \
+  /Users/adamf/Desktop/trackly/trackly/CoreDataHelper.h \
+  /Users/adamf/Desktop/trackly/trackly/BackgroundManagedObjectContext.h

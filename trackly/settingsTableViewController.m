@@ -9,6 +9,7 @@
 #import "settingsTableViewController.h"
 #import <Parse/Parse.h>
 #import "videoViewController.h"
+#import "CoreDataHelper.h"
 
 @interface settingsTableViewController () {
     NSArray * settings;
@@ -36,7 +37,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    settings = [NSArray arrayWithObjects:@"About", @"Attributions", @"Logout", @"Reset all Data", @"Turn Off Voice Recognition",@"Voice Commands", nil];
+    settings = [NSArray arrayWithObjects:@"About", @"Attributions", @"Logout", @"Turn Off Voice Recognition",@"Voice Commands",  @"Reset all Data", nil];
     
 }
 
@@ -72,10 +73,20 @@
     }
     
     cell.textLabel.text = [settings objectAtIndex:indexPath.row];
+    
+    if ([cell.textLabel.text isEqualToString:@"Reset all Data"]) {
+        cell.textLabel.textColor = [UIColor redColor];
+    }
     return cell;
 }
 
 - (void) tableView: (UITableView *) tableView didSelectRowAtIndexPath: (NSIndexPath *) indexPath {
+    if (indexPath.row == 5) {
+        [CoreDataHelper nuke];
+        UIAlertView * alert = [[UIAlertView alloc]initWithTitle:@"All Data Deleted" message:@"Everything is Gone :(" delegate:nil cancelButtonTitle:@"Okay" otherButtonTitles:nil, nil];
+        [alert show];
+    }
+    
     if (indexPath.row == 2) {
         UIActionSheet * actionSheet = [[UIActionSheet alloc]initWithTitle:@"Are You Sure you want to Logout?" delegate:self cancelButtonTitle:@"Cancel" destructiveButtonTitle:@"Yes" otherButtonTitles:@"No", nil];
         [actionSheet showInView:self.view];

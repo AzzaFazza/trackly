@@ -75,4 +75,7 @@ dependencies: /Users/adamf/Desktop/trackly/trackly/videoViewController.m \
   /Users/adamf/Desktop/trackly/trackly/ViewController.h \
   /Users/adamf/Desktop/trackly/Framework/OpenEars.framework/Headers/OpenEarsEventsObserver.h \
   /Users/adamf/Desktop/trackly/trackly/CustomIOS7AlertView.h \
-  /Users/adamf/Desktop/trackly/trackly/loginViewController.h
+  /Users/adamf/Desktop/trackly/trackly/loginViewController.h \
+  /Users/adamf/Desktop/trackly/Reachability.h \
+  /Users/adamf/Desktop/trackly/AFViewController.h \
+  /Users/adamf/Desktop/trackly/trackly/signupViewController.h
