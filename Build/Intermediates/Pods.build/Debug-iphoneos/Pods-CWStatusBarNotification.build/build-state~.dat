@@ -1,0 +1,165 @@
+TPods-CWStatusBarNotification
+v6
+r1
+cCheck dependencies
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.o /Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a normal armv7s
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk
+c0000000053119F860000000000000132
+t1393663878
+s306
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/SDKSettings.plist
+c0000000053B12B94000000000000036B
+t1404119956
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/CoreServices/SystemVersion.plist
+c0000000053B12B94000000000000019E
+t1404119956
+s414
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c0000000053B12B980000000000A90C10
+t1404119960
+s11078672
+
+N/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/include/module.map
+c0000000053B12BDA0000000000000ADC
+t1404120026
+s2780
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.o
+t1406800694
+s116252
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.o
+t1406800694
+s3828
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification.LinkFileList
+c0000000053DA13350000000000000147
+t1406800693
+s327
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.pch
+t1406800693
+s109260
+
+N/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.pch
+t1406800693
+s109664
+
+N/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a
+t2
+s0
+
+N/Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m
+c0000000053DA125700000000000031E0
+t1406800471
+s12768
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m
+c0000000053DA125800000000000000A0
+t1406800472
+s160
+
+N/Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-prefix.pch
+c0000000053DA1258000000000000004D
+t1406800472
+s77
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m
+r0
+
+CBuild AST from /Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m
+r0
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa5f325b54a8ab941^d2003ab54a8ab941^---0#1#1#--18"Check dependencies36"EDE206CF-0586-4EA6-8046-7D071DA6D9CF-
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.o /Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428493494.121338
+e428493494.620502
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.o
+x/Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m
+d/Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection115"Compile /Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m310"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.o CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilera4341fb64a8ab941^e7e39eb64a8ab941^---0#0#1#-19%DVTDocumentLocation2@114"file:///Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m0000000000000000^4577"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.o CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/MYBlurIntroductionView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -fobjc-arc -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.dia -c /Users/adamf/Desktop/trackly/Pods/CWStatusBarNotification/CWStatusBarNotification/CWStatusBarNotification.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/CWStatusBarNotification.o36"0281E7F7-3AB5-40B2-AF02-22398E776924-
+bFA423C99-6B46-4DDD-830B-6F3C4ABAF0B0
+
+CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428493494.304624
+e428493494.353402
+r1
+xCompileC
+x/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.o
+x/Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m284"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.o Pods-CWStatusBarNotification-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerbc204eb64a8ab941^ca345ab64a8ab941^---0#0#1#-19%DVTDocumentLocation2@77"file:///Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m0000000000000000^4536"CompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.o Pods-CWStatusBarNotification-dummy.m normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/MYBlurIntroductionView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -include /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.d --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.dia -c /Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-dummy.m -o /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification-dummy.o36"7135CE0D-E119-4773-98B3-65F3882CBBAF-
+bFA423C99-6B46-4DDD-830B-6F3C4ABAF0B0
+
+CLibtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a normal armv7s
+s428493494.763998
+e428493494.776875
+r1
+xLibtool
+x/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a
+xnormal
+xarmv7s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a normal armv7s114"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a normal armv7se0f3c3b64a8ab941^c0ecc6b64a8ab941^---0#0#1#--988"Libtool /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a normal armv7s    cd /Users/adamf/Desktop/trackly/Pods    export IPHONEOS_DEPLOYMENT_TARGET=7.1    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only armv7s -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -L/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -filelist /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Objects-normal/armv7s/Pods-CWStatusBarNotification.LinkFileList -framework Foundation -o /Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/libPods-CWStatusBarNotification.a36"8930FB8E-3238-472D-B063-A10C991BD4D5-
+bFA423C99-6B46-4DDD-830B-6F3C4ABAF0B0
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428493493.557040
+e428493493.618901
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.pch
+xPods-CWStatusBarNotification-prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Precompile Pods-CWStatusBarNotification-prefix.pch297"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compilerb4028fb54a8ab941^a2969eb54a8ab941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-prefix.pch0000000000000000^4397"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/MYBlurIntroductionView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-fkjufmkdyjtjiqfdasafkobenzgv/Pods-CWStatusBarNotification-prefix.pch.pch36"BF4BF6BC-0640-4DE4-8EC5-E5EDDC8BF039-
+bFA423C99-6B46-4DDD-830B-6F3C4ABAF0B0
+
+CProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s428493493.544776
+e428493493.616550
+r1
+xProcessPCH
+x/Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.pch
+xPods-CWStatusBarNotification-prefix.pch
+xnormal
+xarmv7s
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-prefix.pch
+d/Users/adamf/Desktop/trackly/Pods/Pods-environment.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection50"Precompile Pods-CWStatusBarNotification-prefix.pch297"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler59168cb54a8ab941^65df9db54a8ab941^---0#0#1#-19%DVTDocumentLocation2@80"file:///Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-prefix.pch0000000000000000^4408"ProcessPCH /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/adamf/Desktop/trackly/Pods    export LANG=en_US.US-ASCII    export PATH="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch armv7s -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=gnu99 -fmodules -fmodules-cache-path=/Users/adamf/Library/Developer/Xcode/DerivedData/ModuleCache -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -DCOCOAPODS=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -miphoneos-version-min=7.1 -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-generated-files.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-own-target-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-all-target-headers.hmap -iquote /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/Pods-CWStatusBarNotification-project-headers.hmap -I/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos/include -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders -I/Users/adamf/Desktop/trackly/Pods/BuildHeaders/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Headers -I/Users/adamf/Desktop/trackly/Pods/Headers/AKTagsInputView -I/Users/adamf/Desktop/trackly/Pods/Headers/APDropDownNavToolbar -I/Users/adamf/Desktop/trackly/Pods/Headers/APPaginalTableView -I/Users/adamf/Desktop/trackly/Pods/Headers/CWStatusBarNotification -I/Users/adamf/Desktop/trackly/Pods/Headers/CXCardView -I/Users/adamf/Desktop/trackly/Pods/Headers/EAIntroView -I/Users/adamf/Desktop/trackly/Pods/Headers/FlatUIKit -I/Users/adamf/Desktop/trackly/Pods/Headers/GPUImage -I/Users/adamf/Desktop/trackly/Pods/Headers/JBKenBurnsView -I/Users/adamf/Desktop/trackly/Pods/Headers/JazzHands -I/Users/adamf/Desktop/trackly/Pods/Headers/MYBlurIntroductionView -I/Users/adamf/Desktop/trackly/Pods/Headers/RNGridMenu -I/Users/adamf/Desktop/trackly/Pods/Headers/RSDayFlow -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/DerivedSources/armv7s -I/Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CWStatusBarNotification.build/DerivedSources -F/Users/adamf/Desktop/trackly/Build/Products/Debug-iphoneos -fobjc-arc --serialize-diagnostics /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.dia -MMD -MT dependencies -MF /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.d -c /Users/adamf/Desktop/trackly/Pods/Pods-CWStatusBarNotification-prefix.pch -o /Users/adamf/Desktop/trackly/Build/Intermediates/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-glrsfuioluxudechovgggrhheowk/Pods-CWStatusBarNotification-prefix.pch.pch36"40DA8AFA-601C-4105-97BF-FE38DAA5D720-
+bFA423C99-6B46-4DDD-830B-6F3C4ABAF0B0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-aqpcfqqmrcnrqgdenypczjhrdrnz_ast/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/adamf/Library/Developer/Xcode/DerivedData/Taskly-gawccollrwxbvnejdzhgasqdvwey/Index/PrecompiledHeaders/Pods-CWStatusBarNotification-prefix-hjwpqnxellxjdhgthmaepeurwzlu_ast/Pods-CWStatusBarNotification-prefix.pch.pch Pods-CWStatusBarNotification-prefix.pch normal armv7s objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
