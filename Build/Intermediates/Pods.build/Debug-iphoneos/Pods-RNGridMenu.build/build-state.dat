@@ -163,7 +163,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesffcf4d7a38b3b941^b5544e7a38b3b941^---0#1#1#--18"Check dependencies36"ACCF38B2-453F-499E-9A43-571587BEBFBC-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies19acf48439afb941^4d4ef58439afb941^---0#1#1#--18"Check dependencies36"1D7AD505-DB90-4D16-974C-566F1F2623B7-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-RNGridMenu.build/Objects-normal/arm64/Pods-RNGridMenu-dummy.o /Users/adamf/Desktop/trackly/Pods/Pods-RNGridMenu-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s430658459.637278

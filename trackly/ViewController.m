@@ -105,9 +105,6 @@
     
     //Notifications
     CWStatusBarNotification * listening;
-    
-    //SearchBar
-    NSMutableArray * searchResults;
 }
 
 @property (strong, nonatomic) PocketsphinxController * pocketSphinxController;
@@ -684,12 +681,7 @@
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
 {
     // Return the number of sections.
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
-        return [searchResults count];
-        
-    }else {
-        return [[Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]] count];
-    }
+    return [[Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]] count];
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -707,35 +699,12 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    static NSString *CellIdentifier;
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
-        CellIdentifier = @"Cell";
-    }else {
-         CellIdentifier = @"customTableViewCell";
-    }
+    static NSString *CellIdentifier = @"customTableViewCell";
     
-    if (!cell) {
-        if (tableView == self.searchDisplayController.searchResultsTableView) {
-             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
-        } else {
-             cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
-        }
-    }
+    cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-   
-    
-    Task *tempTask;
     // Configure the cell...
-    if (tableView == self.searchDisplayController.searchResultsTableView) {
-        tempTask = [searchResults objectAtIndex:indexPath.row];
-    } else {
-        tempTask = [_allTasks objectAtIndex:indexPath.section];
-    }
-    
-    if (tableView == self.searchDisplayController.searchResultsTableView){
-        cell.textLabel.text = [NSString stringWithFormat:@"%@", tempTask.taskName];
-        cell.detailTextLabel.text = [NSString stringWithFormat:@"%@", [tempTask.taskTags componentsJoinedByString:@"   "]];
-    } else {
+    Task *tempTask = [_allTasks objectAtIndex:indexPath.section];
     
     // Just presenting some details
     NSString *taskDetails = [NSString stringWithFormat:@"%@", tempTask.taskName];
@@ -754,7 +723,6 @@
     
     cell.taskGenre.text = [NSString stringWithFormat:@"%@", tempTask.taskGenre];
     cell.taskGenre.font = [UIFont fontWithName:@"AvenirNext-Regular" size:12.0f];
-    
     
     //Appearance of the cell view
     cell.cellView.layer.cornerRadius = 3.0;
@@ -790,7 +758,6 @@
     } else {
         //Do Nothing
          cell.movingImages.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"triangular_@2X.png"]];
-        }
     }
     
     return cell;
@@ -1094,23 +1061,6 @@
 }
 - (void) testRecognitionCompleted {
     NSLog(@"A test file that was submitted for recognition is now complete.");
-}
-
-//Searchbar Stuff
-- (void)filterContentForSearchText:(NSString*)searchText scope:(NSString*)scope
-{
-    NSPredicate *resultPredicate = [NSPredicate predicateWithFormat:@"taskName contains[c] %@", searchText];
-    searchResults = [_allTasks filteredArrayUsingPredicate:resultPredicate];
-}
-
--(BOOL)searchDisplayController:(UISearchDisplayController *)controller shouldReloadTableForSearchString:(NSString *)searchString
-{
-    [self filterContentForSearchText:searchString
-                               scope:[[self.searchDisplayController.searchBar scopeButtonTitles]
-                                      objectAtIndex:[self.searchDisplayController.searchBar
-                                                     selectedScopeButtonIndex]]];
-    
-    return YES;
 }
 
 @end

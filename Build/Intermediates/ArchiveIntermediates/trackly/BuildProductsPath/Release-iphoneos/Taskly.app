@@ -1,1 +1,0 @@
-/Users/adamf/Desktop/trackly/Build/Intermediates/ArchiveIntermediates/trackly/InstallationBuildProductsLocation/Applications/Taskly.app

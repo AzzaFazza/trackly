@@ -91,7 +91,7 @@ r0
 
 CCheck dependencies
 r0
-lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesc5c999bc36b3b941^b83ba7bc36b3b941^---0#1#1#--18"Check dependencies36"8799C922-94DC-4974-B8AE-B50F88AB8E72-
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesa472038887b2b941^49d6058887b2b941^---0#1#1#--18"Check dependencies36"3D195BF4-5D15-426F-B16E-D7B6523D7F1A-
 
 CCompileC /Users/adamf/Desktop/trackly/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-APDropDownNavToolbar.build/Objects-normal/i386/APNavigationController.o /Users/adamf/Desktop/trackly/Pods/APDropDownNavToolbar/Classes/APNavigationController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
 s431129781.576446
