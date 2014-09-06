@@ -71,14 +71,22 @@
     
     //UI
     UIView * button1;
+    UIView *contentView;
+    
     UILabel * nameLabel;
     UILabel * notesLabel;
     UILabel * createTaskLabel;
-    UIView *contentView;
+    
     UIImageView * imageView;
     UIImageView * imageView2;
+    UIImageView * imageView3;
+    UIImageView * imageView4;
+    
     UIBarButtonItem * barItem;
     UIBarButtonItem * barItem2;
+    UIBarButtonItem * barItem3;
+    UIBarButtonItem * barItem4;
+    
     NSString * genreLabelToPass;
     MRFlipTransition *animator;
     
@@ -141,7 +149,7 @@
                                                 @"TASKLY NOTE",
                                                 @"TASKLY NEW NOTE",
                                                 @"TASKLY TAKE A NOTE",
-                                                @"CALANDAR",
+                                                @"CALENDAR",
                                                 @"NOTES",
                                                 @"CONNECTORS",
                                                 @"NEW NOTE",
@@ -235,6 +243,15 @@
     imageView2.autoresizingMask = UIViewAutoresizingNone;
     imageView2.contentMode = UIViewContentModeCenter;
     
+    imageView3 =[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"advanced.png"]];
+    imageView3.autoresizingMask = UIViewAutoresizingNone;
+    imageView3.contentMode = UIViewContentModeCenter;
+    
+    imageView4 =[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"date3.png"]];
+    imageView4.autoresizingMask = UIViewAutoresizingNone;
+    imageView4.contentMode = UIViewContentModeCenter;
+    
+    //Sync
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     button.frame = CGRectMake(0, 0, 40, 40);
     [button addSubview:imageView];
@@ -242,6 +259,7 @@
     imageView.center = button.center;
     barItem = [[UIBarButtonItem alloc] initWithCustomView:button];
     
+    //Search
     UIButton *button2 = [UIButton buttonWithType:UIButtonTypeCustom];
     button2.frame = CGRectMake(0, 0, 40, 40);
     [button2 addSubview:imageView2];
@@ -249,8 +267,26 @@
     imageView2.center = button.center;
     barItem2 = [[UIBarButtonItem alloc] initWithCustomView:button2];
     
-    NSArray * navButtons = [NSArray arrayWithObjects:barItem2, barItem, nil];
-    self.navigationItem.rightBarButtonItems = navButtons;
+    //Settings
+    UIButton *button3 = [UIButton buttonWithType:UIButtonTypeCustom];
+    button3.frame = CGRectMake(0, 0, 40, 40);
+    [button3 addSubview:imageView3];
+    [button3 addTarget:self action:@selector(showSettings) forControlEvents:UIControlEventTouchUpInside];
+    imageView3.center = button.center;
+    barItem3 = [[UIBarButtonItem alloc] initWithCustomView:button3];
+    
+    //Calendar
+    UIButton *button4 = [UIButton buttonWithType:UIButtonTypeCustom];
+    button4.frame = CGRectMake(0, 0, 40, 40);
+    [button4 addSubview:imageView4];
+    [button4 addTarget:self action:@selector(showCalendar) forControlEvents:UIControlEventTouchUpInside];
+    imageView4.center = button.center;
+    barItem4 = [[UIBarButtonItem alloc] initWithCustomView:button4];
+    
+    NSArray * rightNavButtons = [NSArray arrayWithObjects:barItem2, barItem, nil];
+    NSArray * leftNavButtons = [NSArray arrayWithObjects:barItem3, barItem4, nil];
+    self.navigationItem.rightBarButtonItems = rightNavButtons;
+    self.navigationItem.leftBarButtonItems = leftNavButtons;
     
     //Labels font
     [[UILabel appearance] setFont:[UIFont fontWithName:@"Helvetica-Neue" size:4.0]];
@@ -262,42 +298,6 @@
                                                                    [NSValue valueWithUIOffset:UIOffsetMake(0, 1)],
                                                                    UITextAttributeTextShadowOffset,
                                                                    [UIFont fontWithName:@"CoquetteRegular" size:28.0], UITextAttributeFont, nil];
-    //REMenu
-    REMenuItem *homeItem = [[REMenuItem alloc] initWithTitle:@"Settings"
-                                                    subtitle:@"Settings and About Page"
-                                                       image:[UIImage imageNamed:@"Icon_Home"]
-                                            highlightedImage:nil
-                                                      action:^(REMenuItem *item) {
-                                                          NSLog(@"Item: %@", item);
-                                                          UIStoryboard *storyboard = self.storyboard;
-                                                          settingsTableViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Settings"];
-                                                          [self.navigationController pushViewController:destVC animated:YES];
-                                                      }];
-    
-    
-    REMenuItem *activityItem = [[REMenuItem alloc] initWithTitle:@"Calendar"
-                                                        subtitle:@"Show your Calender"
-                                                           image:[UIImage imageNamed:@"Icon_Activity"]
-                                                highlightedImage:nil
-                                                          action:^(REMenuItem *item) {
-                                                              NSLog(@"Item: %@", item);
-                                                              UIStoryboard *storyboard = self.storyboard;
-                                                              calandarView *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Calandar"];
-                                                              [self.navigationController pushViewController:destVC animated:YES];
-                                                          }];
-    
-    REMenuItem *profileItem = [[REMenuItem alloc] initWithTitle:@"Logout"
-                                                       subtitle:@"Go Back to the start Menu"
-                                                          image:[UIImage imageNamed:@"Icon_Profile"]
-                                               highlightedImage:nil
-                                                         action:^(REMenuItem *item) {
-                                                             NSLog(@"Item: %@", item);
-                                                             //push next view
-                                                             UIStoryboard *storyboard = self.storyboard;
-                                                             videoViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"videoView"];
-                                                             [self.navigationController pushViewController:destVC animated:YES];
-                                                         }];
-    menu = [[REMenu alloc] initWithItems:@[activityItem, homeItem]];
 
     //Load objects from CoreData
     _allTasks = [Task readAllObjectsInContext:[CoreDataHelper mainManagedObjectContext]];
@@ -329,10 +329,6 @@
         [myAlertView show];
         
     }
-    
-    //Init attributes
-    fingerX = 0.0;
-    fingerY = 0.0;
 
     
 }
@@ -349,6 +345,17 @@
     }
     
     [taskTableView reloadData];
+}
+
+-(void)showCalendar {
+    UIStoryboard *storyboard = self.storyboard;
+    calandarView *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Calandar"];
+    [self.navigationController pushViewController:destVC animated:YES];
+}
+-(void)showSettings {
+    UIStoryboard *storyboard = self.storyboard;
+    settingsTableViewController *destVC = [storyboard instantiateViewControllerWithIdentifier:@"Settings"];
+    [self.navigationController pushViewController:destVC animated:YES];
 }
 
 -(AKTagsInputView*)createTagsInputView
@@ -1013,10 +1020,6 @@
 
 - (void) pocketsphinxDidCompleteCalibration {
     NSLog(@"Pocketsphinx calibration is complete.");
-    listening = [CWStatusBarNotification new];
-    listening.notificationLabelBackgroundColor = [UIColor blueColor];
-    listening.notificationLabelTextColor = [UIColor whiteColor];
-    [listening displayNotificationWithMessage:@"Voices Commands Now Available" forDuration:2.0f];
 }
 
 - (void) pocketsphinxDidStartListening {

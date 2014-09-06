@@ -406,7 +406,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Taskly" id="tAy-IG-cIC">
-                        <barButtonItem key="leftBarButtonItem" image="list23.png" id="ynX-A0-O3B" userLabel="Menu">
+                        <barButtonItem key="leftBarButtonItem" image="three115.png" id="ynX-A0-O3B" userLabel="Menu">
                             <color key="tintColor" red="0.97541350979999997" green="1" blue="0.98032214490000003" alpha="1" colorSpace="calibratedRGB"/>
                             <connections>
                                 <action selector="showTray:" destination="vXZ-lx-hvc" id="xik-fd-nRn"/>
@@ -712,9 +712,9 @@
     </scenes>
     <resources>
         <image name="label.png" width="64" height="64"/>
-        <image name="list23.png" width="16" height="16"/>
         <image name="photo11.png" width="64" height="64"/>
         <image name="right10.png" width="32" height="27"/>
+        <image name="three115.png" width="64" height="64"/>
         <image name="triangular_@2X.png" width="120" height="120"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
